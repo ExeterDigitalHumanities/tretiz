@@ -5,6 +5,8 @@ A public repository for the Tretiz project
 
 This repository presents these texts as TEI/XML documents, which can be reused and analysed according to a CC-BY license. You will also find encoding guidelines describing how the texts were transcribed, and metadata describing the people and places referenced by the documents.
 
+See our interactive website: https://tretiz.exeter.ac.uk/
+
 ## Team
 
 Dr. Thomas Hinton, project lead
