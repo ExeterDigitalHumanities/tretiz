@@ -1,0 +1,162 @@
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tretiz_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ms_v">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS <hi rend="italic">V</hi></title>
+            <author>ETFM</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="TGH">Thomas Hinton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ETFM">Edward Mills</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="AG">Aida Gholami</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ELK">Eva Kruijt</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Publication Information--></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <collection>Cotton Vespasian</collection>
+                  <idno>A VI</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1">
+                     <locus>f. 61r</locus>
+                     <author>Walter de Bibbesworth</author>
+                     <title>Le Tretiz</title>
+                     <filiation>???</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support><p>Parchment.</p></support>
+                        <extent>??? <dimensions scope="all" type="leaf" unit="mm">
+                              <height>???</height>
+                              <width>???</width>
+                           </dimensions></extent>
+                        <collation>
+                           <catchwords/>
+                        </collation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><p>unknown</p></origin>
+                  <provenance><p>unknown</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-01-31" who="#TGH" status="1.01">Minor corrections; added space before gloss elements so search can pick up.</change>
+         <change when="2024-11-14" who="#TGH" status="1.0">Proof reading completed.</change>
+         <change when="2022-07-06" who="#TGH" status="0.7">Corrected [am] to [ex] and checked unclear readings.</change>
+         <change when="2021-06-21" who="#CT" status="0.6">Added omitted themes; added 'AND:' on term keys; replaced div with milestone; added lg.</change>
+         <change when="2021-04-21" who="#AG" status="0.5">Glosses encoded</change>
+         <change when="2021-04-21" who="#ETFM" status="0.5">First pass completed. Several illegible glosses, which can likely be resolved with a little help from UV ...</change>
+         <change when="2021-04-20" who="#ETFM" status="0.1">Encoding begun!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>   
+         <pb n="61r" facs="ms_v_061r.jpg"/>
+         <milestone unit="theme" type="introduction" subtype="prologue"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="infancyAndEarlyChildhood"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="partsOfTheBody"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="clothing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="food"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="collectiveNames"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="animalNoises"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="varia1"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="harvesting"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="baking"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="weaving"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="brewing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="fishing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="garden"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="badWeather"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="flowers"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="trees"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="partsOfAPlough"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="partsOfACart"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="building"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="hostingAMeal"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="varia2"/>
+         <note type="editorial" resp="#TGH">This section is acephalous.</note>
+         <lg>
+            <l n="1">Assez <choice><orig>au<ex>er</ex>a</orig><reg>av<ex>er</ex>a</reg></choice> de les <term xml:id="V-esclavoz-001" key="AND:esclavot_1"><choice><orig>esclauoz</orig><reg>esclavoz</reg></choice></term> <gloss target="#V-esclavoz-001" xml:lang="enm" key="MED:42522" place="interlinear">squirting</gloss></l>
+            <l n="2">Qe de <choice><orig>chiual</orig><reg>chival</reg></choice> suist les <term xml:id="V-escloz-001" key="AND:esclot">escloz</term><choice><orig/><reg>.</reg></choice> <gloss target="#V-escloz-001" xml:lang="enm" key="MED:43093" place="interlinear">stepping<ex>e</ex></gloss></l>
+            <l n="3"><term xml:id="V-feens-001" key="AND:fien_1"><choice><orig><unclear reason="damage"/>ns</orig><reg><supplied reason="damage">Fee</supplied>ns</reg></choice></term> <gloss target="#V-feens-001" xml:lang="enm" key="MED:28873" place="interlinear"><choice><orig>Muk</orig><reg>muk</reg></choice></gloss> estreit<ex>e</ex> de <term xml:id="V-puaunt-001" key="AND:puant_1">puau<ex>n</ex>t</term> <gloss target="#V-puaunt-001" xml:lang="enm" key="MED:28873" place="interlinear">muk</gloss> <term xml:id="V-sous-001" key="AND:soil_2">sous</term> <gloss target="#V-sous-001" xml:lang="enm" key="MED:21003" place="interlinear">hulle</gloss></l>
+            <l n="4">Fait <term xml:id="V-sale-001" key="AND:sale_3">sale</term> <gloss target="#V-sale-001" xml:lang="enm" key="MED:41462" place="interlinear">solowi</gloss> <term xml:id="V-nape-001" key="AND:nape">nape</term> <gloss target="#V-nape-001" xml:lang="enm" key="MED:8138" place="interlinear">clath</gloss> <choice><orig>&amp;</orig><reg>et</reg></choice> table g<ex>ra</ex>ciouce<choice><orig/><reg>.</reg></choice></l>
+            <l n="5">H<ex>er</ex>be cr<choice><orig><unclear reason="damage"/></orig><reg><supplied reason="damage">e</supplied></reg></choice>ssaunt al huis <choice><orig>destable</orig><reg>d'estable</reg></choice></l>
+            <l n="6">Fait blaunk<ex>e</ex> nape <choice><orig>&amp;</orig><reg>et</reg></choice> meg<ex>re</ex> table<choice><orig/><reg>.</reg></choice></l>
+            <l n="7">Jeo vi ci ven<ex>er</ex> maistre Hugh</l>
+            <l n="8">Q<ex>i</ex> rien ne p<ex>ar</ex>le <choice><orig>sil</orig><reg>s'il</reg></choice> ne <term xml:id="V-buge-001" key="AND:buger"><choice><orig>bug<unclear reason="damage"/></orig><reg>bug<supplied reason="damage">e</supplied></reg></choice></term><choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">The gloss seems to have been repeated, more legibly, at the end of the line.</note> <gloss target="#V-buge-001" xml:lang="enm" key="MED:43500" place="interlinear">stut</gloss></l>
+            <l n="9">Ses <choice><orig><unclear reason="damage"/>ij·</orig><reg><supplied reason="damage">.</supplied>ii.</reg></choice> garceons chace<ex>n</ex>t pray<choice><orig/><reg>.</reg></choice></l>
+            <l n="10"><choice><orig>D<unclear reason="damage">e</unclear></orig><reg>D<supplied reason="damage">e</supplied></reg></choice> chescun mot <choice><orig>lun</orig><reg>l'un</reg></choice> <term xml:id="V-baubai-001" key="AND:baubeer">baubai</term> <gloss target="#V-baubai-001" xml:lang="enm" key="MED:53208" place="interlinear"><choice><orig><unclear reason="damage"/>ffes</orig><reg><supplied reason="damage">wla</supplied>ffes</reg></choice></gloss><choice><orig>·</orig><reg/></choice></l>
+            <l n="11">Et lui altre ne poet p<ex>ar</ex>ler</l>
+            <l n="12"><choice><orig>Vne</orig><reg>Une</reg></choice> p<ex>ar</ex>ole sau<ex>n</ex>z <term xml:id="V-nasier-001" key="AND:nascier">nasier</term> <gloss target="#V-nasier-001" xml:lang="enm" key="MED:41238" place="interlinear"><choice><orig>sneueling<ex>e</ex></orig><reg>sneveling<ex>e</ex></reg></choice></gloss><choice><orig/><reg>.</reg></choice></l>
+            <l n="13">Mais ne me chaut <choice><orig>sil</orig><reg>s'il</reg></choice> <term xml:id="V-nasie-001" key="AND:nascier">nasie</term> <gloss target="#V-nasie-001" xml:lang="enm" key="MED:41235" place="interlinear"><choice><orig>sniu<ex>e</ex>le</orig><reg>sniv<ex>e</ex>le</reg></choice></gloss><choice><orig/><reg>,</reg></choice></l>
+            <l n="14">A paine vaut il <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="V-escharrie-001" key="AND:escharbot">escharrie</term><note type="lexical" resp="#TGH">Rothwell suggests that ‘escarie’ is an incorrect form of ‘escarbot’.</note> <gloss target="#V-escharrie-001" xml:lang="enm" key="MED:8138" place="interlinear">clothe</gloss><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="15"><choice><orig><unclear reason="damage"/>nqore</orig><reg><supplied reason="damage">Et u</supplied>nqore</reg></choice> il <term xml:id="V-bave-001" key="AND:baver_1"><choice><orig>baue</orig><reg>bave</reg></choice></term> <gloss target="#V-bave-001" xml:lang="enm" key="MED:40786" place="interlinear"><choice><orig>slau<ex>er</ex>s</orig><reg>slav<ex>er</ex>s</reg></choice></gloss> tut dis<choice><orig/><reg>,</reg></choice></l>
+            <l n="16">Si crere vodreit mon avis<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="17">Il p<ex>ri</ex>ereit a sa mere</l>
+            <l n="18"><choice><orig>Q</orig><reg>Q'</reg></choice>ele lui feest <choice><orig>vne</orig><reg>une</reg></choice> <choice><orig>bauuere</orig><reg>bauvere</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="19">Mais de fe<ex>m</ex>mes ai desdein g<ex>ra</ex>nt<choice><orig>·</orig><reg/></choice></l>
+            <l n="20">Qe p<ex>ar</ex> orgoil se aforce<ex>n</ex>t taunt</l>
+            <l n="21">En p<ex>ar</ex>launce <term xml:id="V-bleser-001" key="AND:bleser_1">bleser</term> <gloss target="#V-bleser-001" xml:lang="enm" key="MED:53235" place="interlinear">wlepse</gloss> tut dis</l>
+            <l n="22">P<ex>ur</ex> pluis plere a lour<ex>e</ex> amis<choice><orig/><reg>.</reg></choice></l>
+            <l n="23"><choice><orig>Ili</orig><reg>Il i</reg></choice> ad <term xml:id="V-tusser-001" key="AND:tusser">tusser</term> <gloss target="#V-tusser-001" xml:lang="enm" key="MED:21290" place="interlinear">host</gloss> <choice><orig>&amp;</orig><reg>et</reg></choice> <term xml:id="V-escoper-001" key="AND:escopir">escop<ex>er</ex></term> <gloss target="#V-escoper-001" xml:lang="enm" key="MED:42279" place="interlinear">spit</gloss><choice><orig> /</orig><reg>,</reg></choice></l>
+            <l n="24"><term xml:id="V-ruper-001" key="AND:ruper">Ruper</term> <gloss target="#V-ruper-001" xml:lang="enm" key="MED:5447" place="interlinear">bolk<ex>e</ex></gloss><choice><orig/><reg>,</reg></choice> <term xml:id="V-vomer-001" key="AND:vomir">vom<ex>er</ex></term> <gloss target="#V-vomer-001" xml:lang="enm" key="MED:42177" place="interlinear">spewe</gloss> <choice><orig>&amp;</orig><reg>et</reg></choice> <term xml:id="V-esternuer-001" key="AND:esternuer">esternuer</term> <gloss target="#V-esternuer-001" xml:lang="enm" key="MED:41198" place="interlinear"><choice><orig><unclear reason="damage"/>neife</orig><reg><supplied reason="damage">s</supplied>neife</reg></choice></gloss><choice><orig/><reg>.</reg></choice></l>
+            <l n="25">Ho<ex>m</ex>me dit q<ex>e</ex> cil <term xml:id="V-touse-001" key="AND:tusser">touse</term> <gloss target="#V-touse-001" xml:lang="enm" key="MED:21290" place="interlinear">host<ex>e</ex></gloss> de droit</l>
+            <l n="26">Qe m<ex>ou</ex>lt de <choice><orig>c<ex>er</ex>uoise</orig><reg>c<ex>er</ex>voise</reg></choice> beit<choice><orig/><reg>;</reg></choice></l>
+            <l n="27">Et <choice><orig><unclear reason="damage"/>il</orig><reg><supplied reason="damage">c</supplied>il</reg></choice> qe t<ex>ro</ex>p <term xml:id="V-laumbei-001" key="AND:lambeier">laumbei</term> <gloss target="#V-laumbei-001" xml:lang="enm" key="MED:51625" place="interlinear">wamele<choice><orig><unclear reason="faded"/></orig><reg><supplied reason="faded">s</supplied></reg></choice></gloss> en cuer</l>
+            <l n="28"><choice><orig>Soue<ex>n</ex>t</orig><reg>Sove<ex>n</ex>t</reg></choice> lui estoit<note type="manuscript" resp="#ETFM">The scribe appears to have worked around an earlier erasure in the MS.</note> <term xml:id="V-coper-001" key="AND:escopir">coper</term> <gloss target="#V-coper-001" xml:lang="enm" key="MED:42169" place="interlinear">spitte</gloss><choice><orig/><reg>.</reg></choice></l>
+            <l n="29">Et cil q<ex>i</ex> <term xml:id="V-muiches-001" key="AND:musche_1">muiches</term> <note type="editorial" resp="#ETFM">The gloss above <foreign xml:lang="fro" key="AND:musche_1">muiches</foreign> is unreadable due to wear.</note> masche <choice><orig>&amp;</orig><reg>et</reg></choice> <term xml:id="V-gluit-001" key="AND:guster">gluit</term> <gloss target="#V-gluit-001" xml:lang="enm" key="MED:44301" place="interlinear">swelies</gloss></l>
+            <l n="30"><choice><orig>Vne</orig><reg>Une</reg></choice> g<ex>ra</ex>nt <term xml:id="V-gate-001" key="AND:gate_1">gate</term> <gloss target="#V-gate-001" xml:lang="enm" key="MED:27243" place="interlinear"><unclear reason="damage">mele</unclear></gloss> lui mettez <term xml:id="V-guist-001" key="AND:juste_4">guist</term><note type="editorial" resp="#TGH">The first part of the gloss is unreadable.</note> <gloss target="#V-guist-001" xml:lang="enm" place="interlinear"><gap reason="illegible" extent="unknown"/>sid<ex>e</ex></gloss><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="31">Car <term xml:id="V-ruper-002" key="AND:ruper">ruper</term> <gloss target="#V-ruper-002" xml:lang="enm" key="MED:5447" place="interlinear">bolk</gloss> lui esteit t<ex>re</ex>sbien</l>
+            <l n="32">Ou vom<ex>er</ex> m<ex>ou</ex>lt maugree le seen<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         
+         <milestone unit="theme" type="feast"/>
+         <gap reason="omitted"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ms_b39">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS <hi rend="italic">B39</hi></title>
+            <author>TGH</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="TGH">Thomas Hinton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ETFM">Edward Mills</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI encoding advice</resp>
+               <name xml:id="CT">Charlotte Tupman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Publication Information--></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian</repository>
+                  <collection>MS Bodl.</collection>
+                  <idno>39</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1">
+                     <locus>Endleaves: ff. iv r-v v</locus>
+                     <author>unknown</author>
+                     <title>Urbain le courtois</title>
+                     <textLang>fro</textLang>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>ff. v rb-ix vb</locus>
+                     <author>Walter de Bibbesworth</author>
+                     <title>Le Tretiz</title>
+                     <textLang mainLang="fro">French with English glosses</textLang>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>ff. 1-XX</locus>
+                     <author>unknown</author>
+                     <title>Rule of St Benedict</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>ff. 32-XX</locus>
+                     <author>unknown</author>
+                     <title>Rule of St Augustine</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>ff. 38-XX</locus>
+                     <author>unknown</author>
+                     <title>Statutes of Benedictine chapters</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>ff. 92-XX</locus>
+                     <author>Stephen of Whitby</author>
+                     <title>About the foundation of St Mary's Abbey, York; includes list of abbots and brief annals until 1267</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="7">
+                     <locus>ff. 101-XX</locus>
+                     <author>Thurstan, Archbishop of York</author>
+                     <title>A copy of a letter from Thurstan describing the foundation of St. Mary's Abbey at Fountains by a colony from York in 1132</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="8">
+                     <locus>ff. 116-XX</locus>
+                     <author>unknown</author>
+                     <title>Annals of St Mary's Abbey York, 1258-1326</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+                  <msItem n="9">
+                     <locus>Endleaves: ff. 209-212</locus>
+                     <author>unknown</author>
+                     <title>Excerpts from Hugo de Sancto Victore (f. 211r contains a list of Latin words beginning with P.)</title>
+                     <textLang>lat</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                    <supportDesc>
+                       <support><p>Parchment.</p></support>
+                       <extent>ff. ix + 213<dimensions scope="all" type="leaf" unit="mm">
+                          <height>175</height>
+                          <width>130</width>
+                       </dimensions></extent>
+                       <collation>
+                          <catchwords><!--to be added.--></catchwords>
+                       </collation>
+                    </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>England, St Mary's Abbey York c 1312-1333, though endleaves ff. iv-ix are 13th century, and endleaves ff. 209-212 are 14th century.</origin>
+                  <provenance><p>Henry Jackson, 1586-1662. The inscription 'Henricus Jacksonus Oxoniensis Anno 1600' has been erased.   
+                     </p><p>Apparently purchased by the Bodleian from Henry Jackson in 1619-20.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change when="2025-03-27" who="#TGH" status="1.0">Proof reading complete</change>
+        <change when="2025-03-13" who="#TGH" status="0.94">Started proof reading to line 180.</change>
+        <change when="2025-01-30" who="#TGH" status="0.93">Minor correction.</change>
+        <change when="2023-11-01" who="#TGH" status="0.92">Corrected milestones throughout.</change>
+        <change when="2023-09-15" who="#TGH" status="0.91">Punctuation complete and MS viewed in Oxford to check final queries. One note to complete on line 474.</change>
+        <change when="2023-07-12" who="#TGH" status="0.9">First pass complete; wants punctuation and a final check against the MS in Oxford at a number of points.</change>
+        <change when="2023-05-06" who="#TGH" status="0.3">Started transcription.</change>
+        <change when="2022-05-14" who="#LB" status="0.2">Started adding metadata.</change>
+        <change when="2022-05-11" who="#TGH" status="0.1">Created document.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <milestone unit="theme" type="introduction"/><gap reason="omitted"/>
+         <pb n="Vr" facs="ms_b39_v_recto.jpg"/>
+         <cb n="Vrb"/>
+         <milestone unit="theme" type="infancyAndEarlyChildhood"/>
+         <lg>
+            <l n="1"><choice><orig>f E</orig><reg>Fe</reg></choice>mme q<ex>ui</ex> ap<ex>ro</ex>che son <gap reason="damage" extent="unknown"/></l>
+            <l n="2"><choice><orig>D</orig><reg>D'</reg></choice>emfaunter<ex>e</ex> demoustr<ex>e</ex><gap reason="damage" extent="unknown"/></l>
+            <l n="3">P<ex>ri</ex>mys sey p<ex>ur</ex><choice><orig>ueyt</orig><reg>veyt</reg></choice> de <choice><orig>vne</orig><reg>une</reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="4">Qe seyt <choice><orig>auise</orig><reg>avisé</reg></choice> <ex>con</ex>seyler<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="5">Qu<ex>au</ex>nt luy emfes s<ex>er</ex>ra <choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>né</supplied></reg></choice></l>
+            <l n="6">Lors deit estr<ex>e</ex> <choice><orig>mailolle</orig><reg>mailollé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="7"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">L'enfa</supplied></reg></choice>unt en <term xml:id="B39-berce-001" key="AND:berz">berce</term> e<ex>rt</ex><gap reason="damage" extent="unknown"/> <gloss xml:lang="enm" target="#B39-berce-001" key="MED:10146" place="interlinear">kradel</gloss></l>
+            <l n="8"><gap reason="damage" extent="unknown"></gap><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">no</supplied></reg></choice>rrice e<ex>rt</ex> <term xml:id="B39-bercé-001" key="AND:bercer_1"><choice><orig>berce</orig><reg>bercé</reg></choice></term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-bercé-001" key="MED:37792" place="interlinear">roked</gloss></l>
+            <l n="9"><choice><orig><gap reason="damage" unit="character" quantity="6"></gap></orig><reg><supplied>L'enfau</supplied></reg></choice>nt <choice><orig>couent</orig><reg>covent</reg></choice> <term xml:id="B39-chatouner-001" key="AND:chatoner">chat<choice><orig><gap reason="damage" unit="character" quantity="5"></gap></orig><reg><supplied>ouner</supplied></reg></choice></term> <gloss xml:lang="enm" target="#B39-chatouner-001" key="MED:10271" place="interlinear">cr<choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>epen</supplied></reg></choice></gloss></l>
+            <l n="10"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>Avaun</supplied></reg></choice>t q<ex>ue</ex> sache a peez <gap reason="damage" extent="unknown"/></l>
+            <l n="11"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">L'emfe</supplied></reg></choice>s se welt empal<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">uer.</supplied></reg></choice></l>
+            <l n="12"><gap reason="damage" extent="unknown"/> <choice><orig>&amp;</orig><reg>e</reg></choice> p<ex>er</ex>yl de <choice><orig>blescu</orig><reg>blesçu</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>re</supplied></reg></choice></l>
+         </lg>
+         <pb n="Vv" facs="ms_b39_v_verso.jpg"/>
+         <cb n="Vva"/>
+         <lg>
+            <l n="13"><note type="editorial" resp="#TGH">A line appears to have been cut off from the top of the page, equivalent to T 18: <quote>Garce ou garzoun le deit sure</quote>.</note><gap reason="damage" extent="unknown"/> ne ne <choice><orig>che ce</orig><reg>chece</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="14"><gap reason="damage" extent="unknown"/> ne messet<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="15"><gap reason="damage" extent="unknown"/> emfes ad tele age<choice><orig>·</orig><reg/></choice></l>
+            <l n="16"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>en</supplied></reg></choice>tendre <choice><orig>a</orig><reg>a </reg></choice>langage<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="17"><gap reason="damage" extent="unknown"/> fraunceys le <choice><orig>deuez</orig><reg>devez</reg></choice> dir<ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="18"><gap reason="damage" extent="unknown"/> <choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>so</supplied></reg></choice>un corps deyt <choice><orig>descriuer</orig><reg>descriver</reg></choice><ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="partsOfTheBody"/>
+         <lg>
+            <l n="19"><gap reason="damage" extent="unknown"/> <choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>o</supplied></reg></choice>u mon chef<ex>e</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="20"><gap reason="damage" extent="unknown"/> de mon chef<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="21"><gap reason="damage" extent="unknown"/> gref<ex>e</ex> au <choice><orig>leuer</orig><reg>lever</reg></choice><ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="22"><gap reason="damage" extent="unknown"/> <choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>mange</supplied></reg></choice>z le <term xml:id="B39-grive-001" key="AND:grive_1"><choice><orig>griue</orig><reg>grive</reg></choice></term> au diner<ex>e</ex><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-grive-001" key="MED:15507" place="interlinear">feldfar<ex>e</ex></gloss></l>
+            <l n="23"><gap reason="damage" extent="unknown"/> <choice><orig>cheueus</orig><reg>cheveus</reg></choice> <term xml:id="B39-recercilés-001" key="AND:recercellé">r<ex>e</ex>c<ex>er</ex><choice><orig>ciles</orig><reg>cilés</reg></choice></term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-recercilés-001" key="MED:10350" place="interlinear">krispe<ex>s</ex></gloss></l>
+            <l n="24"><gap reason="damage" extent="unknown"/> v<ex>us</ex> p<ex>ri</ex><choice><orig/><reg>,</reg></choice> <choice><orig>estauces</orig><reg>estaucés</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="25"><gap reason="damage" extent="unknown"/> chef v<ex>us</ex> <choice><orig>auez</orig><reg>avez</reg></choice> toup<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="26"><gap reason="damage" extent="unknown"/> v<ex>us</ex> <choice><orig>iuez</orig><reg>juez</reg></choice> od toup<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="27"><gap reason="damage" extent="unknown"/> dereynez toup<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="28"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="5"></gap></orig><reg><supplied>seren</supplied></reg></choice>cez de lyn <choice><orig>vn</orig><reg>un</reg></choice> toup<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="29"><gap reason="damage" extent="unknown"/> dir<ex>e</ex> <mentioned>mon hanapel</mentioned><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="30"><gap reason="damage" extent="unknown"/> <mentioned><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>fro</supplied></reg></choice>unt</mentioned> <choice><orig>&amp;</orig><reg>e</reg></choice> <mentioned><subst><del type="overwritten">mon</del><add place="inline">ma</add></subst> <choice><orig>ceruel</orig><reg>cervel</reg></choice></mentioned><choice><orig>·</orig><reg>.</reg></choice><note type="editorial" resp="#TGH">Markings above the word <foreign xml:lang="fro" key="AND:cervel">cervel</foreign> suggest there may be a faded gloss here.</note></l>
+            <l n="31"><gap reason="damage" extent="unknown"/> <choice><orig>&amp;</orig><reg>e</reg></choice> <mentioned>les temple<add>s</add></mentioned><choice><orig/><reg>,</reg></choice><note type="editorial" resp="#TGH">Markings above the word <foreign xml:lang="fro" key="AND:temple_2">temples</foreign> suggest a faded gloss.</note></l>
+            <l n="32"><gap reason="damage" extent="unknown"/> <choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>mo</supplied></reg></choice>usteres sount les te<ex>m</ex>ples<choice><orig/><reg>.</reg></choice></l>
+            <l n="33"><gap reason="damage" extent="unknown"/>s sunt g<ex>ra</ex>ciouses</l>
+            <l n="34"><gap reason="damage" extent="unknown"/>yoez sount <term xml:id="B39-jaciouses-001" key="AND:chacius"><choice><orig>iaciouses</orig><reg>jaciouses</reg></choice></term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" key="MED:19146" target="#B39-jaciouses-001" place="interlinear">gundi</gloss></l>
+            <l n="35"><gap reason="damage" extent="unknown"/> <choice><orig>osstes</orig><reg>osstés</reg></choice> la <term xml:id="B39-jacye-001" key="AND:checie"><choice><orig>iacye</orig><reg>jacye</reg></choice></term> <gloss xml:lang="enm" key="MED:191434" target="#B39-jacye-001" place="interlinear">gund</gloss></l>
+            <l n="36"><gap reason="damage" extent="unknown"/> la <term xml:id="B39-rupie-001" key="AND:rupie">rupie</term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" key="MED:26620" target="#B39-rupie-001" place="interlinear">meldr<add>o</add>p<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="37"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>v</supplied></reg></choice>aut la rubie p<ex>ar</ex> <choice><orig>·b·</orig><reg>.b.</reg></choice></l>
+            <l n="38"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>f</supplied></reg></choice>et la rupie p<ex>ar</ex> <choice><orig>·p·</orig><reg>.p.</reg></choice></l>
+            <l n="39"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>bo</supplied></reg></choice>urs<ex>e</ex> out<ex>e</ex> t<ex>au</ex>nt<ex>e</ex> de rubi<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>es</supplied></reg></choice></l>
+            <l n="40"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>nee</supplied></reg></choice>s ad de rupi<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>es</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="41"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>serr</supplied></reg></choice>oit de p<ex>er</ex>ye</l>
+            <l n="42"><gap reason="damage" extent="unknown"/><choice><orig>i</orig><reg>i </reg></choice>out<ex>e</ex> de rubi<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>es</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="43"><gap reason="damage" extent="unknown"/>e<ex>st</ex> <choice><orig>sauue</orig><reg>sauve</reg></choice> la p<ex>ur</ex>ne<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>le</supplied></reg></choice></l>
+            <l n="44"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>pau</supplied></reg></choice>peres qe e<ex>st</ex> la pee<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>l</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <cb n="Vvb"/>
+         <lg>
+            <l n="45"><note type="editorial" resp="#TGH">A line appears to have been cut off from the top of the page, equivalent to T 51: <quote>En les pauperes sount les ciz</quote></note>Amount<ex>e</ex> les oez s<ex>un</ex>t les s<ex>ur</ex>cyles<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="46">Le nes deit <choice><orig>auer</orig><reg>aver</reg></choice><ex>e</ex> p<ex>ar</ex> reisoun<choice><orig>·</orig><reg/></choice></l>
+            <l n="47">Deuz naryz <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> int<ex>er</ex>fanoun<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="48">Mes war q<ex>ue</ex> la chowe<choice><orig>·</orig><reg/></choice></l>
+            <l n="49">Ne touche vostr<ex>e</ex> <choice><orig>iowe</orig><reg>jowe</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="50">Vous <choice><orig>auez</orig><reg>avez</reg></choice> la <choice><orig>leuer</orig><reg>lever</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>leuer</orig><reg>lever</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="51"><choice><orig>&amp;</orig><reg>E</reg></choice> la <choice><orig>liuer</orig><reg>liver</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>liuer</orig><reg>liver</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="52">La <choice><orig>leuer</orig><reg>lever</reg></choice> si enclos les denz<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="53">Le <choice><orig>leuer</orig><reg>lever</reg></choice> au boys se tye<ex>n</ex>t dedenz<choice><orig/><reg>;</reg></choice></l>
+            <l n="54">La <choice><orig>liuer</orig><reg>liver</reg></choice> sert au marchaunt<choice><orig/><reg>,</reg></choice></l>
+            <l n="55">Le <choice><orig>liuer</orig><reg>liver</reg></choice> si aprent <choice><orig>l</orig><reg>l'</reg></choice>emfaunt<choice><orig/><reg>.</reg></choice></l>
+            <l n="56">La bouche p<ex>ar</ex> <ex>con</ex>ceile du <term xml:id="B39-palete-001" key="AND:palat">palet<ex>e</ex></term> <gloss xml:lang="enm" target="#B39-palete-001" key="MED:37745" place="interlinear">rof<ex>e</ex></gloss></l>
+            <l n="57">V<ex>us</ex> dirra si vin seit bon <choice><orig>&amp;</orig><reg>e</reg></choice> net<choice><orig/><reg>.</reg></choice></l>
+            <l n="58">Les dames sount entent<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>ives</supplied></reg></choice></l>
+            <l n="59">De bien <choice><orig>lauer</orig><reg>laver</reg></choice><ex>e</ex> lour ging<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>ives</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="60">Le col<choice><orig/><reg>,</reg></choice> la gorge<choice><orig/><reg>,</reg></choice> le mentoun<choice><orig/><reg>,</reg></choice></l>
+            <l n="61">Langage e<ex>st</ex> assez <ex>com</ex>m<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>oun</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="62"><choice><orig>De </orig><reg>De</reg></choice>s<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ou</supplied></reg></choice>z la gorge e<ex>st</ex> la f<choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied>urcele</supplied></reg></choice><choice><orig/><reg>,</reg></choice><note type="editorial" resp="#TGH">The gloss is illegible due to damage.</note></l>
+            <l n="63"><choice><orig>Vn</orig><reg>Un</reg></choice> <mentioned>os <choice><orig><gap reason="damage" unit="character" quantity="1"/>rounche</orig><reg><supplied>f</supplied>rounché</reg></choice></mentioned><note type="lexical" resp="#TGH">The reading <mentioned>frounché</mentioned> is likely a slip for <foreign xml:lang="fro" key="AND:furcher">fourché</foreign>, found in other manuscripts, unless it is to be considered an adjectival form of AND entry <foreign xml:lang="fro" key="AND:frunce">frunce</foreign>: <quote>unevenness, irregularity</quote>.</note> q<ex>ue</ex> frau<ex>n</ex>ceis si ap<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ele</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="64"><choice><orig>N</orig><reg>N'</reg></choice>est pas mester<ex>e</ex> <choice><orig>descriuer</orig><reg>descriver</reg></choice><ex>e</ex></l>
+            <l n="65">Chose q<ex>ue</ex> checune seit bien dir<ex>e</ex><choice><orig/><reg>:</reg></choice></l>
+            <l n="66">Vent<ex>re</ex><choice><orig/><reg>,</reg></choice> dos <choice><orig>&amp;</orig><reg>e</reg></choice> le chein<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="67">Les e<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice>paules<choice><orig/><reg>,</reg></choice> les braces<choice><orig/><reg>,</reg></choice> la p<choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied>eitrine</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="68">Mes <choice><orig>ie<orig><gap reason="damage" unit="character" quantity="1"/></orig></orig><reg>je<supplied>o</supplied></reg></choice> v<ex>us</ex> fr<ex>ay</ex> la mounst<ex>re</ex>soun</l>
+            <l n="69">Des ch<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>o</supplied></reg></choice>ses q<ex>ue</ex> ne s<ex>un</ex>t pas <ex>com</ex>mun<choice><orig/><reg>.</reg></choice></l>
+            <l n="70">Le chef<ex>e</ex> ad la fountein<choice><orig/><reg>,</reg></choice></l>
+            <l n="71"><gap reason="damage" unit="character" extent="unknown"/><term xml:id="B39-bau_levere-001" key="AND:bas_2 AND:levre_1"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>b</supplied></reg></choice>au <choice><orig>leuer</orig><reg>lever</reg></choice><ex>e</ex></term> <choice><orig>&amp;</orig><reg>e</reg></choice> la <choice><orig>leuer</orig><reg>lever</reg></choice><ex>e</ex> s<choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied>uzaine</supplied></reg></choice><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-bau_levere-001" key="MED:29379 MED:25707" place="interlinear">nether lip<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="72"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied><reg>s</reg></supplied></reg></choice>ount les <term xml:id="B39-meseilers-001" key="AND:maisseler">meseilers</term> <gloss xml:lang="enm" target="#B39-meseilers-001" key="MED:53406 MED:46505" place="interlinear">wangheteth</gloss></l>
+            <l n="73"><gap reason="damage" extent="unknown"/>foreins si tu quer<choice><orig/><reg>.</reg></choice></l>
+            <l n="74"><gap reason="damage" extent="unknown"/>erez la <term xml:id="B39-fosset-001" key="AND:fossette">fosset</term><choice><orig>·</orig><reg>,</reg></choice> <gloss xml:lang="enm" key="MED:29286 MED:21003" target="#B39-fosset-001" place="interlinear">nek ole</gloss></l>
+            <l n="75"><gap reason="damage" extent="unknown"/> la lange la fil<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>et</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="76"><gap reason="damage" extent="unknown"/>oreyle si ad molet<choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">The gloss is illegible due to damage.</note></l>
+            <l n="77"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>kaken</supplied></reg></choice>ol si e<ex>st</ex> <choice><orig>ceruel</orig><reg>cervel</reg></choice> net<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="VIr" facs="ms_b39_vi_recto.jpg"/>
+         <cb n="VIra"/>
+         <lg>
+            <l n="78">Les temples <gap reason="damage" extent="unknown"/></l>
+            <l n="79"><choice><orig>&amp;</orig><reg>E</reg></choice> les espaules ount les <term xml:id="B39-blasouns-001" key="AND:blason">blasouns</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-blasouns-001" key="MED:40159" place="interlinear">suld ban</gloss></l>
+            <l n="80"><choice><orig>De </orig><reg>De</reg></choice>souz le brace e<ex>st</ex> le essuile<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="81"><choice><orig>De </orig><reg>De</reg></choice>souz la charet<ex>e</ex> ausi le essuyle<choice><orig/><reg>.</reg></choice></l>
+            <l n="82"><choice><orig>De </orig><reg>De</reg></choice>souz le monteyn surd le <term xml:id="B39-bruyl-001" key="AND:broil">bruyl</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-bruyl-001" key="MED:28261" place="interlinear">myst</gloss></l>
+            <l n="83">Em base t<ex>er</ex>re e<ex>st</ex> bon soyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="84">Ent<ex>re</ex> <choice><sic>bledours</sic><corr>pledours</corr></choice> surd toyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="85">Le vent<ex>e</ex> de byse <choice><orig>greue</orig><reg>greve</reg></choice> le oyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="86"><choice><orig>Apres</orig><reg>Aprés</reg></choice> le aust<ex>e</ex> chest<ex>e</ex> le foyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="87"><choice><orig>Apres</orig><reg>Aprés</reg></choice> gele vent<ex>e</ex> remoyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="88">Ap<choice><orig><ex>re</ex></orig><reg><ex>ré</ex></reg></choice>s deray chet<ex>e</ex> <choice><orig>souent</orig><reg>sovent</reg></choice><ex>e</ex> do<add place="above">e</add>yle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="89">Cestes p<ex>ar</ex>oles si recoele<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="90">La reisoun p<ex>ur</ex> quey dir<ex>e</ex> voyle<choice><orig/><reg>:</reg></choice></l>
+            <l n="91">P<ex>ar</ex> <choice><orig>la </orig><reg>l'a</reg></choice>corde em p<ex>ar</ex>launce<choice><orig>·</orig><reg/></choice></l>
+            <l n="92"><choice><orig>&amp;</orig><reg>E</reg></choice> la descorde en variaunce<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="93">P<ex>ar</ex> les espaules issunt les b<ex>ra</ex>cez<choice><orig/><reg>.</reg></choice></l>
+            <l n="94"><gap reason="damage" extent="unknown"/> coutes<choice><orig/><reg>,</reg></choice> les maynes ne lerai pas<choice><orig/><reg>.</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="95">Ent<ex>re</ex> le<del type="subpunction">s</del> b<ex>ra</ex>ce <choice><orig>&amp;</orig><reg>e</reg></choice> la mayn<choice><orig>·</orig><reg/></choice></l>
+            <l n="96">Si e<ex>st</ex> t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> le cou<ex>n</ex>t de la mayn<choice><orig>·</orig><reg>;</reg></choice></l>
+            <l n="97">La paume <choice><orig>de </orig><reg>de</reg></choice>denz<choice><orig/><reg>,</reg></choice> la glay dehors<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="98">Le poyne e<ex>st</ex> dit<ex>e</ex> q<ex>au</ex>nt main e<ex>st</ex> clos<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="99"><choice><orig>Vn</orig><reg>Un</reg></choice> poynge e<ex>st</ex> q<ex>au</ex>nt la mayn<choice><orig>·</orig><reg/></choice></l>
+            <l n="100">De rien e<ex>st</ex> clos ou t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> playn<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="101">Deuz mayns ense<ex>m</ex>ble voides ou playnes</l>
+            <l n="102">Sunt <choice><orig>appelles</orig><reg>appellés</reg></choice> les gallaynes<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="103">Meuz vodrey <choice><orig>vn</orig><reg>un</reg></choice> poynee<choice><orig>·</orig><reg/></choice></l>
+            <l n="104"><gap reason="damage" extent="unknown"/>ginger<ex>e</ex> bien <choice><orig>estrye</orig><reg>estryé</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="105"><gap reason="damage" extent="unknown"/>mes galaynes</l>
+            <l n="106"><gap reason="damage" extent="unknown"/><term xml:id="B39-filaundre-001" key="AND:filandre">filaundre</term> pleyne<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-filaundre-001" key="MED:19120" place="interlinear">gossu<ex>m</ex>m<ex>er</ex><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="107"><gap reason="damage" extent="unknown"/>coste de mes <gap reason="damage" extent="unknown"/></l>
+            <l n="108"><gap reason="damage" extent="unknown"/>p<ex>ri</ex>mer fe<ex>m</ex>me ad<gap reason="damage" extent="unknown"/></l>
+            <l n="109"><gap reason="damage" extent="unknown"/>ventresse en <gap reason="damage" extent="unknown"/></l>
+            <l n="110"><gap reason="damage" extent="unknown"/>payn de fur<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>ment</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+         </lg>
+         <cb n="VIrb"/>
+         <lg>
+            <l n="111"><gap reason="damage" extent="unknown"/><note type="editorial" resp="#TGH">Trimming of the page has resulted in a line lost here, corresponding to MS C 138: <quote>Enmy le ventre si est le oumbyl</quote>.</note></l>
+            <l n="112"><choice><orig>&amp;</orig><reg>E</reg></choice> p<ex>ar</ex> <choice><orig>de </orig><reg>de</reg></choice>souz le penoyle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="113">Les nages<choice><orig/><reg>,</reg></choice> les q<ex>ui</ex>cez<choice><orig/><reg>,</reg></choice> la fo<choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied>rchure</supplied></reg></choice></l>
+            <l n="114">Valent mult p<ex>ur</ex> <choice><orig>cheuau</orig><reg>chevau</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>chure</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="115">Les <choice><orig>iaumbes</orig><reg>jaumbes</reg></choice> saunz genuz <gap reason="damage" extent="unknown"/></l>
+            <l n="116"><choice><orig>De</orig><reg>De </reg></choice>genuler<ex>e</ex> s<ex>er</ex>unt t<ex>ro</ex>p r<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ez</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="117">A garrez ount or garret<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ers</supplied></reg></choice></l>
+            <l n="118">Nos garsouns <choice><orig>&amp;</orig><reg>e</reg></choice> nos esqu<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>iers</supplied></reg></choice></l>
+            <l n="119"><choice><orig>Nemie</orig><reg>Ne mie</reg></choice> p<ex>ur</ex> estre charrett<ex>er</ex><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice></l>
+            <l n="120">Mes p<ex>ur</ex> lascher<ex>e</ex> lour<ex>e</ex> layng<choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>ners</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="121">En la <choice><orig>iaumbe</orig><reg>jaumbe</reg></choice> e<ex>st</ex> la s<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ure</supplied></reg></choice></l>
+            <l n="122"><choice><orig>&amp;</orig><reg>E</reg></choice> t<ex>au</ex>nt cu<ex>m</ex> braun e<ex>st</ex> e<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>n</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="123">De force hom se pl<ex>us</ex> <gap reason="damage" extent="unknown"/></l>
+            <l n="124">Mes war la <term xml:id="B39-chanel-001" key="AND:chanel_2">chanel</term> de ble<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>sçure</supplied></reg></choice><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-chanel-001" key="MED:39951 MED:5477" place="interlinear">scin ban</gloss></l>
+            <l n="125">Le <choice><orig>keuil</orig><reg>kevil</reg></choice> du pee<choice><orig/><reg>,</reg></choice> <choice><orig>kyuil</orig><reg>kyvil</reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="126">Voeroy bien q<ex>ue</ex> checu<ex>n</ex> con<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>ceust</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="127">La plaunte<choice><orig/><reg>,</reg></choice> les ortiz<choice><orig/><reg>,</reg></choice> les <gap reason="damage" extent="unknown"/></l>
+            <l n="128">Sou<ex>n</ex>t ore assez <ex>com</ex>mums<choice><orig/><reg>.</reg></choice></l>
+            <l n="129"><choice><orig>De denz</orig><reg>Dedenz</reg></choice> le corps de chec<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>un</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="130"><choice><orig>e</orig><reg>E</reg></choice><ex>st</ex> t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> <term xml:id="B39-faey-001" key="AND:feie_1">faey</term><choice><orig/><reg>,</reg></choice> quer<ex>e</ex> <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="B39-pomoun-001" key="AND:pulmon">pom<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>oun</supplied></reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-faey-001" key="MED:25848" place="interlinear">liver</gloss> <gloss xml:lang="enm" target="#B39-pomoun-001" key="MED:26028" place="interlinear">lu<ex>n</ex>g</gloss></l>
+            <l n="131">Le splen<choice><orig/><reg>,</reg></choice> boweles <choice><orig>&amp;</orig><reg>e</reg></choice> reno<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>un</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="132">Estomac<ex>e</ex><choice><orig/><reg>,</reg></choice> veyns <choice><orig>&amp;</orig><reg>e</reg></choice> n<ex>er</ex>fes<choice><orig/><reg>.</reg></choice></l>
+            <l n="133">V<ex>us</ex> <choice><orig>auez</orig><reg>avez</reg></choice> la chare <choice><orig>&amp;</orig><reg>e</reg></choice> le ch<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ar</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="134">Mes cont<ex>re</ex>gardez de esch<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ar</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="135">Jeo vey la char<ex>e</ex> ser<ex>e</ex> en<gap reason="damage" extent="unknown"/></l>
+            <l n="136"><choice><orig>&amp;</orig><reg>E</reg></choice> de la char<ex>e</ex> faer<ex>e</ex> esch<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ar</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="137">Eschar p<ex>ar</ex> foloure ho<ex>m</ex>me <gap reason="damage" extent="unknown"/></l>
+            <l n="138">La chare p<ex>ar</ex> hydour<ex>e</ex> en ho<ex>m</ex><gap reason="damage" extent="unknown"/></l>
+            <l n="139">Les oez p<ex>ar</ex> dolour<ex>e</ex> ensech<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>isent</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="140"><gap reason="damage" extent="unknown"/><choice><orig>beuour</orig><reg>bevour</reg></choice><ex>e</ex> en <gap reason="damage" extent="unknown"/></l>
+            <l n="141"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ou</supplied></reg></choice>nt <gap reason="damage" extent="unknown"/><note type="editorial" resp="#TGH">Several lines have been lost here due to damage.</note></l>
+         </lg>
+         <pb n="VIv" facs="ms_b39_vi_verso.jpg"/>
+         <cb n="VIva"/><note type="editorial" resp="#TGH">There appears to be at least one line missing due to trimming of the leaf.</note>
+         <milestone unit="theme" type="clothing"/>
+         <lg>
+            <l n="142"><gap reason="damage" extent="unknown"/> mes cherez e<ex>n</ex>fauns<choice><orig/><reg>,</reg></choice></l>
+            <l n="143"><gap reason="damage" extent="unknown"/> braye<choice><orig/><reg>,</reg></choice> solers <choice><orig>&amp;</orig><reg>e</reg></choice> gaunz<choice><orig/><reg>.</reg></choice></l>
+            <l n="144"><gap reason="damage" extent="unknown"/> chap<ex>er</ex>ou<ex>n</ex><choice><orig/><reg>,</reg></choice> <choice><orig>cou</orig><reg>cov</reg></choice><ex>er</ex>ez le chef<ex>e</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="145"><gap reason="damage" extent="unknown"/>botouns <choice><orig>&amp;</orig><reg>e</reg></choice> puys v<ex>us</ex> drecez<choice><orig>·</orig><reg/></choice></l>
+            <l n="146"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>cu</supplied></reg></choice>rray v<ex>us</ex> ceyntez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="147"><gap reason="damage" extent="unknown"/> pas <said>v<ex>us</ex> enceyntez</said><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="148"><gap reason="damage" extent="unknown"/>ho<ex>m</ex>me e<ex>st</ex> enceynt<ex>é</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="149"><gap reason="damage" extent="unknown"/> curray e<ex>st</ex> enceynt<ex>é</ex><choice><orig>·</orig><reg>.</reg></choice><note type="editorial" resp="#TGH">Whereas other manuscripts here distinguish between <foreign xml:lang="fro" key="AND:ceindre_1">ceinte</foreign> and <foreign xml:lang="fro" key="AND:enceinter">enceinte</foreign>, the variant form <mentioned xml:lang="fro">enceynté</mentioned> used here fails to make sense of the passage's intention to disambiguate in order to avoid potential social embarrassment.</note></l>
+            <l n="150"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ce</supplied></reg></choice>yntur<ex>e</ex> le pendaunt<ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="151"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>parm</supplied></reg></choice>ie la mordaunt<ex>e</ex><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="152"><gap reason="damage" extent="unknown"/> le aguiloun<choice><orig>·</orig><reg/></choice></l>
+            <l n="153"><gap reason="damage" extent="unknown"/> tru<choice><orig>·</orig><reg/></choice> de <term xml:id="B39-sibiloun-001" key="AND:subiloun">sibiloun</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-sibiloun-001" key="MED:13321" place="interlinear">elsyn<choice><orig>·</orig><reg/></choice></gloss></l>
+         </lg>
+         <milestone unit="theme" type="food"/>
+         <lg>
+            <l n="154"><gap reason="damage" extent="unknown"/> <choice><orig>leue</orig><reg>levé</reg></choice> del emfaunt<ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="155"><gap reason="damage" extent="unknown"/>se teint mayntenau<ex>n</ex>t<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="156"><gap reason="damage" extent="unknown"/>lez en sa mayn<choice><orig>·</orig><reg/></choice></l>
+            <l n="157"><gap reason="damage" extent="unknown"/> de blaunk<ex>e</ex> payn<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="158"><gap reason="damage" extent="unknown"/>le donez des oefs</l>
+            <l n="159"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>atti</supplied></reg></choice>rez a lour<ex>e</ex> eyse<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="160"><gap reason="damage" extent="unknown"/>le <choice><orig>auaunt</orig><reg>avaunt</reg></choice> q<ex>ue</ex> hume<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="161"><gap reason="damage" extent="unknown"/> ausy <choice><orig>l</orig><reg>l'</reg></choice>aubume<choice><orig/><reg>.</reg></choice></l>
+            <l n="162"><gap reason="damage" extent="unknown"/>dunc<ex>e</ex> le moel<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="163"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>sa</supplied></reg></choice>yn bon morsel<choice><orig>·</orig><reg>;</reg></choice></l>
+            <l n="164"><gap reason="damage" extent="unknown"/> le <term xml:id="B39-germinoun-001" key="AND:germinoun">g<ex>er</ex>mi<add place="above">n</add>oun</term><choice><orig/><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-germinoun-001" key="MED:43280" place="interlinear">strin</gloss><choice><orig>·</orig><reg/></choice></l>
+            <l n="165"><gap reason="damage" extent="unknown"/> a checun hom<ex>m</ex>e<choice><orig/><reg>.</reg></choice></l>
+            <l n="166"><gap reason="damage" extent="unknown"/>enfaunz cleyme<ex>n</ex>t<choice><orig>·</orig><reg/></choice></l>
+            <l n="167"><gap reason="damage" extent="unknown"/>pomes p<ex>ur</ex> ceo q<ex>ue</ex> il ayme<ex>n</ex>t<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="168"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>es</supplied></reg></choice>tiche <choice><orig>&amp;</orig><reg>e</reg></choice> la parur<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="169"><gap reason="damage" extent="unknown"/> la morsure<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="170"><gap reason="damage" extent="unknown"/> <choice><orig>en gettez</orig><reg>engettez</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="171"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>pepy</supplied></reg></choice>ns <choice><orig>de </orig><reg>de</reg></choice>h<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ors</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+         </lg>
+         <milestone unit="theme" type="collectiveNames"/><note type="editorial" resp="#TGH">Several lines are missing due to damage at the bottom of the page.</note>
+         <cb n="VIvb"/><note type="editorial" resp="#TGH">There appears to be at least one line missing due to trimming of the leaf.</note>
+         <lg>
+            <l n="172">Ou cerfs sunt assemblez<choice><orig>·</orig><reg/></choice></l>
+            <l n="173"><choice><orig>Vn</orig><reg>Un</reg></choice> herd e<ex>st</ex> appellez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="174">De gruues <choice><orig>vn</orig><reg>un</reg></choice> herd<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="175">De <choice><orig>Grifes</orig><reg>grifes</reg></choice> ausi herd<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="176">Nees de fe<add place="above">i</add>saunz<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="177"><choice><orig>Coue</orig><reg>Cové</reg></choice> de p<ex>ar</ex>triz<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="178"><choice><orig>Vn</orig><reg>Un</reg></choice> damage des alowes<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="179"><choice><orig>Vn</orig><reg>Un</reg></choice> tripe de berbyz<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="180">Soundr<ex>e</ex> de pors<choice><orig/><reg>,</reg></choice> soundr<ex>e</ex> de est<ex>ur</ex>neus<choice><orig/><reg>,</reg></choice></l>
+            <l n="181">Pype des oyseues<choice><orig>·</orig><reg>,</reg></choice> <choice><orig>biue</orig><reg>bivé</reg></choice> des heyrouns<choice><orig/><reg>,</reg></choice></l>
+            <l n="182">Harace de poleyns<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="183"><choice><orig>Vn</orig><reg>Un</reg></choice> faule de vileyns<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="184">Route de boefs<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="185">Mas <choice><orig>d</orig><reg>d'</reg></choice>argent<ex>e</ex><choice><orig/><reg>,</reg></choice> fum<ex>er</ex> de fenys<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="186">Greyle de geleyns<choice><orig/><reg>,</reg></choice> t<ex>ur</ex>be de c<ex>er</ex>ceyles<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="187">Eschele de batayle<choice><orig/><reg>,</reg></choice> lur<ex>e</ex> de pucel<choice><orig/><reg>.</reg></choice></l>
+            <l n="188">Car pucel seit saunz <choice><orig>iuper</orig><reg>juper</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="189">Les gentyz faucounz alurer<choice><orig/><reg>.</reg></choice></l>
+            <l n="190">De dames dirrez la <ex>com</ex>paygnie<choice><orig/><reg>,</reg></choice></l>
+            <l n="191">Des owes ausi la <ex>com</ex>paygnie<choice><orig/><reg>.</reg></choice></l>
+            <l n="192">Ces deus sunt associez<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="193">P<ex>ur</ex> q<ex>ue</ex>le reisoun<choice><orig/><reg>?</reg></choice> ore entendez</l>
+         </lg>
+         <milestone unit="theme" type="animalNoises"/>
+         <lg>
+            <l n="194">E mettez puys vost<ex>re</ex> cur<ex>e</ex></l>
+            <l n="195">De oyer<ex>e</ex> si <choice><orig>la </orig><reg>l'a</reg></choice>vant<ex>ur</ex>e<choice><orig>·</orig><reg/></choice></l>
+            <l n="196">De noyse q<ex>ue</ex> f<ex>un</ex>t <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex>seme<ex>n</ex>t<choice><orig>·</orig><reg/></choice></l>
+            <l n="197">Checu<ex>n</ex> solu<ex>n</ex> ceo q<ex>ue</ex> apent<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="198">Hom<ex>m</ex>e p<ex>ar</ex>le<choice><orig/><reg>,</reg></choice> hom<ex>m</ex>e bray<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="199">Saunz reisoun <choice><orig>soue</orig><reg>sove</reg></choice><ex>n</ex>t se deray<choice><orig/><reg>.</reg></choice></l>
+            <l n="200">Le boef<ex>e</ex> mugist<ex>e</ex><choice><orig>,</orig><reg>.</reg></choice> le <gap reason="omitted" unit="character" quantity="5"/><note type="manuscript" resp="#TGH">A gap has been left here for the missing word.</note> grou<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>le</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="201"><gap reason="damage" extent="unknown"/>rugist<ex>e</ex> le croudel cro<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ule</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="202"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>che</supplied></reg></choice><choice><orig>uale</orig><reg>vale</reg></choice> hynnist<ex>e</ex><choice><orig/><reg>,</reg></choice> <choice><orig>Alowe</orig><reg>alowe</reg></choice> ch<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>aunte</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="203"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>col</supplied></reg></choice>umbe geent<choice><orig>·</orig><reg/></choice> le coke ch<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>aunte</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="204"><gap reason="damage" extent="unknown"/> le c<ex>er</ex>pent<ex>e</ex> cyf<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>fle</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="205"><gap reason="damage" extent="unknown"/>signe r<ex>e</ex>cyfle<choice><orig/><reg>,</reg></choice></l>
+            <l n="206"><gap reason="damage" extent="unknown"/> le chene baye<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="VIIr" facs="ms_b39_vii_recto.jpg"/>
+         <cb n="VIIra"/>
+         <lg>
+            <l n="207"><note type="editorial" resp="#TGH">A line appears to be missing at the top of this column due to page trimming, which would correspond to T 218: <quote>Et homme e beste sovent abaye</quote></note>Le porke g<ex>r</ex>oundile<choice><orig/><reg>,</reg></choice> la gelyn patile<choice><orig/><reg>,</reg></choice></l>
+            <l n="208">Pount<ex>e</ex> en gardine<choice><orig/><reg>,</reg></choice> pount<ex>e</ex> en <choice><orig>Vile</orig><reg>vile</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="209">En Fraunce e<ex>st</ex> t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> cest estile<choice><orig>·</orig><reg/></choice></l>
+            <l n="210">Q<ex>ue</ex> gelyn <choice><orig>hupe</orig><reg>hupé</reg></choice> pount<ex>e</ex> e patile<choice><orig/><reg>.</reg></choice></l>
+            <l n="211">Q<ex>ui</ex> sey <choice><orig>auaunz</orig><reg>avaunz</reg></choice> saunz reisoun<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="212">A la gelyn e<ex>st</ex> <ex>com</ex>paygnoun<choice><orig>,</orig><reg/></choice></l>
+            <l n="213">Q<ex>ui</ex> plus patile p<ex>ur</ex> <choice><orig>vn</orig><reg>un</reg></choice> oef<ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="214">Q<ex>ue</ex> p<ex>ur</ex> la arrur<ex>e</ex> ne fest<ex>e</ex> le boef<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="215">Berbyz baley<choice><orig/><reg>,</reg></choice> dame bale<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="216">Espic<ex>er</ex> p<ex>re</ex>nt<ex>e</ex> ses m<ex>er</ex>ces de bale<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="217">P<ex>ar</ex> t<ex>ro</ex>p veyler<ex>e</ex> home bale<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="218">A soen s<ex>er</ex><choice><orig>iaunt</orig><reg>jaunt</reg></choice><ex>e</ex> sa chose bayle<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="219">Ap<ex>rés</ex> dormir<ex>e</ex> il <term xml:id="B39-se_espreche-001" key="AND:esprecher">se espreche</term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-se_espreche-001" key="MED:36051" place="interlinear">raxels</gloss></l>
+            <l n="220"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>pres</supplied></reg></choice>chour<ex>e</ex> seit<choice><orig/><reg>,</reg></choice> a mouster<ex>e</ex> p<ex>re</ex>che<choice><orig/><reg>;</reg></choice></l>
+            <l n="221"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>pes</supplied></reg></choice>chour<ex>e</ex> seit<choice><orig/><reg>,</reg></choice> a <choice><orig>riuer</orig><reg>river</reg></choice><ex>e</ex> pesche<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="222"><gap reason="damage" extent="unknown"/>rayz <choice><orig>&amp;</orig><reg>e</reg></choice> hors del heche<choice><orig/><reg>.</reg></choice></l>
+            <l n="223"><gap reason="damage" extent="unknown"/>fole lest<ex>e</ex> sa t<ex>er</ex>re freche<choice><orig>·</orig><reg/></choice></l>
+            <l n="224"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ac</supplied></reg></choice>hatr<ex>er</ex> les chares freche<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="225"><gap reason="damage" extent="unknown"/>fe<ex>m</ex>me va men<ex>er</ex>e la treche<choice><orig/><reg>.</reg></choice></l>
+            <l n="226"><gap reason="damage" extent="unknown"/>vaudreit en mayn la beche</l>
+            <l n="227"><gap reason="damage" extent="unknown"/> <choice><orig>nea</orig><reg>ne a</reg></choice> dount<ex>e</ex> se abesche</l>
+            <l n="228"><gap reason="damage" extent="unknown"/>payn de f<ex>ur</ex>ment <choice><orig>vn</orig><reg>un</reg></choice> lesche<choice><orig/><reg>.</reg></choice></l>
+            <l n="229"><gap reason="damage" extent="unknown"/>pael son chael lesse leche<choice><orig/><reg>.</reg></choice></l>
+            <l n="230"><gap reason="damage" extent="unknown"/> donez le chael a flater<ex>e</ex></l>
+            <l n="231"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>l</supplied></reg></choice>esche la <choice><orig>rouse</orig><reg>rousé</reg></choice> del herber<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="232"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>Eschu</supplied></reg></choice>wez flatour<ex>e</ex> q<ex>ui</ex> set flater<ex>e</ex><choice><orig>·</orig><reg/></choice></l>
+            <l n="233"><gap reason="damage" extent="unknown"/>bien set espeluuq<ex>uere</ex><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="234"><gap reason="damage" extent="unknown"/>toun chap<ex>er</ex>oun ne vot les<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>sier</supplied></reg></choice></l>
+            <l n="235"><gap reason="damage" extent="unknown"/>poytoun<choice><orig/><reg>,</reg></choice> t<ex>a</ex>unt ad v<ex>us</ex> cher</l>
+            <l n="236"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>No</supplied></reg></choice>n pas v<ex>us</ex> mes tou<ex>n</ex> a<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ver</supplied></reg></choice></l>
+            <l n="237"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>d</supplied></reg></choice>esir<ex>e</ex> de tay <choice><orig>auer</orig><reg>aver</reg></choice><ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="varia1"/>
+         <lg>
+            <l n="238"><gap reason="damage" extent="unknown"/> la <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex><choice><orig>site</orig><reg>sité</reg></choice> de f<ex>ra</ex>uncey<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice></l>
+         </lg>
+         <lg>
+            <l n="239"><note type="editorial" resp="#TGH">A line appears to be missing at the top of the column, corresponding to T 251: <quote>Ke soune tut un [en] engleis</quote>.</note>Vee<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>z</supplied></reg></choice><gap reason="damage" extent="unknown"/> <choice><orig>deuaunt</orig><reg>devaunt</reg></choice><ex>e</ex> veynt<gap reason="damage" extent="unknown"/></l>
+            <l n="240"><choice><orig>Vn</orig><reg>Un</reg></choice> beau <choice><orig>cheualer</orig><reg>chevaler</reg></choice><ex>e</ex> rous<choice><orig/><reg>.</reg></choice></l>
+            <l n="241"><choice><orig>Vn</orig><reg>Un</reg></choice> destrer<ex>e</ex> sore e<ex>st</ex> mou<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>nté</supplied></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="242"><choice><orig>L</orig><reg>L'</reg></choice>escu de goules ad port<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>é</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="243"><choice><orig>Vne</orig><reg>Une</reg></choice> launce rouge en <choice><orig>l</orig><reg>l'</reg></choice>u<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ne</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="244"><choice><orig>&amp;</orig><reg>E</reg></choice> vyn v<ex>er</ex>mayle en <choice><orig>l</orig><reg>l'</reg></choice>autr<ex>e</ex> <gap reason="damage" extent="unknown"/></l>
+            <l n="245">Jeo vy <choice><orig>vn</orig><reg>un</reg></choice> reygne saunz <gap reason="damage" extent="unknown"/></l>
+            <l n="246">P<ex>ur</ex> <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="B39-reygne-001" key="AND:raine_1"><choice><orig>Reygne</orig><reg>reygne</reg></choice></term> asser rey <gloss xml:lang="enm" target="#B39-reygne-001" key="MED:17792" place="interlinear">flok<ex>e</ex></gloss></l>
+            <l n="247">Enmiye la <choice><orig>Reaume</orig><reg>reaume</reg></choice> le<gap reason="damage" extent="unknown"/></l>
+            <l n="248">En <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="B39-reoun-001" key="AND:reun_1">reoun</term> p<ex>ar</ex> sey<choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-reoun-001" key="MED:17326" place="interlinear">fur<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="249"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>mauuais</orig><reg>mauvais</reg></choice> vint en m<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>a</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="250"><choice><orig>&amp;</orig><reg>E</reg></choice> p<ex>ar</ex> despit<ex>e</ex> fyt foreyn<gap reason="damage" extent="unknown"/></l>
+            <l n="251">Dou<ex>n</ex>t <choice><orig>ieo</orig><reg>jeo</reg></choice> luy fesay for<gap reason="damage" extent="unknown"/></l>
+            <l n="252">Luy <add place="above">lere</add> q<ex>ui</ex> vint la foreier<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="harvesting"/>
+         <lg>
+            <l n="253">Aloums <choice><orig>aprez</orig><reg>a prez</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> a chaump<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice></l>
+            <l n="254"><choice><orig>De</orig><reg>De </reg></choice>appre<ex>n</ex>dre f<ex>ra</ex>nceys a nos <gap reason="damage" extent="unknown"/></l>
+            <l n="255">Od fauce fachez <choice><orig>vn</orig><reg>un</reg></choice> <gap reason="damage" extent="unknown"/><note type="editorial" resp="#TGH">In the context of manuscript damage it is difficult to be certain, but it appears that the relevant noun has been omitted from the text and a gap has been left here.</note></l>
+            <l n="256">Od faucyle <choice><orig>scies</orig><reg>sciés</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>iau</orig><reg>jav</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ele</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="257">Les <choice><orig>iaueles</orig><reg>javeles</reg></choice> en garbes <gap reason="damage" extent="unknown"/></l>
+            <l n="258">En treseuz les garbes <gap reason="damage" extent="unknown"/></l>
+            <l n="259"><choice><orig>Vn</orig><reg>Un</reg></choice> waret<ex>e</ex> de poys arac<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ez</supplied></reg></choice></l>
+            <l n="260">Les <choice><orig>faues</orig><reg>faves</reg></choice> de <choice><orig>feues</orig><reg>feves</reg></choice> de<gap reason="damage" extent="unknown"/></l>
+            <l n="261">Q<ex>au</ex>nt tenps e<ex>st</ex> de karier</l>
+            <l n="262">Vos charettes fettes lore<gap reason="damage" extent="unknown"/></l>
+            <l n="263">Ses <choice><orig>cheuaus</orig><reg>chevaus</reg></choice> deit le char<choice><orig><gap reason="damage" unit="character" quantity="5"></gap></orig><reg><supplied>etter</supplied></reg></choice></l>
+            <l n="264">De sa royt bien guyer<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="265"><gap reason="damage" extent="unknown"/>la g<ex>ra</ex>unge v<ex>os</ex> blez mu<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ez</supplied></reg></choice></l>
+            <l n="266"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>Deh</supplied></reg></choice>ors la g<ex>ra</ex>nge v<ex>os</ex> blez tas<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>sez</supplied></reg></choice></l>
+            <l n="267"><gap reason="damage" extent="unknown"/>moye e<ex>st</ex> dyt en g<ex>ra</ex>ng<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>e</supplied></reg></choice></l>
+            <l n="268"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>deh</supplied></reg></choice>ors g<ex>ra</ex>nge<choice><orig/><reg>.</reg></choice></l>
+            <l n="269"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>apel</supplied></reg></choice>lez ceo <choice><orig>q<ex>ue</ex>st</orig><reg>q<ex>u'</ex>est</reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="270"><gap reason="damage" extent="unknown"/><choice><orig>q</orig><reg>q'</reg></choice>est de g<ex>ra</ex>yn<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="VIIv" facs="ms_b39_vii_verso.jpg"/>
+         <cb n="VIIva"/>
+         <lg>
+            <l n="271"><gap reason="damage" extent="unknown"/>v<ex>us</ex> gardez de arestes<choice><orig/><reg>.</reg></choice></l>
+            <l n="272"><gap reason="damage" extent="unknown"/>v<ex>us</ex> blez <choice><orig>sauuez</orig><reg>sauvez</reg></choice> de bestes<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="273"><gap reason="damage" extent="unknown"/> verrez <choice><orig>degyse</orig><reg>degysé</reg></choice> testes<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="274"><gap reason="damage" extent="unknown"/>orrez est<ex>ra</ex>ng<ex>es</ex> gestes<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="275"><gap reason="damage" extent="unknown"/> p<ex>ri</ex>ez a v<ex>us</ex> festes<choice><orig>·</orig><reg/></choice></l>
+            <l n="276"><gap reason="damage" extent="unknown"/>sount sus<ex>e</ex> enqestes<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="277"><gap reason="damage" extent="unknown"/> q<ex>ui</ex> su<ex>n</ex>t si prestes<choice><orig>·</orig><reg/></choice></l>
+            <l n="278"><gap reason="damage" extent="unknown"/>g<ex>re</ex><choice><orig>uaunz</orig><reg>vaunz</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> molestes<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="279"><gap reason="damage" extent="unknown"/><choice><orig>deuise</orig><reg>devisé</reg></choice> poynt ne estes<choice><orig>·</orig><reg/></choice></l>
+            <l n="280"><gap reason="damage" extent="unknown"/> donez les chares restes<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="baking"/>
+         <lg>
+            <l n="281"><note type="manuscript" resp="#TGH">There is a change of ink from this line.</note><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>v</supplied></reg></choice>ostre ble est batu<choice><orig>·</orig><reg/></choice></l>
+            <l n="282"><gap reason="damage" extent="unknown"/><choice><orig>&amp;</orig><reg>e</reg></choice> puis molu<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="283"><gap reason="damage" extent="unknown"/> <choice><orig>deuint</orig><reg>devint</reg></choice> farin<choice><orig>·</orig><reg/></choice></l>
+            <l n="284"><gap reason="damage" extent="unknown"/> esteit al matin<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="285"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>fa</supplied></reg></choice>rin vint le flour<choice><orig>·</orig><reg/></choice></l>
+            <l n="286"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>bul</supplied></reg></choice>enge le pestour<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="287"><gap reason="damage" extent="unknown"/> e<ex>st</ex> <choice><orig>seueree</orig><reg>severee</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="288"><gap reason="damage" extent="unknown"/> <choice><orig>&amp;</orig><reg>e</reg></choice> furfre demorree<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="289"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>te</supplied></reg></choice><choice><orig>ue</orig><reg>ve</reg></choice> od le flour mellez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="290"><gap reason="damage" extent="unknown"/>past<ex>e</ex> dounk<ex>e</ex> postrez<choice><orig>·</orig><reg>.</reg></choice></l>  
+            <l n="291"><gap reason="damage" extent="unknown"/>rastuer le auge moundez<choice><orig/><reg>.</reg></choice></l>
+            <l n="292"><gap reason="damage" extent="unknown"/> e luy rastuer<choice><orig>·</orig><reg/></choice></l>
+            <l n="293"><gap reason="damage" extent="unknown"/><choice><orig>diuers</orig><reg>divers</reg></choice> en lour mester<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="294"><gap reason="damage" extent="unknown"/>cu<ex>m</ex> feyns sount <choice><orig>a</orig><reg>a </reg></choice>preez</l>
+            <l n="295"><gap reason="damage" extent="unknown"/>rastel maniez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="296"><gap reason="damage" extent="unknown"/>le past<ex>e</ex> al auge <choice><orig>a </orig><reg>a</reg></choice>herd</l>
+            <l n="297"><gap reason="damage" extent="unknown"/> dounk<ex>e</ex> lour see<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>rt</supplied></reg></choice></l>
+            <l n="298"><gap reason="damage" extent="unknown"/>fez le four de feuger<ex>e</ex></l>
+            <l n="299"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>de</supplied></reg></choice>faute de l<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>it</supplied></reg></choice>er<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="300"><gap reason="damage" extent="unknown"/>letter<choice><orig>·</orig><reg/></choice></l>
+            <l n="301"><gap reason="damage" extent="unknown"/><choice><orig>diuers</orig><reg>divers</reg></choice> meste<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>r</supplied></reg></choice></l>
+         </lg>
+         <cb n="VIIvb"/>
+         <lg>
+            <l n="302">Le fauchour liter fauche<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="303"><choice><orig>Cheuauchour</orig><reg>Chevauchour</reg></choice> en letter <choice><orig>chiuauche</orig><reg>chivauche</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="304">La litter<ex>e</ex> saunz faile</l>
+            <l n="305">En franceys e<ex>st</ex> dit <mentioned>paile</mentioned><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="306">Pail <choice><orig>&amp;</orig><reg>e</reg></choice> p<ex>ar</ex> pail sount nomez</l>
+            <l n="307">Q<ex>au</ex>nt du grein sount <choice><orig>seuerez</orig><reg>severez</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="308"><choice><orig>&amp;</orig><reg>E</reg></choice> si paile ne seit pas<choice><orig>·</orig><reg/></choice></l>
+            <l n="309">P<ex>er</ex>nez dounk<ex>e</ex> de pesas<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="310">Du peel mettez le pain en four<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="311">E taunt com fet laa <choice><orig>soiour</orig><reg>sojour</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="weaving"/>
+         <lg>
+            <l n="312"><note type="manuscript" resp="#TGH">Nota in the margin next to this line, marking the start of the new section.</note>Aletz<choice><orig/><reg>,</reg></choice> dame messnere<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="313">Seiez bone curtiler<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="314">Semez cy vostre linois<choice><orig>·</orig><reg/></choice></l>
+            <l n="315"><choice><orig>&amp;</orig><reg>E</reg></choice> laa semez vostre canois<choice><orig/><reg>.</reg></choice></l>
+            <l n="316">Du lin <choice><orig>auerez</orig><reg>averez</reg></choice> les <gap reason="illegible" extent="unknown"/></l>
+            <l n="317">De caumbre <choice><orig>auerez</orig><reg>averez</reg></choice> les <gap reason="damage" extent="unknown"/></l>
+            <l n="318">Vostre lin en tens sar<choice><orig><gap reason="illegible" unit="character" quantity="4"/></orig><reg><supplied>clez</supplied></reg></choice></l>
+            <l n="319">E autre foi<subst><del type="overwritten">t</del><add place="inline">z</add></subst> le lin elisez<choice><orig/><reg>.</reg></choice></l>
+            <l n="320">Q<ex>au</ex>nt vostre lin e<ex>st</ex> roez</l>
+            <l n="321">Pur <choice><orig>en </orig><reg>en</reg></choice>seichir au soleil</l>
+            <l n="322">E <choice><orig>ieo</orig><reg>jeo</reg></choice> v<ex>us</ex> pri<choice><orig/><reg>,</reg></choice> <choice><orig>dame</orig><reg>Dame</reg></choice> <choice><orig>mur</orig><reg>Mur</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>iel,</supplied></reg></choice></l>
+            <l n="323">Le donez a vostre pesse<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>l</supplied></reg></choice></l>
+            <l n="324"><choice><orig>L</orig><reg>L'</reg></choice>escuchal dounk mani<choice><orig><gap reason="damage" unit="character" quantity="2"></gap><reg><supplied>ez</supplied></reg></orig></choice></l>
+            <l n="325"><choice><orig>&amp;</orig><reg>E</reg></choice> vostre lin escuchez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="326">La serence dounk p<ex>er</ex>nez</l>
+            <l n="327">E vostre lin serencez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="328">Du conoil vo<ex>us</ex> <choice><orig>purueiez</orig><reg>purveiez</reg></choice><choice><orig/><reg>;</reg></choice></l>
+            <l n="329">Le fusil ne lessez<choice><orig/><reg>.</reg></choice></l>
+            <l n="330">De treis s<ex>er</ex><choice><orig>uices</orig><reg>vices</reg></choice> se<gap reason="damage" extent="unknown"/></l>
+            <l n="331"><gap reason="damage" extent="unknown"/> e<ex>st</ex> filee p<ex>ar</ex> fusil<choice><orig/><reg>,</reg></choice></l>
+            <l n="332"><gap reason="damage" extent="unknown"/>de cailow fert fus<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>il,</supplied></reg></choice></l>
+            <l n="333">E blee e<ex>st</ex> molu p<ex>ar</ex> fusil<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="VIIIr" facs="ms_b39_viii_recto.jpg"/>
+         <cb n="VIIIra"/>
+         <lg>
+            <l n="334"><note type="editorial" resp="#TGH">One line cut off at the top of the page by trimming, equivalent to MS T line 347: <quote>A wuderes hore aleez</quote>.</note>E vostre filee la voidez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="335">Que fet ore <choice><orig>dame</orig><reg>Dame</reg></choice> <choice><orig>hode</orig><reg>Hode</reg></choice><choice><orig>·</orig><reg>?</reg></choice></l>
+            <l n="336"><choice><orig>Vn</orig><reg>Un</reg></choice> lussel de voyders vode<choice><orig>·</orig><reg/></choice></l>
+            <l n="337">E dit<choice><orig/><reg>:</reg></choice> <said>ore <choice><orig>ieo</orig><reg>jeo</reg></choice> voil<choice><orig>·</orig><reg/></choice></said></l>
+            <l n="338"><said>Mon fil mettre en trahuil<choice><orig>·</orig><reg>.</reg></choice></said></l>
+            <l n="339"><said>Les tremes fray apparailer<choice><orig>·</orig><reg/></choice></said></l>
+            <l n="340"><said>A la tistresce p<ex>ur</ex> tister<choice><orig>·</orig><reg>,</reg></choice></said></l>
+            <l n="341"><said>E p<ex>ur</ex> estre saunz blame<choice><orig>·</orig><reg/></choice></said></l>
+            <l n="342"><said>Jeo ay p<ex>ur</ex><choice><orig>ueu</orig><reg>veu</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> lame<choice><orig>·</orig><reg>.</reg></choice></said></l>
+            <l n="343">Autre chose cy apent<choice><orig>·</orig><reg/></choice></l>
+            <l n="344">Mes plus ne sai surement<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="brewing"/>
+         <lg>
+            <l n="345">Mes seoms ore en tour c<ex>er</ex><choice><orig>ueise</orig><reg>veise</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="346">Pur fere le gent<ex>e</ex> bien aese<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="347"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Al</supplied></reg></choice>umez<choice><orig/><reg>,</reg></choice> au<ex>n</ex>cele<choice><orig/><reg>,</reg></choice> <term xml:id="B39-la_frenole-001" key="AND:le_1 AND:frenole">la frenole</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-la_frenole-001" key="MED:45074 MED:24215" place="interlinear">þe kex</gloss></l>
+            <l n="348"><gap reason="damage" extent="unknown"/>q<ex>au</ex>nt <choice><orig>aueras</orig><reg>averas</reg></choice> <choice><orig>mange</orig><reg>mangé</reg></choice> du brazol<choice><orig/><reg>,</reg></choice></l>
+            <l n="349"><gap reason="damage" extent="unknown"/> <choice><orig>vne</orig><reg>une</reg></choice> <choice><orig>cuue</orig><reg>cuve</reg></choice> large <choice><orig>&amp;</orig><reg>e</reg></choice> lez<choice><orig>·</orig><reg/></choice></l>
+            <l n="350"><gap reason="damage" extent="unknown"/> orge laa enfroundez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="351"><gap reason="damage" extent="unknown"/>q<ex>au</ex>nt s<ex>er</ex>ra enf<choice><sic>enstundre</sic><corr>enfundré</corr></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="352"><gap reason="damage" extent="unknown"/> <choice><orig>l</orig><reg>l'</reg></choice>ew seit <term xml:id="B39-escowlé-001" key="AND:escouler"><choice><orig>escowle</orig><reg>escowlé</reg></choice></term><choice><orig>·</orig><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-escowlé-001" key="MED:25257 MED:31168" place="interlinear">laten hout<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="353"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Mo</supplied></reg></choice>untez cel haut soler<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="354"><gap reason="damage" extent="unknown"/> le fetes nett<ex>e</ex> <term xml:id="B39-baleer-001" key="AND:balaier">baleer</term><choice><orig>·</orig><reg/></choice> <gloss xml:lang="enm" target="#B39-baleer-001" key="MED:44139" place="interlinear">swep<ex>en</ex></gloss></l>
+            <l n="355"><gap reason="damage" extent="unknown"/> cochez vostre blee<choice><orig>·</orig><reg/></choice></l>
+            <l n="356"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>T</supplied></reg></choice><ex>au</ex>nt qe seit bien <term xml:id="B39-germé-001" key="AND:germer"><choice><orig>germe</orig><reg>germé</reg></choice></term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-germé-001" key="MED:8522" place="interlinear"></gloss>becoom<ex>n</ex></l>
+            <l n="357"><gap reason="damage" extent="unknown"/>cele houre apeleras<choice><orig>·</orig><reg/></choice></l>
+            <l n="358">Brees qe blee <choice><orig>auaunt</orig><reg>avaunt</reg></choice> nomas<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="359">Le brees de v<ex>ost</ex>re meine mohez<choice><orig>·</orig><reg/></choice></l>
+            <l n="360">En <term xml:id="B39-mouncels-001" key="AND:muncel">mou<ex>n</ex>cels</term> ou en <term xml:id="B39-rengez-001" key="AND:rengee">rengez</term><choice><orig>·</orig><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-mouncels-001" key="MED:20427" place="interlinear">heppes</gloss> <gloss xml:lang="enm" target="#B39-rengez-001" key="MED:37270" place="interlinear">raw<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg>es</reg></choice></gloss></l>
+            <l n="361">Puis le portez en corbail<choice><orig>·</orig><reg/></choice></l>
+            <l n="362">Pur enseicchir al torail<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="363"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>L</supplied></reg></choice>e <term xml:id="B39-corbail-001" key="AND:corbeil">corbail</term> <choice><orig>&amp;</orig><reg>e</reg></choice> le <term xml:id="B39-corbeiloun-001" key="AND:corbeillon">corbeiloun</term> <gloss xml:lang="enm" target="#B39-corbail-001" key="MED:25160" place="interlinear">lep</gloss> <gloss xml:lang="enm" target="#B39-corbeiloun-001" key="MED:40639" place="interlinear">sk<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg>ep</reg></choice></gloss></l>
+            <l n="364"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>V</supplied></reg></choice><ex>us</ex> s<ex>er</ex><choice><orig>uirount</orig><reg>virount</reg></choice> a fuison<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <cb n="VIIIrb"/>
+         <lg>
+            <l n="365"><note type="editorial" resp="#TGH">One line cut off at the top of the page due to trimming, corresponding to T 380: <quote>Kaunt vostre brés est molu</quote>.</note>E de ewe chaude bien<gap reason="damage" extent="unknown"/></l>
+            <l n="366">De <term xml:id="B39-bersez-001" key="AND:bersil">bersez</term> venz <choice><orig>ceruise</orig><reg>cervise</reg></choice><choice><orig/><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-bersez-001" key="MED:53468" place="interlinear">wrt</gloss></l>
+            <l n="367">P<ex>ar</ex> art <choice><orig>controue</orig><reg>contrové</reg></choice> <choice><orig>t</orig><reg>t'</reg></choice>eise</l>
+            <l n="368">Qe fet miracle <choice><orig>&amp;</orig><reg>e</reg></choice> m<ex>er</ex><choice><orig>ue</orig><reg>ve</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>ille.</supplied></reg></choice></l>
+            <l n="369">Oune chaundeile deus <gap reason="damage" extent="unknown"/></l>
+            <l n="370">De home lei fet bon cl<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>erk.</supplied></reg></choice></l>
+            <l n="371">A homme desconu donn<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>e</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="372">Homme fort fet chatou<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>ner</supplied></reg></choice></l>
+            <l n="373"><choice><orig>&amp;</orig><reg>E</reg></choice> homme <choice><orig>aroe</orig><reg>aroé</reg></choice> haut <choice><orig>i</orig><reg>j</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>uper.</supplied></reg></choice></l>
+            <l n="374">T<ex>a</ex>unt de v<ex>er</ex>tue ad la g<choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>rees</supplied></reg></choice></l>
+            <l n="375">De c<ex>er</ex><choice><orig>ueise</orig><reg>veise</reg></choice> fet de br<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>ees</supplied></reg></choice></l>
+            <l n="376">Qe la coif de <choice><orig>vn</orig><reg>un</reg></choice> bri<choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>coun</supplied></reg></choice></l>
+            <l n="377">Teindre seet saunz v<ex>er</ex><choice><orig><gap reason="damage" unit="character" quantity="6"></gap></orig><reg><supplied>miloun.</supplied></reg></choice></l>
+            <l n="378">Ceste matere se rep<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>ose,</supplied></reg></choice></l>
+            <l n="379">P<ex>ar</ex>loms ore de autre <gap reason="damage" extent="unknown"/></l>
+         </lg>
+         <milestone unit="theme" type="fishing"/>
+         <lg>
+            <l n="380"><note type="manuscript" resp="#TGH">Nota in the margin next to this line, marking the start of the new section.</note>Ore voloms pescher</l>
+            <l n="381">De la raiz en <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>viue</orig><reg>vive</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>r.</supplied></reg></choice></l>
+            <l n="382"><choice><orig>Viuer</orig><reg>Viver</reg></choice> e<ex>st</ex> <choice><orig>apele</orig><reg>apelé</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="383">Ou vif<ex>e</ex> ewe e<ex>st</ex> <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="384">Le s<ex>er</ex><choice><orig>uour</orig><reg>vour</reg></choice> espuchez<choice><orig>·</orig><reg>;</reg></choice></l>
+            <l n="385">De pessoun laa ne faud<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>rez.</supplied></reg></choice></l>
+            <l n="386">Ore aloms a ceste esta<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>unk</supplied></reg></choice></l>
+            <l n="387">Ou <choice><orig>l</orig><reg>l'</reg></choice>ewe e<ex>st</ex> adees corau<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>nt.</supplied></reg></choice></l>
+            <l n="388">Si no<ex>us</ex> ne espleitoms<choice><orig/><reg>,</reg></choice> alom<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="389">Cele ewe esteaunt<ex>e</ex> en <gap reason="damage" extent="unknown"/></l>
+            <l n="390">La <choice><orig>couent</orig><reg>covent</reg></choice> pescher de n<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>ase</supplied></reg></choice></l>
+            <l n="391"><choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>O</supplied></reg></choice>u petit<ex>e</ex> raiz ne <choice><orig>troue</orig><reg>trove</reg></choice> <gap reason="damage" extent="unknown"/></l>
+            <l n="392">Le gurget de nase <choice><orig>reu</orig><reg>rev</reg></choice><ex>er</ex>s<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ez;</supplied></reg></choice></l>
+            <l n="393"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>L'ord</supplied></reg></choice>ure qe leinz e<ex>st</ex> <choice><orig>eniet</orig><reg>enjet</reg></choice><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>tez.</supplied></reg></choice></l>
+            <l n="394"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Cr</supplied></reg></choice>apaud <choice><orig>&amp;</orig><reg>e</reg></choice> lesard la mort<gap reason="damage" extent="unknown"/></l>
+            <l n="395"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>Ser</supplied></reg></choice>pent <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>coluuier</orig><reg>coluvier</reg></choice><ex>e</ex> ne esp<ex>ar</ex><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>niez.</supplied></reg></choice></l>
+         </lg>
+         <pb n="VIIIv" facs="ms_b39_viii_verso.jpg"/>
+         <cb n="VIIIva"/>
+         <lg>
+            <l n="396"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>c</supplied></reg></choice>aillowe <choice><orig>reiettez</orig><reg>rejettez</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="397"><gap reason="damage" extent="unknown"/> force ne facez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="398"><gap reason="damage" extent="unknown"/> porter le pessoun<choice><orig>·</orig><reg/></choice></l>
+            <l n="399"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ve</supplied></reg></choice>mberges a mesoun<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="garden"/>
+         <lg>
+            <l n="400"><gap reason="damage" extent="unknown"/> ore retornerom</l>
+            <l n="401"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>c</supplied></reg></choice>ele <choice><orig>creuisoun</orig><reg>crevisoun</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="402"><gap reason="damage" extent="unknown"/> veignom au vert <choice><sic>cerail</sic><corr>terail</corr></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="403"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>pas</supplied></reg></choice>tour od <choice><orig>l</orig><reg>l'</reg></choice>aumail<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="404"><gap reason="damage" extent="unknown"/>boys en <choice><orig>vmbrail</orig><reg>umbrail</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="405"><gap reason="damage" extent="unknown"/><choice><orig>de </orig><reg>de</reg></choice>souz <choice><orig>l</orig><reg>l'</reg></choice>orail<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="406"><gap reason="damage" extent="unknown"/><choice><sic>ti</sic><corr>ci</corr></choice> t<ex>a</ex>unt de peres</l>
+            <l n="407"><gap reason="damage" extent="unknown"/> apelez <mentioned><term xml:id="B39-passueres-001" key="AND:passuer">passueres</term></mentioned><choice><orig/><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-passueres-001" key="MED:42815 MED:43058" place="interlinear">stepi<ex>n</ex>g stas</gloss><choice><orig>·</orig><reg/></choice></l>
+            <l n="408"><gap reason="damage" extent="unknown"/> sek les <term xml:id="B39-russels-001" key="AND:russel">russels</term><choice><orig>·</orig><reg/></choice> <gloss xml:lang="enm" target="#B39-russels-001" key="MED:43273" place="interlinear">strems</gloss></l>
+            <l n="409"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>sun</supplied></reg></choice>t cler e bels<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="badWeather"/>
+         <lg>
+            <l n="410"><gap reason="damage" extent="unknown"/> ore gele<choice><orig>·</orig><reg>;</reg></choice></l>
+            <l n="411"><gap reason="damage" extent="unknown"/> ore regel<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="412"><gap reason="damage" extent="unknown"/>n<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> glace<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="413"><gap reason="damage" extent="unknown"/>geel fount wereglace<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="414"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>plu</supplied></reg></choice>ie degotaunt<choice><orig>·</orig><reg/></choice></l>
+            <l n="415"><gap reason="damage" extent="unknown"/>chemyn trop <term xml:id="B39-lidaunt-001" key="AND:lider">lidaunt</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-lidaunt-001" key="MED:39053" place="interlinear">strihyl</gloss></l>
+            <l n="416"><gap reason="damage" extent="unknown"/> ore cemeie<choice><orig>·</orig><reg>;</reg></choice></l>
+            <l n="417"><gap reason="damage" extent="unknown"/>empire nostr<ex>e</ex> veie<choice><orig/><reg>.</reg></choice></l>
+            <l n="418"><gap reason="damage" extent="unknown"/> me ent<ex>re</ex> <choice><orig>vn</orig><reg>un</reg></choice> anf de neif<choice><orig/><reg>,</reg></choice></l>
+            <l n="419"><gap reason="damage" extent="unknown"/> <choice><orig>vse</orig><reg>use</reg></choice> g<ex>ra</ex>nt ceif<ex>e</ex><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="420"><gap reason="damage" extent="unknown"/> grisil p<ex>ur</ex> ceo qe greel<choice><orig>·</orig><reg/></choice></l>
+            <l n="421"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>gro</supplied></reg></choice>se<choice><orig/><reg>,</reg></choice> ne pas greel<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="422"><gap reason="damage" extent="unknown"/><choice><orig/><reg>,</reg></choice> oil<choice><orig/><reg>,</reg></choice> il toune<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="423"><gap reason="damage" extent="unknown"/>empire c<ex>er</ex><choice><orig>ueise</orig><reg>veise</reg></choice> en toune<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="424"><gap reason="damage" extent="unknown"/> mon pee <term xml:id="B39-toune-001" key="AND:tonner_1">toune</term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-toune-001" key="MED:40832" place="interlinear">slepe<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice></gloss></l>
+            <l n="425"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>v</supplied></reg></choice><ex>us</ex> mot<ex>e</ex> ne soune<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="426"><gap reason="damage" extent="unknown"/> de <choice><orig>yuer</orig><reg>yver</reg></choice> <choice><orig>lorre</orig><reg>l'orré</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="427"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="5"></gap></orig><reg><supplied>divin</supplied></reg></choice>eil no<ex>us</ex> e<ex>st</ex> <choice><orig>moustre</orig><reg>moustré</reg></choice><choice><orig>·</orig><reg>:</reg></choice></l>
+            <l n="428"><gap reason="damage" extent="unknown"/> q<ex>au</ex>unt <choice><orig>lorre</orig><reg>l'orré</reg></choice><choice><orig> e</orig><reg>e</reg></choice> chaung<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>e</supplied></reg></choice></l>
+            <l n="429"><gap reason="damage" extent="unknown"/> crest est<ex>ra</ex>nge<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="430"><gap reason="damage" extent="unknown"/> v<ex>er</ex>dour<ex>e</ex><choice><orig>·</orig><reg>,</reg></choice></l>
+         </lg>
+         <cb n="VIIIvb"/>
+         <lg>
+            <l n="431">Saunz fuile e saunz flure<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="432">Q<ex>au</ex>unt vend<ex>ra</ex> <choice><orig>leste</orig><reg>l'esté</reg></choice><choice><orig>·</orig><reg/></choice></l>
+            <l n="433">La v<ex>er</ex>ge dounk<ex>e</ex> <choice><orig>n</orig><reg>n'</reg></choice>ert <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="434"><foreign xml:lang="enm"><choice><orig>red</orig><reg>Red</reg></choice> þis redel<choice><orig/><reg>,</reg></choice> wat it may be</foreign><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="435"><choice><orig>C</orig><reg>C'</reg></choice>est<ex>e</ex> <choice><orig>vn</orig><reg>un</reg></choice> esclarzil<choice><orig/><reg>,</reg></choice></l>
+            <l n="436">En engleis <foreign xml:lang="enm">an hisikil</foreign><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="437">Q<ex>au</ex>unt les daies ne <choice><orig>poes</orig><reg>poés</reg></choice> pas<choice><orig>·</orig><reg/></choice></l>
+            <l n="438"><choice><orig>En </orig><reg>En</reg></choice>semble <choice><orig>ioindre</orig><reg>joindre</reg></choice><choice><orig/><reg>,</reg></choice> dounk<ex>e</ex> d<choice><orig><gap reason="binding" unit="character" quantity="4"></gap></orig><reg><supplied>iras:</supplied></reg></choice></l>
+            <l n="439"><said>Jeo ai la maine si estomie<choice><orig>·</orig><reg/></choice></said></l>
+            <l n="440"><said>Qe p<ex>ur</ex> freid ne puis <choice><orig>ieo</orig><reg>jeo</reg></choice> mie<choice><orig>·</orig><reg/></choice></said></l>
+            <l n="441"><said>P<ex>ar</ex> mei fere la <term xml:id="B39-copinole-001" key="AND:capinole">copinole</term><choice><orig/><reg>.</reg></choice></said> <gloss xml:lang="enm" target="#B39-copinole-001" key="MED:21102" place="interlinear">hu<ex>n</ex>dmo<choice><orig><gap reason="binding" unit="character" quantity="1"></gap></orig><reg><supplied>l</supplied></reg></choice></gloss></l>
+            <l n="442">Dount meulz v<ex>us</ex>rei sur plume m<choice><orig><gap reason="binding" unit="character" quantity="3"></gap></orig><reg><supplied>ole</supplied></reg></choice></l>
+            <l n="443">Seer p<ex>re</ex>s du fu qe mener karole</l>
+            <l n="444"><choice><orig>De </orig><reg>De</reg></choice>souz chapel de <choice><orig>blauerole</orig><reg>blaverole</reg></choice><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="445">Ou de culler p<ex>ri</ex>merole<choice><orig>·</orig><reg/></choice></l>
+            <l n="446">Pur fere chapels a clers <choice><orig>d</orig><reg>d'</reg></choice>es<choice><orig><gap reason="binding" unit="character" quantity="4"></gap></orig><reg><supplied>cole</supplied></reg></choice></l>
+            <l n="447">Qe p<ex>ar</ex> boste de <term xml:id="B39-frivole-001" key="AND:frivole"><choice><orig>friuole</orig><reg>frivole</reg></choice></term><choice><orig>·</orig><reg/></choice> <gloss xml:lang="enm" target="#B39-frivole-001" key="MED:21670" place="interlinear">ydel</gloss></l>
+            <l n="448"><choice><orig>&amp;</orig><reg>E</reg></choice> p<ex>ar</ex> <choice><orig>kniuet</orig><reg>knivet</reg></choice> od virole<choice><orig>·</orig><reg/></choice><note type="editorial" resp="#TGH">A line appears to be missing between 448 and 449, corresponding to T 467, which would complete the construction of which <quote>qe par boste de frivole...</quote> is a sub-clause. Cf. T 467: <quote>Sevent attrere femme fole.</quote></note></l>         
+            <l n="449">Dount ceus qe sount de <gap reason="damage" extent="unknown"/></l>
+            <l n="450">Vaudrent plus en la <choice><orig>iaiole</orig><reg>jaiole</reg></choice></l>
+            <l n="451">Qe od femme en oriole<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="452">Amour de femme e<ex>st</ex> si mo<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>le,</supplied></reg></choice></l>
+            <l n="453">Q<ex>au</ex>nt esquier ou clerk <choice><orig>l</orig><reg>l'</reg></choice>a<choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>cole,</supplied></reg></choice></l>
+            <l n="454">Maintenaunt a <choice><orig>vne</orig><reg>une</reg></choice> p<ex>ar</ex>ole</l>
+            <l n="455">Cele fole le recole<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="456">Plust a <choice><orig>deu</orig><reg>Deu</reg></choice> qe teles foles<choice><orig>·</orig><reg/></choice></l>
+            <l n="457"><choice><orig>Vssent</orig><reg>Ussent</reg></choice> face pleine de <term xml:id="B39-veroles-001" key="AND:verole_1">veroles</term> <gloss xml:lang="enm" target="#B39-veroles-001" key="MED:33886" place="interlinear">po<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ks</supplied></reg></choice></gloss></l>
+            <l n="458"><choice><orig>&amp;</orig><reg>E</reg></choice> les fous les <term xml:id="B39-rougeroles-001" key="AND:rugerole">rougeroles</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-rougeroles-001" key="MED:26995" place="interlinear">mese<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ls</supplied></reg></choice></gloss></l>
+            <l n="459"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>L</supplied></reg></choice>es fous lerreient les b<ex>ra</ex>cerole<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>s</supplied></reg></choice></l>
+            <l n="460"><gap reason="damage" extent="unknown"/> foles les karoles<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="flowers"/>
+         <lg>
+            <l n="461"><gap reason="damage" extent="unknown"/> <choice><orig>deuent</orig><reg>devent</reg></choice> beaus <choice><orig>&amp;</orig><reg>e</reg></choice> cle<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>rs;</supplied></reg></choice> </l>
+            <l n="462"><gap reason="damage" extent="unknown"/> dedure ou banier<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="463"><gap reason="damage" extent="unknown"/> v<ex>er</ex>ger <choice><orig>troueroms</orig><reg>troveroms</reg></choice> les flor<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>s</supplied></reg></choice></l>
+            <l n="464"><gap reason="damage" extent="unknown"/>queus issent douces odour<choice><orig/><reg>.</reg></choice></l>
+            <l n="465"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Le</supplied></reg></choice>s h<ex>er</ex>bes ausi p<ex>ur</ex> medi<choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg>cin</reg></choice>e<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="IXr" facs="ms_b39_ix_recto.jpg"/>
+         <cb n="IXra"/>
+         <lg>
+            <l n="466">Les nouns <choice><orig>de</orig><reg>dé</reg></choice> quels cy v<ex>us</ex> <choice><orig>deuyne</orig><reg>devyne</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="467">La floure de rose<choice><orig/><reg>,</reg></choice> la flure <choice><orig>de</orig><reg>de </reg></choice>litz<choice><orig>·</orig><reg>:</reg></choice></l>
+            <l n="468">Liz vaut p<ex>ur</ex> roigne<choice><orig/><reg>,</reg></choice> rose p<ex>ur</ex> pitz<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="469">Cy crest la flure de sourcye<choice><orig>·</orig><reg/></choice></l>
+            <l n="470">Qe vers les sourcyes ad nule <choice><orig>enuye</orig><reg>envye</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="471">Li oil <choice><orig>qui</orig><reg>qui </reg></choice>est p<ex>re</ex>s du sourciz</l>
+            <l n="472">De vere la sourcie ad g<ex>ra</ex>nt delitz<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="473">Ere de bois <choice><orig>&amp;</orig><reg>e</reg></choice> ere terestre<choice><orig>·</orig><reg/></choice></l>
+            <l n="474">En ceo verger <choice><orig>deiuent</orig><reg>deivent</reg></choice> crestre<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="475">Primerole <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="B39-primevere-001" key="AND:primevere">p<ex>ri</ex><choice><orig>meuere</orig><reg>mevere</reg></choice></term><choice><orig>·</orig><reg/></choice> <gloss xml:lang="enm" target="#B39-primevere-001" key="MED:10070" place="interlinear">cousloppes</gloss></l>
+            <l n="476">Sur tere p<ex>er</ex>gent en tens de veire<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="477">Cy est assez de plaunteyn<choice><orig>·</orig><reg/></choice></l>
+            <l n="478">E bugle ausi<choice><orig/><reg>,</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> herbe sein<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="479">Cerlang crest en <choice><orig>creuez</orig><reg>crevez</reg></choice><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="480">E tro<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>v</supplied></reg></choice>erez <choice><orig>plente</orig><reg>plenté</reg></choice> de <choice><orig>nauez</orig><reg>navez</reg></choice><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="481">Conseude la blaunche floure<choice><orig>·</orig><reg/></choice></l>
+            <l n="482">M<choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied>ercuri</supplied></reg></choice>al de gr<ex>au</ex>nt valour<ex>e</ex><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="483"><gap reason="damage" extent="unknown"/> vaut la <term xml:id="B39-surele-001" key="AND:surele">surele</term><choice><orig>·</orig><reg>;</reg></choice> <gloss xml:lang="enm" target="#B39-surele-001" key="MED:41850" place="interlinear">sourdok<ex>e</ex><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="484"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>p</supplied></reg></choice>our roignouns vaut <term xml:id="B39-parele-001" key="AND:parele_1">p<ex>ar</ex>ele</term><choice><orig>·</orig><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-parele-001" key="MED:12318" place="interlinear">redok<ex>e</ex><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="485"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>V</supplied></reg></choice><ex>us</ex> tro<gap reason="damage" extent="unknown"/> en ton verger<choice><orig>·</orig><reg/></choice></l>
+            <l n="486"><term xml:id="B39-ameroke-001" key="AND:ameroke"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Am</supplied></reg></choice>e<choice><orig><gap reason="damage" unit="character" quantity="2"></gap></orig><reg><supplied>ro</supplied></reg></choice>k<ex>e</ex></term> <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="B39-gletouner-001" key="AND:gletoner">gletouner</term><choice><orig>·</orig><reg>,</reg></choice> <gloss target="#B39-ameroke-001" xml:lang="enm" key="MED:26573" place="interlinear"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>m</supplied></reg></choice>ayes</gloss> <gloss xml:lang="enm" target="#B39-gletouner-001" key="MED:13092" place="interlinear">glet<note type="lexical" resp="#TGH">There is currently no MED entry for this form, though it must be related to attested forms like <foreign xml:lang="enm" key="MED:8005">clete</foreign>, <foreign xml:lang="enm" key="MED:8136">clote</foreign>. The trilingual herbal glossary in Oxford, Bodley MS 761 includes the forms <foreign xml:lang="fro" key="AND:gletoner">gletonere</foreign> and <foreign xml:lang="enm">glote</foreign>; the former looks French while the latter may be English.</note><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="487"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>Les</supplied></reg></choice> aracez de <choice><orig>vn</orig><reg>un</reg></choice> besagu<choice><orig>·</orig><reg/></choice></l>
+            <l n="488"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>E ch</supplied></reg></choice>ol<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>et p</supplied></reg></choice>launtez en lour lu<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="trees"/>
+         <lg>
+            <l n="489">En ce<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>o</supplied></reg></choice> v<ex>er</ex>ger les arbres cresse<ex>n</ex>t<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="490">P<ex>ar</ex> ch<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ar</supplied></reg></choice>che <choice><orig>de</orig><reg>de </reg></choice>fruit les <choice><orig>vnes</orig><reg>unes</reg></choice> abesse<ex>n</ex>t<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="491">Pomer<choice><orig/><reg>,</reg></choice> p<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>er</supplied></reg></choice>er e ceriser<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="492"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>F</supplied></reg></choice>ren <choice><orig>&amp;</orig><reg>e</reg></choice> genet<ex>e</ex> <choice><orig>&amp;</orig><reg>e</reg></choice> p<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>r</supplied></reg></choice>uner<choice><orig/><reg>,</reg></choice></l>
+            <l n="493"><gap reason="damage" extent="unknown"/> qe la <term xml:id="B39-cenele-001" key="AND:cenele">cenele</term> porte<choice><orig>·</orig><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-cenele-001" key="MED:20124" place="interlinear">haghes<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="494"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>Fo</supplied></reg></choice>urder qe la fourdine porte<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="495"><gap reason="damage" extent="unknown"/> creker qe les [cr]ekes porte<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="496">Eglenter qe les piperonges porte<choice><orig/><reg>,</reg></choice></l>
+            <l n="497"><gap reason="damage" extent="unknown"/>e les alies porte<choice><orig/><reg>,</reg></choice></l>
+            <l n="498"><gap reason="damage" extent="unknown"/> en <term xml:id="B39-auncestrie-001" key="AND:ancestrie">auncestrie</term> <gloss xml:lang="enm" target="#B39-auncestrie-001" place="interlinear">al</gloss><note type="editorial" resp="#TGH">The referent and sense of the gloss is unclear: is it glossing <foreign xml:lang="fro">auncestrie</foreign>, or <foreign xml:lang="fro">porte</foreign> or <foreign xml:lang="fro">alies</foreign> on the preceding line?</note></l>
+            <l n="499"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>Le n</supplied></reg></choice>oun receut p<ex>ar</ex> <choice><orig>vn</orig><reg>un</reg></choice> rei<choice><orig>·</orig><reg/></choice></l>
+         </lg>
+         <cb n="IXrb"/>
+         <lg>
+            <l n="500">Qui <choice><orig>aueit</orig><reg>aveit</reg></choice> alies en or<gap reason="damage" extent="unknown"/></l>
+            <l n="501">E sy <choice><orig>trouerez</orig><reg>troverez</reg></choice> en ceo <gap reason="damage" extent="unknown"/></l>
+            <l n="502">Esteaunt <choice><orig>vn</orig><reg>un</reg></choice> sek<ex>e</ex> coy<gap reason="damage" extent="unknown"/></l>
+            <l n="503"><note type="manuscript" resp="#TGH">A line across the column appears to suggest a missing line in the right margin, lost to page trimming, which would correspond to T 522: <quote>E pur ceo ke seyngnour fet coynner</quote>.</note>Son neif en ceppes p<ex>ur</ex><gap reason="damage" extent="unknown"/></l>
+            <l n="504">P<ex>er</ex>nez le coigne<choice><orig/><reg>,</reg></choice> abatez<gap reason="damage" extent="unknown"/></l>
+            <l n="505">E copez de coigne <choice><orig>vne</orig><reg>une</reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="506">Enveiez al coigner <gap reason="damage" extent="unknown"/></l>
+            <l n="507">Buz <choice><orig>&amp;</orig><reg>e</reg></choice> paume <choice><orig>&amp;</orig><reg>e</reg></choice> arable</l>
+            <l n="508">Ne suffrez pas en terr<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>e</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="509">Mes en v<ex>er</ex>ger crest la <gap reason="damage" extent="unknown"/></l>
+            <l n="510">Qe de nuit<note type="editorial" resp="#TGH">Most versions of the text have a negative here, which would render the line (referring to holly) as: <mentioned>which is of no value for a blanket at night</mentioned>. The lack of negation appears to create a non-sequiter in this version, unless <foreign xml:lang="fro" key="AND:nuit_2">de nuit</foreign> is understood as <mentioned>a source of harm</mentioned> (from <foreign xml:lang="fro" key="AND:nuisir">nuisir</foreign>) or read as <foreign xml:lang="fro" key="AND:nient">nint</foreign>, expressing the negation <mentioned>not</mentioned>.</note> vaut p<ex>ur</ex><gap reason="damage" extent="unknown"/></l>
+            <l n="511">La chare nue <choice><orig>de </orig><reg>de</reg></choice>sou<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>z</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="512">Vaudreit pl<ex>us</ex> giser e<choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>n</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="513"><note type="editorial" resp="#TGH">A nota line across the column may be indicating an omitted couplet (present in other manuscripts, eg. T 534-535): <quote>De suheus l'em fount suheus / Un manger ke est bon e beus.</quote> It is impossible to be certain due to the trimming of the right margin.</note>De sauce <choice><orig>&amp;</orig><reg>e</reg></choice> chene <choice><orig>&amp;</orig><reg>e</reg></choice> d<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>el</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="514">En langage en est <gap reason="damage" extent="unknown"/></l>
+            <l n="515"><note type="editorial" resp="#TGH">Most of the material in the remainder of the Trees section (not present in other surviving <title>Tretiz</title> MSS) is also found in the Anglo-French <title>Geste de Blancheflour et de Florence</title>, lines 52–72, which I have used to supply line endings where these can be ascertained with a high degree of probability.</note>Arbres sount des aut<choice><orig><gap reason="damage" unit="character" quantity="9"/></orig><reg><supplied>res partz</supplied></reg></choice></l>
+            <l n="516">P<ex>ar</ex> entour <choice><orig>trences</orig><reg>trencés</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> a<choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied>ssartz</supplied></reg></choice></l>
+            <l n="517">Ou la grape e<ex>st</ex> sour l<choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied>a vigne</supplied></reg></choice><choice><orig/><reg>:</reg></choice></l>
+            <l n="518">Beberie <choice><orig>&amp;</orig><reg>e</reg></choice> aubespine<choice><orig/><reg>,</reg></choice></l>
+            <l n="519">Ceder<choice><orig/><reg>,</reg></choice> <choice><orig>aloes</orig><reg>aloés</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>oliuer</orig><reg>oliver</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="520">Wideschene<note type="lexical" resp="#TGH">AND has this as <foreign xml:lang="fro" key="AND:vi">vi de chesne</foreign>, with the sense of <mentioned>mistletoe</mentioned>, attested from the <title>Geste de Blancheflour et de Florance</title>, line 59.</note> e popel<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>er,</supplied></reg></choice></l>
+            <l n="521">Mazer <choice><orig>&amp;</orig><reg>e</reg></choice> plane <choice><orig>&amp;</orig><reg>e</reg></choice> go<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>under,</supplied></reg></choice></l>
+            <l n="522">Cyl<note type="lexical" resp="#TGH">Possibly to be identified with AND entry <foreign xml:lang="fro" key="AND:siler">siler</foreign> (also listing variant form <foreign xml:lang="fro">silhe</foreign>: <quote>unidentified tree or shrub, possibly a kind of willow.</quote></note> pin <choice><orig>&amp;</orig><reg>e</reg></choice> neffler</l>
+            <l n="523">Bouz<choice><orig> le</orig><reg>le</reg></choice><choice><orig/><reg>,</reg></choice> fou <choice><orig>&amp;</orig><reg>e</reg></choice> now<ex>e</ex><gap reason="damage" extent="unknown"/></l>
+            <l n="524"><choice><orig>Cipres</orig><reg>Ciprés</reg></choice><choice><orig/><reg>,</reg></choice> oyser <choice><orig>&amp;</orig><reg>e</reg></choice> gl<gap reason="damage" extent="unknown"/></l>
+            <l n="525"><choice><orig>Sauin</orig><reg>Savin</reg></choice><choice><orig/><reg>,</reg></choice> boes <choice><orig>&amp;</orig><reg>e</reg></choice> morer<choice><orig/><reg>,</reg></choice></l>
+            <l n="526">Sui <choice><orig>&amp;</orig><reg>e</reg></choice> le chastner<choice><orig/><reg>,</reg></choice></l>
+            <l n="527">Trembler <choice><orig>&amp;</orig><reg>e</reg></choice> le lorer<choice><orig/><reg>,</reg></choice></l>
+            <l n="528">Cikamour<choice><orig/><reg>,</reg></choice> charmer <choice><orig>&amp;</orig><reg>e</reg></choice> <gap reason="damage" extent="unknown"/></l>
+         </lg>
+         <milestone unit="theme" type="woodlandBirdsAndBeasts"/>
+         <lg>
+            <l n="529">Del v<ex>er</ex>ger ver le boi<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>s</supplied></reg></choice></l>
+            <l n="530">Sanz demore <choice><orig>m</orig><reg>m'</reg></choice>en v<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>ois</supplied></reg></choice></l>
+            <l n="531">Ou li russenole<choice><orig/><reg>,</reg></choice> <foreign xml:lang="enm">þe ni<choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied>tingale</supplied></reg></choice></foreign><choice><orig/><reg>,</reg></choice></l>
+            <l n="532">Meuth chant<ex>e</ex> qe how<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>an</supplied></reg></choice><gap reason="damage" extent="unknown"/></l>
+            <l n="533">Ou meuth chant qe <gap reason="damage" extent="unknown"/></l>
+            <l n="534">Qe chausorice en m<choice><orig><gap reason="damage" unit="character" quantity="5"></gap></orig><reg><supplied>esoun.</supplied></reg></choice></l>
+            <l n="535">En b<ex>ra</ex>nche seet la m<ex>er</ex>e<gap reason="damage" extent="unknown"/></l>
+            <l n="536">En marreis demort<ex>e</ex> <gap reason="damage" extent="unknown"/></l>           
+         </lg>
+         <pb n="IXv" facs="ms_b39_ix_verso.jpg"/>
+         <cb n="IXva"/>
+         <lg>
+            <l n="537"><note type="editorial" resp="#TGH">A line has been cut off at the top of the page, corresponding to MS T 545: <quote>Regardez cy, Alysaundre,</quote> (the bottom part of the word <foreign xml:lang="fro">Alisaundre</foreign> is just visible at the very top of the remaining page).</note><gap reason="damage" extent="unknown"/><choice><orig>apele</orig><reg>apelé</reg></choice> alisaundre<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="538"><gap reason="damage" extent="unknown"/> la filaundre<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="539"><gap reason="damage" extent="unknown"/> chaunt la chalaundre<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="540"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"></gap></orig><reg><supplied>tro</supplied></reg></choice><choice><orig>uerez</orig><reg>verez</reg></choice> le salamaundre<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="541"><gap reason="damage" extent="unknown"/>pesson en ewe espaunde<choice><orig/><reg>.</reg></choice></l>
+            <l n="542"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>ta</supplied></reg></choice>pit <choice><orig>vne</orig><reg>une</reg></choice> ascie<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="543"><gap reason="damage" extent="unknown"/>voet qe issi le die<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="544"><gap reason="damage" extent="unknown"/> <choice><orig>vncore</orig><reg>uncore</reg></choice> venez</l>
+            <l n="545"><gap reason="damage" extent="unknown"/>verrez entendez<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="546"><gap reason="damage" extent="unknown"/> le <term xml:id="B39-verder-001" key="AND:vereder_1">verder</term><choice><orig>·</orig><reg>,</reg></choice> <gloss xml:lang="enm" target="#B39-verder-001" key="MED:38049" place="interlinear">ruddok<ex>e</ex></gloss></l>
+            <l n="547"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>cheva</supplied></reg></choice>u<del type="subpunction">u</del>che le vereder<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="548"><gap reason="damage" extent="unknown"/>volaunt <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="B39-restel-001" key="AND:reitel">restel</term><choice><orig>·</orig><reg/></choice> <gloss xml:lang="enm" target="#B39-restel-001" key="MED:53629" place="interlinear">wren</gloss></l>
+            <l n="549"><gap reason="damage" extent="unknown"/> vers cel tressel<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="550"><gap reason="damage" extent="unknown"/>voet le restel<choice><orig>·</orig><reg/></choice></l>
+            <l n="551"><gap reason="damage" extent="unknown"/> le tressel<choice><orig>·</orig><reg/></choice></l>
+            <l n="552"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>t</supplied></reg></choice>ret de viele<choice><orig>·</orig><reg/></choice></l>
+            <l n="553"><gap reason="damage" extent="unknown"/> de frestele<choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">A line across the column below this line leads to the marginal annotation <foreign xml:lang="enm">lever it is</foreign>, which presumably refers to the rhymed English translation found in certain manuscripts, including MS T: <quote>Levere is þe wrenne / about þe stouk renne / þen the fiþel dravt / hor þe floute craft</quote>. The abbreviated form found in this manuscript suggests that the scribe expected the text's reader to recognise the reference and supply the full version themselves.</note><choice><orig>·</orig><reg/></choice></l>
+            <l n="554"><gap reason="damage" extent="unknown"/>musenge<choice><orig>·</orig><reg/></choice></l>
+            <l n="555"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied>haie</supplied></reg></choice>s renge<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="556"><gap reason="damage" extent="unknown"/>renge<choice><orig>·</orig><reg/></choice></l>
+            <l n="557"><gap reason="damage" extent="unknown"/>musenge<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="558"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied>p</supplied></reg></choice><choice><orig>aleuole</orig><reg>alevole</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="559"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied>cha</supplied></reg></choice>rderole<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="560"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>plen</supplied></reg></choice><choice><orig>te</orig><reg>té</reg></choice> de papilouns<choice><orig>·</orig><reg/></choice></l>
+            <l n="561"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied>haunte</supplied></reg></choice>nt ausi les cardouns<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="562"><gap reason="damage" extent="unknown"/>pas le grissilloun<choice><orig>·</orig><reg/></choice></l>
+            <l n="563"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>cu</supplied></reg></choice>rtilage prent <choice><orig>soio</orig><reg>sojo</reg></choice><add place="above">r</add>un<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="564"><gap reason="damage" extent="unknown"/>n vaut le plus<choice><orig>·</orig><reg/></choice></l>
+            <l n="565"><gap reason="damage" extent="unknown"/><choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>l</supplied></reg></choice>e pomme qe chet <choice><orig>ius</orig><reg>jus</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="566"><gap reason="damage" extent="unknown"/><choice><orig>&amp;</orig><reg>e</reg></choice> lui <term xml:id="B39-plounzoun-001" key="AND:plungun">plou<ex>n</ex>zoun</term> <gloss xml:lang="enm" target="#B39-plounzoun-001" key="MED:12464" place="interlinear">doukerr<ex>e</ex></gloss></l>
+            <l n="567"><gap reason="damage" extent="unknown"/> p<ex>er</ex>nent <choice><orig>soiourn</orig><reg>sojourn</reg></choice><choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="568"><gap reason="damage" extent="unknown"/>lui pounzot<choice><orig>·</orig><reg/></choice></l>
+            <l n="569"><gap reason="damage" extent="unknown"/> fount lour riot<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="570"><gap reason="damage" extent="unknown"/> sount les veneles<choice><orig>·</orig><reg>.</reg></choice> <note type="editorial" resp="#TGH">The marginal annotation <foreign xml:lang="fro">mores</foreign> may mark a missing line. Compare T 582-583: <quote>En mores sount les vaneles / En viles sount les veneles</quote>.</note></l>
+            <l n="571"><gap reason="damage" extent="unknown"/>e<ex>st</ex> <choice><orig>troue</orig><reg>trové</reg></choice> fan<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="572"><gap reason="damage" extent="unknown"/><choice><orig>enuious</orig><reg>envious</reg></choice> hain<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="573"><gap reason="damage" extent="unknown"/><choice><orig>vne</orig><reg>une</reg></choice> owe rosee<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="574"><gap reason="damage" extent="unknown"/> <choice><orig>a</orig><reg>a </reg></choice>lui associee<choice><orig>·</orig><reg>.</reg></choice></l>
+         </lg>
+         <cb n="IXvb"/>
+         <lg>
+            <l n="575">Meuth s<ex>er</ex>rey de <choice><orig>vn</orig><reg>un</reg></choice> blaret pu<choice><orig>·</orig><reg/></choice></l>
+            <l n="576">Que ne serrei de chare de fr<choice><orig><gap reason="binding" unit="character" quantity="1"/></orig><reg><supplied>u.</supplied></reg></choice></l>
+            <l n="577">Plus e<ex>st</ex> ignel <choice><orig>vn</orig><reg>un</reg></choice> around<choice><orig>·</orig><reg/></choice></l>
+            <l n="578">Qe nul cigoyn en ceo mound<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="579"><note type="editorial" resp="#TGH">Another horizontal line across the column may indicate a couplet missing just before this line, corresponding to MS T 592-593: <quote xml:lang="fro">E severounder a la severounde / Prent les moussrons a la rounde</quote>. Are the letters <mentioned>E s</mentioned>, corresponding to the opening of the couplet, visible in the right margin alongside the ruled line?</note></l>
+            <l n="580">Wne oysel qe e<ex>st</ex> dit<ex>e</ex> bekace<choice><orig>·</orig><reg/></choice></l>
+            <l n="581">Prees de <choice><orig>riuere</orig><reg>rivere</reg></choice> e<ex>st</ex> pris en lace<choice><orig/><reg>.</reg></choice></l>
+            <l n="582">Il me semble qe le kukuel<choice><orig>·</orig><reg/></choice></l>
+            <l n="583">Tent son chaunt bon <choice><orig>&amp;</orig><reg>e</reg></choice> bele<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="584">A peine serreit si riotouse<choice><orig>·</orig><reg/></choice></l>
+            <l n="585">Si son chaunt fust g<ex>ra</ex>ciouse<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="586">Plus e<ex>st</ex> delit en <choice><orig>l</orig><reg>l'</reg></choice>oriol<choice><orig>·</orig><reg/></choice></l>
+            <l n="587">Escuter la note del orioli<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="588"><note type="editorial" resp="#TGH">As with the <title>Trees</title> section, the following lines have close parallels with the bird names listed in the Anglo-French <title>Geste de Blancheflour e de Florence</title>, in this case lines 76–90.</note>Aucie<choice><orig/><reg>,</reg></choice> prael <choice><orig>&amp;</orig><reg>e</reg></choice> mortun<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="589">Egle<choice><orig/><reg>,</reg></choice> <choice><orig>pincoun</orig><reg>pinçoun</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> poffun<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="590">Egre <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>merueiloun</orig><reg>merveiloun</reg></choice><choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="591">Esp<ex>er</ex><choice><orig>uer</orig><reg>ver</reg></choice><choice><orig/><reg>,</reg></choice> oustour <choice><orig>&amp;</orig><reg>e</reg></choice> faucoun<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="592">Pellican<choice><orig/><reg>,</reg></choice> <choice><orig>croule cue</orig><reg>croulecue</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> quaile<choice><orig/><reg>,</reg></choice></l>
+            <l n="593">Jai<choice><orig/><reg>,</reg></choice> botour <choice><orig>&amp;</orig><reg>e</reg></choice> raile<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="594">Plus <choice><orig>auaunt</orig><reg>avaunt</reg></choice> <choice><orig>vncore</orig><reg>uncore</reg></choice> vois<choice><orig>·</orig><reg/></choice></l>
+            <l n="595">P<ex>ur</ex> me dedure en ceo bois<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="596">Jeo vei ci <choice><orig>vn</orig><reg>un</reg></choice> tessoun<choice><orig>·</orig><reg/></choice></l>
+            <l n="597">Que ad guerpi sa mansioun</l>
+            <l n="598">Pur les fens <choice><orig>d</orig><reg>d'</reg></choice>une gopil<choice><orig>·</orig><reg/></choice></l>
+            <l n="599">Que <choice><orig>l</orig><reg>l'</reg></choice>ad mis en exil<choice><orig>·</orig><reg>.</reg></choice></l>
+            <l n="600">Jeo vei ci le putois<choice><orig/><reg>,</reg></choice></l>
+            <l n="601">Seit en vile seit en bois<choice><orig>·</orig><reg>,</reg></choice></l>
+            <l n="602">Force ne fet mes <choice><orig>k</orig><reg>k'</reg></choice>il eit<choice><orig>·</orig><reg/></choice></l>
+            <l n="603">Geline ou poucyn a son reheit.</l>
+            <l n="604">Jeo voudrei meuth ceste belet.</l>
+            <l n="605">De faere ma g<ex>ra</ex>nge de ratz net<ex>e</ex></l>
+            <l n="606">De touz les taupes qe sont t<ex>ro</ex><choice><orig><gap reason="binding" unit="character" quantity="2"/></orig><reg><supplied>vé</supplied></reg></choice></l>
+            <l n="607"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied>En</supplied></reg></choice> terre fowaunt p<ex>ar</ex>my les prez</l>
+            <l n="608"><choice><orig><gap reason="damage" unit="character" quantity="4"></gap></orig><reg><supplied>Meut</supplied></reg></choice>h voudrei chare de foun</l>
+            <l n="609"><choice><orig><gap reason="damage" unit="character" quantity="1"></gap></orig><reg><supplied>Q</supplied></reg></choice>e melodie de <term xml:id="B39-ane-001" key="AND:asne">ane</term> ou <term xml:id="B39-poun-001" key="AND:poun_1">poun</term><choice><orig/><reg>.</reg></choice> <gloss xml:lang="enm" target="#B39-ane-001" key="MED:2557" place="interlinear">asse<choice><orig>·</orig><reg/></choice></gloss> <gloss xml:lang="enm" target="#B39-poun-001" key="MED:33827" place="interlinear">pacok</gloss></l>
+            <l n="610">Mes de poun la bele cowe<choice><orig>·</orig><reg/></choice><note type="editorial" resp="#TGH">The text breaks off at this point.</note></l>
+         </lg>
+      </body>
+  </text>
+</TEI>

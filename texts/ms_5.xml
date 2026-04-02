@@ -1,0 +1,1360 @@
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tretiz_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ms_5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS <hi rend="italic">5</hi></title>
+            <author>ETFM</author>
+            <author>TGH</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="TGH">Thomas Hinton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ETFM">Edward Mills</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Publication Information--></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <collection>Sloane</collection>
+                  <idno>513</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1">
+                     <locus>f. 2r</locus>
+                     <author>unknown</author>
+                     <title>Monastic prayers for the dead</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>ff. 3r-10v</locus>
+                     <author>unknown</author>
+                     <title>Treatise on keeping accounts, partly in verse</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>ff. 11r-15r</locus>
+                     <author>unknown</author>
+                     <title>Treatise on geometry</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>ff. 15r-16r</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the astrolabe</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>ff. 16r-19v</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the astrolabe continued</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>ff. 19v-20r</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the planets</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="7">
+                     <locus>ff. 20r-21v</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the planets continued</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="8">
+                     <locus>ff. 22r-23v</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the movement of the planets</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="9">
+                     <locus>ff. 23v-24r</locus>
+                     <author>unknown</author>
+                     <title>Treatise on the arts of the planets</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="10">
+                     <locus>f. 24r</locus>
+                     <author>unknown</author>
+                     <title>Receipe to make ten pounds of wax out of two</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="11">
+                     <locus>ff. 24v-25r</locus>
+                     <author>unknown</author>
+                     <title>Treatise on weights</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="12">
+                     <locus>f. 25v</locus>
+                     <author>unknown</author>
+                     <title>Two treatises on measures</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="13">
+                     <locus>ff. 26r-27r</locus>
+                     <author>unknown</author>
+                     <title>A preface on arithmetic</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="14">
+                     <locus>ff. 27r-43r</locus>
+                     <author>Alexander de Villa Dei</author>
+                     <title>Carmen de algorismo, with a commentary by Saxton</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="15">
+                     <locus>ff. 43v-56v</locus>
+                     <author>Pseudo-Alcuin</author>
+                     <title>Treatise on mathematics</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="16"> 
+                     <locus>ff. 48r-51v</locus>
+                     <author>unknown</author>
+                     <title>Mathematical exercises</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="17">
+                     <locus>f. 57v</locus>
+                     <author>unknown</author>
+                     <title>Riddles in verse</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="18">
+                     <locus>ff. 58r-v</locus>
+                     <author>unknown</author>
+                     <title>Correspondences of Roman and Arabic numerals</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="19">
+                     <locus>ff. 59r-75r</locus>
+                     <author>John of Sacrobosco</author>
+                     <title>Treatise on the spheres</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="20">
+                     <locus>ff. 75v-77v</locus>
+                     <author>unknown</author>
+                     <title>Astrological treatise</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="21">
+                     <locus>ff. 77v-83r</locus>
+                     <author>Pseudo-Aristotle</author>
+                     <title>Physiognomia</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="22">
+                     <locus>f. 83r</locus>
+                     <author>unknown</author>
+                     <title>Extract from a treatise on physiognomy</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="23">
+                     <locus>ff. 84r-96r</locus>
+                     <author>Rodericus de Majoricis</author>
+                     <title>Treatise on chiromancy</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="24"> 
+                     <locus>ff. 96v-97v</locus>
+                     <author>unknown</author>
+                     <title>Medical predictions</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="25">
+                     <locus>f. 98v-99v</locus>
+                     <author>unknown</author>
+                     <title>Fortune telling by casting dice</title>
+                     <textLang mainLang="enm"/>
+                  </msItem>
+                  <msItem n="26">
+                     <locus>ff. 100r-108v</locus>
+                     <author>Richard of Florence</author>
+                     <title>Treatise on chiromancy</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="27">
+                     <locus>ff. 109r-134v</locus>
+                     <author>Richard of Florence</author>
+                     <title>Second part of the treatise on chiromancy</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="28">
+                     <locus>ff. 135r-136r</locus>
+                     <author>unknown</author>
+                     <title>French grammar</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="29">
+                     <locus>f. 136r</locus>
+                     <author>unknown</author>
+                     <title>English verse proverb about the cost of goods</title>
+                     <textLang mainLang="enm"/>
+                  </msItem>
+                  <msItem n="30">
+                     <locus>ff. 136v-137v</locus>
+                     <author>unknown</author>
+                     <title>Le Donait - conjugations of French verbs</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="31">
+                     <locus>ff. 138r-138v</locus>
+                     <author>unknown</author>
+                     <title>Conjugations of vouloir and pouvoir</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="32"> 
+                     <locus>f. 139r</locus>
+                     <author>unknown</author>
+                     <title>Orthographia Gallica - rules in Latin for teaching correct French</title>
+                     <textLang mainLang="fro"/>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="33">
+                     <locus>ff. 139v-153v</locus>
+                     <author>Walter de Bibbesworth</author>
+                     <title>Le Tretiz</title>
+                     <textLang mainLang="fro">French with English glosses</textLang>
+                     <filiation>???</filiation>
+                  </msItem>
+                  <msItem n="34">
+                     <locus>ff. 154r-v</locus>
+                     <author>Albertus Magnus</author>
+                     <title>Fundamentum alchemiae - treatise on alchemy</title>
+                     <textLang mainLang="unknown"/>
+                  </msItem>
+                  <msItem n="35">
+                     <locus>ff. 155r-168r</locus>
+                     <author>unknown</author>
+                     <title>Myrrour of Lygtes, parts two and three</title>
+                     <textLang mainLang="enm"/>
+                  </msItem>
+                  <msItem n="36">
+                     <locus>f. 168r</locus>
+                     <author>unknown</author>
+                     <title>Miscellaneous recipes</title>
+                     <textLang mainLang="enm"/>
+                  </msItem>
+                  <msItem n="37">
+                     <locus>ff. 168v-178r</locus>
+                     <author>Pseudo-Albertus Magnus</author>
+                     <title>Semita recta</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="38">
+                     <locus>ff. 178v-181r</locus>
+                     <author>Roger Bacon</author>
+                     <title>Speculum secretorum alchemiae</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="39">
+                     <locus>ff. 181v-188v</locus>
+                     <author>Roger Bacon</author>
+                     <title>Alchemical treatise and alchemical recipes</title>
+                     <textLang mainLang="lat"/>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="40">
+                     <locus>ff. 189r-191v</locus>
+                     <author>unknown</author>
+                     <title>Introduction to an alchemical treatise</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="41">
+                     <locus>ff. 192r-200r</locus>
+                     <author>unknown</author>
+                     <title>Ars notoria</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="42">
+                     <locus>ff. 200v-220v</locus>
+                     <author>unknown</author>
+                     <title>Statutes issued by the abbot of Buckfast</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="43">
+                     <locus>ff. 221r-v</locus>
+                     <author>unknown</author>
+                     <title>Fragments of monastic accounts</title>
+                     <textLang mainLang="unknown"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support><p>Parchment.</p></support>
+                        <extent>ff. 221 (+ 5 unfoliated paper flyleaves at the beginning and 6 at the end + a paper after f. 138) <dimensions scope="all" type="leaf" unit="mm">
+                              <height>165</height>
+                              <width>115</width>
+                           </dimensions></extent>
+                        <collation>
+                           <catchwords/>
+                        </collation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><p>England</p></origin>
+                  <provenance><p>Originally made in the fifteenth century for Richard Dove, monk of the Cistercian abbey of St Mary, Buckfastleigh</p>
+                              <p>Inscription with the name John Fox (f. 34v)</p>
+                              <p>Inscription with the name John Shaxton (f. 1, 221)</p>
+                              <p>Sir Hans Sloane (b.1660, d. 1753)</p>
+                              <p>Purchased as part of the Sloane collection and incorporated into the British Museum in 1753.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#TGH" status="0.81">Started proof reading. Deleted 'Final Prayer' milestone.</change>
+         <change when="2022-08-30" who="#TGH" status="0.8">Completed encoding.</change>
+         <change when="2022-03-05" who="#LB" status="0.3">Added further catalogue data and expanded/amended number and content of items, referencing chapter 5 (pp204-242) and appendix five (pp 280-292) of Laura Mitchell's thesis https://tspace.library.utoronto.ca/bitstream/1807/31869/1/Mitchell_Laura_T_201111_PhD_thesis.pdf.</change>
+         <change when="2022-03-04" who="#LB" status="0.2">Added BL catalogue data.</change>
+         <change when="2021-04-29" who="#ETFM" status="0.1">Encoding begun!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="139v" facs="ms_5_139v.jpg"/>
+         <milestone unit="theme" type="introduction" subtype="letter"/> 
+         <p n="1"><note type="manuscript" resp="#TGH">In the upper margin, a faded (later?) hand has written: <quote>Nota bene / Un femme</quote></note>Cher sire<choice><orig/><reg>,</reg></choice><note type="manuscript" resp="#TGH">An interesting alteration in the addressee, from <foreign xml:lang="fro" key="AND:soer_1">soer</foreign> as found in most MSS to <foreign xml:lang="fro" key="AND:sire_1">sire</foreign> here.</note> p<ex>ur</ex> ce que vous me priastes que <choice><orig>ieo</orig><reg>jeo</reg></choice> me<lb/>isse en escript p<ex>ur</ex> voz enfauntez ascune ap<ex>ri</ex>se en fra<lb/>unc<choice><orig>e</orig><reg>é</reg></choice>s en <choice><orig>breues</orig><reg>breves</reg></choice> p<ex>ar</ex>oles<choice><orig/><reg>,</reg></choice> <choice><orig>ie</orig><reg>je</reg></choice> <choice><orig>lay</orig><reg>l'ay</reg></choice> fet solom ceo q<ex>ue</ex> <choice><orig>iay</orig><reg>j'ay</reg></choice> <lb/>ap<ex>ri</ex>s <choice><orig>&amp;</orig><reg>et</reg></choice> solom ceo que les p<ex>ar</ex>olez me veignent a me<lb/>moire<choice><orig/><reg>,</reg></choice> que lez enfauntz puissent <choice><orig>sauoir</orig><reg>savoir</reg></choice> les p<ex>ro</ex>pre<lb/>tez des choses <choice><orig>qils</orig><reg>q'ils</reg></choice> veient <choice><orig>&amp;</orig><reg>et</reg></choice> q<ex>ua</ex>nt ils <choice><orig>deiuent</orig><reg>deivent</reg></choice> dire <lb/> <quote>mon</quote> <choice><orig>&amp;</orig><reg>et</reg></choice> <quote>ma</quote><choice><orig/><reg>,</reg></choice> <quote>sou<ex>n</ex></quote> <choice><orig>&amp;</orig><reg>et</reg></choice> <quote>sa</quote><choice><orig/><reg>,</reg></choice> <quote>la</quote><choice><orig/><reg>,</reg></choice> <quote>le</quote><choice><orig/><reg>,</reg></choice> moy <choice><orig>&amp;</orig><reg>et</reg></choice> <quote><choice><orig>ieo</orig><reg>jeo</reg></choice></quote><choice><orig/><reg>.</reg></choice></p>
+         <milestone unit="theme" type="infancyAndEarlyChildhood"/>
+         <lg n="1" part="I">
+            <l n="1">Femme que aproche sou<ex>n</ex> temps</l>
+            <l n="2"><choice><orig>Denfaunter</orig><reg>D'enfaunter</reg></choice> moustre sens</l>
+            <l n="3">Donc se <choice><orig>purueit</orig><reg>purveit</reg></choice> <choice><orig>dune</orig><reg>d'une</reg></choice> ventrere</l>
+            <l n="4">Que soit <choice><orig>auise</orig><reg>avisé</reg></choice> conseillere<choice><orig/><reg>.</reg></choice></l>
+            <l n="5">Q<ex>ua</ex>nt luy enfes s<ex>er</ex>ra neez</l>
+            <l n="6"><choice><orig>Couient</orig><reg>Covient</reg></choice> <choice><orig>quil</orig><reg>qu'il</reg></choice> soit maillolez<choice><orig/><reg>.</reg></choice></l>
+            <l n="7">En son berce <choice><orig>lenfau<ex>n</ex>t</orig><reg>l'enfau<ex>n</ex>t</reg></choice> chouchez</l>
+            <l n="8">Et <choice><sic>done</sic><corr>d'une</corr></choice> bercer vous p<ex>ur</ex><choice><orig>ueiez</orig><reg>veiez</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="9"><choice><orig>Lenfaunt</orig><reg>L'enfaunt</reg></choice> co<ex>m</ex>ence a chatoner</l>
+            <l n="10"><choice><orig>Auant</orig><reg>Avant</reg></choice> <choice><orig>quil</orig><reg>qu'il</reg></choice> sache as pees aler<choice><orig/><reg>.</reg></choice></l>
+            <l n="11"><choice><orig>Lenfaunt</orig><reg>L'enfaunt</reg></choice> <choice><orig>baue</orig><reg>bave</reg></choice> de nature<choice><orig/><reg>;</reg></choice></l>
+            <l n="12">Pur <choice><orig>sauuer</orig><reg>sauver</reg></choice> ses draps de <choice><orig>baueure</orig><reg>baveure</reg></choice></l>
+            <l n="13">Vous dirrez a sa bercere<choice><orig/><reg>:</reg></choice></l>
+            <l n="14"><said>Fetez <choice><orig>lenfaunt</orig><reg>l'enfaunt</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> <choice><orig>bauer</orig><reg>baver</reg></choice><choice><orig/><reg>.</reg></choice></said></l>
+            <l n="15">Si <choice><sic>test</sic><corr>tost</corr></choice> come <choice><orig>lenfaunt</orig><reg>l'enfaunt</reg></choice> scet aler</l>
+            <l n="16">De taie se voet enpalluer<choice><orig/><reg>;</reg></choice><note type="manuscript" resp="#ETFM"><foreign xml:lang="fro">enpalluer</foreign> appears to have been initially written as two words (<foreign xml:lang="fro">en</foreign> and <foreign xml:lang="fro">palluer</foreign>, which were then merged into one by extending the join on the <mentioned>n</mentioned>.</note></l>
+            <l n="17">P<ex>ur</ex> meint peril de blessure</l>
+            <l n="18">Garce ou garceou<ex>n</ex> le doit sure<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="140r" facs="ms_5_140r.jpg"/>
+         <lg n="1" part="F">
+            <l n="19"><choice><orig>Quel</orig><reg>Qu'el</reg></choice> ne ceste <choice><orig>nene</orig><reg>ne ne</reg></choice> chiet<choice><orig/><reg>;</reg></choice></l>
+            <l n="20">En la bowe ne meschiet<choice><orig/><reg>.</reg></choice></l>
+            <l n="21">Qua<ex>n</ex>t <choice><orig>lenfaunt</orig><reg>l'enfaunt</reg></choice> ad tiel age</l>
+            <l n="22"><choice><orig>Quil</orig><reg>Qu'il</reg></choice> siet entendre langage<choice><orig/><reg>,</reg></choice></l>
+            <l n="23">Primez en f<ex>ra</ex>nceis luy <choice><orig>deuez</orig><reg>devez</reg></choice> dire</l>
+            <l n="24">Coment son corps deit descrire<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="partsOfTheBody"/>
+         <lg n="2" part="I">
+            <l n="25">Ma test ou mon chief<choice><orig/><reg>;</reg></choice></l>
+            <l n="26">La <choice><orig>greeue</orig><reg>greeve</reg></choice> de mon chief<choice><orig/><reg>.</reg></choice></l>
+            <l n="27">Fetez la <choice><orig>greeue</orig><reg>greeve</reg></choice> a <choice><orig>lauer</orig><reg>laver</reg></choice></l>
+            <l n="28">E mangez la <choice><orig>gryue</orig><reg>gryve</reg></choice> a dyner<choice><orig/><reg>.</reg></choice></l>
+            <l n="29">Je ay les <choice><orig>cheueux</orig><reg>cheveux</reg></choice> <choice><orig>recercilles</orig><reg>recercillés</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="30">Moun toup<choice><orig/><reg>,</reg></choice> vous pry<choice><orig/><reg>,</reg></choice> estaucez<choice><orig/><reg>.</reg></choice></l>
+            <l n="31">En v<ex>ost</ex>re chief vous <choice><orig>auez</orig><reg>avez</reg></choice> toup<choice><orig/><reg>,</reg></choice></l>
+            <l n="32">En rue juez au toup<choice><orig/><reg>,</reg></choice></l>
+            <l n="33">A la lute disreignez le toup<choice><orig/><reg>,</reg></choice></l>
+            <l n="34">Et serencez du lyn le toup<choice><orig/><reg>.</reg></choice></l>
+            <l n="35">Vous <choice><orig>deuez</orig><reg>devez</reg></choice> dire <mentioned>mon hanapel</mentioned><choice><orig/><reg>,</reg></choice></l>
+            <l n="36"><mentioned>Moy front</mentioned> <choice><orig>&amp;</orig><reg>et</reg></choice> <mentioned>ma <choice><orig>ceruele</orig><reg>cervele</reg></choice></mentioned><choice><orig/><reg>,</reg></choice></l>
+            <l n="37"><mentioned>Le haterel</mentioned> <choice><orig>&amp;</orig><reg>et</reg></choice> <mentioned><choice><orig>le</orig><reg>lé</reg></choice> temples</mentioned><choice><orig/><reg>.</reg></choice></l>
+            <l n="38">Vous regarez sou<ex>n</ex>t graciouse <note type="editorial" resp="#TGH">The form <foreign xml:lang="fro">regarez</foreign> for <foreign xml:lang="fro" key="regard_1">regar[d]z</foreign> is dubious.</note></l>
+            <l n="39"><note>The scribe has merged two lines, breaking the couplet rhymes in the process. Compare G 44-46: <quote>Mes vostre eel est chaciouse. / Des eus oustés la chacie / E de nes le rupie.</quote></note>Mes vous oilx <choice><orig>ostes</orig><reg>ostés</reg></choice> le <choice><orig>iacie</orig><reg>jacie</reg></choice></l>
+            <l n="40">Et du nees la rubie<choice><orig/><reg>.</reg></choice></l>
+            <l n="41">Meieuz vaut la rubie</l>
+            <l n="42">Que ne feit la rupie<choice><orig/><reg>:</reg></choice></l>
+            <l n="43">Si vous burse out tant dez rubiez</l>
+         </lg>
+         <pb n="140v" facs="ms_5_140v.jpg"/>
+         <lg n="2" part="M">
+            <l n="44">Come nees ad des rupiez<choice><orig/><reg>,</reg></choice></l>
+            <l n="45">Riche s<ex>er</ex>roit de perrie</l>
+            <l n="46">Si tant out de rubie<choice><orig/><reg>.</reg></choice></l>
+            <l n="47">Des oil est <choice><orig>sauue</orig><reg>sauve</reg></choice> le purnel</l>
+            <l n="48">Si le paupebre soit beal<choice><orig/><reg>.</reg></choice></l>
+            <l n="49">En les paupebres sont silz<choice><orig/><reg>;</reg></choice></l>
+            <l n="50">Amont les eus sou<ex>n</ex>t lez surcis<choice><orig/><reg>.</reg></choice></l>
+            <l n="51">Le nese doit <choice><orig>auer</orig><reg>aver</reg></choice> per reson</l>
+            <l n="52">Deux narys <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> tendron<choice><orig/><reg>.</reg></choice></l>
+            <l n="53">Mes <choice><orig>gardes</orig><reg>gardés</reg></choice> q<ex>ue</ex> le chou*e</l>
+            <l n="54">Ne touche v<ex>ost</ex>re <choice><orig>ioue</orig><reg>jou*e</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="55">Vous auez la <choice><orig>leuer</orig><reg>lever</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>leuer</orig><reg>lever</reg></choice></l>
+            <l n="56">Et la <choice><orig>liure</orig><reg>livre</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>liurer</orig><reg>livrer</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="57">La <choice><orig>liuere</orig><reg>livere</reg></choice> sert a marchandie<choice><orig/><reg>,</reg></choice></l>
+            <l n="58">Le <choice><orig>liure</orig><reg>livre</reg></choice> aprent enfau<ex>n</ex>tez clergie<choice><orig/><reg>;</reg></choice></l>
+            <l n="59">Le <choice><orig>le ure</orig><reg>levre</reg></choice> <choice><orig>cert</orig><reg>c'ert</reg></choice> q<ex>ue</ex> chlost les dentz<choice><orig/><reg>,</reg></choice></l>
+            <l n="60">La <choice><orig>leuere</orig><reg>levere</reg></choice> au bois se tient dedeins<choice><orig/><reg>.</reg></choice></l>
+            <l n="61">Qua<ex>n</ex>t p<ex>ar</ex>ler <choice><orig>deuez</orig><reg>devez</reg></choice> senglerement</l>
+            <l n="62">Si <choice><orig>deuez</orig><reg>devez</reg></choice> dire <mentioned>ma <choice><orig>vn</orig><reg>un</reg></choice> dent</mentioned><choice><orig/><reg>.</reg></choice></l>
+            <l n="63">Amou<ex>n</ex>t en le bouche est le palet</l>
+            <l n="64">De taster chose orde <choice><orig>&amp;</orig><reg>et</reg></choice> nette<choice><orig/><reg>.</reg></choice></l>
+            <l n="65">Et les dames sont <choice><orig>ententiues</orig><reg>ententives</reg></choice></l>
+            <l n="66">P<ex>ur</ex> ben <choice><orig>lau</orig><reg>lav</reg></choice><ex>er</ex> lour <choice><orig>gingiues</orig><reg>gingives</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="67">Le col<choice><orig/><reg>,</reg></choice> la gorge <choice><orig>&amp;</orig><reg>et</reg></choice> le menton<choice><orig/><reg>,</reg></choice></l>
+            <l n="68">Dont le fraunceis est com<ex>m</ex>un<choice><orig/><reg>.</reg></choice></l>
+            <l n="69">Desouz le gorge e<ex>rt</ex> le furcele<choice><orig/><reg>,</reg></choice></l>
+            <l n="70"><mentioned><choice><orig>Vn</orig><reg>Un</reg></choice> os <choice><orig>fourche</orig><reg>fourché</reg></choice></mentioned> <choice><orig>frauncois</orig><reg>fraunçois</reg></choice> <choice><orig>lappele</orig><reg>l'appele</reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="141r" facs="ms_5_141r.jpg"/>
+         <lg n="2" part="M">
+            <l n="71">Desouz cel os gist la gargate</l>
+            <l n="72">Et plus p<ex>ar</ex>fontide gist la rate<choice><orig/><reg>.</reg></choice></l>
+            <l n="73">Derere est le wenne au col</l>
+            <l n="74">Et du sage <choice><orig>&amp;</orig><reg>et</reg></choice> du fol<choice><orig/><reg>.</reg></choice></l>
+            <l n="75">Nest pas meister a descrire</l>
+            <l n="76">Chose que chescun siet dire<choice><orig/><reg>:</reg></choice></l>
+            <l n="77">Ventre<choice><orig/><reg>,</reg></choice> dos <choice><orig>&amp;</orig><reg>et</reg></choice> eschine<choice><orig/><reg>,</reg></choice></l>
+            <l n="78">Espaules<choice><orig/><reg>,</reg></choice> bracez <choice><orig>&amp;</orig><reg>et</reg></choice> peitrine<choice><orig/><reg>.</reg></choice></l>
+            <l n="79">Meis <choice><orig>ie</orig><reg>je</reg></choice> vo<ex>us</ex> frei la mustreson</l>
+            <l n="80">De chose q<ex>ue</ex> nest pas com<ex>m</ex>un<choice><orig/><reg>.</reg></choice></l>
+            <l n="81">Le chief ad le funtaigne<choice><orig/><reg>,</reg></choice></l>
+            <l n="82">Le laue* <choice><orig>lieuer</orig><reg>liever</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> le sussane<choice><orig/><reg>.</reg></choice></l>
+            <l n="83">En la bouch<ex>e</ex> sont les messelers</l>
+            <l n="84">Et dentez foreins si tu lez queres<choice><orig/><reg>.</reg></choice></l>
+            <l n="85">Au col <choice><orig>auez</orig><reg>avez</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> fosselet<choice><orig/><reg>,</reg></choice></l>
+            <l n="86"><choice><orig>De souz</orig><reg>Desouz</reg></choice> la lang<ex>e</ex> <choice><orig>vn</orig><reg>un</reg></choice> filet<choice><orig/><reg>.</reg></choice></l>
+            <l n="87">P<ex>ur</ex> certein estre de p<ex>ar</ex>ole</l>
+            <l n="88">Conoistrer <choice><orig>deuez</orig><reg>devez</reg></choice> carkanole<choice><orig/><reg>:</reg></choice></l>
+            <l n="89">Carkanol fait le <choice><orig>ceruel</orig><reg>cervel</reg></choice> nette<choice><orig/><reg>.</reg></choice></l>
+            <l n="90">Chescun orail ad molet<choice><orig/><reg>.</reg></choice></l>
+            <l n="91"><choice><orig>De souz</orig><reg>Desouz</reg></choice> le orail est le gerneom<choice><orig/><reg>.</reg></choice></l>
+            <l n="92">Al espaule <choice><orig>auez</orig><reg>avez</reg></choice> blasou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="93"><choice><orig>De souz</orig><reg>Desouz</reg></choice> le braz est la ascel<choice><orig/><reg>,</reg></choice></l>
+            <l n="94"><choice><orig>De souz</orig><reg>Desouz</reg></choice> la charette auxi le essel<choice><orig/><reg>.</reg></choice></l>
+            <l n="95">Sour le <choice><orig>mont a<add place="above" type="correction">i</add>gne</orig><reg>montaigne</reg></choice> soud le broil<choice><orig/><reg>.</reg></choice></l>
+            <l n="96">En bas t<ex>e</ex>rre ad bou<ex>n</ex> soil<choice><orig/><reg>.</reg></choice></l>
+            <l n="97">Entre pledours sourd le toil<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="141v" facs="ms_5_141v.jpg"/>
+         <lg n="2" part="M">
+            <l n="98">Le vent de bis <choice><orig>greue</orig><reg>greve</reg></choice> le oil<choice><orig/><reg>.</reg></choice></l>
+            <l n="99"><choice><orig>Apres</orig><reg>Aprés</reg></choice> aust <choice><sic>chief</sic><corr>chiet</corr></choice> le foil<choice><orig/><reg>.</reg></choice></l>
+            <l n="100"><choice><orig>Apres</orig><reg>Aprés</reg></choice> gel vient remoil<choice><orig/><reg>.</reg></choice></l>
+            <l n="101">Cestez p<ex>ar</ex>olez ensi vo<ex>us</ex> coil</l>
+            <l n="102">E <choice><orig>l</orig><reg>l'</reg></choice>enchesou<ex>n</ex> dire vo<ex>us</ex> voil<choice><orig/><reg>:</reg></choice></l>
+            <l n="103">P<ex>ur</ex> mieuz <choice><orig>a corder</orig><reg>acorder</reg></choice> en p<ex>ar</ex>lance</l>
+            <l n="104">Et descord<ex>er</ex> en variaunce<choice><orig/><reg>.</reg></choice></l>
+            <l n="105">Des espaules issint les braz<choice><orig/><reg>.</reg></choice></l>
+            <l n="106">Cou*tes et mains ne lerrom pas<choice><orig/><reg>,</reg></choice></l>
+            <l n="107">Meis entre le bras <choice><orig>&amp;</orig><reg>et</reg></choice> la mayn</l>
+            <l n="108">Est <choice><orig>troue</orig><reg>trové</reg></choice> le cou*e de la mayn<choice><orig/><reg>,</reg></choice></l>
+            <l n="109">La paume dedenz<choice><orig/><reg>,</reg></choice> le claie dehors<choice><orig/><reg>.</reg></choice></l>
+            <l n="110">Le poigne est qua<ex>n</ex>t le main e<ex>rt</ex> clos<choice><orig/><reg>;</reg></choice></l>
+            <l n="111">Et <choice><orig>vn</orig><reg>un</reg></choice> poignee qua<ex>n</ex>t <choice><orig>auez</orig><reg>avez</reg></choice> en main</l>
+            <l n="112"><choice><orig>N</orig><reg>N'</reg></choice>est autr<ex>e</ex> q<ex>ue</ex> la main plain<choice><orig/><reg>.</reg></choice></l>
+            <l n="113">Et ambedeux les mains plains</l>
+            <l n="114">En f<ex>ra</ex>nceis appelle home <mentioned>galains</mentioned><choice><orig/><reg>.</reg></choice></l>
+            <l n="115">Mieuz vadroit <choice><orig>vn</orig><reg>un</reg></choice> poignee</l>
+            <l n="116">De <choice><orig>gingeu</orig><reg>gingev</reg></choice><ex>re</ex> b<ex>ie</ex>n <choice><orig>trie</orig><reg>trié</reg></choice></l>
+            <l n="117">Que ne feit cent galaines</l>
+            <l n="118">De fillaundre t<ex>re</ex>stot plaines<choice><orig/><reg>.</reg></choice></l>
+            <l n="119"><choice><orig>Vn</orig><reg>Un</reg></choice> cost de <choice><orig>vn</orig><reg>un</reg></choice> costee</l>
+            <l n="120">La p<ex>ri</ex>mere fe<ex>m</ex>me ad <choice><orig>ouste</orig><reg>ousté</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="121">Et fe<ex>m</ex>me ventresce p<ex>ar</ex> bon vent</l>
+            <l n="122">Enmette b<ex>ie</ex>n le furment<choice><orig/><reg>.</reg></choice></l>
+            <l n="123"><choice><orig>En my</orig><reg>Enmy</reg></choice> le ventr<ex>e</ex> est le <choice><orig>vmble</orig><reg>umble</reg></choice></l>
+            <l n="124"><choice><orig>E</orig><reg>E </reg></choice>par desouz est le penil<choice><orig/><reg>.</reg></choice></l>
+            <l n="125">Nages<choice><orig/><reg>,</reg></choice> quises <choice><orig>&amp;</orig><reg>et</reg></choice> forchur</l>
+         </lg>   
+         <pb n="142r" facs="ms_5_142r.jpg"/>
+         <lg n="2" part="M">
+            <l n="126">Vaillent molt p<ex>ur</ex> <choice><orig>chiuiauchur</orig><reg>chiviauchur</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="127">Jaumbes<choice><orig/><reg>,</reg></choice> genoils saunz garrez</l>
+            <l n="128">De genuiler sont trop <choice><orig>reddes</orig><reg>reddés</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="129">As garrez sou<ex>n</ex>t ditz <mentioned>garrecters</mentioned><choice><orig/><reg>;</reg></choice></l>
+            <l n="130">De ore <choice><orig>vssent</orig><reg>ussent</reg></choice> esquiers<choice><orig/><reg>,</reg></choice></l>
+            <l n="131">Ne my p<ex>ur</ex> estre charecters</l>
+            <l n="132">Meis p<ex>ur</ex> <choice><orig>sauuer</orig><reg>sauver</reg></choice> lur laigners<choice><orig/><reg>.</reg></choice></l>
+            <l n="133">En la <choice><orig>iaumbe</orig><reg>jaumbe</reg></choice> est la sure</l>
+            <l n="134">Tau<ex>n</ex>t come braun e<ex>rt</ex> desure<choice><orig/><reg>.</reg></choice></l>
+            <l n="135">Q<ex>ua</ex>nt le chanel <choice><orig>nad</orig><reg>n'ad</reg></choice> blessur<ex>e</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="136">De meillour force heme se assure<choice><orig/><reg>.</reg></choice></l>
+            <l n="137">Le <choice><orig>keuil</orig><reg>kevil</reg></choice> de <choice><orig>pe</orig><reg>pé</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>kiuil</orig><reg>kivil</reg></choice> de fust</l>
+            <l n="138">Vodrei <choice><orig>ie</orig><reg>je</reg></choice> b<ex>ie</ex>n q<ex>ue</ex> chescun conceust<choice><orig/><reg>.</reg></choice></l>
+            <l n="139">La plant<choice><orig/><reg>,</reg></choice> <choice><orig>vrtil</orig><reg>urtil</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> le talon<choice><orig/><reg>,</reg></choice></l>
+            <l n="140">Estomas<choice><orig/><reg>,</reg></choice> veines <choice><orig>&amp;</orig><reg>et</reg></choice> nerf <choice><orig>enu</orig><reg>env</reg></choice>irou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="141"><choice><orig>De deinz</orig><reg>Dedeinz</reg></choice> le corps de chescun ho<ex>m</ex>me</l>
+            <l n="142">Est foye<choice><orig/><reg>,</reg></choice> cuer <choice><orig>&amp;</orig><reg>et</reg></choice> pomoun<choice><orig/><reg>;</reg></choice></l>
+            <l n="143">Esplen<choice><orig/><reg>,</reg></choice> boweles <choice><orig>&amp;</orig><reg>et</reg></choice> renoun</l>
+            <l n="144">Est langage essez com<ex>m</ex>un<choice><orig/><reg>.</reg></choice></l>
+            <l n="145">Et ne obliez le vescie</l>
+            <l n="146">Car a ventre feit g<ex>ra</ex>nt aie</l>
+            <l n="147">P<ex>ur</ex> ce q<ex>ue</ex> <choice><orig>vrine</orig><reg>urine</reg></choice> la quillom<choice><orig/><reg>,</reg></choice></l>
+            <l n="148">Ne les reines <choice><orig>ia</orig><reg>ja</reg></choice> ne obliom<choice><orig/><reg>.</reg></choice></l>
+            <l n="149">Ore ne faut si le fel noun</l>
+            <l n="150">De q<ex>ua</ex>ntqe <choice><orig>de deinz</orig><reg>dedeinz</reg></choice> le corps <choice><orig>auom</orig><reg>avom</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="151">Puis q<ex>ue</ex> chere no<ex>us</ex> est la char</l>
+            <l n="152">Gardez la <choice><orig>deuoms</orig><reg>devoms</reg></choice> de eschar<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="153">Je vi la char seir en la chare</l>
+            <l n="154">Et de la char fair<ex>e</ex> eschar<ex>e</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="155">Eschar<ex>e</ex> par folour ho<ex>m</ex>me <choice><orig>reuilist</orig><reg>revilist</reg></choice><choice><orig/><reg>;</reg></choice></l>
+         </lg>
+         <pb n="142v" facs="ms_5_142v.jpg"/>
+         <lg n="2" part="F">
+            <l n="156">Chare de home p<ex>ur</ex> hidour fremist<choice><orig/><reg>.</reg></choice></l>
+            <l n="157">Les osses p<ex>ar</ex> age ensichesent<choice><orig/><reg>.</reg></choice></l>
+            <l n="158">Les nerfs <choice><sic>deuour</sic><corr>de bevour</corr></choice><note type="editorial" resp="#TGH">The MS reading <quote>deuour</quote> is a non-sense; I have corrected following other MSS, which are consistent on this line.</note> engurdissent<choice><orig/><reg>.</reg></choice></l>
+            <l n="159">Ho<ex>m</ex>me <choice><orig>&amp;</orig><reg>et</reg></choice> fe<ex>m</ex>me <choice><sic>sou<ex>n</ex>t</sic><corr>ount</corr></choice> la pel<choice><orig/><reg>.</reg></choice></l>
+            <l n="160">De mort best <mentioned>quir</mentioned> <choice><orig>ie</orig><reg>je</reg></choice> appelle<choice><orig/><reg>.</reg></choice></l>
+            <l n="161">Le clerc soune le drein apel<choice><orig/><reg>.</reg></choice></l>
+            <l n="162">Le p<ex>re</ex>st<ex>re</ex> feit a <choice><orig>r</orig><reg>R</reg></choice>ome appel<choice><orig/><reg>.</reg></choice></l>
+            <l n="163">Ore <choice><orig>auez</orig><reg>avez</reg></choice> ce q<ex>ue</ex> apent a corps</l>
+            <l n="164">P<ex>ar</ex>tie <choice><orig>de deinz</orig><reg>dedeinz</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> ausi de hors<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="clothing"/>
+         <p n="2">Ore fraunceis de v<ex>ost</ex>re vesture</p>
+         <lg n="3">
+            <l n="165">Vestez vo<ex>us</ex> drapez<choice><orig/><reg>,</reg></choice> my chiers enfauntez<choice><orig/><reg>.</reg></choice></l>
+            <l n="166">Chaucez voz brayez<choice><orig/><reg>,</reg></choice> <del type="rubbed">s</del>olers <choice><orig>&amp;</orig><reg>et</reg></choice> gauntz<choice><orig/><reg>.</reg></choice></l>
+            <l n="167"><choice><orig>Taches</orig><reg>Tachés</reg></choice> voz botons <choice><orig>&amp;</orig><reg>et</reg></choice> puis derichef</l>
+            <l n="168">Mettez le chaperon<choice><orig/><reg>,</reg></choice> <choice><orig>couerez</orig><reg>coverez</reg></choice> le chief<choice><orig/><reg>.</reg></choice></l>
+            <l n="169">De <choice><orig>vn</orig><reg>un</reg></choice> correie vo<ex>us</ex> ceintez<choice><orig/><reg>.</reg></choice></l>
+            <l n="170">Ne di pas <mentioned>vo<ex>us</ex> enceintez</mentioned><choice><orig/><reg>:</reg></choice></l>
+            <l n="171">Fe<ex>m</ex>me p<ex>ar</ex> home est enceinte</l>
+            <l n="172">Et de <choice><orig>vn</orig><reg>un</reg></choice> ceint<ex>ur</ex>e el est ceinte<choice><orig/><reg>.</reg></choice></l>
+            <l n="173">De la ceint<ex>ur</ex>e le pendant</l>
+            <l n="174">Pas p<ex>ar</ex> my le mordant<choice><orig/><reg>,</reg></choice></l>
+            <l n="175">Ensi <choice><sic>passi</sic><corr>passe</corr></choice> le hardilloun</l>
+            <l n="176"><choice><orig>Par my</orig><reg>Parmy</reg></choice> le trwe del subilloun<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="food"/>
+         <lg n="4" part="I">
+            <l n="177">Si <choice><orig>ieune</orig><reg>jeune</reg></choice> enfaunt estent sa main</l>
+            <l n="178">Au matin vers le pain<choice><orig/><reg>,</reg></choice></l>
+            <l n="179"><choice><orig>Vn</orig><reg>Un</reg></choice> brib de blaunc pain lui donez</l>
+            <l n="180">Ou <choice><orig>vne</orig><reg>une</reg></choice> lesce si plus ne <choice><orig>auez</orig><reg>avez</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="181">A dyner lui donez des oefs<choice><orig/><reg>,</reg></choice></l>
+            <l n="182">Moles ou dures a sou<ex>n</ex> oeps<choice><orig/><reg>.</reg></choice></l>
+            <l n="183">Oustez le scale <choice><orig>auant</orig><reg>avant</reg></choice> <choice><orig>quil</orig><reg>qu'il</reg></choice> hume<choice><orig/><reg>,</reg></choice></l>
+            <l n="184"><choice><orig>L</orig><reg>L'</reg></choice>entrut auxi <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>l</orig><reg>l'</reg></choice>aubume<choice><orig/><reg>.</reg></choice></l>
+            <l n="185">Si dures soient lui donez le moel<choice><orig/><reg>,</reg></choice></l>
+            <l n="186">A home sein <choice><orig>vn</orig><reg>un</reg></choice> bou<ex>n</ex> morsel<choice><orig/><reg>;</reg></choice></l>
+         </lg>
+         <pb n="143r" facs="ms_5_143r.jpg"/>
+         <lg n="4" part="F">
+            <l n="187">Mes hors gettez le germinoun<choice><orig/><reg>,</reg></choice></l>
+            <l n="188">Mal <choice><orig>ade fiere</orig><reg>a defiere</reg></choice> a chescun home<choice><orig/><reg>.</reg></choice></l>
+            <l n="189">De dreit enfauntz cleymou<ex>n</ex>t</l>
+            <l n="190">Mang<ex>er</ex> pomes <choice><orig>quil</orig><reg>qu'il</reg></choice> aiment<choice><orig/><reg>.</reg></choice></l>
+            <l n="191">Ouistez <choice><orig>l</orig><reg>l'</reg></choice>estiche <choice><orig>&amp;</orig><reg>et</reg></choice> la parur<ex>e</ex></l>
+            <l n="192">Et lui donesz le morsure<choice><orig/><reg>.</reg></choice></l>
+            <l n="193">La pepiner engett<ex>er</ex> <choice><orig>deuez</orig><reg>devez</reg></choice></l>
+            <l n="194">Si lez pepines ne plant<ex>er</ex> volez<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="collectiveNames"/>
+         <p n="3">Ore de assemble de bestes <choice><orig>&amp;</orig><reg>et</reg></choice> oiseux</p>
+         <lg n="5" part="I">
+            <l n="195">Beaux duz fiz<choice><orig/><reg>,</reg></choice> p<ex>ur</ex> b<ex>ie</ex>n apprender<ex>e</ex></l>
+            <l n="196">Fraunceis<choice><orig/><reg>,</reg></choice> si <choice><orig>deues</orig><reg>devés</reg></choice> entendre</l>
+            <l n="197">Coment chescu<ex>n</ex> maner assembl<choice><orig>e</orig><reg>é</reg></choice></l>
+            <l n="198">De bestes s<ex>er</ex>ra nom<choice><orig>e</orig><reg>é</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="199">Et de oiseux ensement</l>
+            <l n="200">Coment dirrez p<ex>ro</ex>prement<choice><orig/><reg>.</reg></choice></l>
+            <l n="201">Conceil de apostoil<choice><orig/><reg>,</reg></choice> p<ex>ar</ex>leme<ex>n</ex>t de rois<choice><orig/><reg>,</reg></choice></l>
+            <l n="202">Assembl<choice><orig>e</orig><reg>é</reg></choice> des ch<ex>evalie</ex>rs<choice><orig/><reg>,</reg></choice> co<ex>m</ex>paigne des dames<choice><orig/><reg>,</reg></choice></l>
+            <l n="203">Et la ou cerfs sou<ex>n</ex>t <choice><orig>assembles</orig><reg>assemblés</reg></choice></l>
+            <l n="204"><choice><orig>Vn</orig><reg>Un</reg></choice> herd est appellez<choice><orig/><reg>.</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="205">Et des griuz sanz <mentioned>h</mentioned> erd<choice><orig/><reg>;</reg></choice></l>
+            <l n="206"><choice><orig>Nie</orig><reg>Nié</reg></choice> de fesaunz<choice><orig/><reg>,</reg></choice> <choice><orig>couee</orig><reg>covee</reg></choice> des p<ex>er</ex>dris<choice><orig/><reg>,</reg></choice></l>
+            <l n="207">Damoie dez alou*es<choice><orig/><reg>,</reg></choice> t<ex>ro</ex>p de berbis<choice><orig/><reg>;</reg></choice></l>
+            <l n="208">Sou*dre des porcs<choice><orig/><reg>,</reg></choice> soundre <choice><orig>d</orig><reg>d'</reg></choice>est<ex>ur</ex>neus<choice><orig/><reg>,</reg></choice></l>
+            <l n="209">Et <choice><orig>pipe</orig><reg>pipé</reg></choice> <choice><orig>dirres</orig><reg>dirrés</reg></choice> des meimes oiseux<choice><orig/><reg>.</reg></choice></l>
+            <l n="210"><choice><orig>Bev*e</orig><reg>Bevé</reg></choice> des <choice><orig>cheuerols</orig><reg>cheverols</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> des heirouns<choice><orig/><reg>,</reg></choice></l>
+            <l n="211">Harras des pollains<choice><orig/><reg>,</reg></choice> ces sou<ex>n</ex>t lur nouns<choice><orig/><reg>;</reg></choice></l>
+            <l n="212">Rout des boefs<choice><orig/><reg>,</reg></choice> moet de cheins<choice><orig/><reg>,</reg></choice></l>
+            <l n="213">Masse <choice><orig>d</orig><reg>d'</reg></choice>argent<choice><orig/><reg>,</reg></choice> femer des feins<choice><orig/><reg>,</reg></choice></l>
+            <l n="214">Comble de <choice><orig>ble</orig><reg>blé</reg></choice><choice><orig/><reg>,</reg></choice> somne des biens<choice><orig/><reg>;</reg></choice></l>
+            <l n="215"><mentioned>Grau<ex>n</ex>t foul</mentioned> dit home de villeins</l>
+            <l n="216">Et orde frape des puteins<choice><orig/><reg>.</reg></choice></l>
+            <l n="217">Greil des gelins<choice><orig/><reg>,</reg></choice> tourbe de cerceles<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="143v" facs="ms_5_143v.jpg"/>
+         <lg n="5" part="F">
+            <l n="218">Eschel de bataille<choice><orig/><reg>,</reg></choice> lure de puceles<choice><orig/><reg>,</reg></choice></l>
+            <l n="219">Car pucel siet saunz juper</l>
+            <l n="220">Les gentils faucons alurer<choice><orig/><reg>.</reg></choice></l>
+            <l n="221">Des dames <choice><orig>dirres</orig><reg>dirrés</reg></choice> <mentioned>la co<ex>m</ex>paignie</mentioned><choice><orig/><reg>,</reg></choice></l>
+            <l n="222">Des anes <choice><orig>&amp;</orig><reg>et</reg></choice> owes <choice><orig>ne</orig><reg>ne </reg></choice>chau<ex>n</ex>gez mi<choice><orig/><reg>.</reg></choice>e</l>
+         </lg>
+         <milestone unit="theme" type="animalNoises"/>
+         <p n="4">Ore de naturele noise de bestes</p>
+         <lg n="6" part="I">
+            <l n="223">Ore escoutez naturelement</l>
+            <l n="224">La forme q<ex>ui</ex> appent p<ex>ro</ex>prement</l>
+            <l n="225">Au bestes de <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex>se nature</l>
+            <l n="226">Et p<ex>ri</ex>mes de celle q<ex>ui</ex> ad p<ex>ar</ex>lure<choice><orig/><reg>.</reg></choice></l>
+            <l n="227">Home parle<choice><orig/><reg>,</reg></choice> <choice><orig>vurse</orig><reg>uurse</reg></choice> bray<choice><orig/><reg>,</reg></choice></l>
+            <l n="228">Qi a demesure se desraye<choice><orig/><reg>,</reg></choice></l>
+            <l n="229">Vache mugist<choice><orig/><reg>,</reg></choice> grue groule<choice><orig/><reg>,</reg></choice></l>
+            <l n="230">Leon rugit <choice><orig>&amp;</orig><reg>et</reg></choice> coudre <choice><sic>aroule</sic><corr>croule</corr></choice><choice><orig/><reg>.</reg></choice> <note type="editorial" resp="#TGH">Other manuscripts of <title>Tretiz</title> agree on the reading <foreign xml:lang="fro" key="AND:croller">croule</foreign> here, suggesting that <foreign xml:lang="fro">aroule</foreign> is a mistranscription.</note></l>
+            <l n="231"><choice><orig>Chiual</orig><reg>Chival</reg></choice> hynist<choice><orig/><reg>,</reg></choice> alou*e chau<ex>n</ex>te<choice><orig/><reg>,</reg></choice></l>
+            <l n="232">Colu<ex>m</ex>be gerist <choice><orig>&amp;</orig><reg>et</reg></choice> cok chau<ex>n</ex>te<choice><orig/><reg>,</reg></choice></l>
+            <l n="233">Chat minoyne<choice><orig/><reg>,</reg></choice> s<ex>er</ex>pent ciphle<choice><orig/><reg>,</reg></choice></l>
+            <l n="234">Asne recane<choice><orig/><reg>,</reg></choice> cigne reciphle<choice><orig/><reg>,</reg></choice></l>
+            <l n="235">Le lupe houl<choice><orig/><reg>,</reg></choice> chien baye<choice><orig/><reg>,</reg></choice></l>
+            <l n="236">Et home <choice><orig>&amp;</orig><reg>et</reg></choice> best <choice><orig>souent</orig><reg>sovent</reg></choice> abaye<choice><orig/><reg>.</reg></choice></l>
+            <l n="237">Leopard houle<choice><orig/><reg>,</reg></choice> chien baye<choice><orig/><reg>,</reg></choice><note type="editorial" resp="#TGH">Lines 235 to 240 offer alternative versions of the descriptions of dogs and polecats, presumably drawn from different exemplars. In numbering them, I have followed marginal indications in the MS that line 238 (which appears below line 239 on the page) should follow directly from line 237.</note></l>
+            <l n="238">Putois le aingnel affray<choice><orig/><reg>.</reg></choice></l>
+            <l n="239">Putoys de fyn affray garray<choice><orig/><reg>.</reg></choice></l>
+            <l n="240">Gopil clei<choice><orig/><reg>,</reg></choice> thessoun traie<choice><orig/><reg>,</reg></choice></l>
+            <l n="241">Owe <choice><orig>iaungle</orig><reg>jaungle</reg></choice><choice><orig/><reg>,</reg></choice> garz agroille<choice><orig/><reg>,</reg></choice></l>
+            <l n="242">An en mareis <choice><orig>iaroille</orig><reg>jaroille</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="243">Mes <choice><orig>deuant</orig><reg>devant</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> ville en guere</l>
+            <l n="244">Afiche home la garoil en terre</l>
+            <l n="245">P<ex>ur</ex> la <choice><sic>barbicay</sic><corr>barbican</corr></choice> defendre</l>
+            <l n="246">Al assaut q<ex>ue</ex> home veut rendre<choice><orig/><reg>.</reg></choice></l>
+            <l n="247">Crapaud koaille<choice><orig/><reg>,</reg></choice> rane gaille<choice><orig/><reg>,</reg></choice></l>
+         </lg>            
+         <pb n="144r" facs="ms_5_144r.jpg"/>
+         <lg n="6" part="M">
+            <l n="248">Porcel gerist<choice><orig/><reg>,</reg></choice> cenglir<ex>e</ex> releie<choice><orig/><reg>,</reg></choice></l>
+            <l n="249"><choice><orig>Cheuereu</orig><reg>Chevereu</reg></choice> cherist <choice><orig>&amp;</orig><reg>et</reg></choice> tor <choice><sic>torrere</sic><corr>torreie</corr></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="250">Troie grondil q<ex>ua</ex>nt drache quert<choice><orig/><reg>.</reg></choice></l>
+            <l n="251">Faucon tercel le plumson fert<choice><orig/><reg>.</reg></choice></l>
+            <l n="252">Ausi diez q<ex>ue</ex> geline patille</l>
+            <l n="253">Q<ex>ua</ex>nt <choice><orig>poune</orig><reg>pouné</reg></choice> ad en gardyn ou ville<choice><orig/><reg>,</reg></choice></l>
+            <l n="254">Car de f<ex>ra</ex>nceis ai tiel estiel<choice><orig/><reg>,</reg></choice></l>
+            <l n="255">Gelin <choice><orig>huppe</orig><reg>huppé</reg></choice> poune <choice><orig>&amp;</orig><reg>et</reg></choice> patille<choice><orig/><reg>.</reg></choice></l>
+            <l n="256">Qui se <choice><orig>auaunt</orig><reg>avaunt</reg></choice> saunz resou<ex>n</ex></l>
+            <l n="257"><choice><orig>Ala</orig><reg>A la</reg></choice> geline est compaignoun<choice><orig/><reg>,</reg></choice></l>
+            <l n="258">Qui plus se <choice><orig>auaunt</orig><reg>avaunt</reg></choice> p<ex>ur</ex> <choice><orig>vn</orig><reg>un</reg></choice> oef</l>
+            <l n="259">Que p<ex>ur</ex> sa arrure ne fet le boef<choice><orig/><reg>.</reg></choice></l>
+            <l n="260">Berbis baleie<choice><orig/><reg>,</reg></choice> dame baele<choice><orig/><reg>,</reg></choice></l>
+            <l n="261">Espicer prent sez merz de bale<choice><orig/><reg>;</reg></choice></l>
+            <l n="262">Et de bailes home baleie</l>
+            <l n="263">La sale einz q<ex>ue</ex> la <choice><orig>ioncheie</orig><reg>joncheie</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="264">Par trop veiller home baale<choice><orig/><reg>.</reg></choice></l>
+            <l n="265">A sou<ex>n</ex> ser<choice><orig>i</orig><reg>j</reg></choice>au<ex>n</ex>t sa chose baille<choice><orig/><reg>.</reg></choice></l>
+            <l n="266"><choice><orig>Apres</orig><reg>Aprés</reg></choice> dormer home se espreche<choice><orig/><reg>.</reg></choice></l>
+            <l n="267">Le p<ex>re</ex>st<ex>re</ex> en eglise p<ex>re</ex>sche<choice><orig/><reg>.</reg></choice></l>
+            <l n="268">Le peschour en <choice><orig>viuer</orig><reg>viver</reg></choice> pesche</l>
+            <l n="269"><choice><sic>Ora</sic><reg>Ore</reg></choice> de sa rei<choice><orig/><reg>,</reg></choice> <choice><sic>oride</sic><corr>ore de</corr></choice> son hesche<choice><orig/><reg>.</reg></choice></l>
+            <l n="270">Bayilli<note type="lexical" resp="#TGH"><foreign xml:lang="fro" key="AND:bailiff">bayilli</foreign> is an interesting reading: other <title>Tretiz</title> MSS have the word <foreign xml:lang="fro" key="AND:faillir">failli</foreign> here, defined by AND as <quote>inadequate person, failure</quote>.</note> let sa terre frische</l>
+            <l n="271">P<ex>ur</ex> achat<ex>er</ex> la char<ex>e</ex> fresche<choice><orig/><reg>.</reg></choice></l>
+            <l n="272">Q<ex>ua</ex>nt <choice><orig>poure</orig><reg>povre</reg></choice> fe<ex>m</ex>me mene la tresche<choice><orig/><reg>,</reg></choice></l>
+            <l n="273">Plus lui vaudroit en main le besche</l>
+            <l n="274">Car ele <choice><orig>nad</orig><reg>n'ad</reg></choice> dount se pesche</l>
+            <l n="275">De paine ne brib ne lesche<choice><orig/><reg>.</reg></choice></l>
+            <l n="276">Ore donez le chael a flater<choice><orig/><reg>,</reg></choice></l>
+            <l n="277">Ke lesche le rose del herber<choice><orig/><reg>.</reg></choice></l>
+            <l n="278">Mez fuez le flatour qui <choice><sic>fiet</sic><corr>siet</corr></choice> flater</l>
+         </lg>
+         <pb n="144v" facs="ms_5_144v.jpg"/>
+         <lg n="6" part="F">
+            <l n="279">Car trop sceit b<ex>ie</ex>n <choice><orig>espeluche</orig><reg>espeluché</reg></choice> <add type="alternative">espeluper</add><choice><orig/><reg>.</reg></choice> <note>The infintive form <foreign xml:lang="fro" key="espeluker">espeluper</foreign> added by the scribe makes more grammatical sense than past participle <foreign xml:lang="fro">espeluké</foreign>.</note></l>
+            <l n="280">En tou<ex>n</ex> chaperou<ex>n</ex> ne voet lesser</l>
+            <l n="281"><choice><orig>Vn</orig><reg>Un</reg></choice> poitou<ex>n</ex><choice><orig/><reg>,</reg></choice> tant vo<ex>us</ex> ad cher</l>
+            <l n="282">Ne pas toi<choice><orig/><reg>,</reg></choice> mes tou<ex>n</ex> <choice><orig>auer</orig><reg>aver</reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="varia1"/>
+         <p n="5">Ore de <choice><orig>diu<ex>er</ex>site</orig><reg>div<ex>er</ex>sité</reg></choice> de f<ex>ra</ex>nceis</p>
+         <lg n="7">
+            <l n="283">Ore esgardez q<ex>ue</ex> vers vous</l>
+            <l n="284">Veint <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>chiualer</orig><reg>chivaler</reg></choice> tout rous</l>
+            <l n="285">Qi <choice><orig>vn</orig><reg>un</reg></choice> destre sor ad <choice><orig>mounte</orig><reg>mounté</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="286">Eschu de goulez il ad <choice><orig>porte</orig><reg>porté</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="287"><choice><orig>Vn</orig><reg>Un</reg></choice> launce rouge en <choice><orig>vn</orig><reg>un</reg></choice> maine<choice><orig/><reg>,</reg></choice></l>
+            <l n="288">Et vin v<ex>er</ex>maile en <choice><orig>l</orig><reg>l'</reg></choice>autr<ex>e</ex> maine<choice><orig/><reg>,</reg></choice></l>
+            <l n="289">Qi ne mangu point de peschou<ex>n</ex></l>
+            <l n="290">Si de harange sor noum<choice><orig/><reg>.</reg></choice></l>
+            <l n="291">Je vi <choice><orig>vne</orig><reg>une</reg></choice> reigne saunz roi</l>
+            <l n="292">P<ex>ur</ex> <choice><orig>vn</orig><reg>un</reg></choice> rane fer desrai</l>
+            <l n="293">Que en my le roaulme de roi</l>
+            <l n="294">En <choice><orig>vn</orig><reg>un</reg></choice> reoun <choice><sic>fist</sic><corr>sist</corr></choice> en <choice><orig>vn</orig><reg>un</reg></choice> rei<choice><orig/><reg>.</reg></choice></l>
+            <l n="295"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>malueis</orig><reg>malveis</reg></choice> vient en ma forere</l>
+            <l n="296">Ou p<ex>ar</ex> despit fist forein ere<choice><orig/><reg>,</reg></choice></l>
+            <l n="297">Dont <choice><orig>ie</orig><reg>je</reg></choice> lui fesoie <choice><orig>forueier</orig><reg>forveier</reg></choice></l>
+            <l n="298">Le <choice><orig>leuer</orig><reg>lever</reg></choice><ex>e</ex> q<ex>ui</ex> vient la foreirer<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="harvesting"/>
+         <p n="6">Ore de pre <choice><orig>&amp;</orig><reg>et</reg></choice> de chaumpe</p>
+         <lg n="8" part="I">
+            <l n="299">Ore aloms as prez <choice><orig>&amp;</orig><reg>et</reg></choice> as champs</l>
+            <l n="300">P<ex>ur</ex> enfourmez <choice><orig>uous</orig><reg>vous</reg></choice> enfauntz<choice><orig/><reg>.</reg></choice></l>
+            <l n="301">De fauz fauchez <choice><orig>vn</orig><reg>un</reg></choice> aundeine de <choice><orig>pre</orig><reg>pré</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="302">De faucil <choice><sic>fiez</sic><corr>siez</corr></choice> <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>iauele</orig><reg>javele</reg></choice> de <choice><orig>ble</orig><reg>blé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="303"><choice><orig>Le</orig><reg>Lé</reg></choice> <choice><orig>iaueles</orig><reg>javeles</reg></choice> en garbes liez<choice><orig/><reg>,</reg></choice></l>
+            <l n="304">En truseux les garbes mettez<choice><orig/><reg>.</reg></choice></l>
+            <l n="305"><choice><orig>Vn</orig><reg>Un</reg></choice> warot de peis finz erascez<choice><orig/><reg>,</reg></choice></l>
+            <l n="306">Les <choice><orig>fauas</orig><reg>favas</reg></choice> de fen<ex>er</ex>ez <note type="lexical" resp="#TGH">AND has only one current attestation for <foreign xml:lang="fro">fenerez</foreign>, with the sense <quote>for cutting hay</quote>.</note>en ce liez<choice><orig/><reg>.</reg></choice></l>
+            <l n="307">Mes <choice><orig>nad</orig><reg>n'ad</reg></choice> mest<ex>er</ex> q<ex>ue</ex> vous dioms</l>
+            <l n="308">De tout man<ex>er</ex>e de <choice><orig>ble</orig><reg>blé</reg></choice> les nouns<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="145r" facs="ms_5_145r.jpg"/>
+         <lg n="8" part="F">
+            <l n="309">De segle<choice><orig/><reg>,</reg></choice> orge <choice><orig>&amp;</orig><reg>et</reg></choice> furment</l>
+            <l n="310">Qe comune sont a tot gent<choice><orig/><reg>;</reg></choice></l>
+            <l n="311">Mes de autre <choice><sic>femail</sic><corr>semail</corr></choice> trop i crest</l>
+            <l n="312">Qi a cotiv*ers trop desplet<choice><orig/><reg>.</reg></choice></l>
+            <l n="313">Le <choice><orig>yuerai</orig><reg>yverai</reg></choice> i crest <choice><orig>&amp;</orig><reg>et</reg></choice> le betel<choice><orig/><reg>,</reg></choice></l>
+            <l n="314">Le hazoun ausi <choice><orig>&amp;</orig><reg>et</reg></choice> le nel<choice><orig/><reg>,</reg></choice></l>
+            <l n="315">La <choice><orig>blauerole</orig><reg>blaverole</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> la <choice><orig>mauue</orig><reg>mauve</reg></choice> ausi<choice><orig/><reg>,</reg></choice></l>
+            <l n="316">Caroil <choice><orig>&amp;</orig><reg>et</reg></choice> autres q<ex>ue</ex> ne vo<ex>us</ex> di<choice><orig/><reg>.</reg></choice></l>
+            <l n="317">Mes q<ex>ua</ex>nt temps est de carier<choice><orig/><reg>,</reg></choice></l>
+            <l n="318">Vos charrettz fetes charg<ex>er</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="319">Les <choice><orig>chiuaus</orig><reg>chivaus</reg></choice> deit le charrett<ex>er</ex></l>
+            <l n="320">De sa riort daunt<ex>er</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="321">En la graunge voz blez thassez<choice><orig/><reg>.</reg></choice></l>
+            <l n="322"><choice><orig>Vn</orig><reg>Un</reg></choice> moyhe est dit en g<ex>ra</ex>nge<choice><orig/><reg>.</reg></choice></l>
+            <l n="323">Moillon appellez q<ex>ui</ex> est de feyn</l>
+            <l n="324">Et thas ce q<ex>ui</ex> est de greyn<choice><orig/><reg>.</reg></choice></l>
+            <l n="325">En g<ex>ra</ex>nge vo<ex>us</ex> gardez de arestes<choice><orig/><reg>,</reg></choice></l>
+            <l n="326">En champ voz blez <choice><orig>d</orig><reg>d'</reg></choice>autri bestes<choice><orig/><reg>.</reg></choice></l>
+            <l n="327">Et si vo<ex>us</ex> p<ex>ri</ex>ez a voz festez</l>
+            <l n="328">Seutz q<ex>ui</ex> sont suiz enquestez</l>
+            <l n="329">P<ex>ur</ex> lur malices<choice><orig/><reg>,</reg></choice> q<ex>ui</ex> sont si p<ex>re</ex>stes</l>
+            <l n="330">De feir<ex>e</ex> <choice><orig>greuance</orig><reg>grevance</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> molestes<choice><orig/><reg>,</reg></choice></l>
+            <l n="331">Si <choice><orig>diuise</orig><reg>divisé</reg></choice> point <choice><orig>nestes</orig><reg>n'estes</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="332">Que vo<ex>us</ex> lez donez chares restes<choice><orig/><reg>.</reg></choice></l>
+            <l n="333">En sale orrez estranges gestes<choice><orig/><reg>.</reg></choice></l>
+            <l n="334">A mustrer verrez <choice><orig>de gise</orig><reg>degisé</reg></choice> testes<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="baking"/>
+         <p n="7">Ore p<ex>ur</ex> <choice><orig>F</orig><reg>f</reg></choice>ourner <choice><orig>&amp;</orig><reg>et</reg></choice> pestre v<ex>ost</ex>re pain</p>
+         <lg n="9" part="I">
+            <l n="335">Q<ex>ua</ex>nt v<ex>ost</ex>re <choice><orig>ble</orig><reg>blé</reg></choice> est b<ex>ie</ex>n batu<choice><orig/><reg>,</reg></choice></l>
+            <l n="336">Puis <choice><orig>vente</orig><reg>venté</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> b<ex>ie</ex>n molu<choice><orig/><reg>,</reg></choice></l>
+            <l n="337">Mes p<ex>ur</ex> pluis p<ex>ar</ex>fitement</l>
+            <l n="338">Parler <choice><orig>deua</orig><reg>deva</reg></choice><ex>n</ex>t bou<ex>n</ex> gent</l>
+            <l n="339">Il i had suffler<choice><orig/><reg>,</reg></choice> venter <choice><orig>&amp;</orig><reg>et</reg></choice> corner<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="145v" facs="ms_5_145v.jpg"/>
+         <lg n="9" part="M">
+            <l n="340">Dount la resone fet <choice><orig>assauer</orig><reg>assaver</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="341">Le fu suffle le quistrou<ex>n</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="342">E le vent vent p<ex>ar</ex> my le busszoun<choice><orig/><reg>,</reg></choice></l>
+            <l n="343">Mes le venour p<ex>ro</ex>prement corneie</l>
+            <l n="344">Q<ex>ua</ex>nt chace prent de pure preie<choice><orig/><reg>.</reg></choice></l>
+            <l n="345">Mes p<ex>ar</ex> le moudre <choice><orig>deuent</orig><reg>devent</reg></choice> farine</l>
+            <l n="346">Ce q<ex>ui</ex> en grein fu huy matyn<choice><orig/><reg>,</reg></choice></l>
+            <l n="347">Et de farine vient le flo<ex>ur</ex></l>
+            <l n="348">P<ex>ar</ex> le bolenge de pestour<choice><orig/><reg>.</reg></choice></l>
+            <l n="349">Par le bolenge e<ex>rt</ex> <choice><orig>seueree</orig><reg>severee</reg></choice></l>
+            <l n="350">La flour<ex>e</ex> <choice><orig>&amp;</orig><reg>et</reg></choice> furfr<ex>e</ex> einz demor<choice><orig><ex>e</ex></orig><reg><ex>é</ex></reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="351">A vo<ex>us</ex> <choice><orig>chiuaus</orig><reg>chivaus</reg></choice> le furfur donez<choice><orig/><reg>.</reg></choice></l>
+            <l n="352">Ev*e <choice><orig>teue</orig><reg>teve</reg></choice> a la flo<ex>ur</ex> mellez<choice><orig/><reg>.</reg></choice></l>
+            <l n="353">De <choice><orig>vn</orig><reg>un</reg></choice> rastur<ex>e</ex> la auge mondez<choice><orig/><reg>,</reg></choice></l>
+            <l n="354">Je ne di pas <said>la rastelle p<ex>er</ex>nez</said><choice><orig/><reg>.</reg></choice></l>
+            <l n="355">Taunt q<ex>ue</ex> feyns seient es prez</l>
+            <l n="356">Est la rastelle illeqes maniez<choice><orig/><reg>.</reg></choice></l>
+            <l n="357">Q<ex>ua</ex>nt le past al auge <choice><orig>a herd</orig><reg>aherd</reg></choice></l>
+            <l n="358">Dount la rastur<ex>e</ex> seert<choice><orig/><reg>.</reg></choice></l>
+            <l n="359">Eschaufez le fourn de feuger</l>
+            <l n="360">P<ex>ur</ex> defaut de litere<choice><orig/><reg>.</reg></choice></l>
+            <l n="361">Lit <choice><orig>&amp;</orig><reg>et</reg></choice> liter<ex>e</ex> sont <choice><orig>diuers</orig><reg>divers</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="362">Ce ne <choice><sic>souent</sic><corr>savent</corr></choice> pas touz clers<choice><orig/><reg>.</reg></choice></l>
+            <l n="363">Le fauchour<ex>e</ex> <choice><orig>le</orig><reg>le </reg></choice>liter<ex>e</ex> fauche<choice><orig/><reg>,</reg></choice></l>
+            <l n="364">Le malade en liter <choice><orig>chiuauche</orig><reg>chivauche</reg></choice><choice><orig/><reg>;</reg></choice></l>
+            <l n="365">Litere p<ex>ro</ex>prement saunz faile</l>
+            <l n="366">En pure f<ex>ra</ex>nceit dit home <mentioned>paile</mentioned><choice><orig/><reg>.</reg></choice></l>
+            <l n="367">Pail <choice><orig>&amp;</orig><reg>et</reg></choice> paille sont <choice><orig>nome</orig><reg>nomé</reg></choice></l>
+            <l n="368">Q<ex>ua</ex>nt del grein sont <choice><orig>seuere</orig><reg>severé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="369">Et si pail ne <choice><sic>fert</sic><corr>sert</corr></choice> pas<choice><orig/><reg>,</reg></choice></l>
+            <l n="370">Dou<ex>n</ex>c p<ex>re</ex>nez le pesa<choice><orig/><reg>.</reg></choice>z</l>
+         </lg>
+            <pb n="146r" facs="ms_5_146r.jpg"/>
+         <lg n="9" part="F">   
+            <l n="371">Et q<ex>ua</ex>nt le fourn est b<ex>ie</ex>n <choice><orig>chaufe</orig><reg>chaufé</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="372">Sur le pel seit le past <choice><orig>entre</orig><reg>entré</reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="weaving"/>
+         <p n="8">Ore de ce q<ex>ui</ex> apent a bone messnere</p>
+         <lg n="10" part="I">
+            <l n="373">Q<ex>ua</ex>nt le past est au fourn<choice><orig/><reg>,</reg></choice></l>
+            <l n="374">Et de pestre i prent <choice><orig>soiour</orig><reg>sojour</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="375">Endementers la messner</l>
+            <l n="376">Ne s<ex>er</ex>ra pas trop nounchaler<choice><orig/><reg>.</reg></choice></l>
+            <l n="377">Ore alez semer v<ex>ost</ex>re linois<choice><orig/><reg>,</reg></choice></l>
+            <l n="378">Ensi facez v<ex>ost</ex>re canois<choice><orig/><reg>.</reg></choice></l>
+            <l n="379">Car de lin <choice><orig>aueres</orig><reg>averés</reg></choice> boseux</l>
+            <l n="380">Et du caumbre les cordeux<choice><orig/><reg>.</reg></choice></l>
+            <l n="381">V<ex>ost</ex>re lin en temps sarchez</l>
+            <l n="382">Et par temps le arascez<choice><orig/><reg>,</reg></choice></l>
+            <l n="383">Et en seisou<ex>n</ex> le rehayez<choice><orig/><reg>.</reg></choice></l>
+            <l n="384">En le solail le sechez</l>
+            <l n="385">Et<choice><orig/><reg>,</reg></choice> q<ex>ua</ex>nt vo<ex>us</ex> plera<choice><orig/><reg>,</reg></choice> le batez<choice><orig/><reg>.</reg></choice></l>
+            <l n="386">Et vo<ex>us</ex> prie<choice><orig/><reg>,</reg></choice> dame Muriele<choice><orig/><reg>,</reg></choice></l>
+            <l n="387">Vous donez a v<ex>ost</ex>re pessele</l>
+            <l n="388">P<ex>ur</ex> eschurer v<ex>ost</ex>re lin<choice><orig/><reg>,</reg></choice></l>
+            <l n="389">Et <choice><orig>quil</orig><reg>qu'il</reg></choice> soit bou<ex>n</ex> <choice><orig>&amp;</orig><reg>et</reg></choice> fin<choice><orig/><reg>.</reg></choice></l>
+            <l n="390">La serence dou<ex>n</ex>c p<ex>re</ex>nez</l>
+            <l n="391">Et v<ex>ost</ex>re lin serencez<choice><orig/><reg>.</reg></choice></l>
+            <l n="392">De <choice><orig>vn</orig><reg>un</reg></choice> <choice><sic>tonyl</sic><corr>conyl</corr></choice> vo<ex>us</ex> p<ex>ur</ex><choice><orig>ueiez</orig><reg>veiez</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="393">Le fusil ne obleiez<choice><orig/><reg>,</reg></choice></l>
+            <l n="394">Ne le virel q<ex>ue</ex> a ce sufficit<note type="lexical" resp="#TGH">Apparent influence of Latin on this word form. See the note preceding line 835.</note><choice><orig/><reg>,</reg></choice></l>
+            <l n="395">Ne sai q<ex>ue</ex> pl<ex>us</ex> vo<ex>us</ex> s<ex>er</ex>reit dit<choice><orig/><reg>.</reg></choice></l>
+            <l n="396">Mes ci ad <choice><orig>diu<ex>er</ex>site</orig><reg>div<ex>er</ex>sité</reg></choice></l>
+            <l n="397">Dou<ex>n</ex>t touz ne sou<ex>n</ex>t <choice><orig>auise</orig><reg>avisé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="398">De treis chosez sert le fusil<choice><orig/><reg>:</reg></choice></l>
+            <l n="399">Le fil est <choice><orig>file</orig><reg>filé</reg></choice> p<ex>ar</ex> fusil<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="146v" facs="ms_5_146v.jpg"/>
+         <lg n="10" part="F">
+            <l n="400">Le feu del caliou fert<choice><orig/><reg>,</reg></choice> <note type="editorial" resp="#TGH">In other MSS, this line ends with the word <mentioned>fusil</mentioned>; in this MS, the verb appears not to have an object.</note></l>
+            <l n="401">Et <choice><orig>ble</orig><reg>blé</reg></choice> est molu p<ex>ar</ex> fusil<choice><orig/><reg>.</reg></choice></l>
+            <l n="402">Q<ex>ua</ex>nt v<ex>ost</ex>re fil est traillez</l>
+            <l n="403">Puis <choice><orig>ala</orig><reg>a la</reg></choice> waunder alez<choice><orig/><reg>.</reg></choice></l>
+            <l n="404">Et q<ex>ua</ex>nt tut serra <choice><orig>waunde</orig><reg>waundé</reg></choice></l>
+            <l n="405">Et en lusceux ad <choice><orig>reste</orig><reg>resté</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="406">Et dit <said>ore <choice><orig>ie</orig><reg>je</reg></choice> voil</said></l>
+            <l n="407"><said>Mon fil mettre en troil</said><choice><orig/><reg>,</reg></choice></l>
+            <l n="408">Veez quei fet ore madame <choice><orig>hue</orig><reg>Hue</reg></choice><choice><orig/><reg>:</reg></choice></l>
+            <l n="409"><choice><orig>Vn</orig><reg>Un</reg></choice> lusel de ses voiders wude<choice><orig/><reg>.</reg></choice> <note type="editorial" resp="#TGH">The preceding lines would make more sense if re-ordered as follows: 404-5, 408-9, 406-7. This would bring it in line with the version of other MSS, where the subject of <quote>dit</quote> in 406 is Lady Hue, not mentioned until 408 here.</note></l>
+            <l n="410">Les tremes dou<ex>n</ex>c app<ex>ar</ex>ailez</l>
+            <l n="411">Et au tistour p<ex>ur</ex> tistre baillez<choice><orig/><reg>.</reg></choice></l>
+            <l n="412">Ore ne faut<choice><orig/><reg>,</reg></choice> sirs<choice><orig/><reg>,</reg></choice> a men aescient</l>
+            <l n="413">Fors la lame soullement<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="brewing"/>
+         <p n="9">Ore p<ex>ur</ex> breser <choice><orig>&amp;</orig><reg>et</reg></choice> bracer</p>
+         <lg n="11" part="I">
+            <l n="414">Si <choice><orig>auez</orig><reg>avez</reg></choice> oi la manere</l>
+            <l n="415">Q<ex>ua</ex>nt au lin apparaillere<choice><orig/><reg>,</reg></choice></l>           
+            <l n="416">Ore sereit bou<ex>n</ex> <choice><orig>assauer</orig><reg>assaver</reg></choice><ex>e</ex></l>
+            <l n="417">Coment home deit bracer <choice><orig>&amp;</orig><reg>et</reg></choice> breser</l>
+            <l n="418">Et la manere p<ex>ur</ex> feir<ex>e</ex> c<ex>er</ex><choice><orig>ueise</orig><reg>veise</reg></choice></l>
+            <l n="419">P<ex>ur</ex> fair<ex>e</ex> noz nocez b<ex>ie</ex>n a ese<choice><orig/><reg>.</reg></choice></l>
+            <l n="420">Alumez<choice><orig/><reg>,</reg></choice> ancele<choice><orig/><reg>,</reg></choice> la frev*ole<choice><orig/><reg>.</reg></choice> <note type="lexical" resp="#TGH">FEW, AND and DEAF all record this word form as <foreign xml:lang="fro" key="AND:frenole">frenole</foreign>, a word for which the <title>Tretiz</title> would offer the sole attestation (here and in the section on weather). The scribe here has used the variant u/v form based on w graphie, so there is no doubt about the intended spelling. Given the absence of further attestations, and uncertainty about reading <foreign xml:lang="fro">frenole</foreign> further on (see note to line 555), I have accepted the manuscript reading here.</note></l>
+            <l n="421">Q<ex>ua</ex>nt <choice><orig>aueras</orig><reg>averas</reg></choice> <choice><orig>mange</orig><reg>mangé</reg></choice> du bracole<choice><orig/><reg>,</reg></choice></l>
+            <l n="422"><choice><orig>Vne</orig><reg>Une</reg></choice> cu*ve p<ex>re</ex>nez large <choice><orig>&amp;</orig><reg>et</reg></choice> leez</l>
+            <l n="423">Et v<ex>ost</ex>re orge la enfoundez<choice><orig/><reg>.</reg></choice></l>
+            <l n="424">Et q<ex>ua</ex>nt il est b<ex>ie</ex>n <choice><orig>enfounde</orig><reg>enfoundé</reg></choice></l>
+            <l n="425">Et la ev*e b<ex>ie</ex>n <choice><orig>escole</orig><ex>escolé</ex></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="426">Mountez dou<ex>n</ex>c <choice><orig>vn</orig><reg>un</reg></choice> soler</l>
+            <l n="427">Et la feitez b<ex>ie</ex>n baloer<choice><orig/><reg>,</reg></choice></l>
+            <l n="428">Et la <choice><orig>cowches</orig><reg>cowchés</reg></choice> v<ex>ost</ex>re <choice><orig>ble</orig><reg>blé</reg></choice></l>
+            <l n="429">Tau<ex>n</ex>t <choice><orig>quil</orig><reg>qu'il</reg></choice> seit b<ex>ie</ex>n g<ex>er</ex><choice><orig>mine</orig><reg>miné</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="430">Et de cele heur<ex>e</ex> appelleras</l>
+         </lg>
+         <pb n="147r" facs="ms_5_147r.jpg"/>
+         <lg n="11" part="M">
+            <l n="431">Berese q<ex>ue</ex> <choice><orig>deua</orig><reg>deva</reg></choice><ex>n</ex>t <choice><orig>ble</orig><reg>blé</reg></choice> nomas<choice><orig/><reg>.</reg></choice></l>
+            <l n="432">Le brese de v<ex>ost</ex>re main mouez</l>
+            <l n="433">En monceux ou en <choice><orig>renges</orig><reg>rengés</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="434">Puis le portez en <choice><orig>vn</orig><reg>un</reg></choice> corbail</l>
+            <l n="435">P<ex>ur</ex> e<ex>n</ex>secher au torail<choice><orig/><reg>,</reg></choice></l>
+            <l n="436">Car corbail <choice><orig>&amp;</orig><reg>et</reg></choice> corbailloun</l>
+            <l n="437">Vous s<ex>er</ex><choice><orig>uiront</orig><reg>viront</reg></choice> au fusou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="438">Et q<ex>ua</ex>nt le brese s<ex>er</ex>ra molu</l>
+            <l n="439">Et de ewe chaud b<ex>ie</ex>n enbu<choice><orig/><reg>,</reg></choice></l>
+            <l n="440">Si le lessez decourrer<ex>e</ex> ataunt</l>
+            <l n="441">Hors de <choice><orig>couerel</orig><reg>coverel</reg></choice> meintenau<ex>n</ex>t<choice><orig/><reg>,</reg></choice></l>
+            <l n="442">Tancome le breceresce entent</l>
+            <l n="443">Que ele eit berzel a talent<choice><orig/><reg>,</reg></choice></l>
+            <l n="444">Et puis le berzize prendra</l>
+            <l n="445">De ferme<ex>n</ex>t ou de orge q<ex>ue</ex> ele a<choice><orig/><reg>.</reg></choice></l>
+            <l n="446">Et par la geste <choice><orig>&amp;</orig><reg>et</reg></choice> le berzil</l>
+            <l n="447">Dou<ex>n</ex>c home soit pl<ex>us</ex> sotil</l>
+            <l n="448">Par dreit <choice><orig>deuer</orig><reg/></choice> de bercerie<choice><orig/><reg>,</reg></choice></l>
+            <l n="449">Mes tut <choice><orig>deuiser</orig><reg>deviser</reg></choice> ne <choice><sic>scar</sic><corr>scai</corr></choice> <choice><orig>ie</orig><reg>je</reg></choice> mie<choice><orig/><reg>.</reg></choice></l>
+            <l n="450">Dou<ex>n</ex>c vo<ex>us</ex> ees bone <choice><orig>cerueise</orig><reg>cerveise</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="451">Dou<ex>n</ex>c home <choice><orig>deue</orig><reg>deve</reg></choice><ex>n</ex>t si b<ex>ie</ex>n aese<choice><orig/><reg>,</reg></choice></l>
+            <l n="452">Q<ex>ue</ex> les <choice><orig>vns</orig><reg>uns</reg></choice> <choice><orig>en</orig><reg>en </reg></choice>p<ex>re</ex>ne<ex>n</ex>t taunt</l>
+            <l n="453">Que il <choice><orig>enyuerent</orig><reg>enyverent</reg></choice> meintenau<ex>n</ex>t<choice><orig/><reg>.</reg></choice></l>
+            <l n="454"><choice><orig>Cerueise</orig><reg>Cerveise</reg></choice> fet miracles <choice><orig>&amp;</orig><reg>et</reg></choice> m<ex>er</ex><choice><orig>ueiles</orig><reg>veiles</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="455">De <choice><orig>vne</orig><reg>une</reg></choice> chandeil deux c<add place="above">h</add>andeiles<choice><orig/><reg>.</reg></choice></l>
+            <l n="456"><choice><orig>Yuerez</orig><reg>Yverez</reg></choice> tent lay home a <choice><sic>clert</sic><corr>clerc</corr></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="457">Home mesconu <choice><sic>fer</sic><corr>fet</corr></choice> <choice><orig>auer</orig><reg>aver</reg></choice> merc<choice><orig/><reg>.</reg></choice></l>
+            <l n="458"><choice><orig>Yuerez</orig><reg>Yverez</reg></choice> feit fort home chatoner<choice><orig/><reg>,</reg></choice></l>
+            <l n="459">Home <choice><orig>aroe</orig><reg>aroé</reg></choice> fet haut huiper<choice><orig/><reg>.</reg></choice></l>
+            <l n="460"><choice><orig>Yuerez</orig><reg>Yverez</reg></choice> feit le coif de bricoun</l>
+            <l n="461">Rouge teint saunz v<ex>er</ex>meilloun<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="147v" facs="ms_5_147v.jpg"/>
+         <lg n="11" part="F">
+            <l n="462"><choice><orig>Yuerez</orig><reg>Yverez</reg></choice> fet villein chitche</l>
+            <l n="463">Assez tutoise <note type="lexical" resp="#TGH">AND2 (following Owen) has this as <foreign xml:lang="fro" key="AND:tutoiser">tutoise</foreign> with the sense of <mentioned>to use 'tu' to someone</mentioned>. Alternatives are possible: given the occasional confusion of t/c forms throughout this copy, could this be a corruption of <foreign xml:lang="fro" key="AND:corteis">curtoise</foreign>? Or a variant of <foreign xml:lang="fro" key="tut eisé">tut/eisé</foreign>, with the sense of <mentioned>rich, well-to-do</mentioned>? Either of those would make more sense within the syntax of the sentence.</note> fraunc <choice><orig>&amp;</orig><reg>et</reg></choice> riche<choice><orig/><reg>.</reg></choice></l>
+            <l n="464">Dou<ex>n</ex>c dit home <said>p<ex>ar</ex> seint Jorge</said></l>
+            <l n="465"><said>Trop ad bu de gres <choice><orig>dorge</orig><reg>d'orge</reg></choice></said><choice><orig/><reg>.</reg></choice></l>
+            <l n="466">Mes au p<ex>ri</ex>mer somelin</l>
+            <l n="467">Ribaud ert come <choice><orig>deuant</orig><reg>devant</reg></choice> main<choice><orig/><reg>.</reg></choice></l>
+            <l n="468">De teles le auctour se repose</l>
+            <l n="469">Car p<ex>ar</ex>ler veut <choice><orig>d</orig><reg>d'</reg></choice>autr<ex>e</ex> chose<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="fishing"/>
+         <p n="10">Ore <choice><orig>F</orig><reg>f</reg></choice><ex>ra</ex>nceis pour pescher</p>
+         <lg n="12" part="I">
+            <l n="470"><choice><orig>Sauer</orig><reg>Saver</reg></choice> si voillez la maner</l>
+            <l n="471">En <choice><orig>viuer</orig><reg>viver</reg></choice> ou ailour pescher<choice><orig/><reg>,</reg></choice></l>
+            <l n="472"><choice><orig>Viuer</orig><reg>Viver</reg></choice> est p<ex>ro</ex>preme<ex>n</ex>t <choice><orig>nome</orig><reg>nomé</reg></choice></l>
+            <l n="473">Ou ewe <choice><orig>viue</orig><reg>vive</reg></choice> est <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="474">Le ewe du <choice><sic>serliour</sic><corr>servour</corr></choice> p<ex>ri</ex>mes esp<ex>ur</ex><choice><orig>ges</orig><reg>gés</reg></choice></l>
+            <l n="475">Care de peszon la ne faudrez<choice><orig/><reg>.</reg></choice></l>
+            <l n="476">Et si vo<ex>us</ex> failez a cest estaunt</l>
+            <l n="477">Ou le ewe est descurraunt<choice><orig/><reg>,</reg></choice></l>
+            <l n="478">Alons <choice><orig>appres</orig><reg>apprés</reg></choice> a la laie<choice><orig/><reg>,</reg></choice></l>
+            <l n="479">Cele ewe estea<ex>n</ex>t en betnaye<choice><orig/><reg>;</reg></choice> <note><foreign xml:lang="fro">betnaye</foreign> is dubious - other <title>Tretiz</title> manuscripts have some form of <foreign xml:lang="fro" key="AND:betumei">betumei</foreign>.</note></l>
+            <l n="480">Et la <choice><orig>couent</orig><reg>covent</reg></choice> pescher de nase</l>
+            <l n="481">Si ou g<ex>ra</ex>nt raz de troue grace<choice><orig/><reg>.</reg></choice> <note>This line is badly garbled. Other manuscripts have variants on: <quote>Ou petite rey ne troeve grace</quote> (from MS Y) - i.e., you use a <foreign xml:lang="fro" key="AND:nace">nace</foreign> where a <foreign xml:lang="fro" key="AND:rei_1">rey</foreign> is no good.</note></l>
+            <l n="482">Il ad nace <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>criuere</orig><reg>crivere</reg></choice> ausi<choice><orig/><reg>,</reg></choice></l>
+            <l n="483">Comune f<ex>ra</ex>nceis a chescun<choice><orig/><reg>.</reg></choice></l>
+            <l n="484">La nete <note type="editorial" resp="#TGH"><foreign xml:lang="fro" key="AND:nace">nace</foreign> would make more sense in light of the preceding lines; the influence of Middle English <foreign xml:lang="enm" key="MED:29368">net</foreign> on the reading here seems probable.</note>est menume<ex>n</ex>t <choice><orig>ourez</orig><reg>ovrez</reg></choice></l>
+            <l n="485">Mes touez larges p<ex>ar</ex> tout assez<choice><orig/><reg>.</reg></choice> <note>Another corrupted line. MS Y has: <quote>Mais plus larges partuz assez / Ad le crevere</quote>, i.e. the <foreign xml:lang="fro" key="AND:cribre">crevere</foreign> has larger holes than the <foreign xml:lang="fro" key="AND:nace">nace</foreign>. The reading here has mistaken <foreign xml:lang="fro" key="AND:pertus_1">partuz</foreign> as <foreign xml:lang="fro" key="AND:partut">partut</foreign>; I cannot make sense of the first half of the line.</note></l>
+            <l n="486">Le gurget de nase <choice><orig>reuersez</orig><reg>reversez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="487"><choice><orig>Lordur</orig><reg>L'ordur</reg></choice> <choice><orig>de deinz</orig><reg>dedeinz</reg></choice> hors gettez<choice><orig/><reg>.</reg></choice></l>
+            <l n="488">Qrapaud <choice><orig>&amp;</orig><reg>et</reg></choice> lesard ne esparniez<choice><orig/><reg>,</reg></choice></l>
+            <l n="489">Serpe<ex>n</ex>t ne colur<ex>e</ex><choice><orig/><reg>,</reg></choice> q<ex>ue</ex> ne le p<ex>re</ex>nez<choice><orig/><reg>.</reg></choice></l>
+            <l n="490"><choice><orig>Grauil</orig><reg>Gravil</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> cailou enruez</l>
+            <l n="491">Et le limaizon tout descorchez<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="148r" facs="ms_5_148r.jpg"/>
+         <lg n="13">
+            <l n="a1"><add place="rightMargin" type="external"><note>In the right margin, a later (16th-century?) hand has added this short poem in English, whose wordplay and content (body parts and geography) appear inspired by the tenor of the <title>Tretiz</title>.</note><foreign xml:lang="enm">Helpe<choice><orig/><reg>,</reg></choice> hand<choice><orig/><reg>,</reg></choice></foreign></add></l>
+            <l n="a2"><add place="rightMargin" type="external"><foreign xml:lang="enm">I have no land<choice><orig/><reg>,</reg></choice></foreign></add></l>
+            <l n="a3"><add place="rightMargin" type="external"><foreign xml:lang="enm"><choice><orig>m</orig><reg>M</reg></choice>ore ys my desyr<ex>e</ex><choice><orig/><reg>.</reg></choice></foreign></add></l>
+            <l n="a4"><add place="rightMargin" type="external"><foreign xml:lang="enm"><choice><orig>i</orig><reg>I</reg></choice>f my hand</foreign></add></l>
+            <l n="a5"><add place="rightMargin" type="external"><foreign xml:lang="enm">Were no better than my lande<choice><orig/><reg>,</reg></choice></foreign></add></l>
+            <l n="a6"><add place="rightMargin" type="external"><foreign xml:lang="enm">I were lyke to ly in the mere<choice><orig/><reg>.</reg></choice></foreign></add></l>
+         </lg>
+         <lg n="12" part="F">
+            <l n="492">Et si de pesszoun <choice><orig>a tornez</orig><reg>atornez</reg></choice></l>
+            <l n="493"><choice><orig>Parles</orig><reg>Par les</reg></choice> vemberges les <choice><orig>portes</orig><reg>portés</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="494">Et si il seit miluel de mer</l>
+            <l n="495"><choice><orig>Ouerez</orig><reg>Overez</reg></choice> le <choice><orig>deuez</orig><reg>devez</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> espander<choice><orig/><reg>.</reg></choice></l>
+            <l n="496">Le no tantost en houstez<choice><orig/><reg>;</reg></choice></l>
+            <l n="497">Bowle<choice><orig/><reg>,</reg></choice> eschine<choice><orig/><reg>,</reg></choice> <choice><orig>en si</orig><reg>ensi</reg></choice> les frez<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="garden"/>
+         <lg n="14">
+            <l n="498"><choice><orig>Couie</orig><reg>Covie</reg></choice><ex>n</ex>t ore retornerom</l>
+            <l n="499">P<ex>ar</ex><choice><orig> my</orig><reg>my</reg></choice> cel crev*ison</l>
+            <l n="500">Tanq<ex>ue</ex> venoms au vert tenail</l>
+            <l n="501">Ou pastours gardent animail<choice><orig/><reg>;</reg></choice></l>
+            <l n="502">Puis p<ex>ar</ex> le bois en ce <choice><orig>vmbrail</orig><reg>umbrail</reg></choice></l>
+            <l n="503">Passerez <choice><orig>de seuz</orig><reg>deseuz</reg></choice> le orail<choice><orig/><reg>,</reg></choice></l>
+            <l n="504">Dount <choice><orig>seruent</orig><reg>servent</reg></choice> ci tauntz des peres</l>
+            <l n="505">Que sont appellez passueres<choice><orig/><reg>,</reg></choice></l>
+            <l n="506">P<ex>ur</ex> passer seche les russeux</l>
+            <l n="507">Que ci sont cleres <choice><orig>&amp;</orig><reg>et</reg></choice> beux<choice><orig/><reg>.</reg></choice></l>
+            <l n="508">Il i ad tenail <choice><orig>&amp;</orig><reg>et</reg></choice> tenailes<choice><orig/><reg>,</reg></choice></l>
+            <l n="509">Tenoun<choice><orig/><reg>,</reg></choice> tenil <choice><orig>&amp;</orig><reg>et</reg></choice> teniles<choice><orig/><reg>.</reg></choice></l>
+            <l n="510">Home vient p<ex>ar</ex> le tenail en champs<choice><orig/><reg>.</reg></choice></l>
+            <l n="511">Les <choice><orig>feueres</orig><reg>feveres</reg></choice> sunt endusins<note type="editorial" resp="#TGH">I have not been able to identify this word, which (alongside a broader difficulty in making sense of the line) raises the suspicion of a corrupt reading.</note> g<ex>ra</ex>ntez</l>
+            <l n="512">Et tenent lez tenailes en main<choice><orig/><reg>,</reg></choice></l>
+            <l n="513">Mes le tenoun tent le villain<choice><orig/><reg>.</reg></choice></l>
+            <l n="514">Et tenel serd <choice><sic>fuer<ex>e</ex></sic><corr>fevre</corr></choice> de custom</l>
+            <l n="515">Q<ex>ua</ex>nt del martel fert suz <choice><orig>lenclume</orig><reg>l'enclume</reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="badWeather"/>
+         <p n="11">Ore pur beaus temps <choice><orig>&amp;</orig><reg>et</reg></choice> tempeste</p>
+         <lg n="15" part="I">
+            <l n="516">Ore plust<choice><orig/><reg>,</reg></choice> ore gele<choice><orig/><reg>,</reg></choice></l>
+            <l n="517">Ore remeile<choice><orig/><reg>,</reg></choice> ore regele<choice><orig/><reg>.</reg></choice></l>
+            <l n="518">P<ex>ar</ex> le gele no<ex>us</ex> <choice><orig>auons</orig><reg>avons</reg></choice> glace</l>
+            <l n="519">Et plu <choice><orig>&amp;</orig><reg>et</reg></choice> gele fount verglaz<choice><orig/><reg>.</reg></choice></l>
+            <l n="520"><choice><sic>Net my son</sic><corr>N'est mye bon</corr></choice> trop haster <note type="editorial" resp="#TGH">This line is badly garbled.</note></l>
+            <l n="521">Sur verglaz p<ex>ur</ex> verglacer<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="148v" facs="ms_5_148v.jpg"/>
+         <lg n="15" part="M">
+            <l n="522">Gel <choice><orig>&amp;</orig><reg>et</reg></choice> plu degotaunt</l>
+            <l n="523">Fount le chemyn trop lidaunt<choice><orig/><reg>.</reg></choice></l>
+            <l n="524">Ore negge<choice><orig/><reg>,</reg></choice> ore cimeie<choice><orig/><reg>,</reg></choice></l>
+            <l n="525">Le cime enpire <choice><orig>u</orig><reg>v</reg></choice><ex>ost</ex>re veie<choice><orig/><reg>.</reg></choice></l>
+            <l n="526">En ma boche entr<ex>e</ex> <choice><orig>vn</orig><reg>un</reg></choice> <gap reason="omitted" unit="character" quantity="5"/> de nefe<choice><orig/><reg>,</reg></choice> <note type="editorial" resp="#TGH">It is unclear why a gap was left here, where other MSS would lead one to expect the word <foreign xml:lang="fro" key="AND:aunfe">aunfe</foreign>. Is this part of Dove's teaching method, challenging his reader/student to supply the missing word? (See the treatment of the riddle below at line 543 for comparison.)</note></l>
+            <l n="527">Ja quidroit q<ex>ue</ex> <choice><orig>ie</orig><reg>je</reg></choice> eusse seif<choice><orig/><reg>.</reg></choice></l>
+            <l n="528">Nous <choice><orig>auoms</orig><reg>avoms</reg></choice> grisil p<ex>ur</ex> ce <choice><orig>q</orig><reg>q'</reg></choice>il grele<choice><orig/><reg>,</reg></choice></l>
+            <l n="529">Auqes gros noun pas grel<choice><orig/><reg>.</reg></choice></l>
+            <l n="530">Je oy toner qar il toun<choice><orig/><reg>.</reg></choice></l>
+            <l n="531">P<ex>ar</ex> tau<ex>n</ex>t enpire <choice><orig>ceruoise</orig><reg>cervoise</reg></choice> en toun<choice><orig/><reg>.</reg></choice></l>
+            <l n="532">Ore me suffrez<choice><orig/><reg>,</reg></choice> moun pee <choice><sic>coun</sic><corr>toun</corr></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="533">Nul de vo<ex>us</ex> moet ne soun<choice><orig/><reg>.</reg></choice></l>
+            <l n="534">Freid est de <choice><orig>yuer</orig><reg>yver</reg></choice> <choice><orig>lorrez</orig><reg>l'orrez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="535"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>de vinail</orig><reg>devinail</reg></choice> voil moustrer<choice><orig/><reg>.</reg></choice></l>
+            <l n="536">En <choice><orig>yuer</orig><reg>yver</reg></choice> q<ex>ua</ex>nt <choice><orig>lorre</orig><reg>l'orré</reg></choice> chau<ex>n</ex>ge</l>
+            <l n="537"><choice><orig>Vn</orig><reg>Un</reg></choice> verge crest m<ex>u</ex>lt estraunge<choice><orig/><reg>.</reg></choice></l>
+            <l n="538"><choice><orig>C</orig><reg>C'</reg></choice>est la verge saunz verdure<choice><orig/><reg>,</reg></choice></l>
+            <l n="539">Saunz foil <choice><orig>&amp;</orig><reg>et</reg></choice> saunz floure<choice><orig/><reg>.</reg></choice></l>
+            <l n="540">Et qu<ex>a</ex>nt vendra al <choice><orig>este</orig><reg>esté</reg></choice></l>
+            <l n="541">Cest verge <choice><orig>n</orig><reg>n'</reg></choice>ert point <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="542">Rede þis ryþel <choice><orig>What</orig><reg>what</reg></choice> hit may be</l>
+            <l n="543">Est <choice><orig>vn</orig><reg>un</reg></choice> <gap reason="omitted" unit="character" quantity="9"/> p<ex>ur</ex> <choice><orig>verite</orig><reg>verité</reg></choice>  <note type="editorial" resp="#TGH">The answer to the riddle has deliberately been omitted - presumably as part of the teaching strategy?</note></l>
+            <l n="544">Q<ex>ua</ex>nt vo<ex>us</ex> doies ne poes pas</l>
+            <l n="545">Ensemble <choice><orig>ioindre</orig><reg>joindre</reg></choice><choice><orig/><reg>,</reg></choice> dou<ex>n</ex>c dirras<choice><orig/><reg>:</reg></choice></l>
+            <l n="546"><said>Me ay la main si estonie</said></l>
+            <l n="547"><said>Que p<ex>ur</ex> freide ne puisse <choice><orig>ie</orig><reg>je</reg></choice></said></l>
+            <l n="548"><said>De mes deis feir la compinol</said><choice><orig/><reg>.</reg></choice></l>
+            <l n="549">Meuz vodroie sourz plume mol</l>
+            <l n="550">Seir pres de feu q<ex>ue</ex> a la carole<choice><orig/><reg>,</reg></choice></l>
+            <l n="551">Chapeu vestu de <choice><orig>blauerole</orig><reg>blaverole</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="552">Ou de quiller p<ex>ri</ex>merol</l>
+         </lg>
+         <pb n="149r" facs="ms_5_149r.jpg"/>
+         <lg n="15" part="F">
+            <l n="553">P<ex>ur</ex> feir chepeux as clercs <choice><orig>d</orig><reg>d'</reg></choice>escole<choice><orig/><reg>,</reg></choice></l>
+            <l n="554">Ou de soner la camp<ex>a</ex>nole<choice><orig/><reg>,</reg></choice></l>
+            <l n="555">Qui p<ex>ar</ex> bost ne vaut <choice><orig>freuole</orig><reg>frevole</reg></choice><choice><orig/><reg>,</reg></choice> <note type="lexical" resp="#TGH">AND has this as <foreign xml:lang="fro" key="AND:frenole">frenole</foreign> (a term for which the Tretiz would offer the sole attestation; see note to line 420), with a definition here of <quote>object of little worth</quote>. However, a reading of <foreign xml:lang="fro" key="AND:frivole">frevole</foreign> is worth considering. A number of Tretiz manuscripts (including ACPT) give an alternative version of the line <quote xml:lang="fro">Ke par bost de frivole</quote>, with <foreign xml:lang="fro">frivole</foreign> glossed as <quote xml:lang="enm">ydel words</quote>.</note></l>
+            <l n="556">Et par knyvet ou virole</l>
+            <l n="557"><choice><sic>Souent</sic><corr>Savent</corr></choice> attrer<ex>e</ex> feme fole<choice><orig/><reg>.</reg></choice></l>
+            <l n="558">Dou<ex>n</ex>t touz temz de cel escole</l>
+            <l n="559">Vaudroient plus en la <choice><orig>iaiole</orig><reg>jaiole</reg></choice></l>
+            <l n="560">Que ou male fem<ex>m</ex>e en oriole<choice><orig/><reg>.</reg></choice></l>
+            <l n="561">Car cuer de femme est si mole<choice><orig/><reg>,</reg></choice></l>
+            <l n="562">Escuier ou clerc q<ex>ua</ex>nt la cole<choice><orig/><reg>,</reg></choice></l>
+            <l n="563">Que <choice><orig>souent</orig><reg>sovent</reg></choice> a <choice><orig>breue</orig><reg>breve</reg></choice> parole</l>
+            <l n="564">Fem<ex>m</ex>e fol le recole<choice><orig/><reg>.</reg></choice></l>
+            <l n="565">Ore plut a <choice><orig>dieu</orig><reg>Dieu</reg></choice> q<ex>ue</ex> teles foles</l>
+            <l n="566">Eussent la face plein de veroles</l>
+            <l n="567">Et teus ribaus les rougeroules<choice><orig/><reg>;</reg></choice></l>
+            <l n="568">Dou<ex>n</ex>c meins ameroient les braceroles</l>
+            <l n="569">Et les foles les caroles</l>
+            <l n="570">Eschueroient <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>friuols</orig><reg>frivols</reg></choice> p<ex>ar</ex>oles<choice><orig/><reg>.</reg></choice></l>
+            <l n="571">Mes p<ex>ur</ex> apprender<ex>e</ex> ces inocens</l>
+            <l n="572">Des veroles dirray pl<ex>us</ex> de sens<choice><orig/><reg>.</reg></choice></l>
+            <l n="573">Il i ad virole <choice><orig>&amp;</orig><reg>et</reg></choice> verole</l>
+            <l n="574">Que sou<ex>n</ex>t de <choice><orig>diuerse</orig><reg>diverse</reg></choice> escole<choice><orig/><reg>.</reg></choice></l>
+            <l n="575">La virole la maunche gard</l>
+            <l n="576">Del cotel ly <choice><orig>maumusart</orig><reg>mau musart</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="577">Meis la verole la face empire</l>
+            <l n="578">Ne sait <choice><orig>ia</orig><reg>ja</reg></choice> <choice><orig>desi</orig><reg>de si</reg></choice> g<ex>ra</ex>unt sire<choice><orig/><reg>,</reg></choice></l>
+            <l n="579">Mes <choice><orig>c</orig><reg>c'</reg></choice>est <choice><orig>vne</orig><reg>une</reg></choice> varole pure</l>
+            <l n="580">Qe del cholet crest par nature<choice><orig/><reg>,</reg></choice></l>
+            <l n="581"><choice><orig>Vn</orig><reg>Un</reg></choice> verme qe vert est colur<choice><orig><ex>e</ex></orig><reg><ex>é</ex></reg></choice><choice><orig/><reg>;</reg></choice></l>
+            <l n="582"><choice><orig>Enf</orig><reg>En F</reg></choice><ex>ra</ex>unce est varoul <choice><orig>nome</orig><reg>nomé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="149v" facs="ms_5_149v.jpg"/>
+         <milestone unit="theme" type="flowers"/>
+         <p n="12">Ore des <choice><orig>Floures</orig><reg>floures</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> frux du verg<ex>er</ex></p>
+         <lg n="16" part="I">
+            <l n="583">Le <choice><orig>io</orig><reg>jo</reg></choice><ex>ur</ex> <choice><orig>deuent</orig><reg>devent</reg></choice> beaus <choice><orig>&amp;</orig><reg>et</reg></choice> cleer<choice><orig/><reg>.</reg></choice></l>
+            <l n="584">Aloms deduer<ex>e</ex> esbanoir<ex>e</ex></l>
+            <l n="585"><choice><sic>Ey</sic><corr>En</corr></choice> ce verger ou sou<ex>n</ex>t les fleures</l>
+            <l n="586">Dou<ex>n</ex>t issint les douces odoures<choice><orig/><reg>,</reg></choice></l>
+            <l n="587">Et les herbes de medicine<choice><orig/><reg>,</reg></choice></l>
+            <l n="588">Dou<ex>n</ex>t les nouns ci vo<ex>us</ex> <choice><orig>duuine</orig><reg>duvine</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="589">Flo<ex>ur</ex> de rose <choice><orig>&amp;</orig><reg>et</reg></choice> flour de liz<choice><orig/><reg>,</reg></choice></l>
+            <l n="590">Liz vaut p<ex>ur</ex> roing <choice><orig>&amp;</orig><reg>et</reg></choice> rose p<ex>ur</ex> piz<choice><orig/><reg>.</reg></choice></l>
+            <l n="591">Ci crest la flo<ex>ur</ex> de surcie / solcicle <note>These two forms, both deriving from the Latin etymon <foreign xml:lang="lat">solsequia</foreign>, have separate headwords in the AND.</note></l>
+            <l n="592">Que <choice><orig>ales</orig><reg>a les</reg></choice> eu*s feit g<ex>ra</ex>unt aie<choice><orig/><reg>.</reg></choice></l>
+            <l n="593">Here de bois <choice><orig>&amp;</orig><reg>et</reg></choice> here terrestre<choice><orig/><reg>,</reg></choice> <note type="editorial" resp="#TGH">The second line of this couplet, as found in other manuscripts, has been omitted; in G, it is <quote>En ceo boys deivent crestre</quote>.</note></l>
+            <l n="594">P<ex>ri</ex>merole <choice><orig>&amp;</orig><reg>et</reg></choice> primeer</l>
+            <l n="595">Suz terre perent en temps de vere<choice><orig/><reg>.</reg></choice></l>
+            <l n="596">Et ert assez de planteigne</l>
+            <l n="597">Et bugle auxi<choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> herb seine<choice><orig/><reg>.</reg></choice></l>
+            <l n="598">Cerf lang crest en <choice><orig>creuez</orig><reg>crevez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="599">Et <choice><orig>trouerez</orig><reg>troverez</reg></choice> <choice><orig>plente</orig><reg>plenté</reg></choice> de <choice><orig>nav*es</orig><reg>nav*és</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="600">Consolde <choice><orig>oue</orig><reg>ové</reg></choice> la blaunche flour</l>
+            <l n="601">Et mercurial de g<ex>ra</ex>nt valour<choice><orig/><reg>.</reg></choice></l>
+            <l n="602">P<ex>ur</ex> sause vaut la sourel<choice><orig/><reg>,</reg></choice></l>
+            <l n="603">P<ex>ur</ex> home teingnous la parel<choice><orig/><reg>.</reg></choice></l>
+            <l n="604">Parele i ad<choice><orig/><reg>,</reg></choice> parel <choice><orig>&amp;</orig><reg>et</reg></choice> pareaus<choice><orig/><reg>.</reg></choice></l>
+            <l n="605">De tute man<ex>er</ex>e des oiseaus</l>
+            <l n="606"><choice><orig>Vn</orig><reg>Un</reg></choice> comple est de mal <choice><orig>&amp;</orig><reg>et</reg></choice> femele<choice><orig/><reg>;</reg></choice></l>
+            <l n="607"><choice><orig>C</orig><reg>C'</reg></choice>est <choice><orig>vn</orig><reg>un</reg></choice> parel<choice><orig/><reg>,</reg></choice> non pas parele</l>
+            <l n="608">Et ausi sunt pareaus <choice><orig>nome</orig><reg>nomé</reg></choice></l>
+            <l n="609">Puis q<ex>ue</ex> ensemble su<ex>n</ex>t <choice><orig>nie</orig><reg>nié</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="610">Issi ermoise la <choice><orig>trouez</orig><reg>trovez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="611">Et plantaine ausi la semez<choice><orig/><reg>.</reg></choice></l>
+            <l n="612">Et si <choice><orig>trouez</orig><reg>trovez</reg></choice> au verger</l>
+            <l n="613">Amerok ou gletoner</l>
+         </lg>
+         <pb n="150r" facs="ms_5_150r.jpg"/>
+         <lg n="16" part="F">
+            <l n="614">Les <choice><orig>araces</orig><reg>aracés</reg></choice> du besagu</l>
+            <l n="615">Et <choice><orig>plantes</orig><reg>plantés</reg></choice> cholet en lour lieu<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="trees"/>
+         <p n="13">Ore des arbres du verger</p>
+         <lg n="17" part="I">
+            <l n="616">En ce verg<ex>er</ex> les arbres cressent<choice><orig/><reg>.</reg></choice></l>
+            <l n="617">P<ex>ur</ex> charge de fruz les <choice><orig>vns</orig><reg>uns</reg></choice> abessent<choice><orig/><reg>.</reg></choice></l>
+            <l n="618">Pomer<choice><orig/><reg>,</reg></choice> perer <choice><orig>&amp;</orig><reg>et</reg></choice> cereiser<choice><orig/><reg>,</reg></choice></l>
+            <l n="619">Fenne<choice><orig/><reg>,</reg></choice><note type="editorial" resp="#TGH">I have found no tree type with this name; likely a transcription error for <foreign xml:lang="fro" key="fresne">fresne</foreign>, as in other <title>Tretiz</title> manuscripts.</note> geneth <choice><orig>&amp;</orig><reg>et</reg></choice> pruner<choice><orig/><reg>,</reg></choice></l>
+            <l n="620">Ceneiller q<ex>ui</ex> la ceneille port<choice><orig/><reg>,</reg></choice></l>
+            <l n="621">Fourder q<ex>ui</ex> la furdine port<choice><orig/><reg>.</reg></choice></l>
+            <l n="622">Englenter port les peperons<choice><orig/><reg>,</reg></choice></l>
+            <l n="623">Creker <choice><orig>oue</orig><reg>ové</reg></choice> les crekes roundes<choice><orig/><reg>,</reg></choice></l>
+            <l n="624">Alier q<ex>ui</ex> port alies<choice><orig/><reg>,</reg></choice></l>
+            <l n="625">Dou<ex>n</ex>t <choice><orig>a</orig><reg>A</reg></choice>lianore en auncienries</l>
+            <l n="626">Le noun resceut de <choice><orig>vn</orig><reg>un</reg></choice> fei <note type="editorial" resp="#TGH">An interesting variant; in other manuscripts, it is a king that gives Aliénor her name, rather than a fairy.</note></l>
+            <l n="627">Que out alies en or <choice><orig>deuau</orig><reg>devau</reg></choice><ex>n</ex>t sei<choice><orig/><reg>.</reg></choice></l>
+            <l n="628">Auxi i crest le coingner<choice><orig/><reg>,</reg></choice></l>
+            <l n="629">Qe <choice><orig>souent</orig><reg>sovent</reg></choice> est veu en verger<choice><orig/><reg>.</reg></choice></l>
+            <l n="630">Mes ci ad <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex><choice><orig>site</orig><reg>sité</reg></choice> g<ex>ra</ex>unt</l>
+            <l n="631">Que ne <choice><sic>soue<ex>n</ex>t</sic><reg>save<ex>n</ex>t</reg></choice> ly aquaunt<choice><orig/><reg>.</reg></choice></l>
+            <l n="632">Le seignour feit sen neif coigner</l>
+            <l n="633">En ces ceps p<ex>ur</ex> chastier<choice><orig/><reg>,</reg></choice></l>
+            <l n="634">P<ex>re</ex>nez <choice><orig>vn</orig><reg>un</reg></choice> coing<choice><orig/><reg>,</reg></choice> abatez le coingner</l>
+            <l n="635">Et <choice><orig>coupes</orig><reg>coupés</reg></choice> del coigne <choice><orig>vn</orig><reg>un</reg></choice> coigner<choice><orig/><reg>.</reg></choice></l>
+            <l n="636">Paume<choice><orig/><reg>,</reg></choice> buz <choice><orig>&amp;</orig><reg>et</reg></choice> arable</l>
+            <l n="637">Ne suffrez pas en terr<ex>e</ex> arable<choice><orig/><reg>.</reg></choice></l>
+            <l n="638">Mes en v<ex>er</ex>g<ex>er</ex> crest le houz<choice><orig/><reg>.</reg></choice></l>
+            <l n="639"><note type="editorial" resp="#TGH">It is difficult to assign a meaningful sense to this line. It appears to be a corrupted version of the line found just over the page, line 644: <quote>De su[e]th l'em fet seueus', concerning a dish made with elderflower (the elder tree is mentioned here in the following line here).</quote></note>De sheu <choice><orig>lom</orig><reg>l'om</reg></choice> fount sheus</l>
+            <l n="640">Et le <choice><sic>fueau</sic><corr>sueau</corr></choice> i crest ausi<choice><orig/><reg>.</reg></choice></l>
+            <l n="641">Comun herb i crest ausi<choice><orig/><reg>;</reg></choice></l>
+            <l n="642">Sauce i crest<choice><orig/><reg>,</reg></choice> cheine <choice><orig>&amp;</orig><reg>et</reg></choice> yf</l>
+            <l n="643">De cel f<ex>ra</ex>unceis <choice><orig>nad</orig><reg>n'ad</reg></choice> estrif<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="150v" facs="ms_5_150v.jpg"/>
+         <lg n="17" part="F">
+            <l n="644">De suth <choice><orig>lem</orig><reg>l'em</reg></choice> fet seueus<choice><orig/><reg>,</reg></choice></l>
+            <l n="645"><choice><orig>Vn</orig><reg>Un</reg></choice> maunger bon <choice><orig>&amp;</orig><reg>et</reg></choice> beus<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="woodlandBirdsAndBeasts"/>
+         <p n="14">Ore <choice><orig>de</orig><reg>dé</reg></choice> oiseaux qui sou<ex>n</ex>t en boig</p>
+         <lg n="18" part="I">
+            <l n="646">Q<ex>ua</ex>unt de verg<ex>er</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> le chose</l>
+            <l n="647">Alom ore juer au bois</l>
+            <l n="648">Ou le russenole <note type="editorial" resp="#TGH">The short length and lack of rhyme in this line suggest that the exemplar's version may originally have read: <quote>Ou le russenole, þe nichtingale</quote>, as in MSS AbGT, with the English half of the line left out here, perhaps understood as a gloss rather than an integral part of the rhymed text.</note></l>
+            <l n="649">Meieuz chaunt q<ex>ue</ex> huan en sale<choice><orig/><reg>,</reg></choice></l>
+            <l n="650">Et meux chau<ex>n</ex>t <choice><orig>mauuuz</orig><reg>mauvuz</reg></choice> en busszon</l>
+            <l n="651">Que chauf soriz en messon<choice><orig/><reg>.</reg></choice></l>
+            <l n="652">En brau<ex>n</ex>che seet le menue merle<choice><orig/><reg>.</reg></choice></l>
+            <l n="653">En mareis demeint la herle<choice><orig/><reg>.</reg></choice></l>
+            <l n="654"><choice><orig>Vncore</orig><reg>Uncore</reg></choice> i ad la filaundre</l>
+            <l n="655">Et <choice><orig>vn</orig><reg>un</reg></choice> oisel qi ad noun chalaundre<choice><orig/><reg>.</reg></choice></l>
+            <l n="656">Au fourn maint le salamandre<choice><orig/><reg>.</reg></choice></l>
+            <l n="657">Suffrez le pesszon en ewe espaundre<choice><orig/><reg>.</reg></choice></l>
+            <l n="658">Mes il i ad espaudre <choice><orig>&amp;</orig><reg>et</reg></choice> espaundre<choice><orig/><reg>,</reg></choice></l>
+            <l n="659">Espendre enseme<ex>n</ex>t <choice><orig>&amp;</orig><reg>et</reg></choice> paundre<choice><orig/><reg>.</reg></choice></l>
+            <l n="660">Cil espande conseil de ami</l>
+            <l n="661">Qui lui <choice><orig>descouer</orig><reg>descover</reg></choice> a nuli<choice><orig/><reg>;</reg></choice></l>
+            <l n="662">Et si enfes de <choice><orig>gre</orig><reg>gré</reg></choice> espaunde</l>
+            <l n="663">Hors de sa quele sa viaunde<choice><orig/><reg>;</reg></choice></l>
+            <l n="664"><choice><orig>Edes</orig><reg>E des</reg></choice> eiles paunde pesszon</l>
+            <l n="665">Q<ex>ua</ex>nt vief en rei la prent home<choice><orig/><reg>;</reg></choice></l>
+            <l n="666">Mes espauder<ex>e</ex> e<ex>st</ex> la quarte p<ex>ar</ex>ole</l>
+            <l n="667">E ce fait le <choice><orig>cleriou</orig><reg>clerjou</reg></choice><ex>n</ex> en scole<choice><orig/><reg>,</reg></choice></l>
+            <l n="668">Car cil espeaude natureme<ex>n</ex>t</l>
+            <l n="669">Q<ex>ui</ex> les lectres ensemble prent<choice><orig/><reg>.</reg></choice></l>
+            <l n="670">Eiles <choice><orig>&amp;</orig><reg>et</reg></choice> eles sou<ex>n</ex>t <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex>se<choice><orig/><reg>,</reg></choice></l>
+            <l n="671"><mentioned>Mout descordanz</mentioned> dient les clers<choice><orig/><reg>.</reg></choice></l>
+            <l n="672">Des eiles <choice><sic>nou*</sic><corr>nou*[ent]</corr></choice> en <choice><sic>ev*cles</sic><corr>eve les</corr></choice> <note type="editorial" resp="#TGH">This line is badly garbled; the original reading appears to be: 'Des eiles nou[ent] en eve les pesszons'.</note> pesszons</l>
+            <l n="673">E des eles volent les moss<ex>er</ex>ons<choice><orig/><reg>.</reg></choice></l>
+            <l n="674"><choice><sic>Au fuit</sic><corr>Ausint</corr></choice> ad il naer<choice><orig/><reg>,</reg></choice> neier <choice><orig>&amp;</orig><reg>et</reg></choice> nager<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="151r" facs="ms_5_151r.jpg"/>
+         <lg n="18" part="M">
+            <l n="675">Et la difference feit <choice><orig>assauer</orig><reg>assaver</reg></choice><choice><orig/><reg>:</reg></choice></l>
+            <l n="676">En mer naer le pesszoun<choice><orig/><reg>,</reg></choice></l>
+            <l n="677">En mer est <choice><orig>neie</orig><reg>neié</reg></choice> meint p<ex>ro</ex>dome<choice><orig/><reg>,</reg></choice></l>
+            <l n="678">Mes des <choice><orig>a virouns</orig><reg>avirouns</reg></choice> <choice><orig>deuent</orig><reg>devent</reg></choice> nager</l>
+            <l n="679">En <choice><orig>vn</orig><reg>un</reg></choice> bataile ly mariner<choice><orig/><reg>;</reg></choice></l>
+            <l n="680">Mes en <note type="editorial" resp="#TGH">The word <foreign xml:lang="fro" key="AND:ivern">iver</foreign>, found in other manuscripts but omitted here, appears necessary to make sense of the line.</note> veoms negger</l>
+            <l n="681">E les g<ex>ra</ex>unz <choice><sic>au*ses</sic><corr>anfes</corr></choice> avalez<choice><orig/><reg>.</reg></choice></l>
+            <l n="682">Veez ou tapist <choice><orig>vn</orig><reg>un</reg></choice> ascie<choice><orig/><reg>,</reg></choice></l>
+            <l n="683">F<ex>ra</ex>unceis voet q<ex>ue</ex> <choice><orig>l</orig><reg>l'</reg></choice>em issint die<choice><orig/><reg>.</reg></choice></l>
+            <l n="684">Plus <choice><orig>auau</orig><reg>avau</reg></choice><ex>n</ex>t ore venez</l>
+            <l n="685">Et ce q<ex>ue</ex> <choice><orig>verres</orig><reg>verrés</reg></choice> b<ex>ie</ex>n entendez<choice><orig/><reg>.</reg></choice></l>
+            <l n="686">Car il i ad verder <choice><orig>&amp;</orig><reg>et</reg></choice> vereder<choice><orig/><reg>,</reg></choice></l>
+            <l n="687"><choice><orig>L</orig><reg>L'</reg></choice>un oisel <choice><orig>l</orig><reg>l'</reg></choice>autr<ex>e</ex> forester<choice><orig/><reg>;</reg></choice></l>
+            <l n="688">Par ci vole le verder<choice><orig/><reg>,</reg></choice></l>
+            <l n="689">Par la <choice><orig>chiuauche</orig><reg>chivauche</reg></choice> le vered<ex>er</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="690">Ci vei volant un restele<choice><orig/><reg>,</reg></choice></l>
+            <l n="691">Si se tret vers ce tresel<choice><orig/><reg>,</reg></choice></l>
+            <l n="692">Car assez meux plet <choice><orig>vn</orig><reg>un</reg></choice> restel</l>
+            <l n="693">De <choice><orig>enuironer</orig><reg>environer</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> tresel</l>
+            <l n="694">Que <choice><orig>vn</orig><reg>un</reg></choice> beau tret de la viele</l>
+            <l n="694">Ou a la noise de frestel<choice><orig/><reg>.</reg></choice></l>
+            <l n="695"><choice><orig>Vncore</orig><reg>Uncore</reg></choice> <choice><orig>auez</orig><reg>avez</reg></choice> le musenge</l>
+            <l n="696">Que les haies en bois renge<choice><orig/><reg>.</reg></choice></l>
+            <l n="697"><choice><orig>De lacez</orig><reg>Delacez</reg></choice> valet tost ta renge</l>
+            <l n="698">Si renger voilez le musenge<choice><orig/><reg>.</reg></choice></l>
+            <l n="699">Veez ci la <choice><orig>paleuole</orig><reg>palevole</reg></choice><note type="lexical" resp="#TGH">In the absence of attestations outside the <title>Tretiz</title> tradition, this insect name might be read as <foreign xml:lang="fro" key="AND:palevole">palevole</foreign> or <foreign xml:lang="fro">palenole</foreign>. I have chosen the former given the semantic relevance of the verb <foreign xml:lang="fro" key="AND:voler_1">voler</foreign></note></l>
+            <l n="700">Et ausi la chardonerole<choice><orig/><reg>.</reg></choice></l>
+            <l n="701">Ausi ad des pau*pillions</l>
+            <l n="702">Qui <choice><orig>vsent</orig><reg>usent</reg></choice> seir en chardons<choice><orig/><reg>,</reg></choice></l>
+            <l n="703">Et en les rounces ensement</l>
+            <l n="704"><choice><orig>Vsent</orig><reg>Usent</reg></choice> seer naturement<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="151v" facs="ms_5_151v.jpg"/>
+         <lg n="18" part="M">
+            <l n="705">Si ne fait pas le grisillour</l>
+            <l n="706">Car en courtilage ad sou<ex>n</ex> <choice><orig>soiour</orig><reg>sojour</reg></choice><choice><orig/><reg>;</reg></choice></l>
+            <l n="707">Ly heriszoun neint le pluis</l>
+            <l n="708">Que prent la pome q<ex>ue</ex> chet <choice><orig>ius</orig><reg>jus</reg></choice><choice><orig/><reg>;</reg></choice></l>
+            <l n="709">Ne mousches ne wibez ne fou<ex>n</ex>t mie</l>
+            <l n="710">Car il ayment pluis le <choice><orig>vrtie</orig><reg>urtie</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="711">La ane <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>plunioun</orig><reg>plunjoun</reg></choice></l>
+            <l n="712">En <choice><orig>riuere</orig><reg>rivere</reg></choice> fou<ex>n</ex>t loure mansiou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="713">En mares sou<ex>n</ex>t les vaneles<choice><orig/><reg>,</reg></choice></l>
+            <l n="714">En villes sou<ex>n</ex>t les veneles<choice><orig/><reg>.</reg></choice></l>
+            <l n="715">En g<ex>ra</ex>unge est <choice><orig>vse</orig><reg>usé</reg></choice> le van<choice><orig/><reg>.</reg></choice></l>
+            <l n="716">En quer de <choice><orig>enuious</orig><reg>envious</reg></choice> e<ex>st</ex> <choice><sic>he</sic><corr>le</corr></choice> hain<choice><orig/><reg>.</reg></choice></l>
+            <l n="717">Je vi la <choice><orig>vne</orig><reg>une</reg></choice> owe roser<choice><orig/><reg>,</reg></choice></l>
+            <l n="718"><choice><orig>Vne</orig><reg>Une</reg></choice> blerret a luy associer<choice><orig/><reg>.</reg></choice></l>
+            <l n="719">Melz <choice><sic>ferroy</sic><corr>serroy</corr></choice> <choice><orig>d</orig><reg>d'</reg></choice>un blaret pu</l>
+            <l n="720">Que ne sarrei de char de fru<choice><orig/><reg>.</reg></choice></l>
+            <l n="721">Pluis est ignel <choice><orig>vn</orig><reg>un</reg></choice> arounde</l>
+            <l n="722">Que nul cigoun en cest mound<ex>e</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="723">Et <choice><orig>seuerondel</orig><reg>severondel</reg></choice> a la <choice><orig>seueround</orig><reg>severound</reg></choice><ex>e</ex></l>
+            <l n="724">Prent <choice><orig>le</orig><reg>lé</reg></choice> mosszons a la rounde<choice><orig/><reg>.</reg></choice></l>
+            <l n="725">Et <choice><orig>vn</orig><reg>un</reg></choice> oisail <choice><orig>qu</orig><reg>qu'</reg></choice>est dit <mentioned>bekas</mentioned></l>
+            <l n="726">Pres le <choice><orig>riuere</orig><reg>rivere</reg></choice> est pris en lace<choice><orig/><reg>.</reg></choice></l>
+            <l n="727">La chau<ex>n</ex>t de cokoil e<ex>st</ex> <choice><sic>mou<ex>n</ex>t</sic><corr>mout</corr></choice> retous<choice><orig/><reg>,</reg></choice></l>
+            <l n="728">Et si <choice><orig>n</orig><reg>n'</reg></choice>est guers delicious<choice><orig/><reg>,</reg></choice></l>
+            <l n="729">A peine serreit si riotous</l>
+            <l n="730">Si sou<ex>n</ex> chau<ex>n</ex>t fut garcious<choice><orig/><reg>;</reg></choice></l>
+            <l n="731">Meis pluis est oi en oriol</l>
+            <l n="732">Que la noise del oriol<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <p n="15">Ore <choice><orig>de</orig><reg>dé</reg></choice> bestes q<ex>ui</ex> sou<ex>n</ex>t en bois</p>
+         <lg n="18" part="M">   
+            <l n="733"><choice><orig>Vncore</orig><reg>Uncore</reg></choice> pluis <choice><orig>auant</orig><reg>avant</reg></choice> me voise</l>
+            <l n="734">P<ex>ur</ex> ver les estres du bois<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="152r" facs="ms_5_152r.jpg"/>
+         <lg n="18" part="M">
+            <l n="735">Je vi vener <choice><orig>vn</orig><reg>un</reg></choice> tesszon</l>
+            <l n="736">Q<ex>ui</ex> ad guerpi sa mansion</l>
+            <l n="737">P<ex>ur</ex> les fenes de gopil</l>
+            <l n="738">Qe li ad mis en exil<choice><orig/><reg>.</reg></choice></l>
+            <l n="739">Maudat sait li male putois</l>
+            <l n="740">Car<choice><orig/><reg>,</reg></choice> sait en ville <choice><orig>en</orig><reg/></choice> ou en bois<choice><orig/><reg>,</reg></choice></l>
+            <l n="741">Force ne feit meis <choice><orig>q</orig><reg>q'</reg></choice>il eit</l>
+            <l n="742">Geline ou poucin a sou<ex>n</ex> reheit<choice><orig/><reg>.</reg></choice></l>
+            <l n="743">Plus vaut en g<ex>ra</ex>unge <choice><orig>vn</orig><reg>un</reg></choice> beleit</l>
+            <l n="744">De raz <choice><orig>&amp;</orig><reg>et</reg></choice> soriz de fair<ex>e</ex> neit</l>
+            <l n="745">Q<ex>ue</ex> touz les taupes de ci q<ex>ue</ex> a <choice><orig>paris</orig><reg>Paris</reg></choice></l>
+            <l n="746">Q<ex>ui</ex> fou<ex>n</ex>t taupaunes p<ex>ar</ex> mi pais<choice><orig/><reg>.</reg></choice></l>
+            <l n="747">Plus ameroi char de cerfs ou foun</l>
+            <l n="748">Q<ex>ue</ex> chau<ex>n</ex>t de asne ou de poun<choice><orig/><reg>.</reg></choice></l>
+            <l n="749">Et meux eime cou*e de poun</l>
+            <l n="750"><choice><orig>Q</orig><reg>Q'</reg></choice>en <choice><orig>l</orig><reg>l'</reg></choice>eschecher mat de poun<choice><orig/><reg>.</reg></choice></l>
+            <l n="751">Et de poun la beal cou*e</l>
+            <l n="752">Donne delit a la veue<choice><orig/><reg>.</reg></choice></l>
+            <l n="753">Je vi ci desouz la dune</l>
+            <l n="754"><choice><orig>Vn</orig><reg>Un</reg></choice> oisel plumee<choice><orig/><reg>,</reg></choice> ci gist la plume<choice><orig/><reg>,</reg></choice></l>
+            <l n="755">Mes celi qi <choice><orig>l</orig><reg>l'</reg></choice>oisel ad plumee</l>
+            <l n="756"><choice><orig>Souent</orig><reg>Sovent</reg></choice> de mes noicez ad <choice><orig>pluche</orig><reg>pluché</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="757">Je vi venir <choice><orig>vn</orig><reg>un</reg></choice> petit naym</l>
+            <l n="758">Sur la <choice><orig>riuer</orig><reg>river</reg></choice> <choice><orig>q</orig><reg>q'</reg></choice>est dit <choice><orig>naim</orig><reg><mentioned>Naim</mentioned></reg></choice><choice><orig/><reg>.</reg></choice><note type="lexical" resp="#TGH">The river Nene in the East of England?</note></l>
+            <l n="759">En sa mayn teint <choice><orig>vn</orig><reg>un</reg></choice> neyn<choice><orig/><reg>;</reg></choice></l>
+            <l n="760">Pescher vout<choice><orig/><reg>,</reg></choice> ne put p<ex>ur</ex> ceyme<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="partsOfACart"/>
+         <p n="16">Ore de <choice><orig>vn</orig><reg>un</reg></choice> charette</p>
+         <lg n="19" part="I">
+            <l n="761">P<ex>ur</ex> <choice><orig>vn</orig><reg>un</reg></choice> charette b<ex>ie</ex>n discriere</l>
+            <l n="762">Le f<ex>ra</ex>unceis vo<ex>us</ex> met en <choice><orig>liuere</orig><reg>livere</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="763">Dou<ex>n</ex>t les roes vo<ex>us</ex> di a p<ex>ri</ex>mour<choice><orig/><reg>,</reg></choice></l>
+         </lg>
+         <pb n="152v" facs="ms_5_152v.jpg"/>
+         <lg n="19" part="M">
+            <l n="764">Puis les bendeus q<ex>ui</ex> sou<ex>n</ex>t entour<choice><orig/><reg>.</reg></choice></l>
+            <l n="765"><choice><sic>De fouz</sic><corr>Desouz</corr></choice> les bendes<choice><orig/><reg>,</reg></choice> q<ex>ui</ex> sont de fer<choice><orig/><reg>,</reg></choice></l>
+            <l n="766">Su<ex>n</ex>t les <choice><orig>ieuntes</orig><reg>jeuntes</reg></choice> atthachez de fer<choice><orig/><reg>.</reg></choice></l>
+            <l n="767">En les <choice><orig>iauntes</orig><reg>jauntes</reg></choice> entrent les rais<choice><orig/><reg>;</reg></choice></l>
+            <l n="768">Et del solail issent les rais<choice><orig/><reg>;</reg></choice></l>
+            <l n="769">Et de la mear venent <choice><sic>lev*e</sic><corr>les</corr></choice> raies<choice><orig/><reg>;</reg></choice></l>
+            <l n="770">Et vers les faires vount les raies<choice><orig/><reg>.</reg></choice></l>
+            <l n="771">Mes les rais de la chareit</l>
+            <l n="772">En les moales ou<ex>n</ex>t lur rescet<choice><orig/><reg>.</reg></choice></l>
+            <l n="773">Dit le moial de la roaf</l>
+            <l n="774">Tut dreit a moel del oef<choice><orig/><reg>,</reg></choice></l>
+            <l n="775"><said>Je sui bon <choice><orig>aues</orig><reg>a ves</reg></choice> porter</said> <note type="lexical" resp="#TGH">Variant spelling of <foreign xml:lang="fro" key="AND:fais_1">fes</foreign>.</note></l>
+            <l n="776"><said>Et <choice><orig>ie</orig><reg>je</reg></choice><choice><orig/><reg>,</reg></choice> fait <choice><orig>l</orig><reg>l'</reg></choice>autre<choice><orig/><reg>,</reg></choice> bou<ex>n</ex> <choice><orig>a</orig><reg>a </reg></choice>mau<ex>n</ex>g<ex>er</ex><choice><orig/><reg>.</reg></choice></said></l>
+            <l n="777">En les moals est mis le essele</l>
+            <l n="778">Q<ex>ue</ex> p<ex>ar</ex> deux hynces se <choice><sic>cent</sic><corr>tent</corr></choice> ov*el<choice><orig/><reg>.</reg></choice></l>
+            <l n="779">Les essles ou<ex>n</ex>t lur <choice><orig>iungers</orig><reg>jungers</reg></choice></l>
+            <l n="780">Q<ex>ui</ex> les aident come bons freres<choice><orig/><reg>.</reg></choice></l>
+            <l n="781">Sur <choice><orig>l</orig><reg>l'</reg></choice>essel gist le chartil<choice><orig/><reg>,</reg></choice></l>
+            <l n="782">Et p<ex>ur</ex> <choice><orig>sauuer</orig><reg>sauver</reg></choice> le de peril</l>
+            <l n="783">Le chartil e<ex>st</ex> de braiaux</l>
+            <l n="784">Ferme <choice><orig>lie</orig><reg>lié</reg></choice> a les esseaus<choice><orig/><reg>.</reg></choice></l>
+            <l n="785"><note type="editorial" resp="#TGH">Missing line: <quote>Entre le chartil e lé moyeaus</quote> (from G).</note>Sou<ex>n</ex>t hourtours <choice><orig>troue</orig><reg>trové</reg></choice> deux<choice><orig/><reg>.</reg></choice></l>
+            <l n="786">Checu<ex>n</ex> charette q<ex>ui</ex> men blez</l>
+            <l n="787">Deit <choice><orig>auer</orig><reg>aver</reg></choice> ridels a <choice><orig>costes</orig><reg>costés</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="788">En les ridels vou<ex>n</ex>t les roulons</l>
+            <l n="789"><choice><orig>Parles</orig><reg>Par les</reg></choice> trues sanz nul <choice><orig>clauons</orig><reg>clavons</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="790">Entre les moals sou<ex>n</ex>t sav*eres<choice><orig/><reg>.</reg></choice></l>
+            <l n="791">Ore ne faut si noun eschales<choice><orig/><reg>.</reg></choice></l>
+            <l n="792">En les limours veit le limour<note type="lexical" resp="#TGH">Compare other MSS: <quote>En les limons veit limoner</quote> (from G); some possible corruption of <foreign xml:lang="fro" key="AND:limoner">limoner</foreign> here, though it is worth noting that the form <foreign xml:lang="fro">limour</foreign> is used consistently by this scribe (e.g. in line 797); cf. also the form <foreign xml:lang="fro">lymeour</foreign> in <title>Femina</title>.</note></l>
+            <l n="793">Q<ex>ui</ex> port <choice><orig>a des</orig><reg>adés</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> dosser</l>
+         </lg>
+         <pb n="153r" facs="ms_5_153r.jpg"/>
+         <lg n="19" part="F">
+            <l n="794">Et au ventre <choice><orig>vn</orig><reg>un</reg></choice> <note type="editorial" resp="#TGH">The abbreviation mark on <foreign xml:lang="fro">un</foreign> appears otiose.</note> ventrer<ex>e</ex></l>
+            <l n="795">Et <choice><orig>ala</orig><reg>a la</reg></choice> cou*e <choice><orig>vn</orig><reg>un</reg></choice> cou*er<choice><orig/><reg>.</reg></choice></l>
+            <l n="796">Le tracer ad la bracerol</l>
+            <l n="797">Que brasent les limours as coles<choice><orig/><reg>.</reg></choice></l>
+            <l n="798"><choice><orig>Deua</orig><reg>Deva</reg></choice><ex>n</ex>t les braceroles sou<ex>n</ex>t billetz</l>
+            <l n="799">Que de coteux sou<ex>n</ex>t rondes dolletz<choice><orig/><reg>.</reg></choice></l>
+            <l n="800">Les cols des <choice><orig>chiuaus</orig><reg>chivaus</reg></choice> portent esseles<choice><orig/><reg>.</reg></choice></l>
+            <l n="801">En la charette est le somer<choice><orig/><reg>,</reg></choice></l>
+            <l n="802">La ou seit le charett<ex>er</ex></l>
+            <l n="804">Dou<ex>n</ex>t les <choice><orig>chiuals</orig><reg>chivals</reg></choice> au chimin resort<choice><orig/><reg>.</reg></choice></l>
+            <l n="805">Le cherett<ex>er</ex> <choice><orig>au</orig><reg>av</reg></choice><ex>er</ex>a sa riort</l>
+            <l n="806">Mes li carruer le agoillou<ex>n</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="807">Et li charett<ex>er</ex> <choice><orig>vn</orig><reg>un</reg></choice> estril <choice><orig>auera</orig><reg>avera</reg></choice></l>
+            <l n="808">Dou<ex>n</ex>t ses <choice><orig>chiuaux</orig><reg>chivaux</reg></choice> conroira<choice><orig/><reg>.</reg></choice></l>
+            <l n="809">Et le <choice><sic>totiuer</sic><corr>cotiver</corr></choice> ne tengeie a agaz</l>
+            <l n="810">Q<ex>ui</ex> se boefs ne frot b<ex>ie</ex>n de <choice><orig>toriaz</orig><reg>torjaz</reg></choice><choice><orig/><reg>.</reg></choice> <note type="lexical" resp="#TGH">Variant spelling of <foreign xml:lang="fro" key="AND:torchaz">torchaz</foreign>.</note></l>
+         </lg>
+         <milestone unit="theme" type="partsOfAPlough"/>
+         <lg n="20" part="I">
+            <l n="811">De la charette a la charrue</l>
+            <l n="812">P<ex>ur</ex> descrire me remue<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <p n="17">Ore de p<ex>ro</ex>pretes de la carrue</p>
+         <lg n="20" part="M">
+            <l n="813">En la carrue <choice><orig>auez</orig><reg>avez</reg></choice> vous</l>
+            <l n="814"><choice><orig>Diuerse</orig><reg>Diverse</reg></choice> nouns <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><sic>merlious</sic><corr>mervilous</corr></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="815">Prime le chief <choice><orig>&amp;</orig><reg>et</reg></choice> le penou<ex>n</ex><choice><orig/><reg>,</reg></choice></l>
+            <l n="816">Le manal <choice><orig>&amp;</orig><reg>et</reg></choice> le tenou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="817">P<ex>ar</ex> desouz est le ozilou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="818">Pluis amou<ex>n</ex>t e<ex>st</ex> le escuchou<ex>n</ex><choice><orig/><reg>.</reg></choice></l>
+            <l n="819">La soke auxi <choice><orig>&amp;</orig><reg>et</reg></choice> le vomer</l>
+            <l n="820">D<add place="above">e</add>it la carrue <choice><orig>auer</orig><reg>aver</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="821">Mes war q<ex>ue</ex> ne touche</l>
+            <l n="822">Le zok a la fort zouche<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <pb n="153v" facs="ms_5_153v.jpg"/>
+         <lg n="20" part="F">
+            <l n="823">En long la carrue e<ex>st</ex> la haie</l>
+            <l n="824">Que vient de bois ou de haie<choice><orig/><reg>.</reg></choice></l>
+            <l n="825">La carrue ad <choice><orig>vn</orig><reg>un</reg></choice> <note type="editorial" resp="#TGH">Another unnecessary macron.</note> maillet</l>
+            <l n="826">Et <choice><orig>vn</orig><reg>un</reg></choice> mo<ex>n</ex>dillou<ex>n</ex> p<ex>ur</ex> feir nett<choice><orig/><reg>.</reg></choice></l>
+            <l n="827"><choice><orig>Deua</orig><reg>Deva</reg></choice><ex>n</ex>t hai sou<ex>n</ex>t les <choice><sic>chauons</sic><corr>clavons</corr></choice></l>
+            <l n="828">Ou sou<ex>n</ex>t attachez les <choice><sic>cenons</sic><corr>tenons</corr></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="829">Les boefs portent les jus</l>
+            <l n="830">Entre <choice><orig>cristiens</orig><reg>Cristiens</reg></choice> et <choice><orig>iues</orig><reg>Jues</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="831">Et p<ex>ar</ex> arsczou<ex>n</ex>s as <choice><orig>ius</orig><reg>jus</reg></choice> fermez</l>
+            <l n="832">Sou<ex>n</ex>t les boefs fort arcez<choice><orig/><reg>,</reg></choice></l>
+            <l n="833">Que les <choice><orig>couent</orig><reg>covent</reg></choice> <choice><orig>maugre</orig><reg>maugré</reg></choice> lour</l>
+            <l n="834">P<ex>ar</ex> <choice><orig>la goillou<ex>n</ex></orig><reg>l'agoillou<ex>n</ex></reg></choice> eschuer errour<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="building"/>
+         <p n="18">Ore p<ex>ur</ex> vne mesou<ex>n</ex> edificere<note type="lexical" resp="#TGH">Latin word form, rather than French - see the note to line 394.</note></p>
+         <lg n="21">
+            <l n="835">Si vo<ex>us</ex> eiez <choice><orig>enpensee</orig><reg>en pensee</reg></choice></l>
+            <l n="836">Mesou<ex>n</ex> ou chambr<ex>e</ex> edifier<choice><orig/><reg>,</reg></choice></l>
+            <l n="837">Il <choice><orig>couent</orig><reg>covent</reg></choice> au comenceme<ex>n</ex>t</l>
+            <l n="838"><choice><orig>Qu</orig><reg>Qu'</reg></choice>il eit bou<ex>n</ex> fu<ex>n</ex>dament<choice><orig/><reg>.</reg></choice></l>
+            <l n="839">Puis <choice><orig>leuerez</orig><reg>leverez</reg></choice> la messer<choice><orig/><reg>,</reg></choice></l>
+            <l n="840">Dou<ex>n</ex>t fem<ex>m</ex>e est dit mesnere<choice><orig/><reg>;</reg></choice></l>
+            <l n="841">Mur est dit q<ex>ui</ex> clost la court<choice><orig/><reg>.</reg></choice></l>
+            <l n="842">De deux <choice><orig>cheu</orig><reg>chev</reg></choice><ex>er</ex>ons facez co<ex>m</ex>ble court<choice><orig/><reg>.</reg></choice></l>
+            <l n="843">Sur la meser en <choice><orig>trauers</orig><reg>travers</reg></choice> outre</l>
+            <l n="844">Amou<ex>n</ex> la celer mettez la poutre<choice><orig/><reg>.</reg></choice></l>
+            <l n="845">De <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>cheuestre</orig><reg>chevestre</reg></choice> liez le poutre<choice><orig/><reg>.</reg></choice></l>
+            <l n="846">En v<ex>ost</ex>re soler souz le poutre</l>
+            <l n="847">Les seillouns mettez outre<choice><orig/><reg>;</reg></choice></l>
+            <l n="848">Amou<ex>n</ex>t les seillou<ex>n</ex>s le <choice><orig>plauncie</orig><reg>plauncié</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="849">De bord ou de plastre <choice><orig>paui</orig><reg>pavi</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="850">Sur le meser les <choice><orig>trau*es</orig><reg>traves</reg></choice> mettez<choice><orig/><reg>.</reg></choice></l>
+            <l n="851">De deux <choice><orig>cheu</orig><reg>chev</reg></choice><ex>er</ex>ou<ex>n</ex>s <choice><orig>vn</orig><reg>un</reg></choice> couple facez</l>
+            <l n="852">Que ferme esterra sur<ex>e</ex> la meser<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="hostingAMeal"/><gap reason="omitted"/>
+         <milestone unit="theme" type="varia2"/><gap reason="omitted"/>
+         <milestone unit="theme" type="feast"/><gap reason="omitted"/>
+      </body>
+   </text>
+</TEI>

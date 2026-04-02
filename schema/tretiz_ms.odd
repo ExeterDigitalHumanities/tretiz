@@ -1,0 +1,251 @@
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" n="testms">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tretiz customisation of TEI for Manuscript Description</title>
+        <author>Charlotte Tupman</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are
+              permitted provided that the following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the above copyright notice, this list
+                of conditions and the following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the above copyright notice, this
+                list of conditions and the following disclaimer in the documentation and/or other
+                materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and contributors "as is" and any
+              express or implied warranties, including, but not limited to, the implied warranties
+              of merchantability and fitness for a particular purpose are disclaimed. In no event
+              shall the copyright holder or contributors be liable for any direct, indirect,
+              incidental, special, exemplary, or consequential damages (including, but not limited
+              to, procurement of substitute goods or services; loss of use, data, or profits; or
+              business interruption) however caused and on any theory of liability, whether in
+              contract, strict liability, or tort (including negligence or otherwise) arising in any
+              way out of the use of this software, even if advised of the possibility of such
+              damage.</p>
+          </licence>
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created with TEI Roma.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>TEI for manuscript description</p>
+      <schemaSpec ident="tretiz_ms" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <!-- required modules -->
+        <moduleRef key="header" except="xenoData"/>
+        <moduleRef key="linking" except="standOff"/>
+        <moduleRef key="core" except="email postBox postCode soCalled street"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <!-- optional modules -->
+        <moduleRef key="namesdates" except="climate population socecStatus"/>
+        <moduleRef key="transcr" except="undo"/>
+        <moduleRef key="figures" except="notatedMusic"/>
+        <moduleRef key="msdescription" except="heraldry musicNotation"/>
+        <elementSpec ident="gloss" mode="change">
+          <classes mode="change">
+            <memberOf key="model.linePart"/>
+            <memberOf key="att.placement"/>
+            <memberOf key="att.canonical"/>
+          </classes>
+          <attList>
+            <attDef ident="target" mode="change" usage="req"/>
+            <attDef ident="place" mode="change" usage="req">
+              <valList mode="change">
+                <valItem mode="add" ident="interlinear">
+                  <desc versionDate="2020-12-09" xml:lang="en">in between lines of text.</desc>
+                </valItem>
+                <valItem mode="add" ident="endline">
+                  <desc versionDate="2020-12-09" xml:lang="en">at the end of a line of text.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change" usage="req">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="enm">
+                  <desc versionDate="2020-12-09" xml:lang="en">Middle English</desc>
+                </valItem>
+                <valItem mode="add" ident="fra">
+                  <desc versionDate="2020-12-09" xml:lang="en">French</desc>
+                </valItem>
+                <valItem mode="add" ident="lat">
+                  <desc versionDate="2020-12-09" xml:lang="en">Latin</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="lg" mode="change">
+          <attList>
+            <attDef ident="rhyme" usage="opt">
+              <datatype>
+                <dataRef name="token"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="term" mode="change">
+          <classes mode="change">
+            <memberOf key="model.linePart"/>
+          </classes>
+          <attList>
+            <attDef ident="xml:id" mode="change" usage="req"/>
+            <attDef ident="key" mode="change" usage="req"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="letter">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates a preface written as a
+                    letter.</desc>
+                </valItem>
+                <valItem mode="add" ident="prologue">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates a preface written in the
+                    third person.</desc>
+                </valItem>
+                <valItem mode="add" ident="infancyAndEarlyChildhood">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of infancy and
+                    early childhood.</desc>
+                </valItem>
+                <valItem mode="add" ident="partsOfTheBody">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of parts of the
+                    body.</desc>
+                </valItem>
+                <valItem mode="add" ident="clothing">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of
+                    clothing.</desc>
+                </valItem>
+                <valItem mode="add" ident="food">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of food.</desc>
+                </valItem>
+                <valItem mode="add" ident="collectiveNames">
+                  <desc versionDate="2022-11-22" xml:lang="en">Indicates the list of collective
+                    names of animals.</desc>
+                </valItem>
+                <valItem mode="add" ident="animalNoises">
+                  <desc versionDate="2022-11-22" xml:lang="en">Indicates the list of animal noises
+                    (voces animantium).</desc>
+                </valItem>
+                <valItem mode="add" ident="varia1">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates a mixed topic involving
+                    homonyms and synonyms, including various words for red.</desc>
+                </valItem>
+                <valItem mode="add" ident="varia2">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates a mixed topic involving
+                    homonyms and synonyms, including the topic of bodily functions.</desc>
+                </valItem>
+                <valItem mode="add" ident="harvesting">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of harvesting
+                    corn.</desc>
+                </valItem>
+                <valItem mode="add" ident="baking">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of baking
+                    bread.</desc>
+                </valItem>
+                <valItem mode="add" ident="weaving">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of
+                    weaving.</desc>
+                </valItem>
+                <valItem mode="add" ident="brewing">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of malting and
+                    brewing.</desc>
+                </valItem>
+                <valItem mode="add" ident="fishing">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of
+                    fishing.</desc>
+                </valItem>
+                <valItem mode="add" ident="garden">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of the
+                    garden.</desc>
+                </valItem>
+                <valItem mode="add" ident="badWeather">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of bad
+                    weather.</desc>
+                </valItem>
+
+                <valItem mode="add" ident="trees">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of trees.</desc>
+                </valItem>
+                <valItem mode="add" ident="woodlandBirdsAndBeasts">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of woodland birds
+                    and beasts.</desc>
+                </valItem>
+                <valItem mode="add" ident="partsOfAPlough">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of parts of a
+                    plough.</desc>
+                </valItem>
+                <valItem mode="add" ident="PartsOfACart">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of parts of a
+                    cart.</desc>
+                </valItem>
+                <valItem mode="add" ident="building">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of
+                    building.</desc>
+                </valItem>
+                <valItem mode="add" ident="hostingAMeal">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of hosting a
+                    meal.</desc>
+                </valItem>
+                <valItem mode="add" ident="feast">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the topic of describing a
+                    feast.</desc>
+                </valItem>
+                <valItem mode="add" ident="finalPrayer">
+                  <desc versionDate="2021-01-11" xml:lang="en">Indicates the final prayer to
+                    conclude the text.</desc>
+                </valItem>
+                <valItem mode="add" ident="flowers">
+                  <desc versionDate="2022-11-22" xml:lang="en">Indicates the topic of flowers and
+                    fruit.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="note" mode="change">
+          <attList>
+            <attDef ident="resp" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="#TGH">
+                  <desc versionDate="2020-12-09" xml:lang="en">Thomas Hinton</desc>
+                </valItem>
+                <valItem mode="add" ident="#ETFM">
+                  <desc versionDate="2020-12-09" xml:lang="en">Edward Mills</desc>
+                </valItem>
+                <valItem mode="add" ident="#AG">
+                  <desc versionDate="2021-07-14" xml:lang="en">Aida Gholami</desc>
+                </valItem>
+                <valItem mode="add" ident="#ELK">
+                  <desc versionDate="2021-07-14" xml:lang="en">Eva Kruijt</desc>
+                </valItem>
+                <valItem mode="add" ident="#CT">
+                  <desc versionDate="2021-07-14" xml:lang="en">Charlotte Tupman</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      <elementSpec ident="foreign" mode="change"><classes mode="change"><memberOf key="att.canonical"/></classes></elementSpec><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change" usage="req"><valList type="closed" mode="change"><valItem mode="add" ident="omitted"><desc versionDate="2022-11-22" xml:lang="en">omitted</desc></valItem><valItem mode="add" ident="binding"><desc versionDate="2022-11-22" xml:lang="en">binding</desc></valItem><valItem mode="add" ident="lost"><desc versionDate="2022-11-22" xml:lang="en">lost</desc></valItem><valItem mode="add" ident="margin"><desc versionDate="2022-11-22" xml:lang="en">margin</desc></valItem><valItem mode="add" ident="damage"><desc versionDate="2022-11-22" xml:lang="en">damage</desc></valItem><valItem mode="delete" ident="cancelled"/><valItem mode="delete" ident="deleted"/><valItem mode="delete" ident="editorial"/><valItem mode="delete" ident="inaudible"/><valItem mode="delete" ident="irrelevant"/><valItem mode="delete" ident="sampling"/></valList></attDef><attDef ident="unit" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="page"><desc versionDate="2022-11-22" xml:lang="en">pages of text</desc></valItem><valItem mode="add" ident="section"><desc versionDate="2022-11-22" xml:lang="en">sections of text</desc></valItem><valItem mode="add" ident="character"><desc versionDate="2022-11-22" xml:lang="en">characters of text</desc></valItem><valItem mode="delete" ident="cm"/><valItem mode="delete" ident="mm"/><valItem mode="delete" ident="in"/><valItem mode="delete" ident="char"/></valList></attDef></attList></elementSpec></schemaSpec>
+    </body>
+  </text>
+</TEI>

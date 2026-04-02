@@ -1,0 +1,84 @@
+<!-- Drawn from 'Topical structure of the Tretiz' document-->
+<taxonomy xml:id="tretizThemes">
+   <category xml:id="introduction">
+      <catDesc>Introduction</catDesc>
+      <category xml:id="prologue">
+         <catDesc>Prologue</catDesc> 
+      </category>
+      <category xml:id="letter">
+         <catDesc>Letter</catDesc> 
+      </category>
+      <category xml:id="prologue_letter">
+         <catDesc>Letter</catDesc> 
+      </category>
+   </category>
+   <category xml:id="infancyAndEarlyChildhood">
+      <catDesc>Infancy and early childhood</catDesc>
+   </category>
+   <category xml:id="partsOfTheBody">
+      <catDesc>Parts of the body</catDesc>
+   </category>
+   <category xml:id="clothing">
+      <catDesc>Clothing</catDesc>
+   </category>
+   <category xml:id="food">
+      <catDesc>Food</catDesc>
+   </category>
+   <category xml:id="collectiveNames">
+      <catDesc>Collective names of animals</catDesc>
+   </category>
+   <category xml:id="animalNoises">
+      <catDesc>Animal noises (voces animantium)</catDesc>
+   </category>
+   <category xml:id="varia1">
+      <catDesc>Varia 1</catDesc>
+   </category>
+   <category xml:id="harvesting">
+      <catDesc>Harvesting</catDesc>
+   </category>
+   <category xml:id="baking">
+      <catDesc>Baking</catDesc>
+   </category>
+   <category xml:id="weaving">
+      <catDesc>Weaving</catDesc>
+   </category>
+   <category xml:id="brewing">
+      <catDesc>Malting and brewing</catDesc>
+   </category>
+   <category xml:id="fishing">
+      <catDesc>Fishing</catDesc>
+   </category>
+   <category xml:id="garden">
+      <catDesc>The garden</catDesc>
+   </category>
+   <category xml:id="badWeather">
+      <catDesc>Bad weather</catDesc>
+   </category>
+   <category xml:id="flowers">
+      <catDesc>Flowers</catDesc>
+   </category>
+   <category xml:id="trees">
+      <catDesc>Trees</catDesc>
+   </category>
+   <category xml:id="woodlandBirdsAndBeasts">
+      <catDesc>Woodland birds and beasts</catDesc>
+   </category>
+   <category xml:id="partsOfACart">
+      <catDesc>Parts of a cart</catDesc>
+   </category>   
+   <category xml:id="partsOfAPlough">
+      <catDesc>Parts of a plough</catDesc>
+   </category>
+   <category xml:id="building">
+      <catDesc>Building</catDesc>
+   </category>
+   <category xml:id="hostingAMeal">
+      <catDesc>Preparing for guests</catDesc>
+   </category>
+   <category xml:id="varia2">
+      <catDesc>Varia 2</catDesc>
+   </category>
+   <category xml:id="feast">
+      <catDesc>A feast</catDesc>
+   </category>
+</taxonomy>

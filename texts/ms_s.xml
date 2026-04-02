@@ -1,0 +1,411 @@
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tretiz_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ms_s">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS S</title>
+            <author>To be added</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="TGH">Thomas Hinton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ETFM">Edward Mills</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Publication Information--></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian</repository>
+                  <idno>MS. Selden Supra 74</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author><!--Author of manuscript--></author>
+                     <title><!--Title of manuscript--></title>
+                  </msItem>
+                  <msItem n="1">
+                     <locus>ff. 1r-1v</locus>
+                     <author>Walter de Bibbesworth</author>
+                     <title>Le Tretiz</title>
+                     <textLang mainLang="fro">French with English glosses</textLang>
+                  </msItem>
+                  <msItem n="2">
+                     <locus>ff. 2r-6v</locus>
+                     <author>Walter de Henley</author>
+                     <title>Husbandry</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="3">
+                     <locus>ff. 7r-8v</locus>
+                     <author>unknown (attributed here to Nicholas Bozon)</author>
+                     <title>Desputeison de l'alme et du corps</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="4">
+                     <locus>ff. 9r-11v</locus>
+                     <author>Pierre d'Abernon</author>
+                     <title>Lumiere as lais</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="5">
+                     <locus>ff. 10-13r</locus>
+                     <author>unknown</author>
+                     <title>Historia sancti Neminis</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="6">
+                     <locus>ff. 14r-18r</locus>
+                     <author>unknown</author>
+                     <title>Life of Adam and Eve</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="7">
+                     <locus>ff. 18va-24va</locus>
+                     <author>unknown</author>
+                     <title>Evangelium Nicodemi</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="8">
+                     <locus>ff. 25va-25vb</locus>
+                     <author>unknown</author>
+                     <title>Epistola Pilati</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="9">
+                     <locus>ff. 25vb-28va</locus>
+                     <author>unknown</author>
+                     <title>Somnium Neroni</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="10">
+                     <locus>ff. 28va-31ra</locus>
+                     <author>unknown</author>
+                     <title>Vindicta salvatoris</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="11">
+                     <locus>ff. 31r-31v</locus>
+                     <author>Simon de Kernerthin</author>
+                     <title>Poem about Penitence</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="12">
+                     <locus>f. 31v</locus>
+                     <author>unknown</author>
+                     <title>Religious poem</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="13">
+                     <locus>ff. 31v-33</locus>
+                     <author>Simon de Kernerthin</author>
+                     <title>Religious poem</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="14">
+                     <locus>ff. 33-35</locus>
+                     <author>unknown</author>
+                     <title>Urbain le Courtois</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="15">
+                     <locus>f. 35</locus>
+                     <author>unknown</author>
+                     <title>Dialogue between 'Le Curtois' and 'Le Vilein'</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="16">
+                     <locus>ff. 35v-37v</locus>
+                     <author>Serlo of Wilton</author>
+                     <title>Proverbs</title>
+                     <textLang mainLang="fro"/>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="17">
+                     <locus>ff. 38-43v</locus>
+                     <author>Nicholas Bozon</author>
+                     <title>Proverbs</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="18">
+                     <locus>ff. 44ra-59rb</locus>
+                     <author>Edmond d'Abingdon</author>
+                     <title>Miroir de sainte eglise</title>
+                     <textLang mainLang="fro">French with some Latin</textLang>
+                  </msItem>
+                  <msItem n="19">
+                     <locus>f. 59v</locus>
+                     <author>unknown</author>
+                     <title>List of follies</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="20">
+                     <locus>ff. 60r-102r</locus>
+                     <author>Gossuin de Metz</author>
+                     <title>Image du monde</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+                  <msItem n="21">
+                     <locus>ff. 102r-119r</locus>
+                     <author>Innocent III</author>
+                     <title>De contemptu mundi</title>
+                     <textLang mainLang="lat"/>
+                  </msItem>
+                  <msItem n="22">
+                     <locus>ff. 122v-125v</locus>
+                     <author>unknown</author>
+                     <title>History of Britain</title>
+                     <textLang mainLang="fro"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support><p>Parchment.</p></support>
+                        <extent>ff. ii + 126 <dimensions scope="all" type="leaf" unit="mm">
+                           <height>225</height>
+                           <width>165</width>
+                        </dimensions></extent>
+                        <collation>
+                           <catchwords><!--to be added.--></catchwords>
+                        </collation>
+                     </supportDesc>   
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><p>England</p></origin>
+                  <provenance><p>Owned by Sir Richard Hadele in the fifteenth century (f. 14v).</p>
+                     <p>Owned by Roger Young in the sixteenth century (f.ii).</p>
+                     <p>Owned by John Somervyle in the sixteenth century (f. 125v).</p>
+                     <p>John Selden (b. 1584, d. 1654).</p>
+                     <p>Acquired by the Bodleian in 1659.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change when="2024-12-15" who="#TGH" status="1.0">Proof reading complete.</change>
+        <change when="2023-10-04" who="#TGH" status="0.91">Corrections to AND tag on line 36.</change>
+        <change when="2022-09-29" who="#TGH" status="0.6">Correction to code on line 65.</change>
+        <change when="2022-06-08" who="#TGH" status="0.5">Added LG element either side of milestones; added 'part=' attribute to connect LG groups across page/column breaks.</change>
+        <change when="2022-03-11" who="#LB" status="0.4">Amended item 3.</change>
+        <change when="2022-03-07" who="#LB" status="0.3">Added some Bodleian catalogue data</change>
+        <change when="2021-11-22" who="#TGH" status="0.2">Finished transcription and coding, except for adding AND: to keys.</change> 
+        <change when="2021-11-19" who="#TGH" status="0.1">Started.</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1r" facs="ms_s_001r.jpg"/>
+            <milestone unit="theme" type="introduction"/><gap reason="omitted"/>
+            <milestone unit="theme" type="infancyAndEarlyChildhood"/><gap reason="omitted"/>
+            <milestone unit="theme" type="partsOfTheBody"/><gap reason="omitted"/>
+            <milestone unit="theme" type="clothing"/><gap reason="omitted"/>
+            <milestone unit="theme" type="food"/><gap reason="omitted"/>
+            <milestone unit="theme" type="collectiveNames"/><gap reason="omitted"/>
+            <milestone unit="theme" type="animalNoises"/><gap reason="omitted"/>
+            <milestone unit="theme" type="varia1"/><gap reason="omitted"/>
+            <milestone unit="theme" type="harvesting"/><gap reason="omitted"/>
+            <milestone unit="theme" type="baking"/><gap reason="omitted"/>
+            <milestone unit="theme" type="weaving"/><gap reason="omitted"/>
+            <milestone unit="theme" type="brewing"/><gap reason="omitted"/>
+            <milestone unit="theme" type="fishing"/><gap reason="omitted"/>
+            <milestone unit="theme" type="garden"/><gap reason="omitted"/>
+            <milestone unit="theme" type="badWeather"/><gap reason="omitted"/>
+            <milestone unit="theme" type="flowers"/><gap reason="omitted"/>
+            <milestone unit="theme" type="trees"/><gap reason="omitted"/>
+            <milestone unit="theme" type="woodlandBirdsAndBeasts"/><gap reason="omitted"/> 
+            <cb n="1ra"/>
+            <lg n="1">
+               <l n="1">Plus est delit <choice><orig>enle</orig><reg>en le</reg></choice> oriole</l>
+               <l n="2">Escuter la noise del <term xml:id="S-oriole-001" key="AND:oriol_1">oriole</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:53284" target="#S-oriole-001">wodewale</gloss></l>
+               <l n="3">Jeo vei ici <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-tesoun-001" key="AND:tessun">tesoun</term> <gloss place="interlinear" xml:lang="enm" key="MED:6126" target="#S-tesoun-001">brock</gloss></l>
+               <l n="4"><choice><orig>Kad</orig><reg>K'ad</reg></choice> deguerpi sa meisoun</l>
+               <l n="5">Pur la sente <choice><orig>dun</orig><reg>d'un</reg></choice> gopil</l>
+               <l n="6">Ke <choice><orig>lad</orig><reg>l'ad</reg></choice> mis en exil<choice><orig/><reg>.</reg></choice></l>
+               <l n="7">Jeo vai ci <choice><orig>vne</orig><reg>une</reg></choice> <term xml:id="S-putois-001" key="AND:putois">putois</term><choice><orig/><reg>.</reg></choice> <note type="editorial" resp="#TGH">The gloss is unclear. One would expect a nominal form (probably <foreign xml:lang="enm" key="MED:17933">fulmard</foreign>, based on the other MSS), but <foreign xml:lang="enm">illegued</foreign> looks verbal, possibly the past tense form of <foreign xml:lang="enm" key="MED:25017">leggen</foreign> (<quote>to speak against</quote>). In other <title>Tretiz</title> MSS, the equivalent line reads <quote><foreign xml:lang="fro">E maudit soit li mau putois</foreign></quote>; is it possible that <foreign xml:lang="enm">illegued</foreign> corresponded in an exemplar to <foreign xml:lang="fro">maudit</foreign> (with a sense along the lines of <mentioned>accused, criticised</mentioned>) but was erroneously copied across and ascribed to <foreign xml:lang="fro">putois</foreign> within the line as reworked here?</note> <gloss place="interlinear" xml:lang="enm" key="25017" target="#S-putois-001">illegued</gloss></l>
+               <l n="8">Seit en vile<choice><orig/><reg>,</reg></choice> seit en bois<choice><orig/><reg>,</reg></choice></l>
+               <l n="9">Jeo vodra meutz <choice><orig>vne</orig><reg>une</reg></choice> <term xml:id="S-belette-001" key="AND:belete">belette</term> <gloss place="interlinear" xml:lang="enm" key="MED:52340" target="#S-belette-001">wesle</gloss></l>
+               <l n="10">De fere ma g<ex>ra</ex>nge de <choice><orig>Rats</orig><reg>rats</reg></choice> nette</l>
+               <l n="11">Ke tous les taupes qe sount <choice><orig>trouez</orig><reg>trovez</reg></choice></l>
+               <l n="12">En tere fouans p<ex>ar</ex>mi le pree<choice><orig/><reg>,</reg></choice></l>
+               <l n="13"><choice><orig>Ela</orig><reg>E la</reg></choice> char de <choice><orig>Cerf</orig><reg>cerf</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> de foun</l>
+               <l n="14">Ke la melodie de <choice><orig>Asne</orig><reg>asne</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> de poun<choice><orig/><reg>.</reg></choice></l>
+               <l n="15">Plus cher ad dame cowe de poun</l>
+               <l n="16">Ke de escheker fers ou poun<choice><orig/><reg>.</reg></choice></l>
+               <l n="17">Jeo vei ci soutz la dume</l>
+               <l n="18"><choice><orig>Vn</orig><reg>Un</reg></choice> oisel <choice><orig>plume</orig><reg>plumé</reg></choice><choice><orig/><reg>,</reg></choice> ci gist la plume<choice><orig/><reg>;</reg></choice></l>
+               <l n="19">Mes cil qe les oiseaux ad <choice><orig>deplume</orig><reg>deplumé</reg></choice></l>
+               <l n="20">Meutz vodra <choice><orig>qeil</orig><reg>qe il</reg></choice> eut nois blucee<choice><orig/><reg>.</reg></choice></l>
+               <l n="21">Jeo vei ester <choice><orig>vn</orig><reg>un</reg></choice> petit <term xml:id="S-neym-001" key="AND:neim">neym</term> <gloss place="interlinear" xml:lang="enm" key="MED:12891" target="#S-neym-001">duarw</gloss></l>
+               <l n="22">En la <choice><orig>Riuere</orig><reg>rivere</reg></choice> <choice><orig>qest</orig><reg>q'est</reg></choice> dit <mentioned><choice><orig>neyn</orig><reg>Neyn</reg></choice></mentioned><choice><orig/><reg>.</reg></choice></l>
+               <l n="23"><choice><orig>Ensa</orig><reg>En sa</reg></choice> main tient <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-neyn-001" key="AND:ain_1">neyn</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:20967" target="#S-neyn-001">hok</gloss></l>
+               <l n="24">Pescher veout<choice><orig/><reg>,</reg></choice> ne peot p<ex>ur</ex> <term xml:id="S-ceym-001" key="AND:cem">ceym</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:40841" target="#S-ceym-001">slet</gloss></l>
+            </lg>
+               <milestone unit="theme" type="partsOfACart"/>
+            <lg n="2" part="I">
+               <l n="25"><choice><orig><hi rend="large">I</hi>Eo</orig><reg>Jeo</reg></choice> <del type="subpunction">eo</del> vei venir <choice><orig>vne</orig><reg>une</reg></choice> charette<choice><orig/><reg>.</reg></choice></l>
+               <l n="26"><choice><orig>bon</orig><reg>Bon</reg></choice> est qe moi entremette</l>
+               <l n="27">En f<ex>ra</ex>nceis la charette decrire<choice><orig/><reg>.</reg></choice></l>
+               <l n="28">E pur enfauntz mettr<ex>e</ex> en <choice><orig>liu</orig><reg>liv</reg></choice><ex>er</ex>e<choice><orig/><reg>,</reg></choice></l>
+               <l n="29">En p<ex>ri</ex>mes voil nomer les <choice><orig>Reos</orig><reg>reos</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="30">Puis les bendes entour les <choice><orig>Reos</orig><reg>reos</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="31">Desoutz les bendes qe sunt de fer</l>
+               <l n="32">Sunt les <term xml:id="S-jaunts-001" key="AND:jante_2">jaunts</term> estachetz de fer<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:15563" target="#S-jaunts-001">velien</gloss></l>
+               <l n="33">En les jaunts entre les <term xml:id="S-rais-001" key="AND:rai_1"><choice><orig>Rais</orig><reg>rais</reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:42312" target="#S-rais-001">spoken</gloss></l>
+               <l n="34"><choice><sic>Dul</sic><corr>Del</corr></choice> solail issent les <choice><orig>Rais</orig><reg>rais</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            </lg>
+               <cb n="1rb"/>
+            <lg n="2" part="M">      
+               <l n="35">De la mer viegnent les <term xml:id="S-raies-001" key="AND:rai_3"><choice><orig>Raies</orig><reg>raies</reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:16083" target="#S-raies-001">fisch</gloss></l>
+               <l n="36">E ver la feire vount les <term xml:id="S-raies-002" key="AND:rai_2"><choice><orig>Raies</orig><reg>raies</reg></choice></term><choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">This form is attested as an erroneous variant plural of <foreign xml:lang="enm" key="MED:6315">burel</foreign> in the MED.</note> <gloss place="interlinear" xml:lang="enm" key="MED:6315" target="#S-raies-002">burelelez</gloss></l>
+               <l n="37">Mes les <choice><orig>Raies</orig><reg>raies</reg></choice> de la charette</l>
+               <l n="38">En les moaux <choice><orig>vnt</orig><reg>unt</reg></choice> recette<choice><orig/><reg>.</reg></choice></l>
+               <l n="39">Seet le moal <choice><orig>enle</orig><reg>en le</reg></choice> <choice><orig>Reo</orig><reg>reo</reg></choice></l>
+               <l n="40">E le moel en <choice><orig>vn</orig><reg>un</reg></choice> eof<choice><orig/><reg>;</reg></choice></l>
+               <l n="41">Le <choice><orig>vn</orig><reg>un</reg></choice> est bon p<ex>ur</ex> fees porter<choice><orig/><reg>,</reg></choice></l>
+               <l n="42">Le aultre est bon a manger<choice><orig/><reg>.</reg></choice></l>
+               <l n="43">En le moal est mys le essil</l>
+               <l n="44">E p<ex>ar</ex> deux heces se tent <choice><orig>keuil</orig><reg>kevil</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="45">Les eissils <choice><orig>vnt</orig><reg>unt</reg></choice> lour <term xml:id="S-juners-001" key="AND:junere">juners</term> <gloss place="interlinear" xml:lang="enm" key="MED:8158" target="#S-juners-001">cloutes</gloss></l>
+               <l n="46">Ke lour eident cum bones freres<choice><orig/><reg>.</reg></choice></l>
+               <l n="47">Sur <choice><orig>lessil</orig><reg>l'essil</reg></choice> git le <term xml:id="S-cartil-001" key="AND:chartil"><choice><orig>Cartil</orig><reg>cartil</reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6867" target="#S-cartil-001">cartbodi</gloss></l>
+               <l n="48">E p<ex>ur</ex> <choice><orig>sauuer</orig><reg>sauver</reg></choice> lui de p<ex>er</ex>il</l>
+               <l n="49">Le <choice><orig>Cartil</orig><reg>cartil</reg></choice> est des <term xml:id="S-brahés-001" key="AND:brael"><choice><orig>brahes</orig><reg>brahés</reg></choice></term> <gloss place="interlinear" xml:lang="enm" key="MED:51833" target="#S-brahés-001">withen</gloss></l>
+               <l n="50">Ferm <choice><orig>lyes</orig><reg>lyés</reg></choice> <choice><orig>ales</orig><reg>a les</reg></choice> essils<choice><orig/><reg>.</reg></choice></l>
+               <l n="51">Entre le <choice><orig>Chartil</orig><reg>chartil</reg></choice> <choice><orig>eles</orig><reg>e les</reg></choice> moaux</l>
+               <l n="52">Sunt <term xml:id="S-hordieres-001" key="AND:hurtour">hordieres</term> <choice><orig>trouez</orig><reg>trovez</reg></choice> deux<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6867" target="#S-hordieres-001">cartpinnes</gloss></l>
+               <l n="53"><choice><orig>Iescun</orig><reg>Jescun</reg></choice> <choice><orig>Charette</orig><reg>charette</reg></choice> qe meine bleez</l>
+               <l n="54">Deit <choice><orig>auer</orig><reg>aver</reg></choice> <choice><orig>Riddles</orig><reg>riddles</reg></choice> <choice><orig>acoutez</orig><reg>a coutez</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="55">En les <term xml:id="S-ridles-001" key="AND:ridele_1"><choice><orig>Ridles</orig><reg>ridles</reg></choice></term> sunt les <term xml:id="S-rolowes-001" key="AND:rouloun">rolowes</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="38121" target="#S-ridles-001">ronges</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:38121" target="#S-rolowes-001"><choice><orig>rongstaues</orig><reg>rongstaves</reg></choice></gloss></l>
+               <l n="56">P<ex>ar</ex> les <choice><orig>Reofs</orig><reg>reofs</reg></choice> s<add place="above">a</add>untz nule clowes<choice><orig/><reg>.</reg></choice></l>
+               <l n="57">Outre les moaux sunt sauheres<choice><orig/><reg>.</reg></choice></l>
+               <l n="58">Si <choice><orig>vnt</orig><reg>unt</reg></choice> les charettes <choice><sic>boure</sic><reg>lours</reg></choice> escheles<choice><orig/><reg>.</reg></choice></l>
+               <l n="59">En les <term xml:id="S-lymons-001" key="AND:limon_1">lymons</term> va le <term xml:id="S-limoner-001" key="AND:limoner">limoner</term> <gloss place="interlinear" xml:lang="enm" key="MED:45290" target="#S-lymons-001">thille</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:45290" target="#S-limoner-001">thilhors</gloss></l>
+               <l n="60">Ki porte a doos <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-doser-001" key="AND:dosser">doser</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37502" target="#S-doser-001">rugwitthe</gloss></l>
+               <l n="61">E au ventre <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-ventrer-001" key="AND:ventrer">ventrer</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:53355" target="#S-ventrer-001">wombrop</gloss></l>
+               <l n="62">E <choice><orig>ala</orig><reg>a la</reg></choice> <choice><orig>Cowe</orig><reg>cowe</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-waluer-001" key="AND:valuer_1">waluer</term><choice><orig/><reg>.</reg></choice> <note type="lexical" resp="#TGH">Two forms of this word are recorded in MSS of the Tretiz and related texts: <foreign xml:lang="fro" key="avaluer">avaluer</foreign> (sometimes shortened to <foreign xml:lang="fro" key="valuer_1">valuer</foreign>) and <foreign xml:lang="fro" key="vauner">vauner</foreign>. AND has an attestation for each of these. Modern French preserves <foreign xml:lang="fra">avaloir</foreign> (see TLF: <quote><foreign xml:lang="fra">pièce du harnais qui descend derrière les cuisses des chevaux et les entoure à leur partie inférieure</foreign></quote>), attested already in the 13th century (Godefroy Compl. 8:245). This suggests that <foreign xml:lang="fro">(a)valuer</foreign> is the more etymologically sound of the two alternatives ('aval'= underneath + '-oir' suffix, a rope passing underneath/round the back of the horse), with <foreign xml:lang="fro">vauner</foreign> possibly derived from misreading of the 'u' as an 'n' and palatalisation of the 'l'.</note> <gloss place="interlinear" xml:lang="enm" key="MED:44407" target="#S-waluer-001">tailrop</gloss></l>
+               <l n="63">Les trees si <choice><orig>vnt</orig><reg>unt</reg></choice> <term xml:id="S-braceroles-001" key="AND:bracerole_2">braceroles</term> <gloss place="interlinear" xml:lang="enm" key="MED:29863" target="#S-braceroles-001">nostles</gloss></l>
+               <l n="64">Ke abracent les limons <choice><orig>&amp;</orig><reg>e</reg></choice> acolent<choice><orig/><reg>.</reg></choice></l>
+               <l n="65"><choice><orig>Deuaunt</orig><reg>Devaunt</reg></choice> les braceroles sunt <term xml:id="S-billés-001" key="AND:billette_1"><choice><orig>billes</orig><reg>billés</reg></choice></term> <gloss place="interlinear" xml:lang="enm" key="MED:33400" target="#S-billés-001">pinnes</gloss></l>
+               <l n="66">Ki de cuteux sunt round <term xml:id="S-dolés-001" key="AND:doler_1"><choice><orig>doles</orig><reg>dolés</reg></choice></term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:45754" target="#S-dolés-001">switen</gloss></l>
+               <l n="67">Les cols des <choice><orig>chiuaux</orig><reg>chivaux</reg></choice> portent <term xml:id="S-esteles-001" key="AND:astele">esteles</term> <gloss place="interlinear" xml:lang="enm" key="MED:19895" target="#S-esteles-001">hamen</gloss></l>
+               <l n="68">E colers de quir ou bourles ou celes<choice><orig/><reg>.</reg></choice></l>
+            </lg> 
+               <pb n="1v" facs="ms_s_001v.jpg"/>
+               <cb n="1va"/>
+            <lg n="2" part="F">
+               <l n="69">En la charette est le somer<choice><orig/><reg>,</reg></choice></l>
+               <l n="70">La ou seet le charetter</l>
+               <l n="71">Ke tient en main la <choice><orig>Riorte</orig><reg>riorte</reg></choice></l>
+               <l n="72">P<ex>ar</ex> quei le <choice><orig>chiual</orig><reg>chival</reg></choice> en chemin resorte<choice><orig/><reg>.</reg></choice></l>
+            </lg>
+         <milestone unit="theme" type="partsOfAPlough"/>
+         <lg n="3">
+               <l n="73">De la charette <choice><orig>ala</orig><reg>a la</reg></choice> carue</l>
+               <l n="74">Pur descrire moi remue<choice><orig/><reg>.</reg></choice></l>        
+               <l n="75"><choice><orig><hi rend="large">E</hi></orig><reg>E</reg></choice>n la <choice><orig>Carue</orig><reg>carue</reg></choice> vous t<ex>ro</ex><choice><orig>ueretz</orig><reg>veretz</reg></choice></l>
+               <l n="76"><choice><orig>Diuers</orig><reg>Divers</reg></choice> nouns assignetz<choice><orig/><reg>.</reg></choice></l>
+               <l n="77">Le <choice><orig>Ched</orig><reg>ched</reg></choice> et le penoun<choice><orig/><reg>,</reg></choice></l>
+               <l n="78">Le manual <choice><orig>&amp;</orig><reg>e</reg></choice> le tenoun<choice><orig/><reg>.</reg></choice></l>
+               <l n="79">P<ex>ar</ex> desus est le oriloun<choice><orig/><reg>.</reg></choice></l>
+               <l n="80">Plus amount est le eschecun<choice><orig/><reg>.</reg></choice></l>
+               <l n="81">La sok <choice><orig>&amp;</orig><reg>e</reg></choice> le vomer</l>
+               <l n="82">Deit la <choice><orig>Carue</orig><reg>carue</reg></choice> <choice><orig>auer</orig><reg>aver</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="83">En longe la <choice><orig>Carue</orig><reg>carue</reg></choice> est la hai<choice><orig/><reg>,</reg></choice></l>
+               <l n="84">Ke vient de bois ou de hai<choice><orig/><reg>.</reg></choice></l>
+               <l n="85">La <choice><orig>Carue</orig><reg>carue</reg></choice> si ad <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="S-maillet-001" key="AND:maillet">maillet</term> <gloss place="interlinear" xml:lang="enm" key="MED:33760" target="#S-maillet-001">plouhbetel</gloss></l>
+               <l n="86">E le <term xml:id="S-mundiloun-001" key="AND:mundiloun">mundiloun</term> p<ex>ur</ex> <choice><orig>ferele</orig><reg>fere le</reg></choice> net<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:19799 MED:42552" target="#S-mundiloun-001">hakerstaf</gloss></l>
+               <l n="87"><choice><orig>Deuant</orig><reg>Devant</reg></choice> le hai sunt les <choice><orig>clauons</orig><reg>clavons</reg></choice></l>
+               <l n="88">Ou sunt atachez les tenouns<choice><orig/><reg>.</reg></choice></l>
+               <l n="89">Les beofs portent les juges</l>
+               <l n="90">P<ex>ur</ex> <choice><orig>crestiens</orig><reg>Crestiens</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> pur <choice><orig>giwes</orig><reg>Giwes</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="91">E p<ex>ar</ex> les arsuns en juge fermetz</l>
+               <l n="92">Sunt les beofs si fort artetz</l>
+               <l n="93">Ke lour <choice><orig>couent</orig><reg>covent</reg></choice> <choice><orig>maugre</orig><reg>maugré</reg></choice> lour</l>
+               <l n="94">P<ex>ar</ex> le agilloun <choice><orig>eschiure</orig><reg>eschivre</reg></choice> errour<choice><orig/><reg>.</reg></choice></l>
+         </lg>
+         <milestone unit="theme" type="building"/>
+             <lg n="4" part="I">
+               <l n="95">A la carue assez <choice><orig>auoms</orig><reg>avoms</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="96">Redressom ore nos mesons<choice><orig/><reg>.</reg></choice></l> 
+               <l n="97"><choice><orig><hi rend="large">S</hi>I</orig><reg>Si</reg></choice> vous <choice><orig>auetz</orig><reg>avetz</reg></choice> en corage</l>
+               <l n="98"><choice><orig>Vn</orig><reg>Un</reg></choice> chambre <choice><orig>leuer</orig><reg>lever</reg></choice> en estage<choice><orig/><reg>,</reg></choice></l>
+               <l n="99">P<ex>ri</ex>mes doit comencer</l>
+               <l n="100">Et le fundement getter<choice><orig/><reg>.</reg></choice></l>
+               <l n="101">Et pus <choice><orig>leuetz</orig><reg>levetz</reg></choice> la <term xml:id="S-messere-001" key="AND:maisere">messere</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:51558" target="#S-messere-001">wal</gloss></l>
+               <l n="102">Dunt fe<ex>m</ex>me est dit messuere<choice><orig/><reg>.</reg></choice></l>
+            </lg>
+               <cb n="1vb"/>
+            <lg n="4" part="F">
+               <l n="103">Ceo est mur qe <choice><orig>enuiroun</orig><reg>enviroun</reg></choice> la <choice><orig>Court</orig><reg>court</reg></choice></l>
+               <l n="104">Et mesere qe a coumble <choice><orig>a hurt</orig><reg>ahurt</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="105">Sus la mesere en <choice><orig>trauers</orig><reg>travers</reg></choice> outre</l>
+               <l n="106">Amount le celer mettent le <term xml:id="S-poutre-001" key="AND:poutre">poutre</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:53206" target="#S-poutre-001">wirtre</gloss></l>
+               <l n="107">Et le piler desoutz le poutre</l>
+               <l n="108">De <term xml:id="S-chevestres-001" key="AND:chevestre"><choice><orig>cheuestres</orig><reg>chevestres</reg></choice></term> lietz le poutre<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:19873" target="#S-chevestres-001">haltre</gloss></l>
+               <l n="109">En <choice><orig>uostre</orig><reg>vostre</reg></choice> soler<choice><orig/><reg>,</reg></choice> sus le poutre<choice><orig/><reg>,</reg></choice></l>
+               <l n="110">Les <term xml:id="S-solins-001" key="AND:seilloun">solins</term> mettez outre<choice><orig/><reg>;</reg></choice> <note type="lexical" resp="#TGH">The equivalent Latin term is <foreign xml:lang="lat">soliva</foreign>, glossed as <foreign xml:lang="fro">sulle</foreign> and <foreign xml:lang="fro">solive</foreign> in MSS of John of Garland’s <title>Dictionarius</title> (see DMLBS, <foreign xml:lang="lat">soliva</foreign>: <quote>beam, rafter, sill</quote>. Some Tretiz witnesses (e.g. PT) give the word <foreign xml:lang="fro">solive</foreign> here; others (including GSY) have <foreign xml:lang="fro">seilloun</foreign>. The former word is doubtless derived from the Latin etymon; the latter appears to be the same term as the <title>Dictionarius</title> gloss <foreign xml:lang="fro">sulle</foreign> and is presumably to be related to English <foreign xml:lang="enm" key="MED:40342">sil(le)</foreign>. We have chosen to link to AND headwords <foreign xml:lang="fro" key="solive">solive</foreign> and <foreign xml:lang="fro" key="seilloun">seilloun</foreign> respectively, depending on each manuscript’s reading.</note> <gloss place="interlinear" xml:lang="enm" key="MED:18651" target="#S-solins-001">gistes</gloss></l>
+               <l n="111">Amount les solins la <term xml:id="S-plauncié-001" key="AND:plancher_1"><choice><orig>plauncie</orig><reg>plauncié</reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:16387" target="#S-plauncié-001">floor</gloss></l>
+               <l n="112">De bord ou plastre bien <choice><orig>pauie</orig><reg>pavié</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="113">Sus la mesere les trahez mettez<choice><orig/><reg>.</reg></choice></l>
+               <l n="114">De deux <choice><orig>cheu</orig><reg>chev</reg></choice><ex>er</ex>ons le couple facez</l>
+               <l n="115">Ke ferm esterra sus la mesere</l>
+               <l n="116">P<ex>ar</ex> <choice><orig>kiuil</orig><reg>kivil</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> par <term xml:id="S-terere-001" key="AND:terere">terere</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:52834" target="#S-terere-001">wimbel</gloss></l>
+               <l n="117">De tute la meson <choice><orig>encoumble</orig><reg>en coumble</reg></choice> ap<ex>er</ex>t</l>
+               <l n="118">En cele tect dunt est <choice><orig>couert</orig><reg>covert</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="119">En la chaumbre deit bien estre</l>
+               <l n="120">Luminaire <choice><orig>ala</orig><reg>a la</reg></choice> fenestre<choice><orig/><reg>.</reg></choice></l>
+               <l n="121">Al <choice><orig>entre</orig><reg>entré</reg></choice> del huis est la <term xml:id="S-lime-001" key="AND:lyme_2">lime</term> <gloss place="interlinear" xml:lang="enm" key="MED:45470" target="#S-lime-001">thresuold</gloss></l>
+               <l n="122">Et outre la teste la <term xml:id="S-sullime-001" key="AND:suslime">sullime</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:31961" target="#S-sullime-001"><choice><orig>ouerslai</orig><reg>overslai</reg></choice></gloss></l>
+               <l n="123">De <choice><orig>couste</orig><reg>cousté</reg></choice> sunt les <term xml:id="S-gimmeux-001" key="AND:gemel">gimmeux</term> <gloss place="interlinear" xml:lang="enm" key="MED:12396 MED:46870" target="#S-gimmeux-001">doretren</gloss></l>
+               <l n="124"><choice><orig>Ousunt</orig><reg>Ou sunt</reg></choice> fichez les <term xml:id="S-aneux-001" key="AND:anel">aneux</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37591" target="#S-aneux-001">ringes</gloss></l>
+               <l n="125">En le <choice><orig>vn</orig><reg>un</reg></choice> gimel sunt les <term xml:id="S-gouns-001" key="AND:gon_1">gouns</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:20967" target="#S-gouns-001">hokes</gloss></l>
+               <l n="126">Et <term xml:id="S-vertivels-001" key="AND:vertevele"><choice><orig>vertiuels</orig><reg>vertivels</reg></choice></term> sunt mis a gouns<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:47532" target="#S-vertivels-001">twistes</gloss></l>
+               <l n="127">E p<ex>ar</ex> <term xml:id="S-cliket-001" key="AND:cliket">cliket</term> <choice><orig>&amp;</orig><reg>e</reg></choice> p<ex>ar</ex> <term xml:id="S-serure-001" key="AND:serrure">serure</term> <gloss place="interlinear" xml:lang="enm" key="MED:24519" target="#S-cliket-001">lache</gloss> <gloss place="interlinear" xml:lang="enm" key="25939" target="#S-serure-001">lok</gloss></l>
+               <l n="128">Ert la meson plus ensure<choice><orig/><reg>.</reg></choice></l>
+            </lg>
+               <milestone unit="theme" type="hostingAMeal"/><gap reason="omitted"/>
+               <milestone unit="theme" type="varia2"/><gap reason="omitted"/>
+               <milestone unit="theme" type="feast"/>
+            <lg n="5" part="I">
+               <l n="129"><choice><orig><hi rend="large">V</hi>n</orig><reg>Un</reg></choice> vallet de la <choice><orig>nouelerie</orig><reg>novelerie</reg></choice></l>
+               <l n="130">Vient er de <choice><orig>vn</orig><reg>un</reg></choice> mang<ex>er</ex>ie</l>
+               <l n="131">Et de la feste nous ad <choice><orig>counte</orig><reg>counté</reg></choice></l>
+               <l n="132">Coment lur s<ex>er</ex><choice><orig>uitz</orig><reg>vitz</reg></choice> fut <choice><orig>adresce</orig><reg>adrescé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="133">Saunz pain<choice><orig/><reg>,</reg></choice> vin <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>seruese</orig><reg>servese</reg></choice></l>
+               <l n="134">S<ex>er</ex>reit nule feste a ese<choice><orig/><reg>.</reg></choice></l>
+               <l n="135">Au prem<ex>er</ex> fust <choice><orig>aporte</orig><reg>aporté</reg></choice></l>
+               <l n="136">La teste de sengler <choice><orig>en arme</orig><reg>enarmé</reg></choice></l>
+            </lg>
+               <pb n="2r" facs="ms_s_002r.jpg"/>
+               <cb n="2ra"/>
+            <lg n="5" part="F">
+               <l n="137">E <choice><orig>ale</orig><reg>a le</reg></choice> groin les coletz <choice><orig>en banere</orig><reg>enbaneré</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="138">E puis veneison od la furm<ex>en</ex><choice><orig>te</orig><reg>té</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="139">Assetz p<ex>ar</ex>mi la meson</l>
+               <l n="140">De grece <choice><orig>&amp;</orig><reg>e</reg></choice> de enfermisoun<choice><orig/><reg>.</reg></choice></l>
+               <l n="141">E puis <choice><orig>aueient</orig><reg>aveient</reg></choice> <choice><orig>diu</orig><reg>div</reg></choice><ex>er</ex>setez en <choice><orig>Rost</orig><reg>rost</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="142">Sist <choice><orig>iescun</orig><reg>jescun</reg></choice> aultre de cost<choice><orig/><reg>:</reg></choice></l>
+               <l n="143">Grues<choice><orig/><reg>,</reg></choice> pouns <choice><orig>&amp;</orig><reg>e</reg></choice> cynes<choice><orig/><reg>,</reg></choice></l>
+               <l n="144">Owes rosers<choice><orig/><reg>,</reg></choice> purceux <choice><orig>&amp;</orig><reg>e</reg></choice> gelins<choice><orig/><reg>.</reg></choice></l>
+               <l n="145">Au tiers cours <choice><orig>aueient</orig><reg>aveient</reg></choice> conils en g<ex>ra</ex><choice><orig>ue</orig><reg>vé</reg></choice></l>
+               <l n="146">E viaunde de cipre <choice><orig>enfoundre</orig><reg>enfoundré</reg></choice></l>
+               <l n="147">De macies<choice><orig/><reg>,</reg></choice> quibibes<choice><orig/><reg>,</reg></choice> clous <choice><orig>dorre</orig><reg>dorré</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="148">Vin blank <choice><orig>&amp;</orig><reg>e</reg></choice> vermail od g<ex>ra</ex>nt <choice><orig>plente</orig><reg>plenté</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="149">Et puis <choice><orig>auoient</orig><reg>avoient</reg></choice> feisauntz <choice><orig>&amp;</orig><reg>e</reg></choice> part<ex>ri</ex>z<choice><orig/><reg>,</reg></choice></l>
+               <l n="150"><choice><orig>Griues</orig><reg>Grives</reg></choice><choice><orig/><reg>,</reg></choice> aloues <choice><orig>&amp;</orig><reg>e</reg></choice> <choice><orig>plouers</orig><reg>plovers</reg></choice> rostiz<choice><orig/><reg>,</reg></choice></l>
+               <l n="151">Braun<choice><orig/><reg>,</reg></choice> crespe <choice><orig>&amp;</orig><reg>e</reg></choice> fruture</l>
+               <l n="152">Pur fere lour <choice><orig>aueisure</orig><reg>aveisure</reg></choice><choice><orig/><reg>.</reg></choice></l>
+               <l n="153"><choice><orig>Apres</orig><reg>Aprés</reg></choice> mang<ex>er</ex> <choice><orig>aueient</orig><reg>aveient</reg></choice> g<ex>ra</ex>nt <choice><orig>plente</orig><reg>plenté</reg></choice><choice><orig/><reg>,</reg></choice></l>
+               <l n="154">Blaunche poudre <choice><orig>oue</orig><reg>ové</reg></choice> groce <choice><orig>drage</orig><reg>dragé</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            </lg>
+      </body>
+  </text>
+</TEI>

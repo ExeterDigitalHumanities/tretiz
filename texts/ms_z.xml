@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/tretiz_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ms_z">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Takamiya fragment</title>
+            <author>ETFM</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="TGH">Thomas Hinton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="ETFM">Edward Mills</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="AG">Aida Gholami</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editor</resp>
+               <resp>Glosses' correspondence to MED</resp>
+               <name xml:id="ELK">Eva Kruijt</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Publication Information--></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Japan</country>
+                  <collection>Takamiya Collection</collection>
+                  <idno>(none)</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1">
+                     <locus>recto - verso</locus>
+                     <author>Walter de Bibbesworth</author>
+                     <title>Le Tretiz</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support><p>Parchment.</p></support>
+                        <extent><dimensions scope="all" type="leaf" unit="mm">
+                              <height>265</height>
+                              <width>80</width>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><p>unknown</p></origin>
+                  <provenance><p>From Takamiya and Linenthal 2012, p. 184: <quote>Ambrosius, Opera, part 1 only (of
+                     three), Basel, Johann Amerbach, 1492. A folio bound in seventeenth-century
+                     calf, probably in Aberdeen, vellum manuscript fragment serving as a sewing
+                     guard at the front of the volume. The manuscript dates from the first half of
+                     the fourteenth century, and the fragment preserves a virtually complete column
+                     of text (originally double columns), written in brown ink in twenty-one lines
+                     of gothic script, ruled lightly with brown ink; the fragment measures 265 x
+                     80mm and is in excellent condition. The Middle English glosses are written
+                     between the lines in red ink. The text comes from the sections on trees (recto)
+                     and birds (verso) and corresponds to lines 677-704 and 762-82 of the 1990
+                     edition.</quote> Now owned by Toshiyoki Takamiya.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-01-31" who="#TGH" status="1.12">Further minor corrections to AND keys; added space before gloss elements so search can pick up.</change>
+         <change when="2024-12-14" who="#TGH" status="1.11">Further minor corrections ('Qe' and 'Qi' for 'Que' and 'Qui'). Ran 'Join and normalise' at the level of *l* element to resolve XSLT whitespace display issue.</change>
+         <change when="2024-11-07" who="#TGH" status="1.1">Proof read; minor corrections made.</change>
+         <change when="2022-11-13" who="#TGH" status="1.0">Second pass complete.</change>
+         <change when="2021-06-21" who="#CT" status="0.93">Added 'AND:' on term keys; replaced ab
+            with p; numbered p; replaced div with milestone; added lg; added facs attributes, and
+            hand-tidied.</change>
+         <change when="2021-05-11" who="#ETFM" status="0.92">Added the 'AND:' prefix to values to
+            'key' within the 'term' element. Did this manually here, just so Rich and Charlotte can
+            have a play around!</change>
+         <change when="2021-04-13" who="#AG" status="0.91">Finished the encoding of the
+            glosses.</change>
+         <change when="2021-04-12" who="#ETFM" status="0.91">Handed over to Aida for work on the
+            glosses.</change>
+         <change when="2021-03-11" who="#ETFM" status="0.9">First draft of encoding
+            complete.</change>
+         <change when="2021-03-08" who="#ETFM" status="0.1">Encoding begun!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="recto" facs="/ms_z/recto.jpg"/>
+         <milestone unit="theme" type="introduction" subtype="prologue"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="infancyAndEarlyChildhood"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="partsOfTheBody"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="clothing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="food"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="collectiveNames"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="animalNoises"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="varia1"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="harvesting"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="baking"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="weaving"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="brewing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="fishing"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="garden"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="badWeather"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="flowers"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="trees"/>
+         <lg>
+            <l n="1"><term xml:id="Z-pomer-001" key="AND:pumer">Pomer</term> <gloss target="#Z-pomer-001" xml:lang="enm" key="MED:1910" place="interlinear">appel t<ex>re</ex><choice><orig>·</orig><reg/></choice></gloss> <choice><orig/><reg>,</reg></choice> <term xml:id="Z-perer-001" key="AND:perer_1">perer</term> <gloss target="#Z-perer-001" xml:lang="enm" key="MED:32957" place="interlinear">peret<ex>re</ex></gloss><choice> <orig/> <reg>,</reg> </choice> <term xml:id="Z-cericer-001" key="AND:ceriser">cericer</term> <gloss target="#Z-cericer-001" xml:lang="enm" key="MED:7451 MED:46870" place="interlinear">chirietre</gloss><choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="2"><term xml:id="Z-fresne-001" key="AND:fresne">Fresne</term> <gloss target="#Z-fresne-001" xml:lang="enm" key="MED:2598" place="interlinear">ash</gloss><choice> <orig/> <reg>,</reg> </choice> <term xml:id="Z-genet-001" key="AND:genest">genet</term> <gloss target="#Z-genet-001" xml:lang="enm" key="MED:6146" place="interlinear">brom</gloss> <choice> <orig>/ &amp;</orig> <reg>et</reg> </choice> <term xml:id="Z-prunier-001" key="AND:pruner">prunier</term> <gloss target="#Z-prunier-001" xml:lang="enm" key="MED:33767 MED:46870" place="interlinear">plumtre</gloss><choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="3"><term xml:id="Z-eglenter-001" key="AND:eglenter">Eglenter</term> <gloss target="#Z-eglenter-001" xml:lang="enm" key="MED:20429 MED:46870" place="interlinear">hepe tre</gloss> <choice> <orig>oue</orig> <reg>ové</reg> </choice> les <term xml:id="Z-peperounges-001" key="AND:peperonge">peperou<ex>n</ex><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">ges,</supplied></reg></choice></term> <gloss target="#Z-peperounges-001" xml:lang="enm" key="MED:20429" place="interlinear">hepes</gloss></l>
+            <l n="4"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> <term xml:id="Z-creker-001" key="AND:creker">creker</term> <gloss target="#Z-creker-001" xml:lang="enm" key="MED:5424 MED:46870" place="interlinear">bolace tre</gloss> <choice> <orig>oue</orig> <reg>ové</reg> </choice> les <term xml:id="Z-crekes-001" key="AND:creke_1">crekes</term> <gloss target="#Z-crekes-001" xml:lang="enm" key="MED:5424" place="interlinear">bolaces</gloss> rou<ex>n</ex>d<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">es;</supplied></reg></choice></l>
+            <l n="5"><term xml:id="Z-cenailler-001" key="AND:ceneler">Cenailler</term> <gloss target="#Z-cenailler-001" xml:lang="enm" key="MED:20124 MED:46870" place="interlinear">hawe tre</gloss> q<ex>e</ex> la <term xml:id="Z-cenaille-001" key="AND:cenele">cenaille</term> <gloss target="#Z-cenaille-001" xml:lang="enm" key="MED:20124" place="interlinear">hawe</gloss> port<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied reason="damage">e,</supplied></reg></choice></l>
+            <l n="6"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> <term xml:id="Z-fourder-001" key="AND:fourder">fourder</term> <gloss target="#Z-fourder-001" xml:lang="enm" key="MED:40927 MED:46870" place="interlinear">slo tre</gloss> q<ex>e</ex> la <term xml:id="Z-fourdeine-001" key="AND:fourdeine">fourdeine</term> <gloss target="#Z-fourdeine-001" xml:lang="enm" key="MED:40927" place="interlinear">slon</gloss> po<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">rte,</supplied></reg></choice></l>
+            <l n="7">Auxi i <choice> <orig>auez</orig> <reg>avez</reg> </choice> le <term xml:id="Z-koigner-001" key="AND:coigner_1">koigner</term> <gloss target="#Z-koigner-001" xml:lang="enm" key="MED:35640 MED:46870" place="interlinear">queince tre</gloss></l>
+            <l n="8">Q<ex>e</ex> <choice> <orig>soue<ex>n</ex>t</orig> <reg>sove<ex>n</ex>t</reg> </choice> le veit om en v<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">erger,</supplied></reg></choice></l>
+            <l n="9">Dont il <choice> <orig>ia</orig> <reg>i a</reg> </choice> deffere<ex>n</ex>ce g<ex>ra</ex>nt</l>
+            <l n="10">Q<ex>e</ex> ne <choice> <orig>sieue<ex>n</ex>t</orig> <reg>sieve<ex>n</ex>t</reg> </choice> pas li auq<ex>ua</ex>nt<choice><orig/><reg>.</reg></choice></l>
+            <l n="11">Ly sires fait <term xml:id="Z-son_neif_koigner-001" key="AND:sun_1 AND:naif AND:coigner_4">son neif ko<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">igner</supplied></reg></choice></term> <gloss target="#Z-son_neif_koigner-001" xml:lang="enm" key="MED:20879 MED:7461 MED:43022" place="interlinear">his cherl sto<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied reason="damage">kken</supplied></reg></choice></gloss></l>
+            <l n="12"><term xml:id="Z-en_ses_seps-001" key="AND:en_1 AND:sun_1 AND:cep">En ses seps</term> <gloss target="#Z-en_ses_seps-001" xml:lang="enm" key="MED:20879 MED:43034" place="interlinear">i<ex>n</ex> his stockes</gloss> p<ex>ur</ex> chastier<choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="13"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> p<ex>er</ex>nez <term xml:id="Z-le_koign-001" key="AND:le_1 AND:coign_2">le koign</term> <gloss target="#Z-le_koign-001" xml:lang="enm" key="MED:45073 MED:5425" place="interlinear">þe bole ax</gloss><choice> <orig/> <reg>,</reg> </choice> abatez l<choice><orig><gap reason="damage" unit="character" quantity="8"/></orig><reg><supplied reason="damage">e koigner,</supplied></reg></choice></l>
+            <l n="14"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> coupeþ<note resp="#TGH" type="lexical">The thorn at the end of this French word shows interesting interference from English in the morphology of the verb.</note> <term xml:id="Z-du_koign-001" key="AND:de AND:le_1 AND:coign_2">du koign</term> <gloss target="#Z-du_koign-001" xml:lang="enm" key="MED:53253 MED:3 MED:52003" place="interlinear">wid a w<choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied reason="damage">egge</supplied></reg></choice> <note resp="#ETFM" type="manuscript">This gloss has been executed later in the line, begininning over <foreign xml:lang="fra">un [koigner]</foreign>.</note></gloss> <choice> <orig>vn</orig> <reg>un</reg> </choice> <choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied reason="damage">koigner.</supplied></reg></choice></l>
+            <l n="15"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> <term xml:id="Z-koigner-002" key="AND:coigner_2">koign<ex>er</ex></term> <gloss target="#Z-koigner-002" xml:lang="enm" key="MED:3 MED:27867" place="interlinear">a menet<ex>er</ex>&gt;</gloss> est il enseme<ex>n</ex>t</l>
+            <l n="16">Q<ex>i</ex> fait la monoie d<choice> <orig/> <reg>'</reg> </choice>arg<choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">ent.</supplied></reg></choice></l>
+            <l n="17"><term xml:id="Z-buis-001" key="AND:buis_1">Buis</term> <gloss target="#Z-buis-001" xml:lang="enm" key="MED:5757" place="interlinear"><choice> <orig>Box</orig> <reg>box</reg> </choice></gloss> <choice> <orig>ia</orig> <reg>i a</reg> </choice><choice> <orig/> <reg>,</reg> </choice> <term xml:id="Z-paumer-001" key="AND:palmier">paumer</term> <gloss target="#Z-paumer-001" xml:lang="enm" key="MED:32258" place="interlinear">palm</gloss><choice> <orig/> <reg>,</reg> </choice> <term xml:id="Z-arrable-001" key="AND:arable_1">arrab</term><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">le</supplied></reg></choice> <gloss target="#Z-arrable-001" xml:lang="enm" key="MED:26852" place="interlinear">map<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">le</supplied></reg></choice></gloss></l>
+            <l n="18">Q<ex>i</ex> ne apruwe en <term xml:id="Z-tere_arable-001" key="AND:terre_1 AND:arable_2">tere a<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">rable,</supplied></reg></choice></term> <gloss target="#Z-tere_arable-001" xml:lang="enm" key="MED:14387" place="interlinear">erie<choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">nlond</supplied></reg></choice></gloss>&gt;</l>
+            <l n="19"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> la <term xml:id="Z-huise-001" key="AND:houce_1">huise</term> <gloss target="#Z-huise-001" xml:lang="enm" key="MED:21032" place="interlinear">holin</gloss> i crest en verg<choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">er,</supplied></reg></choice></l>
+            <l n="20">Q<ex>e</ex> poy vaut <term xml:id="Z-a_edifier-001" key="AND:a_2 AND:edifier">a edifier</term> <gloss target="#Z-a_edifier-001" xml:lang="enm" key="MED:46049 MED:4579" place="interlinear">to bilden</gloss><choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="21"><choice> <orig>/ &amp;</orig> <reg>Et</reg> </choice> le <term xml:id="Z-suweau-001" key="AND:sueau">suweau</term> <gloss target="#Z-suweau-001" xml:lang="enm" key="MED:13288" place="interlinear">ellern</gloss> i a auxi<choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="22">Q<ex>e</ex> co<ex>m</ex>ums<note type="lexical" resp="#TGH">This word could be read as either <foreign xml:lang="fro">comums</foreign> or <foreign xml:lang="fro">comunis</foreign>; in the latter case, we may be dealing with a Latinate form.</note> est a cheascuny<choice> <orig/> <reg>.</reg> </choice></l>
+         </lg>
+         <pb n="verso" facs="/ms_z/verso.jpg"/>
+         <milestone unit="theme" type="woodlandBirdsAndBeasts"/>
+         <lg>
+            <l n="23"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Envir</supplied></reg></choice>oner <choice> <orig>vn</orig> <reg>un</reg> </choice> haut trussel<choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="24"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied reason="damage">Qe </supplied></reg></choice>nul beau treit <term xml:id="Z-de_la_viele-001" key="AND:de AND:le_1 AND:viele_1">de la viele</term> <gloss target="#Z-de_la_viele-001" xml:lang="enm" key="MED:30218 MED:45074 MED:16112" place="interlinear">of þe fiþele</gloss></l>
+            <l n="25"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">Ou </supplied></reg></choice>nule note <term xml:id="Z-de_frestele-001" key="AND:de AND:frestel">de frestele</term> <gloss target="#Z-de_frestele-001" xml:lang="enm" key="MED:30218 MED:16436" place="interlinear">of floute</gloss><choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="26"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">Unc</supplied></reg></choice>ore <choice> <orig>iauez</orig> <reg>i avez</reg> </choice> <term xml:id="Z-le_musenge-001" key="AND:le_1 AND:musenge">le musenge</term> <gloss target="#Z-le_musenge-001" xml:lang="enm" key="MED:45074 MED:46036" place="interlinear">þe titemose</gloss></l>
+            <l n="27"><choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied reason="damage">Qi les</supplied></reg></choice> <term xml:id="Z-haes-001" key="AND:haie_1">haes</term> <gloss target="#Z-haes-001" xml:lang="enm" key="MED:20231" place="interlinear">hegges</gloss> en boys <term xml:id="Z-renge-001" key="AND:renger">renge</term> <gloss target="#Z-renge-001" xml:lang="enm" key="MED:35893" place="interlinear">ranczakeþ</gloss><choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="28"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Desla</supplied></reg></choice>cez<choice> <orig/> <reg>,</reg> </choice> vallet<choice> <orig/> <reg>,</reg> </choice> <term xml:id="Z-vostre_renge-001" key="AND:vostre AND:renge_1">vostre renge</term> <gloss target="#Z-vostre_renge-001" xml:lang="enm" key="MED:45074 MED:44308 MED:18626" place="interlinear">þi swerd girdel<note type="manuscript" resp="#ETFM">This gloss has been executed earlier in the line, beginning over the verb.</note></gloss><choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="29"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Si re</supplied></reg></choice>nger volez le musenge<choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="30"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied reason="damage">Unco</supplied></reg></choice>re <choice> <orig>ia</orig> <reg>i a</reg> </choice> la <term xml:id="Z-palevole-001" key="AND:palevole"><choice> <orig>paleuole</orig> <reg>palevole</reg> </choice></term> <gloss target="#Z-palevole-001" xml:lang="enm" key="MED:189478 MED:7693" place="interlinear">godes kow</gloss></l>
+            <l n="31"><choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied reason="damage">Et aux</supplied></reg></choice>i la <term xml:id="Z-chardounerole-001" key="AND:charderole">chardounerole</term> <gloss target="#Z-chardounerole-001" xml:lang="enm" key="MED:19039" place="interlinear">gold finch</gloss><choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="32"><choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied reason="damage">Et si a</supplied></reg></choice> i des <term xml:id="Z-papillouns-001" key="AND:papiloun">papillou<ex>n</ex>s</term> <gloss target="#Z-papillouns-001" xml:lang="enm" key="MED:6410" place="interlinear">boterflies</gloss></l>
+            <l n="33"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Qi se</supplied></reg></choice>ir se veullent <term xml:id="Z-es_chardouns-001" key="AND:en_1 AND:le_1 AND:chardun"><choice> <orig>eschardou<ex>n</ex>s</orig> <reg>es chardou<ex>n</ex>s</reg> </choice></term> <gloss target="#Z-es_chardouns-001" xml:lang="enm" key="MED:22279 MED:45074 MED:45350" place="interlinear">in þe þistles</gloss><choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="34"><choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied reason="damage">Et en</supplied></reg></choice> <term xml:id="Z-les_rounces-001" key="AND:le_1 AND:runce"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied reason="damage">l</supplied></reg></choice>es rou<ex>n</ex>ces</term> <gloss target="#Z-les_rounces-001" xml:lang="enm" key="MED:45074 MED:5936" place="interlinear">þe breres</gloss> enseme<ex>n</ex>t</l>
+            <l n="35"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Usent</supplied></reg></choice> seir natureume<ex>n</ex>t<choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="36"><choice><orig><gap reason="damage" unit="character" quantity="4"/></orig><reg><supplied reason="damage">Mes </supplied></reg></choice>ceo ne fait <choice> <sic>par</sic> <reg>pas</reg> </choice> <term xml:id="Z-li_grissillour-001" key="AND:le_1 AND:grisillun">li grissillour</term> <gloss target="#Z-li_grissillour-001" xml:lang="enm" key="MED:45074 MED:19245" place="interlinear">þe gras hoppere</gloss></l>
+            <l n="37"><choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied reason="damage">Qi en </supplied></reg></choice><term xml:id="Z-curtillage-001" key="AND:cortillage">curtillage</term> <gloss target="#Z-curtillage-001" xml:lang="enm" key=" MED:25047" place="interlinear">lautone</gloss> ad son <choice> <orig>soiour</orig> <reg>sojour</reg> </choice><choice> <orig/> <reg>,</reg> </choice></l>
+            <l n="38"><choice><orig><gap reason="damage" unit="character" quantity="7"/></orig><reg><supplied reason="damage">Ne li h</supplied></reg></choice>ericzoun nient le plus</l>
+            <l n="39"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Qi pre</supplied></reg></choice><ex>n</ex>t la pome q<ex>e</ex> chiet <choice> <orig>ius</orig> <reg>jus</reg> </choice><choice> <orig><reg>,</reg></orig> </choice></l>
+            <l n="40"><choice><orig><gap reason="damage" unit="character" quantity="3"/></orig><reg><supplied reason="damage">Ne </supplied></reg></choice><term xml:id="Z-musshes-001" key="AND:musche_1"><choice><orig><gap reason="damage" unit="character" quantity="2"/></orig><reg><supplied reason="damage">mu</supplied></reg></choice>sshes</term> <gloss target="#Z-musshes-001" xml:lang="enm" key="MED:16328" place="interlinear"><choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied reason="damage">f</supplied></reg></choice>lies</gloss> ne <term xml:id="Z-wybetz-001" key="AND:wibet">wybetz</term> <gloss target="#Z-wybetz-001" xml:lang="enm" key="MED:18914" place="interlinear">gnattes</gloss> nel fou<ex>n</ex>t my<choice><orig><gap reason="damage" unit="character" quantity="1"/></orig><reg><supplied reason="damage">e,</supplied></reg></choice></l>
+            <l n="41"><choice><orig><gap reason="damage" unit="character" quantity="5"/></orig><reg><supplied reason="damage">Kar i</supplied></reg></choice>l eyme<ex>n</ex>t plus <term xml:id="Z-le_urtye-001" key="AND:le_1 AND:urtie">le <choice> <orig>vrtye</orig> <reg>urtye</reg> </choice></term> <gloss target="#Z-le_urtye-001" xml:lang="enm" key="MED:45074 MED:29392" place="interlinear">þe nettle</gloss><choice> <orig/> <reg>.</reg> </choice></l>
+            <l n="42"><choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied reason="damage">Auxi a</supplied></reg></choice> i <term xml:id="Z-ane-001" key="AND:ane_1">ane</term> <gloss target="#Z-ane-001" xml:lang="enm" key="MED:13650" place="interlinear">enede</gloss> <choice> <orig>&amp;</orig> <reg>et</reg> </choice> <term xml:id="Z-plonczoun-001" key="AND:plungun">plou<ex>n</ex>czoun</term> <gloss target="#Z-plonczoun-001" xml:lang="enm" key="MED:9928" place="interlinear">cote</gloss></l>
+            <l n="43"><choice><orig><gap reason="damage" unit="character" quantity="6"/></orig><reg><supplied reason="damage">Qi en</supplied></reg></choice><choice> <orig>riuere</orig> <reg>rivere</reg> </choice> <choice> <orig>vnt</orig> <reg>unt</reg> </choice> <term xml:id="Z-lour_mansioun-001" key="AND:lur_1 AND:mansiun">lour ma<ex>n</ex>sioun</term> <gloss target="#Z-lour_mansioun-001" xml:lang="enm" key="MED:20878 MED:53396" place="interlinear">his <choice> <orig>wonij<ex>n</ex>g</orig> <reg>wonii<ex>n</ex>g</reg> </choice></gloss><choice> <orig/> <reg>.</reg> </choice></l>
+         </lg>
+         <milestone unit="theme" type="partsOfAPlough"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="partsOfACart"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="building"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="hostingAMeal"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="varia2"/>
+         <gap reason="omitted"/>
+         <milestone unit="theme" type="feast"/>
+         <gap reason="omitted"/>
+      </body>
+   </text>
+</TEI>
