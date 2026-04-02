@@ -10,4 +10,5 @@ This repository presents these texts as TEI/XML documents, which can be reused a
 Dr. Thomas Hinton, project lead
 
 Funded by the Arts and Humanities Research Council
+
 With additional funding from the European Research Council
