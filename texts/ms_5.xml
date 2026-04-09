@@ -750,7 +750,7 @@
             <l n="351">A vo<ex>us</ex> <choice><orig>chiuaus</orig><reg>chivaus</reg></choice> le furfur donez<choice><orig/><reg>.</reg></choice></l>
             <l n="352">Ev*e <choice><orig>teue</orig><reg>teve</reg></choice> a la flo<ex>ur</ex> mellez<choice><orig/><reg>.</reg></choice></l>
             <l n="353">De <choice><orig>vn</orig><reg>un</reg></choice> rastur<ex>e</ex> la auge mondez<choice><orig/><reg>,</reg></choice></l>
-            <l n="354">Je ne di pas <said>la rastelle p<ex>er</ex>nez</said><choice><orig/><reg>.</reg></choice></l>
+            <l n="354">Je ne di pas<choice><orig/><reg>:</reg></choice> <said><choice><orig>la</orig><reg>La</reg></choice> rastelle p<ex>er</ex>nez</said><choice><orig/><reg>.</reg></choice></l>
             <l n="355">Taunt q<ex>ue</ex> feyns seient es prez</l>
             <l n="356">Est la rastelle illeqes maniez<choice><orig/><reg>.</reg></choice></l>
             <l n="357">Q<ex>ua</ex>nt le past al auge <choice><orig>a herd</orig><reg>aherd</reg></choice></l>
@@ -812,8 +812,8 @@
             <l n="403">Puis <choice><orig>ala</orig><reg>a la</reg></choice> waunder alez<choice><orig/><reg>.</reg></choice></l>
             <l n="404">Et q<ex>ua</ex>nt tut serra <choice><orig>waunde</orig><reg>waundé</reg></choice></l>
             <l n="405">Et en lusceux ad <choice><orig>reste</orig><reg>resté</reg></choice><choice><orig/><reg>,</reg></choice></l>
-            <l n="406">Et dit <said>ore <choice><orig>ie</orig><reg>je</reg></choice> voil</said></l>
-            <l n="407"><said>Mon fil mettre en troil</said><choice><orig/><reg>,</reg></choice></l>
+            <l n="406">Et dit<choice><orig/><reg>:</reg></choice> <said xml:id="MS5-said01-01" next="#MS5-said01-02"><choice><orig>ore</orig><reg>Ore</reg></choice> <choice><orig>ie</orig><reg>je</reg></choice> voil</said></l>
+            <l n="407"><said xml:id="MS5-said01-02" prev="#MS5-said01-01">Mon fil mettre en troil<choice><orig/><reg>.</reg></choice></said></l>
             <l n="408">Veez quei fet ore madame <choice><orig>hue</orig><reg>Hue</reg></choice><choice><orig/><reg>:</reg></choice></l>
             <l n="409"><choice><orig>Vn</orig><reg>Un</reg></choice> lusel de ses voiders wude<choice><orig/><reg>.</reg></choice> <note type="editorial" resp="#TGH">The preceding lines would make more sense if re-ordered as follows: 404-5, 408-9, 406-7. This would bring it in line with the version of other MSS, where the subject of <quote>dit</quote> in 406 is Lady Hue, not mentioned until 408 here.</note></l>
             <l n="410">Les tremes dou<ex>n</ex>c app<ex>ar</ex>ailez</l>
@@ -880,8 +880,8 @@
          <lg n="11" part="F">
             <l n="462"><choice><orig>Yuerez</orig><reg>Yverez</reg></choice> fet villein chitche</l>
             <l n="463">Assez tutoise <note type="lexical" resp="#TGH">AND2 (following Owen) has this as <foreign xml:lang="fro" key="AND:tutoiser">tutoise</foreign> with the sense of <mentioned>to use 'tu' to someone</mentioned>. Alternatives are possible: given the occasional confusion of t/c forms throughout this copy, could this be a corruption of <foreign xml:lang="fro" key="AND:corteis">curtoise</foreign>? Or a variant of <foreign xml:lang="fro" key="tut eisé">tut/eisé</foreign>, with the sense of <mentioned>rich, well-to-do</mentioned>? Either of those would make more sense within the syntax of the sentence.</note> fraunc <choice><orig>&amp;</orig><reg>et</reg></choice> riche<choice><orig/><reg>.</reg></choice></l>
-            <l n="464">Dou<ex>n</ex>c dit home <said>p<ex>ar</ex> seint Jorge</said></l>
-            <l n="465"><said>Trop ad bu de gres <choice><orig>dorge</orig><reg>d'orge</reg></choice></said><choice><orig/><reg>.</reg></choice></l>
+            <l n="464">Dou<ex>n</ex>c dit home<choice><orig/><reg>:</reg></choice> <said xml:id="MS5-said02-01" next="#MS5-said02-02"><choice><orig>p</orig><reg>P</reg></choice><ex>ar</ex> seint Jorge<choice><orig/><reg>,</reg></choice></said></l>
+            <l n="465"><said xml:id="MS5-said02-02" prev="#MS5-said02-01">Trop ad bu de gres <choice><orig>dorge</orig><reg>d'orge</reg></choice><choice><orig/><reg>.</reg></choice></said></l>
             <l n="466">Mes au p<ex>ri</ex>mer somelin</l>
             <l n="467">Ribaud ert come <choice><orig>deuant</orig><reg>devant</reg></choice> main<choice><orig/><reg>.</reg></choice></l>
             <l n="468">De teles le auctour se repose</l>
@@ -987,9 +987,9 @@
             <l n="543">Est <choice><orig>vn</orig><reg>un</reg></choice> <gap reason="omitted" unit="character" quantity="9"/> p<ex>ur</ex> <choice><orig>verite</orig><reg>verité</reg></choice>  <note type="editorial" resp="#TGH">The answer to the riddle has deliberately been omitted - presumably as part of the teaching strategy?</note></l>
             <l n="544">Q<ex>ua</ex>nt vo<ex>us</ex> doies ne poes pas</l>
             <l n="545">Ensemble <choice><orig>ioindre</orig><reg>joindre</reg></choice><choice><orig/><reg>,</reg></choice> dou<ex>n</ex>c dirras<choice><orig/><reg>:</reg></choice></l>
-            <l n="546"><said>Me ay la main si estonie</said></l>
-            <l n="547"><said>Que p<ex>ur</ex> freide ne puisse <choice><orig>ie</orig><reg>je</reg></choice></said></l>
-            <l n="548"><said>De mes deis feir la compinol</said><choice><orig/><reg>.</reg></choice></l>
+            <l n="546"><said xml:id="MS5-said03-01" next="#MS5-said03-02">Me ay la main si estonie</said></l>
+            <l n="547"><said xml:id="MS5-said03-02" prev="#MS5-said03-01" next="#MS5-said03-03">Que p<ex>ur</ex> freide ne puisse <choice><orig>ie</orig><reg>je</reg></choice></said></l>
+            <l n="548"><said xml:id="MS5-said03-03" prev="#MS5-said03-02">De mes deis feir la compinol</said><choice><orig/><reg>.</reg></choice></l>
             <l n="549">Meuz vodroie sourz plume mol</l>
             <l n="550">Seir pres de feu q<ex>ue</ex> a la carole<choice><orig/><reg>,</reg></choice></l>
             <l n="551">Chapeu vestu de <choice><orig>blauerole</orig><reg>blaverole</reg></choice><choice><orig/><reg>,</reg></choice></l>

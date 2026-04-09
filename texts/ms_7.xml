@@ -80,6 +80,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-03-11" who="#TGH" status="1.01">Corrected line numbering errors.</change>
          <change when="2025-07-26" who="#TGH" status="1.0">Proof reading complete.</change>
          <change when="2025-06-02" who="#TGH" status="0.91">Started proof reading. Deleted 'Final Prayer' milestone.</change>
          <change when="2023-06-21" who="#TGH" status="0.9">Transcription now complete. All punctuation and 'check' cases resolved.</change>
@@ -168,7 +169,7 @@
             <l n="49">Li nes doit <choice><orig>au</orig><reg>av</reg></choice><ex>er</ex> p<ex>ar</ex> resoun</l>
             <l n="50">Deus nariles<choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> entrephanon<choice><orig/><reg>.</reg></choice></l>
             <l n="51">Mes gar q<ex>e</ex> la choue</l>
-            <l n="52">Ne touche v<ex>ost</ex>re <term xml:id="MS7-joue-001" key="AND:joe_1">joue</term><choice><orig/><reg>.</reg></choice> <gloss target="#MS7-joue-001" xml:lang="enm" key="MED:7411" place="interlinear">che<choice><sic><gap reason="illegible" unit="character" quantity="2"/></sic><corr><supplied reason="illegible">ke</supplied></corr></choice></gloss></l>
+            <l n="52">Ne touche v<ex>ost</ex>re <term xml:id="MS7-joue-001" key="AND:joe_1">joue</term><choice><orig/><reg>.</reg></choice> <gloss target="#MS7-joue-001" xml:lang="enm" key="MED:7411" place="interlinear">che<choice><orig><gap reason="illegible" unit="character" quantity="2"/></orig><reg><supplied reason="illegible">ke</supplied></reg></choice></gloss></l>
             <l n="53">Vo<ex>us</ex> <choice><orig>auetz</orig><reg>avetz</reg></choice> la <choice><orig>leure</orig><reg>levre</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>leure</orig><reg>levre</reg></choice></l>
             <l n="54">Et la <choice><orig>lyure</orig><reg>lyvre</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>lyure</orig><reg>lyvre</reg></choice><choice><orig/><reg>.</reg></choice></l>
             <l n="55">La <choice><orig>leure</orig><reg>levre</reg></choice> si enclot les denz<choice><orig/><reg>,</reg></choice></l>
@@ -204,68 +205,69 @@
             <l n="85"><choice><orig>De souz</orig><reg>Desouz</reg></choice> la mountaine <term xml:id="MS7-sord-001" key="AND:surdre">sord</term> le <term xml:id="MS7-bruyl-001" key="AND:broil">bruyl</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-sord-001">surgit</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-bruyl-001">nebulu<ex>m</ex></gloss></l>
             <l n="86">En basse ter<ex>re</ex> est bone suyl<choice><orig/><reg>.</reg></choice></l>
             <l n="87">Entr<ex>e</ex> <term xml:id="MS7-pledours-001" key="AND:plaidur">pledours</term> sourd le toyl<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-pledours-001">pla<ex>citor</ex></gloss></l>
-            <l n="89">Li vent de bise mout <choice><orig>greue</orig><reg>greve</reg></choice> <choice><orig>l</orig><reg>l'</reg></choice>oyl<choice><orig/><reg>.</reg></choice></l>
-            <l n="90"><choice><orig>Apres</orig><reg>Aprés</reg></choice> aust cheyt la foyl<choice><orig/><reg>.</reg></choice></l>
-            <l n="91"><choice><orig>Apres</orig><reg>Aprés</reg></choice> gele vient remoyl<choice><orig/><reg>.</reg></choice></l>
-            <l n="92">P<ex>ar</ex> <term xml:id="MS7-deray-001" key="AND:desrei">deray</term> chiet <choice><orig>souent</orig><reg>sovent</reg></choice> doyl<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:43344" target="#MS7-deray-001">strif</gloss></l>
-            <l n="93">Cestes p<ex>ar</ex>oles si <term xml:id="MS7-recoyl-001" key="AND:recoillir">recoyl</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-recoyl-001">collego</gloss></l>
-            <l n="94">La resoun p<ex>ur</ex> quei dire voil<choice><orig/><reg>:</reg></choice></l>
-            <l n="95">Pur <choice><orig>l</orig><reg>l'</reg></choice>acord en p<ex>ar</ex>launce</l>
-            <l n="96">E li descord en variaunce<choice><orig/><reg>.</reg></choice></l>
-            <l n="97"><choice><orig><hi rend="large">D</hi></orig><reg>D</reg></choice>es espaules issent les braz<choice><orig/><reg>;</reg></choice></l>
-            <l n="98">Les <term xml:id="MS7-coustes-001" key="AND:coute_1">coustes</term><choice><orig/><reg>,</reg></choice> les meyns ne lerrai pas<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:13199" target="#MS7-coustes-001">elbowis</gloss></l>
-            <l n="99">Entre les braz <choice><orig>&amp;</orig><reg>e</reg></choice> la meyn</l>
-            <l n="100">Si est t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> le <term xml:id="MS7-cou_de_la_meyn-001" key="AND:col AND:de AND:le_1 AND:main_1">cou de la meyn</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:53683" target="#MS7-cou_de_la_meyn-001">wrist</gloss></l>
-            <l n="101">La paume <choice><orig>de deynz</orig><reg>dedeynz</reg></choice><choice><orig/><reg>,</reg></choice> la claye <choice><orig>de hors</orig><reg>dehors</reg></choice><choice><orig/><reg>.</reg></choice></l>
-            <l n="102">Li poyn e<ex>st</ex> dit k<ex>au</ex>nt la meyn est clos</l> 
-            <l n="103">E une poynee k<ex>au</ex>nt la meyn</l>
+            <l n="88">Li vent de bise mout <choice><orig>greue</orig><reg>greve</reg></choice> <choice><orig>l</orig><reg>l'</reg></choice>oyl<choice><orig/><reg>.</reg></choice></l>
+            <l n="89"><choice><orig>Apres</orig><reg>Aprés</reg></choice> aust cheyt la foyl<choice><orig/><reg>.</reg></choice></l>
+            <l n="90"><choice><orig>Apres</orig><reg>Aprés</reg></choice> gele vient remoyl<choice><orig/><reg>.</reg></choice></l>
+            <l n="91">P<ex>ar</ex> <term xml:id="MS7-deray-001" key="AND:desrei">deray</term> chiet <choice><orig>souent</orig><reg>sovent</reg></choice> doyl<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:43344" target="#MS7-deray-001">strif</gloss></l>
+            <l n="92">Cestes p<ex>ar</ex>oles si <term xml:id="MS7-recoyl-001" key="AND:recoillir">recoyl</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-recoyl-001">collego</gloss></l>
+            <l n="93">La resoun p<ex>ur</ex> quei dire voil<choice><orig/><reg>:</reg></choice></l>
+            <l n="94">Pur <choice><orig>l</orig><reg>l'</reg></choice>acord en p<ex>ar</ex>launce</l>
+            <l n="95">E li descord en variaunce<choice><orig/><reg>.</reg></choice></l>
+            <l n="96"><choice><orig><hi rend="large">D</hi></orig><reg>D</reg></choice>es espaules issent les braz<choice><orig/><reg>;</reg></choice></l>
+            <l n="97">Les <term xml:id="MS7-coustes-001" key="AND:coute_1">coustes</term><choice><orig/><reg>,</reg></choice> les meyns ne lerrai pas<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:13199" target="#MS7-coustes-001">elbowis</gloss></l>
+            <l n="98">Entre les braz <choice><orig>&amp;</orig><reg>e</reg></choice> la meyn</l>
+            <l n="99">Si est t<ex>ro</ex><choice><orig>ue</orig><reg>vé</reg></choice> le <term xml:id="MS7-cou_de_la_meyn-001" key="AND:col AND:de AND:le_1 AND:main_1">cou de la meyn</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:53683" target="#MS7-cou_de_la_meyn-001">wrist</gloss></l>
+            <l n="100">La paume <choice><orig>de deynz</orig><reg>dedeynz</reg></choice><choice><orig/><reg>,</reg></choice> la claye <choice><orig>de hors</orig><reg>dehors</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="101">Li poyn e<ex>st</ex> dit k<ex>au</ex>nt la meyn est clos</l> 
+            <l n="102">E une poynee k<ex>au</ex>nt la meyn</l>
          </lg>
          <pb n="5r" facs="ms_7_005r.jpg"/>
          <cb n="5ra"/>
          <lg>
-            <l n="104">Des <term xml:id="MS7-meimes-001" key="AND:meimes">meimes</term> choses est <choice><orig>troue</orig><reg>trové</reg></choice> pleyn<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:30547" target="#MS7-meimes-001">on</gloss></l>
-            <l n="105">Deus meyns ensemble voides ou pleynes</l>
-            <l n="106">Sount appellez les galeynes<choice><orig/><reg>.</reg></choice></l>
-            <l n="107">Meuz vodreie <choice><orig>vne</orig><reg>une</reg></choice> poynee</l>
-            <l n="108">De <choice><orig>gyngyuere</orig><reg>gyngyvere</reg></choice> bien <choice><orig>trie</orig><reg>trié</reg></choice></l>
-            <l n="109">Qe ne vodroie mes galeynes</l>
-            <l n="110">De filaundre totes pleynes<choice><orig/><reg>.</reg></choice></l>
-            <l n="111"><term xml:id="MS7-une_coste_dé_costees-001" key="AND:un_1 AND:coste_1 AND:de AND:coste_1"><choice><orig>Vne</orig><reg>Une</reg></choice> coste <choice><orig>de<del>uz</del></orig><reg>dé</reg></choice><note type="manuscript" resp="#TGH">The scribe has originally written <foreign xml:lang="fro" key="AND:deus_1">deuz</foreign> (an error in the exemplar?) but realised that the correct reading should be <foreign xml:lang="fro" key="AND:de">dé</foreign>.</note> costees</term><note type="editorial" resp="#TGH">This is one of two commentary glosses in this manuscript (the other is at line 216). It offers not a translation of any of the terms in the line but a clarification of the subject.</note> <gloss place="interlinear" xml:lang="lat" target="#MS7-une_coste_dé_costees-001">Ad<ex>a</ex>m<ex>us</ex></gloss></l>
-            <l n="112">La p<ex>ri</ex>mere femme <choice><orig>ma</orig><reg>m'a</reg></choice> oustees<choice><orig/><reg>.</reg></choice></l>
-            <l n="113">Par <term xml:id="MS7-venteresce-001" key="AND:venteresse">venteresce</term> en ventre<note type="editorial" resp="#TGH">The relationship between gloss and lemma is obscure, and may bear witness to the glossator's difficulties in understanding the line. Has <foreign xml:lang="fro" key="AND:venteresse">venteresce</foreign> been interpreted as some kind of entrance?</note> <gloss place="interlinear" xml:lang="enm" key="MED:14143" target="#MS7-venteresce-001">entre</gloss></l>
-            <l n="114">Le payn de furment entre<choice><orig/><reg>.</reg></choice></l>
-            <l n="115"><choice><orig>En mi</orig><reg>Enmi</reg></choice> le ventre est ly ombyl<choice><orig/><reg>,</reg></choice></l>
-            <l n="116"><choice><orig>Vn</orig><reg>Un</reg></choice> poi plus baas est ly <term xml:id="MS7-penuyl-001" key="AND:penil_1">penuyl</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:39792" target="#MS7-penuyl-001">schar</gloss></l>
-            <l n="117">Les <term xml:id="MS7-nages-001" key="AND:nages">nages</term><choice><orig/><reg>,</reg></choice> les <term xml:id="MS7-quises-001" key="AND:cuisse">quises</term><choice><orig/><reg>,</reg></choice> la <term xml:id="MS7-fourchure-001" key="AND:furchure">fourchure</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6423" target="#MS7-nages-001">buttok</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:45266" target="#MS7-quises-001">thies</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:19339" target="#MS7-fourchure-001">greyn</gloss></l>
-            <l n="118">Les jambes saunz genoyls <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="MS7-garez-001" key="AND:garet_1">garez</term> <gloss place="interlinear" xml:lang="enm" key="MED:21332" target="#MS7-garez-001">howghes</gloss></l>
-            <l n="119">De genoyllers erreynt <term xml:id="MS7-trop_rez-001" key="AND:trop AND:red_1">trop rez</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37511 MED:19966" target="#MS7-trop_rez-001">rieht hard</gloss></l>
-            <l n="120">A garez <term xml:id="MS7-ount-001" key="AND:aver_2">ount</term> ore garetters <gloss place="interlinear" xml:lang="enm" key="MED:20173 MED:2316" target="#MS7-ount-001"><choice><orig>haue</orig><reg>have</reg></choice> arayd</gloss></l>
-            <l n="121">Nos <choice><orig>garcouns</orig><reg>garçouns</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> nos esq<ex>ui</ex>ers<choice><orig/><reg>,</reg></choice></l>
-            <l n="122">Ne mye p<ex>ur</ex> estre charetters</l>
-            <l n="123">Mes p<ex>ur</ex> <choice><orig>sauuer</orig><reg>sauver</reg></choice> lo<ex>ur</ex> layners<choice><orig/><reg>.</reg></choice></l>
-            <l n="124">En la jambe est la <term xml:id="MS7-sure-001" key="AND:sure_1">sure</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6536" target="#MS7-sure-001">calf</gloss></l>
-            <l n="125">En taunt cu<ex>m</ex> brau<ex>n</ex> est en sure</l>
-            <l n="126">De force hom<ex>m</ex>e pl<ex>us</ex> se <term xml:id="MS7-assure-001" key="AND:asseurer_1">assure</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:40301" target="#MS7-assure-001">seker</gloss></l>
-            <l n="127">Mes gar <choice><orig>l</orig><reg>l'</reg></choice><term xml:id="MS7-eskanel-001" key="AND:eskanel">eskanel</term> de blesceure<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:42408" target="#MS7-eskanel-001">springilbon</gloss></l>
-            <l n="128">Ly <term xml:id="MS7-chevyl-001" key="AND:cheville"><choice><orig>cheuyl</orig><reg>chevyl</reg></choice></term> de <choice><orig>pe</orig><reg>pé</reg></choice><choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="MS7-chevyl-002" key="AND:cheville"><choice><orig>cheuyl</orig><reg>chevyl</reg></choice></term> de <term xml:id="MS7-fust-001" key="AND:fust">fust</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:52581" target="#MS7-chevyl-001">whirlebon</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:33400" target="#MS7-chevyl-002">pyn</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:46870" target="#MS7-fust-001">tre</gloss></l>
-            <l n="129">Voderey qe chescun conceust<choice><orig/><reg>.</reg></choice></l>
-            <l n="130">La plaunte<choice><orig/><reg>,</reg></choice> les <term xml:id="MS7-ortiz-001" key="AND:ortil_1">ortiz</term><choice><orig/><reg>,</reg></choice> les talouns<choice><orig/><reg>:</reg></choice> <gloss place="interlinear"  xml:lang="enm" target="#MS7-ortiz-001" key= "MED:46043">toes</gloss></l>
-            <l n="131">Choses sont assez comuns<choice><orig/><reg>.</reg></choice></l>
-            <l n="132"><choice><orig><hi rend="large">D</hi>e </orig><reg>De</reg></choice>deynz le cors de chescun hom</l>
-            <l n="133">Est <choice><orig>troue</orig><reg>trové</reg></choice> quer<choice><orig/><reg>,</reg></choice> <term xml:id="MS7-feye-001" key="AND:feie_1">feye</term> <choice><orig>.e.</orig><reg>e</reg></choice> <term xml:id="MS7-pomoun-001" key="AND:pulmon">pomoun</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:258848" target="#MS7-feye-001">livre</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:26028" target="#MS7-pomoun-001">longe</gloss></l>
-            <l n="134"><choice><orig>L</orig><reg>L'</reg></choice><term xml:id="MS7-esplen-001" key="AND:espleen">esplen</term><choice><orig/><reg>,</reg></choice> boueles e <term xml:id="MS7-renoun-001" key="AND:reinon">renoun</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:27794" target="#MS7-esplen-001">milte</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:29326" target="#MS7-renoun-001">nerys</gloss></l>
-            <l n="135">Estomak<ex>e</ex><choice><orig/><reg>,</reg></choice> veynes e nerfs <choice><orig>en viroun</orig><reg>enviroun</reg></choice><choice><orig/><reg>.</reg></choice></l>
-            <l n="136">Vo<ex>us</ex> <choice><orig>auetz</orig><reg>avetz</reg></choice> la <term xml:id="MS7-chaar-001" key="AND:char_2">chaar</term> e ly <term xml:id="MS7-char-001" key="AND:char_1">char</term><choice><orig/><reg>,</reg></choice><note type="lexical" resp="#TGH">The glosses are reversed compared with what one would expect from the gender of the articles: <foreign xml:lang="fro" key="AND:char_1">char</foreign> (<quote>flesh</quote>) is usually feminine and <foreign xml:lang="fro" key="AND:char_2">char</foreign> (<quote>cart</quote>) is masculine.</note> <gloss place="interlinear" xml:lang="enm" key="MED:6867" target="#MS7-chaar-001">cart</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-char-001">carne<ex>m</ex></gloss></l>
-            <l n="137">Mes co<ex>n</ex>tregardez vo<ex>us</ex> de <term xml:id="MS7-eschar-001" key="AND:escharn">eschar</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:38961" target="#MS7-eschar-001">skarn</gloss></l>
-            <l n="138">Je vy la char seer en char</l>
-            <l n="139">E de la char fere eschar<choice><orig/><reg>.</reg></choice></l>
-            <l n="140">Eschar p<ex>ar</ex> folour hom<ex>m</ex>e <choice><orig>reuyli</orig><reg>revyli</reg></choice><ex>s</ex>t<choice><orig/><reg>.</reg></choice></l>
-            <l n="141">La char p<ex>ar</ex> hidour de hom<ex>m</ex>e fremyt<choice><orig/><reg>.</reg></choice></l>
-            <l n="142">Ses os p<ex>ar</ex> <term xml:id="MS7-dolour-001" key="AND:dolur">dolour</term> <term xml:id="MS7-ensechisent-001" key="AND:ensecher_1">ensechisent</term><note type="editorial" resp="#TGH">The relationship between the lemma <foreign xml:lang="fro" key="AND:ensecher_1">ensechisent</foreign> (AND: <mentioned>dry up</mentioned> or <mentioned>wither</mentioned>) and the gloss <foreign xml:lang="lat">conjacent</foreign> (Lewis and Short, under <foreign xml:lang="lat">coniaceo</foreign>: <mentioned>lie together</mentioned>; DMLBS, under <foreign xml:lang="lat">conjacere</foreign>: <mentioned>to be adjacent</mentioned>) is unclear, and may reveal the glossator's misunderstanding of the line.</note><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-dolour-001">dolorem</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-ensechisent-001">co<ex>n</ex><choice><orig>iacent</orig><reg>jacent</reg></choice></gloss></l>
-            <l n="143">Les nerfs de <term xml:id="MS7-bevour-001" key="AND:bevur"><choice><orig>beuour</orig><reg>bevour</reg></choice></term> <term xml:id="MS7-engourdissent-001" key="AND:engurdir">engourdissent</term> <gloss place="interlinear" xml:lang="lat" target="#MS7-bevour-001">potator</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-engourdissent-001">tumesc<ex>u</ex>nt</gloss></l>
-            <l n="144">Hom<ex>m</ex>e e fem<ex>m</ex>e ount la pel<choice><orig/><reg>.</reg></choice></l>
-            <l n="145">De mort beste quir <choice><orig>ieo</orig><reg>jeo</reg></choice> appel<choice><orig/><reg>.</reg></choice></l>
-            <l n="146">Ly clerk <term xml:id="MS7-soune-001" key="AND:soner">soune</term> le dreyn <term xml:id="MS7-apel-001" key="AND:apel">apel</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37595" target="#MS7-soune-001">rings</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:32770" target="#MS7-apel-001">peel</gloss></l>
+            <l n="103">Des <term xml:id="MS7-meimes-001" key="AND:meimes">meimes</term> choses est <choice><orig>troue</orig><reg>trové</reg></choice> pleyn<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:30547" target="#MS7-meimes-001">on</gloss></l>
+            <l n="104">Deus meyns ensemble voides ou pleynes</l>
+            <l n="105">Sount appellez les galeynes<choice><orig/><reg>.</reg></choice></l>
+            <l n="106">Meuz vodreie <choice><orig>vne</orig><reg>une</reg></choice> poynee</l>
+            <l n="107">De <choice><orig>gyngyuere</orig><reg>gyngyvere</reg></choice> bien <choice><orig>trie</orig><reg>trié</reg></choice></l>
+            <l n="108">Qe ne vodroie mes galeynes</l>
+            <l n="109">De filaundre totes pleynes<choice><orig/><reg>.</reg></choice></l>
+            <l n="110"><term xml:id="MS7-une_coste_dé_costees-001" key="AND:un_1 AND:coste_1 AND:de AND:coste_1"><choice><orig>Vne</orig><reg>Une</reg></choice> coste <choice><orig>de<del>uz</del></orig><reg>dé</reg></choice><note type="manuscript" resp="#TGH">The scribe has originally written <foreign xml:lang="fro" key="AND:deus_1">deuz</foreign> (an error in the exemplar?) but realised that the correct reading should be <foreign xml:lang="fro" key="AND:de">dé</foreign>.</note> costees</term><note type="editorial" resp="#TGH">This is one of two commentary glosses in this manuscript (the other is at line 216). It offers not a translation of any of the terms in the line but a clarification of the subject.</note> <gloss place="interlinear" xml:lang="enm" key="MED:443" target="#MS7-une_coste_dé_costees-001">Ad<ex>a</ex>m<ex>es</ex></gloss></l>
+            <l n="111">La p<ex>ri</ex>mere femme <choice><orig>ma</orig><reg>m'a</reg></choice> oustees<choice><orig/><reg>.</reg></choice></l>
+            <l n="112">Par <term xml:id="MS7-venteresce-001" key="AND:venteresse">venteresce</term> en ventre<note type="editorial" resp="#TGH">The relationship between gloss and lemma is obscure, and may bear witness to the glossator's difficulties in understanding the line. Has <foreign xml:lang="fro" key="AND:venteresse">venteresce</foreign> been interpreted as some kind of entrance?</note> <gloss place="interlinear" xml:lang="enm" key="MED:14143" target="#MS7-venteresce-001">entre</gloss></l>
+            <l n="113">Le payn de furment entre<choice><orig/><reg>.</reg></choice></l>
+            <l n="114"><choice><orig>En mi</orig><reg>Enmi</reg></choice> le ventre est ly ombyl<choice><orig/><reg>,</reg></choice></l>
+            <l n="115"><choice><orig>Vn</orig><reg>Un</reg></choice> poi plus baas est ly <term xml:id="MS7-penuyl-001" key="AND:penil_1">penuyl</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:39792" target="#MS7-penuyl-001">schar</gloss></l>
+            <l n="116">Les <term xml:id="MS7-nages-001" key="AND:nages">nages</term><choice><orig/><reg>,</reg></choice> les <term xml:id="MS7-quises-001" key="AND:cuisse">quises</term><choice><orig/><reg>,</reg></choice> la <term xml:id="MS7-fourchure-001" key="AND:furchure">fourchure</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6423" target="#MS7-nages-001">buttok</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:45266" target="#MS7-quises-001">thies</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:19339" target="#MS7-fourchure-001">greyn</gloss></l>
+            <l n="117">Les jambes saunz genoyls <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="MS7-garez-001" key="AND:garet_1">garez</term> <gloss place="interlinear" xml:lang="enm" key="MED:21332" target="#MS7-garez-001">howghes</gloss></l>
+            <l n="118">De genoyllers erreynt <term xml:id="MS7-trop_rez-001" key="AND:trop AND:red_1">trop rez</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37511 MED:19966" target="#MS7-trop_rez-001">rieht hard</gloss></l>
+            <l n="119">A garez <term xml:id="MS7-ount-001" key="AND:aver_2">ount</term> ore garetters <gloss place="interlinear" xml:lang="enm" key="MED:20173 MED:2316" target="#MS7-ount-001"><choice><orig>haue</orig><reg>have</reg></choice> arayd</gloss></l>
+            <l n="120">Nos <choice><orig>garcouns</orig><reg>garçouns</reg></choice> <choice><orig>&amp;</orig><reg>e</reg></choice> nos esq<ex>ui</ex>ers<choice><orig/><reg>,</reg></choice></l>
+            <l n="121">Ne mye p<ex>ur</ex> estre charetters</l>
+            <l n="122">Mes p<ex>ur</ex> <choice><orig>sauuer</orig><reg>sauver</reg></choice> lo<ex>ur</ex> layners<choice><orig/><reg>.</reg></choice></l>
+            <l n="123">En la jambe est la <term xml:id="MS7-sure-001" key="AND:sure_1">sure</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:6536" target="#MS7-sure-001">calf</gloss></l>
+            <l n="124">En taunt cu<ex>m</ex> brau<ex>n</ex> est en sure</l>
+            <l n="125">De force hom<ex>m</ex>e pl<ex>us</ex> se <term xml:id="MS7-assure-001" key="AND:asseurer_1">assure</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:40301" target="#MS7-assure-001">seker</gloss></l>
+            <l n="126">Mes gar <choice><orig>l</orig><reg>l'</reg></choice><term xml:id="MS7-eskanel-001" key="AND:eskanel">eskanel</term> de blesceure<choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:42408" target="#MS7-eskanel-001">springilbon</gloss></l>
+            <l n="127">Ly <term xml:id="MS7-chevyl-001" key="AND:cheville"><choice><orig>cheuyl</orig><reg>chevyl</reg></choice></term> de <choice><orig>pe</orig><reg>pé</reg></choice><choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <term xml:id="MS7-chevyl-002" key="AND:cheville"><choice><orig>cheuyl</orig><reg>chevyl</reg></choice></term> de <term xml:id="MS7-fust-001" key="AND:fust">fust</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:52581" target="#MS7-chevyl-001">whirlebon</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:33400" target="#MS7-chevyl-002">pyn</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:46870" target="#MS7-fust-001">tre</gloss></l>
+            <l n="128">Voderey qe chescun conceust<choice><orig/><reg>.</reg></choice></l>
+            <l n="129">La plaunte<choice><orig/><reg>,</reg></choice> les <term xml:id="MS7-ortiz-001" key="AND:ortil_1">ortiz</term><choice><orig/><reg>,</reg></choice> les talouns<choice><orig/><reg>:</reg></choice> <gloss place="interlinear"  xml:lang="enm" target="#MS7-ortiz-001" key= "MED:46043">toes</gloss></l>
+            <l n="130">Choses sont assez comuns<choice><orig/><reg>.</reg></choice></l>
+            <l n="131"><choice><orig><hi rend="large">D</hi>e </orig><reg>De</reg></choice>deynz le cors de chescun hom</l>
+            <l n="132">Est <choice><orig>troue</orig><reg>trové</reg></choice> quer<choice><orig/><reg>,</reg></choice> <term xml:id="MS7-feye-001" key="AND:feie_1">feye</term> <choice><orig>.e.</orig><reg>e</reg></choice> <term xml:id="MS7-pomoun-001" key="AND:pulmon">pomoun</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:258848" target="#MS7-feye-001">livre</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:26028" target="#MS7-pomoun-001">longe</gloss></l>
+            <l n="133"><choice><orig>L</orig><reg>L'</reg></choice><term xml:id="MS7-esplen-001" key="AND:espleen">esplen</term><choice><orig/><reg>,</reg></choice> boueles e <term xml:id="MS7-renoun-001" key="AND:reinon">renoun</term><choice><orig/><reg>,</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:27794" target="#MS7-esplen-001">milte</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:29326" target="#MS7-renoun-001">nerys</gloss></l>
+            <l n="134">Estomak<ex>e</ex><choice><orig/><reg>,</reg></choice> veynes e nerfs <choice><orig>en viroun</orig><reg>enviroun</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="135">Vo<ex>us</ex> <choice><orig>auetz</orig><reg>avetz</reg></choice> la <term xml:id="MS7-chaar-001" key="AND:char_2">chaar</term> e ly <term xml:id="MS7-char-001" key="AND:char_1">char</term><choice><orig/><reg>,</reg></choice><note type="lexical" resp="#TGH">The glosses are reversed compared with what one would expect from the gender of the articles: <foreign xml:lang="fro" key="AND:char_1">char</foreign> (<quote>flesh</quote>) is usually feminine and <foreign xml:lang="fro" key="AND:char_2">char</foreign> (<quote>cart</quote>) is masculine.</note> <gloss place="interlinear" xml:lang="enm" key="MED:6867" target="#MS7-chaar-001">cart</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-char-001">carne<ex>m</ex></gloss></l>
+            <l n="136">Mes co<ex>n</ex>tregardez vo<ex>us</ex> de <term xml:id="MS7-eschar-001" key="AND:escharn">eschar</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:38961" target="#MS7-eschar-001">skarn</gloss></l>
+            <l n="137">Je vy la char seer en char</l>
+            <l n="138">E de la char fere eschar<choice><orig/><reg>.</reg></choice></l>
+            <l n="139">Eschar p<ex>ar</ex> folour hom<ex>m</ex>e <choice><orig>reuyli</orig><reg>revyli</reg></choice><ex>s</ex>t<choice><orig/><reg>.</reg></choice></l>
+            <l n="140">La char p<ex>ar</ex> hidour de hom<ex>m</ex>e fremyt<choice><orig/><reg>.</reg></choice></l>
+            <l n="141">Ses os p<ex>ar</ex> <term xml:id="MS7-dolour-001" key="AND:dolur">dolour</term> <term xml:id="MS7-ensechisent-001" key="AND:ensecher_1">ensechisent</term><note type="editorial" resp="#TGH">The relationship between the lemma <foreign xml:lang="fro" key="AND:ensecher_1">ensechisent</foreign> (AND: <mentioned>dry up</mentioned> or <mentioned>wither</mentioned>) and the gloss <foreign xml:lang="lat">conjacent</foreign> (Lewis and Short, under <foreign xml:lang="lat">coniaceo</foreign>: <mentioned>lie together</mentioned>; DMLBS, under <foreign xml:lang="lat">conjacere</foreign>: <mentioned>to be adjacent</mentioned>) is unclear, and may reveal the glossator's misunderstanding of the line.</note><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="lat" target="#MS7-dolour-001">dolorem</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-ensechisent-001">co<ex>n</ex><choice><orig>iacent</orig><reg>jacent</reg></choice></gloss></l>
+            <l n="142">Les nerfs de <term xml:id="MS7-bevour-001" key="AND:bevur"><choice><orig>beuour</orig><reg>bevour</reg></choice></term> <term xml:id="MS7-engourdissent-001" key="AND:engurdir">engourdissent</term> <gloss place="interlinear" xml:lang="lat" target="#MS7-bevour-001">potator</gloss> <gloss place="interlinear" xml:lang="lat" target="#MS7-engourdissent-001">tumesc<ex>u</ex>nt</gloss></l>
+            <l n="143">Hom<ex>m</ex>e e fem<ex>m</ex>e ount la pel<choice><orig/><reg>.</reg></choice></l>
+            <l n="144">De mort beste quir <choice><orig>ieo</orig><reg>jeo</reg></choice> appel<choice><orig/><reg>.</reg></choice></l>
+            <l n="145">Ly clerk <term xml:id="MS7-soune-001" key="AND:soner">soune</term> le dreyn <term xml:id="MS7-apel-001" key="AND:apel">apel</term><choice><orig/><reg>.</reg></choice> <gloss place="interlinear" xml:lang="enm" key="MED:37595" target="#MS7-soune-001">rings</gloss> <gloss place="interlinear" xml:lang="enm" key="MED:32770" target="#MS7-apel-001">peel</gloss></l>
+            <l n="146">Ly prestre fet a <choice><orig>rome</orig><reg>Rome</reg></choice> appel<choice><orig/><reg>.</reg></choice></l>
             <l n="147">Ore <choice><orig>auetz</orig><reg>avetz</reg></choice> ceo q<ex>e</ex> apent al cors</l>
             <l n="148">E p<ex>ar</ex> <choice><orig>de </orig><reg>de</reg></choice>denz e<choice><orig>·</orig><reg/></choice> par <choice><orig>de </orig><reg>de</reg></choice>hors<choice><orig/><reg>.</reg></choice></l>
          </lg>
@@ -289,7 +291,7 @@
          </lg>
          <milestone unit="theme" type="food"/>
          <lg>
-            <l n="161">La meyn <choice><orig>laueet</orig><reg>laveet</reg></choice> dil enfaunt</l>
+            <!--NEED TO RENUMBER FROM HERE--><l n="161">La meyn <choice><orig>laueet</orig><reg>laveet</reg></choice> dil enfaunt</l>
             <l n="162">Vers payn se estent meyntenau<ex>n</ex>t<choice><orig/><reg>.</reg></choice></l>
             <l n="163">Ore ly bayllez en sa meyn</l>
             <l n="164"><choice><orig>Vne</orig><reg>Une</reg></choice> bribe de blanc payn<choice><orig/><reg>.</reg></choice></l>
@@ -501,7 +503,7 @@
             <l n="345">E v<ex>ost</ex>re fylee la veudez<choice><orig/><reg>.</reg></choice></l>
             <l n="346">Quey fet ore dame <choice><orig>h</orig><reg>H</reg></choice>ude<choice><orig/><reg>?</reg></choice></l>
             <l n="347"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>L</orig><reg>l</reg></choice>ussel des veuderes veude</l>
-            <l n="348">E dit <said xml:id="MS7-said01-01" next="MS7-said01-02">ore <choice><orig>ieo</orig><reg>jeo</reg></choice> voyl</said></l>
+            <l n="348">E dit<choice><orig/><reg>:</reg></choice> <said xml:id="MS7-said01-01" next="MS7-said01-02"><choice><orig>ore</orig><reg>Ore</reg></choice> <choice><orig>ieo</orig><reg>jeo</reg></choice> voyl</said></l>
             <l n="349"><said xml:id="MS7-said01-02" prev="MS7-said01-01" next="MS7-said01-03">Ma filee mettre en trahuyl<choice><orig/><reg>.</reg></choice></said></l>
             <l n="350"><said xml:id="MS7-said01-03" prev="MS7-said01-02" next="MS7-said01-04">Les tremes fray apparayler</said></l>
             <l n="351"><said xml:id="MS7-said01-04" prev="MS7-said01-03" next="MS7-said01-05">A la tisteresce por tystrer</said></l>
@@ -563,7 +565,7 @@
             <l n="398">Ore aloms a cel estaung<ex>e</ex></l>
             <l n="399">Ou le ewe est <choice><orig>ades</orig><reg>adés</reg></choice> coraunt<choice><orig/><reg>.</reg></choice></l>
             <l n="400">Si nous espleitoms<choice><orig/><reg>,</reg></choice><note type="editorial" resp="#TGH">In other manuscripts this line is a negation (<quote>If we don't have success there, let us go (instead) to the lake</quote>), which appears more logical.</note> aloms al lay<choice><orig/><reg>,</reg></choice></l>
-            <l n="401">Cel ewe <choice><sic>est taunt</sic><corr>estaunt</corr></choice> en betornay<choice><orig/><reg>.</reg></choice></l>
+            <l n="401">Cel ewe est taunt en betornay<choice><orig/><reg>.</reg></choice></l>
             <l n="402">La <choice><orig>couent</orig><reg>covent</reg></choice> pescher de nasse</l>
             <l n="403">Ou petite reyz ne t<ex>ro</ex><choice><orig>ue</orig><reg>ve</reg></choice> grace<choice><orig/><reg>.</reg></choice></l>
             <l n="404">Le gurgete dil nasse <choice><orig>reuersez</orig><reg>reversez</reg></choice><choice><orig/><reg>.</reg></choice></l>
@@ -606,9 +608,9 @@
             <l n="435">Facez hasteles<choice><orig/><reg>,</reg></choice> vo<ex>us</ex> ferez mal<choice><orig/><reg>.</reg></choice></l>
             <l n="436">Metez al fu hastele de chene</l>
             <l n="437">Coupez de aune ou de freyne</l>
-            <l n="438">E va donqes quere le <choice><sic/><corr>fou</corr></choice><choice><orig/><reg>,</reg></choice></l>
-            <l n="439">Quyr de cloe aynz fut de fou<choice><orig/><reg>.</reg></choice></l>
-            <l n="440">Si tu esparnyes dil fu le fou<choice><orig/><reg>.</reg></choice> <note type="editorial" resp="#TGH">Comparison with other manuscripts, and the lack of a paired line for this couplet, suggests a line has been omitted. In MS T, this reads: <quote>Tu serras tenu de teste fou</quote> (line 753).</note></l>
+            <l n="438">E va donqes quere le <choice><orig/><reg><supplied reason="omitted">fou</supplied></reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="439">Quyr de cloe<choice><orig/><reg>,</reg></choice> aynz fut de fou</l>
+            <l n="440">Si tu esparnyes dil fu le fou<choice><orig/><reg>.</reg></choice></l>
             <l n="441">Mes pur la verdour des hasteles</l>
             <l n="442">Jeo ne vy issyr estenceles<choice><orig/><reg>.</reg></choice></l>
             <l n="443">Va quere breses en <choice><orig>vne</orig><reg>une</reg></choice> teske<choice><orig/><reg>.</reg></choice></l>
@@ -689,7 +691,7 @@
             <l n="505">Saunz payn e vyn e <choice><orig>cereuoyse</orig><reg>cerevoyse</reg></choice></l>
             <l n="506">Ne s<ex>er</ex>reit nul a feste a eyse<choice><orig/><reg>.</reg></choice></l>
             <l n="507">Mes touz treys mout elyz</l>
-            <l n="508"><choice><sic>I Laueyent</sic><corr>Il aveyent</corr></choice><choice><orig/><reg>,</reg></choice> no<ex>us</ex> a dyz<choice><orig/><reg>.</reg></choice></l>
+            <l n="508"><choice><orig>I Laueyent</orig><reg>Il aveyent</reg></choice><choice><orig/><reg>,</reg></choice> no<ex>us</ex> a dyz<choice><orig/><reg>.</reg></choice></l>
             <l n="509"><choice><orig>¶</orig><reg/></choice>Al p<ex>ri</ex>mour fut portee</l>
             <l n="510">La teste dil sengler <choice><orig>en armee</orig><reg>enarmee</reg></choice></l>
             <l n="511">E al groyn le coler <choice><orig>en baneree</orig><reg>enbaneree</reg></choice><choice><orig/><reg>.</reg></choice></l>
@@ -706,117 +708,118 @@
             <l n="522">Vyn blank<ex>e</ex> e vyn v<ex>er</ex>mayl a g<ex>ra</ex>unt <choice><orig>plente</orig><reg>plenté</reg></choice><choice><orig/><reg>.</reg></choice></l>
             <l n="523">E p<ex>us</ex> <choice><orig>aueynt</orig><reg>aveynt</reg></choice> fesaunz<choice><orig/><reg>,</reg></choice> acyes e p<ex>er</ex>dryz<choice><orig/><reg>,</reg></choice></l>
             <l n="524"><choice><orig>Gryues</orig><reg>Gryves</reg></choice><choice><orig/><reg>,</reg></choice> aloe<ex>s</ex><choice><orig/><reg>,</reg></choice> <choice><orig>plouers</orig><reg>plovers</reg></choice> e fryture</l>
-            <l n="525"><choice><orig>Oue</orig><reg>Ové</reg></choice> zucre roset poudree la te<ex>m</ex>prure<choice><orig/><reg>.</reg></choice></l>
-            <l n="526">Apres mang<ex>er</ex> <choice><orig>aueynt</orig><reg>aveynt</reg></choice> a g<ex>ra</ex>nt <choice><orig>plente</orig><reg>plenté</reg></choice></l>
-            <l n="527">Blaunche poudre <choice><orig>oue</orig><reg>ové</reg></choice> la grosse <choice><orig>drage</orig><reg>dragé</reg></choice><choice><orig/><reg>.</reg></choice><note type="manuscript" resp="#TGH">At this point, MS 7 proceeds to the section <name>Bad Weather</name> omitted higher up.</note></l>
+            <l n="525">Braoun e crespus e fryture</l>
+            <l n="526"><choice><orig>Oue</orig><reg>Ové</reg></choice> zucre roset poudree la te<ex>m</ex>prure<choice><orig/><reg>.</reg></choice></l>
+            <l n="527">Apres mang<ex>er</ex> <choice><orig>aueynt</orig><reg>aveynt</reg></choice> a g<ex>ra</ex>nt <choice><orig>plente</orig><reg>plenté</reg></choice></l>
+            <l n="528">Blaunche poudre <choice><orig>oue</orig><reg>ové</reg></choice> la grosse <choice><orig>drage</orig><reg>dragé</reg></choice><choice><orig/><reg>.</reg></choice><note type="manuscript" resp="#TGH">At this point, MS 7 proceeds to the section <name>Bad Weather</name> omitted higher up.</note></l>
          </lg>
          <milestone unit="theme" type="badWeather"/>
          <lg>
-            <l n="528"><choice><orig>¶</orig><reg/></choice>Ore plut<choice><orig/><reg>,</reg></choice> ore geele<choice><orig/><reg>,</reg></choice></l>
-            <l n="529">Ore remuet e ore regeele<choice><orig/><reg>.</reg></choice></l>
-            <l n="530">Par le geel no<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> glaz</l>
-            <l n="531">E pluuye e geele fou<ex>n</ex>t wereglaz<choice><orig/><reg>.</reg></choice></l>
-            <l n="532">Ne est mye bon de trop hayster</l>
-            <l n="533">Sus werglaaz p<ex>ur</ex> werglacer<choice><orig/><reg>.</reg></choice></l>
-            <l n="534">Geele<choice><orig/><reg>,</reg></choice> pluuye <choice><orig>de </orig><reg>de</reg></choice>gotau<ex>n</ex>t</l>
-            <l n="535">Fount le chemyn trop lyda<ex>n</ex>t<choice><orig/><reg>.</reg></choice></l>
-            <l n="536">Or nege<choice><orig/><reg>,</reg></choice> ore cemeye<choice><orig/><reg>,</reg></choice></l>
-            <l n="537">Le ceem enpyre me<ex>n</ex> veye<choice><orig/><reg>.</reg></choice></l>
-            <l n="538">La bouche moy ent<ex>ra</ex> <choice><orig>vn</orig><reg>un</reg></choice> au<ex>n</ex>fe de neyf<choice><orig/><reg>;</reg></choice></l>
-            <l n="539">La q<ex>e</ex>deyent q<ex>e</ex> euse g<ex>ra</ex>nt seyf<choice><orig/><reg>.</reg></choice></l>
-            <l n="540">No<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> grecyl p<ex>ur</ex> ceo q<ex>e</ex> il grele<choice><orig/><reg>,</reg></choice></l>
-            <l n="541">No<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> geele p<ex>ur</ex> ceo q<ex>e</ex> il gele<choice><orig/><reg>.</reg></choice></l>
-            <l n="542">Jeo oy toneyere<choice><orig/><reg>;</reg></choice> oyl<choice><orig/><reg>,</reg></choice> il toune<choice><orig/><reg>.</reg></choice></l>
-            <l n="543">P<ex>ar</ex> ceo enpyre c<ex>er</ex><choice><orig>uoyse</orig><reg>voyse</reg></choice> en toune<choice><orig/><reg>.</reg></choice></l>
-            <l n="544">Ore moy suffrez<choice><orig/><reg>,</reg></choice> mo<ex>n</ex> pee toune<choice><orig/><reg>.</reg></choice></l>
-            <l n="545">Nul de vo<ex>us</ex> mout ne soune<choice><orig/><reg>.</reg></choice></l>
-            <l n="546">Freyd est en <choice><orig>yueer</orig><reg>yveer</reg></choice> le orree<choice><orig/><reg>.</reg></choice></l>
-            <l n="547"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>dyuynal</orig><reg>dyvynal</reg></choice> vo<ex>us</ex> est moustree<choice><orig/><reg>:</reg></choice></l>
-            <l n="548">En le <choice><orig>yuer</orig><reg>yver</reg></choice> k<ex>au</ex>nt <choice><sic>lorice</sic><corr>l'orree</corr></choice> chaunge</l>
-            <l n="549"><choice><orig>Vne</orig><reg>Une</reg></choice> verge y crest estraunge<choice><orig/><reg>.</reg></choice></l>
-            <l n="550">Verge saunz verdour<choice><orig/><reg>,</reg></choice></l>
-            <l n="551">Sau<ex>n</ex>z foyle e sau<ex>n</ex>z flour<choice><orig/><reg>.</reg></choice></l>
-            <l n="552">Kaunt vendra al estee</l>
-            <l n="553">La verge <choice><orig>n</orig><reg>n'</reg></choice>ert <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig/><reg>.</reg></choice></l>
-            <l n="554"><foreign xml:lang="enm">Red þis redeles to me<choice><orig/><reg>,</reg></choice></foreign></l>
-            <l n="555"><foreign xml:lang="enm">Red wat it may be<choice><orig/><reg>.</reg></choice></foreign></l>
-            <l n="556">Coe est <choice><orig>vn</orig><reg>un</reg></choice> esclaryz<choice><orig/><reg>,</reg></choice></l>
-            <l n="557">En engloys <foreign xml:lang="enm">an yskel</foreign><choice><orig/><reg>.</reg></choice></l>
-            <l n="558"><choice><orig>¶</orig><reg/></choice>K<ex>au</ex>nt les deys ne poeet pas</l>
-            <l n="559">Ensemble <choice><orig>ioyndre</orig><reg>joyndre</reg></choice><choice><orig/><reg>,</reg></choice> do<ex>n</ex>c diras<choice><orig/><reg>:</reg></choice></l>
-            <l n="560"><said xml:id="MS7-said02-01" next="MS7-said02-02">Jo ay la meyn si estomye</said></l>
-            <l n="561"><said xml:id="MS7-said02-02" prev= "MS7-said02-01" next="MS7-said02-03">Ke p<ex>ur</ex> freyd ne pus mye</said></l>
-            <l n="562"><said xml:id="MS7-said02-03" prev="MS7-said02-02">P<ex>ar</ex> moy fere la copinole<choice><orig/><reg>.</reg></choice></said></l>
-            <l n="563">Dou<ex>n</ex>t meuz voderoye sus plume mole</l>
+            <l n="529"><choice><orig>¶</orig><reg/></choice>Ore plut<choice><orig/><reg>,</reg></choice> ore geele<choice><orig/><reg>,</reg></choice></l>
+            <l n="530">Ore remuet e ore regeele<choice><orig/><reg>.</reg></choice></l>
+            <l n="531">Par le geel no<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> glaz</l>
+            <l n="532">E pluuye e geele fou<ex>n</ex>t wereglaz<choice><orig/><reg>.</reg></choice></l>
+            <l n="533">Ne est mye bon de trop hayster</l>
+            <l n="534">Sus werglaaz p<ex>ur</ex> werglacer<choice><orig/><reg>.</reg></choice></l>
+            <l n="535">Geele<choice><orig/><reg>,</reg></choice> pluuye <choice><orig>de </orig><reg>de</reg></choice>gotau<ex>n</ex>t</l>
+            <l n="536">Fount le chemyn trop lyda<ex>n</ex>t<choice><orig/><reg>.</reg></choice></l>
+            <l n="537">Or nege<choice><orig/><reg>,</reg></choice> ore cemeye<choice><orig/><reg>,</reg></choice></l>
+            <l n="538">Le ceem enpyre me<ex>n</ex> veye<choice><orig/><reg>.</reg></choice></l>
+            <l n="539">La bouche moy ent<ex>ra</ex> <choice><orig>vn</orig><reg>un</reg></choice> au<ex>n</ex>fe de neyf<choice><orig/><reg>;</reg></choice></l>
+            <l n="540">La q<ex>e</ex>deyent q<ex>e</ex> euse g<ex>ra</ex>nt seyf<choice><orig/><reg>.</reg></choice></l>
+            <l n="541">No<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> grecyl p<ex>ur</ex> ceo q<ex>e</ex> il grele<choice><orig/><reg>,</reg></choice></l>
+            <l n="542">No<ex>us</ex> <choice><orig>auoms</orig><reg>avoms</reg></choice> geele p<ex>ur</ex> ceo q<ex>e</ex> il gele<choice><orig/><reg>.</reg></choice></l>
+            <l n="543">Jeo oy toneyere<choice><orig/><reg>;</reg></choice> oyl<choice><orig/><reg>,</reg></choice> il toune<choice><orig/><reg>.</reg></choice></l>
+            <l n="544">P<ex>ar</ex> ceo enpyre c<ex>er</ex><choice><orig>uoyse</orig><reg>voyse</reg></choice> en toune<choice><orig/><reg>.</reg></choice></l>
+            <l n="545">Ore moy suffrez<choice><orig/><reg>,</reg></choice> mo<ex>n</ex> pee toune<choice><orig/><reg>.</reg></choice></l>
+            <l n="546">Nul de vo<ex>us</ex> mout ne soune<choice><orig/><reg>.</reg></choice></l>
+            <l n="547">Freyd est en <choice><orig>yueer</orig><reg>yveer</reg></choice> le orree<choice><orig/><reg>.</reg></choice></l>
+            <l n="548"><choice><orig>Vn</orig><reg>Un</reg></choice> <choice><orig>dyuynal</orig><reg>dyvynal</reg></choice> vo<ex>us</ex> est moustree<choice><orig/><reg>:</reg></choice></l>
+            <l n="549">En le <choice><orig>yuer</orig><reg>yver</reg></choice> k<ex>au</ex>nt <choice><sic>lorice</sic><corr>l'orree</corr></choice> chaunge</l>
+            <l n="550"><choice><orig>Vne</orig><reg>Une</reg></choice> verge y crest estraunge<choice><orig/><reg>.</reg></choice></l>
+            <l n="551">Verge saunz verdour<choice><orig/><reg>,</reg></choice></l>
+            <l n="552">Sau<ex>n</ex>z foyle e sau<ex>n</ex>z flour<choice><orig/><reg>.</reg></choice></l>
+            <l n="553">Kaunt vendra al estee</l>
+            <l n="554">La verge <choice><orig>n</orig><reg>n'</reg></choice>ert <choice><orig>troue</orig><reg>trové</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="555"><foreign xml:lang="enm">Red þis redeles to me<choice><orig/><reg>,</reg></choice></foreign></l>
+            <l n="556"><foreign xml:lang="enm">Red wat it may be<choice><orig/><reg>.</reg></choice></foreign></l>
+            <l n="557">Coe est <choice><orig>vn</orig><reg>un</reg></choice> esclaryz<choice><orig/><reg>,</reg></choice></l>
+            <l n="558">En engloys <foreign xml:lang="enm">an yskel</foreign><choice><orig/><reg>.</reg></choice></l>
+            <l n="559"><choice><orig>¶</orig><reg/></choice>K<ex>au</ex>nt les deys ne poeet pas</l>
+            <l n="560">Ensemble <choice><orig>ioyndre</orig><reg>joyndre</reg></choice><choice><orig/><reg>,</reg></choice> do<ex>n</ex>c diras<choice><orig/><reg>:</reg></choice></l>
+            <l n="561"><said xml:id="MS7-said02-01" next="MS7-said02-02">Jo ay la meyn si estomye</said></l>
+            <l n="562"><said xml:id="MS7-said02-02" prev= "MS7-said02-01" next="MS7-said02-03">Ke p<ex>ur</ex> freyd ne pus mye</said></l>
+            <l n="563"><said xml:id="MS7-said02-03" prev="MS7-said02-02">P<ex>ar</ex> moy fere la copinole<choice><orig/><reg>.</reg></choice></said></l>
+            <l n="564">Dou<ex>n</ex>t meuz voderoye sus plume mole</l>
          </lg>
          <pb n="7r" facs="ms_7_007r.jpg"/>
          <cb n="7ra"/>
          <lg>
-            <l n="564">Seer p<ex>re</ex>s del fu qe mener karole</l>
-            <l n="565"><choice><orig>De souz</orig><reg>Desouz</reg></choice> chapel de <choice><orig>blauerole</orig><reg>blaverole</reg></choice><choice><orig/><reg>,</reg></choice></l>
-            <l n="566">Ou de coyller premerole</l>
-            <l n="567">Pur fere chapels a clers <choice><orig>d</orig><reg>d'</reg></choice>escole</l>
-            <l n="568">Ky par bost de <choice><orig>fryuole</orig><reg>fryvole</reg></choice></l>
-            <l n="569">E par <choice><orig>knyuet</orig><reg>knyvet</reg></choice> <choice><orig>oue</orig><reg>ové</reg></choice> vyrole</l>
-            <l n="570"><choice><orig>Souent</orig><reg>Sovent</reg></choice> atrere fem<ex>m</ex>e fole<choice><orig/><reg>;</reg></choice></l>
-            <l n="571">Dount cil qe su<ex>n</ex>t de cel escole</l>
-            <l n="572">Vaudreyent meuz en la gaole</l>
-            <l n="573">Ke <choice><orig>oue</orig><reg>ové</reg></choice> <choice><orig>jouene</orig><reg>jovene</reg></choice> fe<ex>m</ex>me en oriole<choice><orig/><reg>.</reg></choice></l>
-            <l n="574">Amour de fole est si mole</l>
-            <l n="575">K<ex>au</ex>nt esquier ou clerc la cole<choice><orig/><reg>,</reg></choice></l>
-            <l n="576">Meyntenaunt a <choice><orig>vne</orig><reg>une</reg></choice> parole</l>
-            <l n="577">Cele fole ly recole<choice><orig/><reg>.</reg></choice></l>
-            <l n="578">Plust a <choice><orig>deu</orig><reg>Deu</reg></choice> qe teles foles</l>
-            <l n="579">Eusent face pleyn de veroles</l>
-            <l n="580">E ly fous ly rougeroles<choice><orig/><reg>.</reg></choice></l>
-            <l n="581">Les fols lerreyent les braceroles</l>
-            <l n="582">E les foles les caroles<choice><orig/><reg>.</reg></choice></l>
+            <l n="565">Seer p<ex>re</ex>s del fu qe mener karole</l>
+            <l n="566"><choice><orig>De souz</orig><reg>Desouz</reg></choice> chapel de <choice><orig>blauerole</orig><reg>blaverole</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="567">Ou de coyller premerole</l>
+            <l n="568">Pur fere chapels a clers <choice><orig>d</orig><reg>d'</reg></choice>escole</l>
+            <l n="569">Ky par bost de <choice><orig>fryuole</orig><reg>fryvole</reg></choice></l>
+            <l n="570">E par <choice><orig>knyuet</orig><reg>knyvet</reg></choice> <choice><orig>oue</orig><reg>ové</reg></choice> vyrole</l>
+            <l n="571"><choice><orig>Souent</orig><reg>Sovent</reg></choice> atrere fem<ex>m</ex>e fole<choice><orig/><reg>;</reg></choice></l>
+            <l n="572">Dount cil qe su<ex>n</ex>t de cel escole</l>
+            <l n="573">Vaudreyent meuz en la gaole</l>
+            <l n="574">Ke <choice><orig>oue</orig><reg>ové</reg></choice> <choice><orig>jouene</orig><reg>jovene</reg></choice> fe<ex>m</ex>me en oriole<choice><orig/><reg>.</reg></choice></l>
+            <l n="575">Amour de fole est si mole</l>
+            <l n="576">K<ex>au</ex>nt esquier ou clerc la cole<choice><orig/><reg>,</reg></choice></l>
+            <l n="577">Meyntenaunt a <choice><orig>vne</orig><reg>une</reg></choice> parole</l>
+            <l n="578">Cele fole ly recole<choice><orig/><reg>.</reg></choice></l>
+            <l n="579">Plust a <choice><orig>deu</orig><reg>Deu</reg></choice> qe teles foles</l>
+            <l n="580">Eusent face pleyn de veroles</l>
+            <l n="581">E ly fous ly rougeroles<choice><orig/><reg>.</reg></choice></l>
+            <l n="582">Les fols lerreyent les braceroles</l>
+            <l n="583">E les foles les caroles<choice><orig/><reg>.</reg></choice></l>
          </lg>
          <milestone unit="theme" type="flowers"/>
          <lg>
-            <l n="583"><choice><orig><hi rend="large">L</hi></orig><reg>L</reg></choice>y <choice><orig>iour</orig><reg>jour</reg></choice> <choice><orig>de vyent</orig><reg>devyent</reg></choice> bels <choice><orig>&amp;</orig><reg>e</reg></choice> cler<choice><orig/><reg>.</reg></choice></l>
-            <l n="584">Aloms deduyre<choice><orig/><reg>,</reg></choice> esbaneyer<choice><orig/><reg>.</reg></choice></l>
-            <l n="585">En cel verger t<ex>ro</ex><choice><orig>ueroms</orig><reg>veroms</reg></choice> <choice><orig>le</orig><reg>lé</reg></choice> flours</l>
-            <l n="586">Des q<ex>e</ex>les issent les douz odours<choice><orig/><reg>,</reg></choice></l>
-            <l n="587">Les herbes ausy p<ex>ur</ex> medicyne</l>
-            <l n="588">Les nou<ex>n</ex>s <choice><orig>de</orig><reg>dé</reg></choice> queles icy vo<ex>us</ex> <choice><orig>deuyne</orig><reg>devyne</reg></choice><choice><orig/><reg>.</reg></choice></l>
-            <l n="589">La flour de rose<choice><orig/><reg>,</reg></choice> la flour de lyz<choice><orig/><reg>,</reg></choice></l>
-            <l n="590">Lys vaut por royne<choice><orig/><reg>,</reg></choice> rose pur pyz<choice><orig/><reg>.</reg></choice></l>
-            <l n="591">Icy crest la flour de sorcye</l>
-            <l n="592">Ke vers le sorcils <choice><orig>n</orig><reg>n'</reg></choice>a nul envye<choice><orig/><reg>.</reg></choice></l>
-            <l n="593">Ly oyl est pres <choice><orig>de</orig><reg>dé</reg></choice> sorcys<choice><orig/><reg>,</reg></choice></l>
-            <l n="594">De veer la sourcye <choice><orig>·a·</orig><reg>a</reg></choice> g<ex>ra</ex>unt delyt<choice><orig/><reg>.</reg></choice></l>
-            <l n="595">Ere dil boys <choice><orig>&amp;</orig><reg>e</reg></choice> ere terestre</l>
-            <l n="596">En ceste verger <choice><orig>deyuent</orig><reg>deyvent</reg></choice> crestre<choice><orig/><reg>.</reg></choice></l>
-            <l n="597">P<ex>ri</ex>merole e p<ex>ri</ex><choice><orig>meueyre</orig><reg>meveyre</reg></choice></l>
-            <l n="598">Sus tere aperent en tens de veyre<choice><orig/><reg>.</reg></choice></l>
-            <l n="599">Si ert assez de plauntayne</l>
-            <l n="600">E bugle ausy<choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> herbe seyne<choice><orig/><reg>.</reg></choice></l>
-            <l n="601">Cerlange crest en <choice><orig>creuez</orig><reg>crevez</reg></choice><choice><orig/><reg>,</reg></choice></l>
-            <l n="602">E sy <choice><orig>trouerez</orig><reg>troverez</reg></choice> <choice><orig>plente</orig><reg>plenté</reg></choice> de <choice><orig>nauez</orig><reg>navez</reg></choice><choice><orig/><reg>,</reg></choice></l>
-            <l n="603">Conseude la blaunche flour</l>
-            <l n="604">E mercuriale de g<ex>ra</ex>nt valour<choice><orig/><reg>.</reg></choice></l>
-            <l n="605">P<ex>ur</ex> sauce vaut la surele<choice><orig/><reg>,</reg></choice></l>
-            <l n="606">P<ex>ur</ex> roynons vaut parele<choice><orig/><reg>.</reg></choice></l>
-            <l n="607">Si vo<ex>us</ex> t<ex>ro</ex><choice><orig>uez</orig><reg>vez</reg></choice> en toun verger</l>
-            <l n="608">Amerok <choice><orig>&amp;</orig><reg>e</reg></choice> gletyner<choice><orig/><reg>,</reg></choice></l>
-            <l n="609">Les aracez de <choice><orig>vn</orig><reg>un</reg></choice> besagu</l>
-            <l n="610">E cholez plauntez en lo<ex>ur</ex> lu<choice><orig/><reg>.</reg></choice></l>
+            <l n="584"><choice><orig><hi rend="large">L</hi></orig><reg>L</reg></choice>y <choice><orig>iour</orig><reg>jour</reg></choice> <choice><orig>de vyent</orig><reg>devyent</reg></choice> bels <choice><orig>&amp;</orig><reg>e</reg></choice> cler<choice><orig/><reg>.</reg></choice></l>
+            <l n="585">Aloms deduyre<choice><orig/><reg>,</reg></choice> esbaneyer<choice><orig/><reg>.</reg></choice></l>
+            <l n="586">En cel verger t<ex>ro</ex><choice><orig>ueroms</orig><reg>veroms</reg></choice> <choice><orig>le</orig><reg>lé</reg></choice> flours</l>
+            <l n="587">Des q<ex>e</ex>les issent les douz odours<choice><orig/><reg>,</reg></choice></l>
+            <l n="588">Les herbes ausy p<ex>ur</ex> medicyne</l>
+            <l n="589">Les nou<ex>n</ex>s <choice><orig>de</orig><reg>dé</reg></choice> queles icy vo<ex>us</ex> <choice><orig>deuyne</orig><reg>devyne</reg></choice><choice><orig/><reg>.</reg></choice></l>
+            <l n="590">La flour de rose<choice><orig/><reg>,</reg></choice> la flour de lyz<choice><orig/><reg>,</reg></choice></l>
+            <l n="591">Lys vaut por royne<choice><orig/><reg>,</reg></choice> rose pur pyz<choice><orig/><reg>.</reg></choice></l>
+            <l n="592">Icy crest la flour de sorcye</l>
+            <l n="593">Ke vers le sorcils <choice><orig>n</orig><reg>n'</reg></choice>a nul envye<choice><orig/><reg>.</reg></choice></l>
+            <l n="594">Ly oyl est pres <choice><orig>de</orig><reg>dé</reg></choice> sorcys<choice><orig/><reg>,</reg></choice></l>
+            <l n="595">De veer la sourcye <choice><orig>·a·</orig><reg>a</reg></choice> g<ex>ra</ex>unt delyt<choice><orig/><reg>.</reg></choice></l>
+            <l n="596">Ere dil boys <choice><orig>&amp;</orig><reg>e</reg></choice> ere terestre</l>
+            <l n="597">En ceste verger <choice><orig>deyuent</orig><reg>deyvent</reg></choice> crestre<choice><orig/><reg>.</reg></choice></l>
+            <l n="598">P<ex>ri</ex>merole e p<ex>ri</ex><choice><orig>meueyre</orig><reg>meveyre</reg></choice></l>
+            <l n="599">Sus tere aperent en tens de veyre<choice><orig/><reg>.</reg></choice></l>
+            <l n="600">Si ert assez de plauntayne</l>
+            <l n="601">E bugle ausy<choice><orig/><reg>,</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> herbe seyne<choice><orig/><reg>.</reg></choice></l>
+            <l n="602">Cerlange crest en <choice><orig>creuez</orig><reg>crevez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="603">E sy <choice><orig>trouerez</orig><reg>troverez</reg></choice> <choice><orig>plente</orig><reg>plenté</reg></choice> de <choice><orig>nauez</orig><reg>navez</reg></choice><choice><orig/><reg>,</reg></choice></l>
+            <l n="604">Conseude la blaunche flour</l>
+            <l n="605">E mercuriale de g<ex>ra</ex>nt valour<choice><orig/><reg>.</reg></choice></l>
+            <l n="606">P<ex>ur</ex> sauce vaut la surele<choice><orig/><reg>,</reg></choice></l>
+            <l n="607">P<ex>ur</ex> roynons vaut parele<choice><orig/><reg>.</reg></choice></l>
+            <l n="608">Si vo<ex>us</ex> t<ex>ro</ex><choice><orig>uez</orig><reg>vez</reg></choice> en toun verger</l>
+            <l n="609">Amerok <choice><orig>&amp;</orig><reg>e</reg></choice> gletyner<choice><orig/><reg>,</reg></choice></l>
+            <l n="610">Les aracez de <choice><orig>vn</orig><reg>un</reg></choice> besagu</l>
+            <l n="611">E cholez plauntez en lo<ex>ur</ex> lu<choice><orig/><reg>.</reg></choice></l>
          </lg>
          <milestone unit="theme" type="trees"/>
          <lg>
-            <l n="611"><choice><orig><hi rend="large">E</hi></orig><reg>E</reg></choice>n cel verger les arbres cressent<choice><orig/><reg>.</reg></choice></l>
-            <l n="612">Par charge de fruyt les <choice><orig>vns</orig><reg>uns</reg></choice> abessent<choice><orig/><reg>.</reg></choice></l>
-            <l n="613">Pomer<choice><orig/><reg>,</reg></choice> pere <choice><orig>&amp;</orig><reg>e</reg></choice> ceryser<choice><orig/><reg>,</reg></choice></l>
-            <l n="614">Frene<choice><orig/><reg>,</reg></choice> genest <choice><orig>&amp;</orig><reg>e</reg></choice> pruner<choice><orig/><reg>,</reg></choice></l>
-            <l n="615">Ceneler q<ex>e</ex> la cenele porte<choice><orig/><reg>,</reg></choice></l>
-            <l n="616">Ly fourder q<ex>e</ex> la fourdyn porte<choice><orig/><reg>,</reg></choice></l>
-            <l n="617">Eglenter q<ex>e</ex> les pyperonges porte<choice><orig/><reg>,</reg></choice></l>
-            <l n="618">Le creker q<ex>e</ex> les crekes porte<choice><orig/><reg>;</reg></choice></l>
-            <l n="619"><choice><orig>Vn</orig><reg>Un</reg></choice> alyer q<ex>e</ex> porte les alyes</l>
-            <l n="620">Dount <choice><sic>elyenon</sic><corr>Elyenor</corr></choice><note type="editorial" resp="#TGH">The scribe appears not to have understood the reference to <mentioned>Alienor</mentioned> here, resulting in a mangled reading.</note> en auncienrye</l>
-            <l n="621">Le noun receut par <choice><orig>vn</orig><reg>un</reg></choice> rey</l>
-            <l n="622">Ke out alyes en <choice><orig>ordeuaunt</orig><reg>or devaunt</reg></choice> sey<choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">The text breaks off at this point.</note></l>
+            <l n="612"><choice><orig><hi rend="large">E</hi></orig><reg>E</reg></choice>n cel verger les arbres cressent<choice><orig/><reg>.</reg></choice></l>
+            <l n="613">Par charge de fruyt les <choice><orig>vns</orig><reg>uns</reg></choice> abessent<choice><orig/><reg>.</reg></choice></l>
+            <l n="614">Pomer<choice><orig/><reg>,</reg></choice> pere <choice><orig>&amp;</orig><reg>e</reg></choice> ceryser<choice><orig/><reg>,</reg></choice></l>
+            <l n="615">Frene<choice><orig/><reg>,</reg></choice> genest <choice><orig>&amp;</orig><reg>e</reg></choice> pruner<choice><orig/><reg>,</reg></choice></l>
+            <l n="616">Ceneler q<ex>e</ex> la cenele porte<choice><orig/><reg>,</reg></choice></l>
+            <l n="617">Ly fourder q<ex>e</ex> la fourdyn porte<choice><orig/><reg>,</reg></choice></l>
+            <l n="618">Eglenter q<ex>e</ex> les pyperonges porte<choice><orig/><reg>,</reg></choice></l>
+            <l n="619">Le creker q<ex>e</ex> les crekes porte<choice><orig/><reg>;</reg></choice></l>
+            <l n="620"><choice><orig>Vn</orig><reg>Un</reg></choice> alyer q<ex>e</ex> porte les alyes</l>
+            <l n="621">Dount <choice><sic>elyenon</sic><corr>Elyenor</corr></choice><note type="editorial" resp="#TGH">The scribe appears not to have understood the reference to <mentioned>Alienor</mentioned> here, resulting in a mangled reading.</note> en auncienrye</l>
+            <l n="622">Le noun receut par <choice><orig>vn</orig><reg>un</reg></choice> rey</l>
+            <l n="623">Ke out alyes en <choice><orig>ordeuaunt</orig><reg>or devaunt</reg></choice> sey<choice><orig/><reg>.</reg></choice><note type="editorial" resp="#TGH">The text breaks off at this point.</note></l>
          </lg>
          <milestone unit="theme" type="woodlandBirdsAndBeasts"/>
          <gap reason="omitted"/>

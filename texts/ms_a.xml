@@ -201,6 +201,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-02-23" who="#TGH" status="1.41">Minor corrections to lines 64, 217 and 225, and 'said' elements.</change>
          <change when="2025-02-01" who="#TGH" status="1.4">Proof reading complete! Deleted 'Final Prayer' milestone.</change>
          <change when="2022-10-04" who="#TGH" status="1.31">Corrected key on line 193.</change>
          <change when="2022-09-29" who="#TGH" status="1.3">Alteration and note on lines 45-46; resolved textual queries after consulting the MS.</change>
@@ -361,7 +362,7 @@
             <l n="61">Deus <choice><orig>/ </orig><reg/></choice> <term xml:id="A-narys-001" key="AND:narie"><choice><orig>Narys</orig><reg>narys</reg></choice></term><choice><orig>·</orig><reg/></choice> e <term xml:id="A-un_tendroun-001" key="AND:un_1 AND:tendrun"><choice><orig>vn</orig><reg>un</reg></choice> tendroun <add place="above" type="alternative"><choice><orig/><reg>(</reg></choice>entr<ex>e</ex>flatoun<choice><orig/><reg>)</reg></choice></add></term><choice><orig/><reg>.</reg></choice> <gloss target="#A-narys-001" xml:lang="enm" key="MED:29861" place="endline">naseþirlis<choice><orig>·</orig><reg/></choice></gloss> <gloss target="#A-un_tendroun-001" xml:lang="enm" key="MED:3 MED:19535" place="endline">a<choice><orig/><reg> </reg></choice>gristel<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="62">Mes war ke <term xml:id="A-la_chouwe-001" key="AND:le_1 AND:choue">la chouwe</term><choice><orig>·</orig><reg/></choice> <gloss target="#A-la_chouwe-001" xml:lang="enm" key="MED:3 MED:8185" place="endline">a cobrid<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="63">Ne touche <term xml:id="A-vostre_jowe-001" key="AND:vostre AND:joe_1">vostr<ex>e</ex> jowe</term><choice><orig>·</orig><reg>.</reg></choice> <gloss target="#A-vostre_jowe-001" xml:lang="enm" key="MED:45074 MED:7411" place="endline">þi cheke<choice><orig>·</orig><reg/></choice></gloss></l>
-            <l n="64">V<ex>us</ex><add place="above" type="correction"><choice><orig>auet</orig><reg>avet</reg></choice></add> <term xml:id="A-la_levere-001" key="AND:le_1 AND:levre_1">la <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice></term> <term xml:id="A-e_le_levere-001" key="AND:e_2 AND:le_1 AND:levere_1"><choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice></term><choice><orig/><reg/></choice> <gloss target="#A-la_levere-001" xml:lang="enm" key="MED:3 MED:25707" place="endline">a lippe<choice><orig>·</orig><reg/></choice></gloss> <gloss target="#A-e_le_levere-001" xml:lang="enm" key=" MED:1536 MED:3 MED:19997" place="endline">and an hare</gloss></l>
+            <l n="64">V<ex>us</ex> <add place="above" type="correction"><choice><orig>auet</orig><reg>avet</reg></choice></add> <term xml:id="A-la_levere-001" key="AND:le_1 AND:levre_1">la <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice></term> <term xml:id="A-e_le_levere-001" key="AND:e_2 AND:le_1 AND:levere_1"><choice><orig>&amp;</orig><reg>e</reg></choice> le <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice></term><choice><orig/><reg/></choice> <gloss target="#A-la_levere-001" xml:lang="enm" key="MED:3 MED:25707" place="endline">a lippe<choice><orig>·</orig><reg/></choice></gloss> <gloss target="#A-e_le_levere-001" xml:lang="enm" key=" MED:1536 MED:3 MED:19997" place="endline">and an hare</gloss></l>
             <l n="65">E <term xml:id="A-la_livere-001" key="AND:le_1 AND:livre_2">la <choice><orig>liuer<ex>e</ex></orig><reg>liver<ex>e</ex></reg></choice></term> <choice><orig>&amp;</orig><reg>e</reg></choice> <term xml:id="A-le_livere-001" key="AND:le_1 AND:livre_1">le <choice><orig>liuer<ex>e</ex></orig><reg>liver<ex>e</ex></reg></choice></term><choice><orig/><reg>.</reg></choice> <gloss target="#A-la_livere-001" xml:lang="enm" key="MED:3 MED:34229" place="endline">a pound<choice><orig>·</orig><reg/></choice></gloss> <gloss target="#A-le_livere-001" xml:lang="enm" key="MED:3 MED:5413" place="endline">a book<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="66">La <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice> si <choice><orig>en clost</orig><reg>enclost</reg></choice> les dens<choice><orig/><reg>,</reg></choice></l>
             <l n="67">Le <choice><orig>leuer<ex>e</ex></orig><reg>lever<ex>e</ex></reg></choice> en boys se tent <choice><orig>de dens</orig><reg>dedens</reg></choice><choice><orig/><reg>;</reg></choice></l>
@@ -380,7 +381,7 @@
             <l n="77">Ke eles le fount p<ex>ur</ex> <term xml:id="A-bon_aleyne-001" key="AND:bon AND:aleine_1">bon aleyne</term><choice><orig>·</orig><reg>.</reg></choice> <gloss target="#A-bon_aleyne-001" xml:lang="enm" key="MED:18947 MED:30574" place="endline">god onde<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="78"><choice><orig>¶ </orig><reg/></choice>Le cool<choice><orig/><reg>,</reg></choice> la <choice><orig>Gorge</orig><reg>gorge</reg></choice><choice><orig/><reg>,</reg></choice> le <term xml:id="A-mentoun-001" key="AND:mentun">mentoun</term><choice><orig/><reg>,</reg></choice> <gloss target="#A-mentoun-001" xml:lang="enm" key="MED:7600" place="endline">chin</gloss></l>
             <l n="79">Langage est <choice><sic>assz</sic><corr>assez</corr></choice> comoun<choice><orig/><reg>.</reg></choice></l>
-            <l n="80"><choice><orig>De sout</orig><reg>Desout</reg></choice> la <choice><orig>Gorge</orig><reg>gorge</reg></choice> est la <term xml:id="A-fourcele-001" key="AND:furcele">fourcele</term><choice><orig/><reg>,</reg></choice> <gloss target="#A-fourcele-001" xml:lang="enm" key="MED:6652" place="endline">kanelbon<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="80"><choice><orig>De sout</orig><reg>Desout</reg></choice> la <choice><orig>Gorge</orig><reg>gorge</reg></choice> est la <term xml:id="A-fourcele-001" key="AND:furcele">fourcele</term><choice><orig/><reg>,</reg></choice> <gloss target="#A-fourcele-001" xml:lang="enm" key="MED:6652 MED:5477" place="endline">kanelbon<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="81"><choice><orig>Vn</orig><reg>Un</reg></choice>
                <mentioned>os <choice><orig>fourche</orig><reg>fourché</reg></choice></mentioned> fraunceys apele<choice><orig/><reg>.</reg></choice></l>
             <l n="82"><choice><orig>¶ </orig><reg/>
@@ -610,15 +611,15 @@
             <l n="214"><choice><orig>Beuee</orig><reg>Bevee</reg></choice> des <choice><orig>Heyrouns</orig><reg>heyrouns</reg></choice><choice><orig>·</orig><reg>,</reg></choice> pipee des oyseuz<choice><orig/><reg>,</reg></choice></l>
             <l n="215">Haras des <choice><orig>Poleyns</orig><reg>poleyns</reg></choice><choice><orig/><reg>,</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> foule de vileyns<choice><orig>·</orig><reg>,</reg></choice></l>
             <l n="216">Route de <choice><orig>Boufs</orig><reg>boufs</reg></choice><choice><orig/><reg>,</reg></choice> moute de chennes<choice><orig/><reg>,</reg></choice></l>
-            <l n="217"><term xml:id="A-masse-001" key="AND:masse_1">Masse</term>de argent<choice><orig/><reg>,</reg></choice> femyr de fens<choice><orig/><reg>,</reg></choice> <gloss target="#A-masse-001" xml:lang="enm" key="MED:28655" place="endline"><choice><orig>Mochil</orig><reg>mochil</reg></choice></gloss></l>
+            <l n="217"><term xml:id="A-masse-001" key="AND:masse_1">Masse</term> de argent<choice><orig/><reg>,</reg></choice> femyr de fens<choice><orig/><reg>,</reg></choice> <gloss target="#A-masse-001" xml:lang="enm" key="MED:28655" place="endline"><choice><orig>Mochil</orig><reg>mochil</reg></choice></gloss></l>
             <l n="218">Grelee de <choice><orig>Gelyns</orig><reg>gelyns</reg></choice><choice><orig>·</orig><reg>,</reg></choice> turbe de <term xml:id="A-cercele-001" key="AND:cercele_1"><choice><orig>Cercels</orig><reg>cercels</reg></choice></term><choice><orig/><reg>,</reg></choice> <gloss target="#A-cercele-001" xml:lang="enm" key="MED:44682" place="endline"><choice><orig>Teles</orig><reg>teles</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="219">Eschele de batayle<choice><orig/><reg>,</reg></choice> lur<ex>e</ex> de pucels <add place="above" type="alternative"><choice><orig/><reg>(</reg></choice>lure de faucouns<choice><orig>·</orig><reg/></choice><choice><orig/><reg>)</reg></choice></add><choice><orig/><reg>.</reg></choice></l>
-            <l n="220">Kar pucele feet saun <term xml:id="A-juper-001" key="AND:juper">juper</term> <gloss target="#A-juper-001" xml:lang="enm" key="MED:21392" place="endline"><choice><orig>Huting</orig><reg>huting</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="220">Kar pucele seet saun <term xml:id="A-juper-001" key="AND:juper">juper</term> <gloss target="#A-juper-001" xml:lang="enm" key="MED:21392" place="endline"><choice><orig>Huting</orig><reg>huting</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="221">Les <choice><orig>Gentifs</orig><reg>gentifs</reg></choice> faucouns alurer<choice><orig/><reg>.</reg></choice></l>
             <l n="222">De <choice><orig>Dames</orig><reg>dames</reg></choice> diret la <choice><orig>Co<ex>m</ex>panye</orig><reg>co<ex>m</ex>panye</reg></choice> <add place="above" type="alternative"><choice><orig/><reg>(</reg></choice>fuyson de vif aumayle<choice><orig>·</orig><reg/></choice><choice><orig/><reg>)</reg></choice><note type="editorial" resp="#ETFM">This addition has been made in the glossing ink, and implies a full line originally omitted: <foreign xml:lang="fro">De fuyson (diret) de vif aumayle.</foreign></note></add><choice><orig/><reg>,</reg></choice></l>
             <l n="223">Des <choice><orig>Ouues</orig><reg>ouues</reg></choice> <add place="above" type="alternative"><choice><orig/><reg>(</reg></choice><choice><orig>vne</orig><reg>une</reg></choice> jangle<choice><orig/><reg>)</reg></choice></add> <choice><orig>au si</orig><reg>ausi</reg></choice> la <choice><orig>Co<ex>m</ex>panye</orig><reg>co<ex>m</ex>panye</reg></choice><choice><orig/><reg>.</reg></choice></l>
             <l n="224">Ceuz deus s<ex>un</ex>t associez<choice><orig/><reg>:</reg></choice></l>
-            <l n="225">Quele e<ex>st</ex> la resoun or<ex>e</ex> eliset<choice><orig/><reg>.</reg></choice></l>
+            <l n="225">Quele e<ex>st</ex> la resoun<choice><orig/><reg>?</reg></choice> <choice><orig>or</orig><reg>Or</reg></choice><ex>e</ex> eliset<choice><orig/><reg>.</reg></choice></l>
          </lg>
 
          <milestone unit="theme" type="animalNoises"/>
@@ -803,7 +804,7 @@
             <l n="315"><choice><orig>¶ </orig><reg/>
                </choice>Kau<ex>n</ex>t vostr<ex>e</ex> blee est <term xml:id="A-batu-001" key="AND:batre_1">batu</term><choice><orig/><reg>,</reg></choice> <gloss target="#A-batu-001" xml:lang="enm" key="MED:52891" place="endline">þonþen<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="316">E <choice><orig>uente</orig><reg>venté</reg></choice> e pus <term xml:id="A-molu-001" key="AND:moudre">molu</term><choice><orig/><reg>,</reg></choice> <gloss target="#A-molu-001" xml:lang="enm" key="MED:19487" place="endline">grounden<choice><orig>·</orig><reg/></choice></gloss></l>
-            <l n="317">P<ex>ar</ex><term xml:id="A-mouele-001" key="AND:moele_1">mouele</term> <choice><orig>deuent</orig><reg>devent</reg></choice> faryne <gloss target="#A-mouele-001" xml:lang="enm" key="MED:27790" place="endline">mille stoon<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="317">P<ex>ar</ex> <term xml:id="A-mouele-001" key="AND:moele_1">mouele</term> <choice><orig>deuent</orig><reg>devent</reg></choice> faryne <gloss target="#A-mouele-001" xml:lang="enm" key="MED:27790" place="endline">mille stoon<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="318">Ke greyn estoyt au matin<choice><orig/><reg>.</reg></choice></l>
             <l n="319">E de fine farine vent la flour</l>
             <l n="320">Par la <term xml:id="A-bolenge-001" key="AND:bolenge">bolenge</term> le pestour<choice><orig/><reg>.</reg></choice> <gloss target="#A-bolenge-001" xml:lang="enm" key="MED:6294 MED:8138" place="endline"><choice><orig>Bulting</orig><reg>bulting</reg></choice> clot<choice><orig>·</orig><reg/></choice></gloss></l>
@@ -895,18 +896,18 @@
                      <corr>wudez</corr></choice></term><choice><orig/><reg>.</reg></choice> <gloss target="#A-vostre_filoe_la_wudez-001" xml:lang="enm" key="MED:52891 MED:45296 MED:53774" place="endline"><choice><orig>Wynde</orig><reg>wynde</reg></choice> þi yarn<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="370">Ke feet ore dame <choice><orig>hude</orig><reg>Hude</reg></choice><choice><orig/><reg>?</reg></choice></l>
             <l n="371"><term xml:id="A-un_lussel_de_wudres-001" key="AND:un_1 AND:lussel AND:de AND:voider_1"><choice><orig>Vn</orig><reg>Un</reg></choice> lussel de wudres</term> wude<choice><orig/><reg>.</reg></choice> <gloss target="#A-un_lussel_de_wudres-001" xml:lang="enm" key="MED:3 MED:8009 MED:30218 MED:53774" place="endline"><choice><orig>A</orig><reg>a</reg></choice> klewe of yarn<choice><orig>·</orig><reg/></choice></gloss></l>
-            <l n="372">E dist<choice><orig/><reg>,</reg></choice>
-               <said xml:id="A-said01-01" next="A-said-01-02">ore jo voyl</said></l>
-            <l n="373"><said xml:id="A-said-01-02" prev="#A-said01-01"><term xml:id="A-ma_filee_moustre_en_trauayl-001" key="AND:mun_2 AND:fileie_1 AND:mettre AND:en_1 AND:trauil">Ma filee moustre en t<ex>ra</ex>uayl</term><choice><orig/><reg>.</reg></choice></said> <gloss target="#A-ma_filee_moustre_en_trauayl-001" xml:lang="enm" key="MED:12367 MED:27802 MED:53774 MED:30550 MED:45074 MED:36627" place="endline">do my yaarn on þe <choice><orig>R</orig><reg>r</reg></choice>ee<choice><orig><gap reason="binding" unit="character" quantity="1"/></orig><reg><supplied reason="binding">l</supplied></reg></choice></gloss></l>
-            <l n="374"><term xml:id="A-des_tremes-001" key="AND:de AND:le_1 AND:trame">Des
-                  tremes</term> fray ap<ex>ar</ex>aler <gloss target="#A-des_tremes-001" xml:lang="enm" key="MED:45074 MED:42315" place="endline">þe spoles<choice><orig>·</orig><reg/></choice></gloss></l>
-            <l n="375">A la tist<add place="above" type="correction">e</add>resse p<ex>ur</ex> <term xml:id="A-tister-001" key="AND:tistre">tister</term><choice><orig/><reg>.</reg></choice> <gloss target="#A-tister-001" xml:lang="enm" key="MED:3 MED:51955 MED:46049 MED:52403" place="endline"><choice><orig>A</orig><reg>a</reg></choice> webe to wewen<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="372">E dist<choice><orig/><reg>:</reg></choice>
+               <said xml:id="A-said01-01" next="A-said01-02"><choice><orig>ore</orig><reg>Ore</reg></choice> jo voyl</said></l>
+            <l n="373"><said xml:id="A-said01-02" prev="#A-said01-01" next="#A-said01-03"><term xml:id="A-ma_filee_moustre_en_trauayl-001" key="AND:mun_2 AND:fileie_1 AND:mettre AND:en_1 AND:trauil">Ma filee moustre en t<ex>ra</ex>uayl</term><choice><orig/><reg>.</reg></choice></said> <gloss target="#A-ma_filee_moustre_en_trauayl-001" xml:lang="enm" key="MED:12367 MED:27802 MED:53774 MED:30550 MED:45074 MED:36627" place="endline">do my yaarn on þe <choice><orig>R</orig><reg>r</reg></choice>ee<choice><orig><gap reason="binding" unit="character" quantity="1"/></orig><reg><supplied reason="binding">l</supplied></reg></choice></gloss></l>
+            <l n="374"><said xml:id="A-said01-03" prev="#A-said01-03" next="#A-said01-04"><term xml:id="A-des_tremes-001" key="AND:de AND:le_1 AND:trame">Des
+                  tremes</term> fray ap<ex>ar</ex>aler</said> <gloss target="#A-des_tremes-001" xml:lang="enm" key="MED:45074 MED:42315" place="endline">þe spoles<choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="375"><said xml:id="A-said01-04" next="#A-said01-05" prev="#A-said01-03">A la tist<add place="above" type="correction">e</add>resse p<ex>ur</ex> <term xml:id="A-tister-001" key="AND:tistre">tister</term><choice><orig/><reg>.</reg></choice></said><gloss target="#A-tister-001" xml:lang="enm" key="MED:3 MED:51955 MED:46049 MED:52403" place="endline"><choice><orig>A</orig><reg>a</reg></choice> webe to wewen<choice><orig>·</orig><reg/></choice></gloss></l>
          </lg>
          <pb n="302r" facs="ms_a_302r.jpg"/>
          <cb n="302ra"/>
          <lg>
-            <l n="376">E p<ex>ur</ex> estr<ex>e</ex> saunz blame</l>
-            <l n="377">Jo ay p<ex>ur</ex>w de <term xml:id="A-une_lame-001" key="AND:un_1 AND:lame"><choice><orig>vne</orig><reg>une</reg></choice> lame</term><choice><orig/><reg>.</reg></choice> <gloss target="#A-une_lame-001" xml:lang="enm" key="MED:3 MED:40799" place="endline">a <choice><orig>Slay</orig><reg>slay</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
+            <l n="376"><said xml:id="A-said01-05" next="#A-said01-06" prev="#A-said01-04">E p<ex>ur</ex> estr<ex>e</ex> saunz blame</said></l>
+            <l n="377"><said xml:id="A-said01-06" prev="#A-said01-05">Jo ay p<ex>ur</ex>w de <term xml:id="A-une_lame-001" key="AND:un_1 AND:lame"><choice><orig>vne</orig><reg>une</reg></choice> lame</term><choice><orig/><reg>.</reg></choice></said> <gloss target="#A-une_lame-001" xml:lang="enm" key="MED:3 MED:40799" place="endline">a <choice><orig>Slay</orig><reg>slay</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="378">Autr<ex>e</ex> chose si apent<choice><orig/><reg>,</reg></choice></l>
             <l n="379"><choice><orig>Me</orig><reg>Mé</reg></choice> plus ne say v<ex>er</ex>eme<ex>n</ex>t<choice><orig>·</orig><reg>.</reg></choice></l>
          </lg>
@@ -1077,7 +1078,7 @@
             <l n="475">Ce est <term xml:id="A-un_esclarcyl-001" key="AND:un_1 AND:esclarcil"><choice><orig>vn</orig><reg>un</reg></choice> esclarcyl</term><choice><orig>·</orig><reg>,</reg></choice> en engeleys<choice><orig/><reg>...</reg></choice> <gloss target="#A-un_esclarcyl-001" xml:lang="enm" key="MED:3 MED:23475" place="endline"><choice><orig>An</orig><reg>an</reg></choice> ychele<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="476"><choice><orig>¶ </orig><reg/>
                </choice>Kau<ex>n</ex>t les deys ne poet pas</l>
-            <l n="477"><choice><orig>En semble</orig><reg>Ensemble</reg></choice> joyndr<ex>e</ex><choice><orig/><reg>,</reg></choice> donc dyras</l>
+            <l n="477"><choice><orig>En semble</orig><reg>Ensemble</reg></choice> joyndr<ex>e</ex><choice><orig/><reg>,</reg></choice> donc dyras<choice><orig/><reg>:</reg></choice></l>
             <l n="478"><said xml:id="A-said02-01" next="#A-said02-02">Jo ay la meyn <term xml:id="A-si_estomye-001" key="AND:si_1 AND:estoner">si estom<add place="above" type="correction">y</add>e</term></said> <gloss target="#A-si_estomye-001" xml:lang="enm" key="MED:41281 MED:8518" place="endline">so acomeled<choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="479"><said xml:id="A-said02-02" prev="#A-said02-01" next="#A-said02-03">Ke p<ex>ur</ex> freyt ne puse mye</said></l>
             <l n="480"><said xml:id="A-said02-03" prev="#A-said02-02">Par moye fer<ex>e</ex> <term xml:id="A-la_copinole-001" key="AND:le_1 AND:capinole">la copinole</term><choice><orig/><reg>.</reg></choice></said><note type="lexical" resp="#TGH">The MED entry for <foreign xml:lang="enm" key="MED:21102">hond(e</foreign> includes the compound form <foreign xml:lang="enm">hond moule</foreign> under definition 8(j).</note> <gloss target="#A-la_copinole-001" xml:lang="enm" key="MED:45074 MED:21102" place="endline">þe honde moule<choice><orig>·</orig><reg/></choice></gloss></l>
@@ -1089,7 +1090,7 @@
             <l n="485">Ky p<ex>ar</ex> <term xml:id="A-bost_de_frivole-001" key="AND:bost AND:de AND:frivole">bost de <choice><orig>friuole</orig><reg>frivole</reg></choice></term> <gloss target="#A-bost_de_frivole-001" xml:lang="enm" key="MED:21670 MED:53418" place="endline">ydel <choice><orig>Wordes</orig><reg>wordes</reg></choice><choice><orig>·</orig><reg/></choice></gloss></l>
             <l n="486">E p<ex>ar</ex>
                <choice><orig>knyuet</orig><reg>knyvet</reg></choice> ou vyrole<choice><orig/><reg>.</reg></choice><note type="editorial" resp="#ETFM">Sense here is hampered by the omission of two key lines corresponding to T 463 and 466,
-                  <foreign xml:lang="fro">Pur fere chapeus a clers d'escole</foreign> and <foreign xml:lang="fro">Sevent attrere femme foleely</foreign>, after 484 and 486.</note></l>
+                  <foreign xml:lang="fro">Pur fere chapeus a clers d'escole</foreign> and <foreign xml:lang="fro">Sevent attrere femme fole</foreign>, after 484 and 486.</note></l>
             <l n="487">Donc ceus ke s<ex>un</ex>t de tel escole</l>
             <l n="488">Ve<ex>n</ex>dreyu<ex>n</ex>t <add place="above" type="alternative"><choice><orig/><reg>(</reg></choice>vaudreu<ex>n</ex>t<choice><orig/><reg>)</reg></choice></add> plus en la jaiole</l>
             <l n="489">Ke ou femme en oriole<choice><orig/><reg>.</reg></choice></l>
@@ -1254,7 +1255,7 @@
             <l n="582">Ou la note de frestele<choice><orig/><reg>.</reg></choice></l>
             <l n="583"><foreign xml:lang="enm"><choice><orig>Leuer<ex>e</ex></orig><reg>Lever<ex>e</ex></reg></choice> is þe wrenne</foreign></l>
             <l n="584"><foreign xml:lang="enm">Abouten þe scholke re<ex>n</ex>ne</foreign></l>
-            <l n="585"><foreign xml:lang="enm">Þan þe <choice><sic>fiyel</sic><corr>fiþel</corr></choice>el draut</foreign></l>
+            <l n="585"><foreign xml:lang="enm">Þan þe <choice><sic>fiyel</sic><corr>fiþel</corr></choice> draut</foreign></l>
             <l n="586"><foreign xml:lang="enm"><choice><sic>Oyer</sic><corr>Oþer</corr></choice> þe floute craf<choice><orig/><reg>.</reg></choice></foreign></l>
             <l n="587">Esgardet <term xml:id="A-la_musenge-001" key="AND:le_1 AND:musenge">la
                   musenge</term> <gloss target="#A-la_musenge-001" xml:lang="enm" key="MED:3 MED:46036" place="endline"><choice><orig>A</orig><reg>a</reg></choice> titemose<choice><orig>·</orig><reg/></choice></gloss></l>
@@ -1463,11 +1464,11 @@
                <choice><orig>maug<ex>re</ex></orig><reg>maug<ex>ré</ex></reg></choice> lour</l>
             <l n="714">P<ex>ar</ex>
                <choice><orig>lagulloun</orig><reg>l'agulloun</reg></choice> eschure arrour<choice><orig/><reg>.</reg></choice></l>
-            <l n="715">De la <choice><orig>Charue</orig><reg>charue</reg></choice> asset aw<add place="above" type="correction">o</add>ms<choice><orig/><reg>.</reg></choice></l>
-            <l n="716">Redressoms or<ex>e</ex> nos mesouns<choice><orig/><reg>.</reg></choice></l>
          </lg>
          <milestone unit="theme" type="building"/>
-         <lg>
+         <lg>            
+            <l n="715">De la <choice><orig>Charue</orig><reg>charue</reg></choice> asset aw<add place="above" type="correction">o</add>ms<choice><orig/><reg>.</reg></choice></l>
+            <l n="716">Redressoms or<ex>e</ex> nos mesouns<choice><orig/><reg>.</reg></choice></l>
             <l n="717"><choice><orig>¶ </orig><reg/></choice>Si v<ex>us</ex>
                <choice><orig>auet</orig><reg>avet</reg></choice> en <choice><orig>Curage</orig><reg>curage</reg></choice></l>
             <l n="718"><choice><orig>Vne</orig><reg>Une</reg></choice> chau<ex>m</ex>bre <choice><orig>leuer</orig><reg>lever</reg></choice> estage<choice><orig/><reg>,</reg></choice></l>
